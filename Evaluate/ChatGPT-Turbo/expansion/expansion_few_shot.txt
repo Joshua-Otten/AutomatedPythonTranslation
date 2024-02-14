@@ -1,0 +1,222 @@
+absolute value
+all
+any
+ascii
+binary
+boolean
+byte array
+bytes
+callable
+character
+class method
+compile
+complex
+delete attribute
+dictionary
+directory
+division and modulus
+enumerate
+evaluate
+execute
+filtering function
+floating point number
+format string
+frozen set
+get attribute
+global variables
+has attribute
+hash value
+help function
+hexadecimal value
+identifier
+input
+integer
+is instance
+is subclass
+iterator
+length
+list
+local variables
+map function
+maximum
+memory view
+minimum
+next
+object
+octal
+open
+ordinal
+power
+print
+property
+range
+representation
+reversed
+round
+set
+set attribute
+slice
+sorted
+static method
+string
+sum
+super
+tuple
+type
+variables
+zip
+capitalize
+casefold
+center
+count
+encode
+ends with
+expand tabs
+find
+format map
+index
+is alphanumeric
+is alphabetic
+is ascii
+is decimal
+is digit
+is identifier
+is lower
+is numeric
+is printable
+is space
+is title
+is upper
+join
+left justify
+convert to lowercase
+left strip
+make translation
+separate into parts
+replace
+right find
+right index
+right justify
+right partition
+right split
+right strip
+split
+split lines
+startswith
+strip
+swap case
+title
+translate
+upper
+zero fill
+add to the end
+make empty
+duplicate
+add to the end
+put in a specific location
+remove from the end
+take out
+change the order
+arrange in order
+from keys
+get
+items
+keys
+pop item
+set default
+update
+values
+add
+difference
+difference update
+discard
+intersection
+intersection update
+is disjoint
+is subset
+is superset
+symmetric difference
+symmetric difference update
+union
+close
+detach
+file number
+flush
+is a tty
+read
+read able
+read line
+read lines
+seek
+seekable
+tell
+truncate
+writable
+write
+write lines
+and
+as
+assert
+break
+class
+continue
+define
+delete
+else if
+else
+exception
+False
+finally
+for
+import statement
+global variable
+conditional statement
+import module
+membership operator
+identity operator
+anonymous function
+null value
+nonlocal variable
+logical negation
+operator
+pass statement
+raise exception
+return statement
+Boolean True
+try statement
+while loop
+with statement
+yield statement
+Arithmetic Error
+Assertion Error
+Attribute Error
+Exception
+EOF Error
+Floating Point Error
+Generator Exit
+Import Error
+Indentation Error
+Index Error
+Key Error
+Keyboard Interrupt
+Lookup Error
+Memory Error
+Name Error
+Not Implemented Error
+Operating System Error
+Overflow Error
+Reference Error
+Runtime Error
+Stop Iteration
+Syntax Error
+Tab Error
+System Error
+System Exit
+Type Error
+Unbound Local Error
+Unicode Error
+Unicode Encode Error
+Unicode Decode Error
+Unicode Translate Error
+Value Error
+Zero Division Error

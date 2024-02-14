@@ -1,0 +1,222 @@
+absolute
+all elements
+any element
+ASCII character
+binary
+boolean
+byte array
+sequence of bytes
+callable object
+character
+class method
+compile
+complex
+delete attribute
+dictionary
+directory
+division and modulo
+enumerate
+evaluate
+execute
+filtering function
+floating point number
+formatting
+immutable set
+get attribute
+global variables
+has attribute
+hashing function
+help documentation
+hexadecimal number
+identifier
+user input
+integer
+is an instance
+is a subclass
+iterator
+length
+collection of items
+local variables
+apply function to every item in a list
+maximum
+memory view
+minimum
+next
+object
+octal
+open
+ordinal
+power
+print
+property
+range
+repr
+reversed
+round
+set
+setattr
+slice
+sorted
+staticmethod
+string
+summation
+super class
+ordered collection
+data type
+variables
+zip together
+make first letter capital
+case insensitive comparison
+center-align
+counting or number of occurrences
+encoding or conversion to a coded form
+endswith or checks if a string ends with a specific suffix
+expandtabs or expand tabs in a string
+find or return the lowest index of a substring
+format_map or format a string using a mapping
+index or find the index of a substring
+isalnum or check if all characters are alphanumeric
+isalpha or check if all characters are alphabetic
+isascii or check if the string contains only ASCII characters
+is decimal
+is digit
+is identifier
+is lower
+is numeric
+is printable
+is space
+is title
+is upper
+join
+left justify
+convert to lowercase
+left strip
+make translation
+partition
+replace
+right find
+right index
+right justify
+right partition
+split from the right
+right strip
+separate into parts
+split at line breaks
+starts with
+remove leading and trailing characters
+swap case (convert upper case to lower case and vice versa)
+make first letter of each word uppercase
+convert according to translation table
+convert to uppercase
+zero fill
+add to the end
+remove all elements
+duplicate
+add to the end
+add at a specific position
+remove from the end
+delete a specific element
+change the order to the opposite
+arrange in order
+create a new dictionary with keys from a sequence and values set to a specified value
+get the value of a specified key
+return a list of key-value pairs in a dictionary
+return a list of all keys in a dictionary
+remove and return a random item (key, value) from a dictionary
+return the value of a specified key, or set a default value if the key does not exist
+update a dictionary with the key-value pairs from another dictionary or iterable
+return a list of all values in a dictionary
+perform set addition
+return the difference of two sets
+difference update
+discard
+intersection
+intersection update
+is disjoint
+is subset
+is superset
+symmetric difference
+symmetric difference update
+union
+close file
+detach file
+file number
+flush buffer
+is a tty
+read from file
+is file readable
+read line from file
+read lines from file
+seek to position in file
+seekable
+tell
+truncate
+writable
+write
+write lines
+and
+as
+assertion
+break
+class
+continue
+define
+delete
+else if
+else
+except
+false
+finally
+for
+originating from
+accessible in all parts of the code
+conditional statement
+bringing in functionality from another module
+part of a collection or condition
+confirming or evaluating
+anonymous function
+absence of a value
+non-global variable
+negation
+logical condition
+no operation (it's a placeholder)
+raise an exception
+return a value
+Boolean value for "true"
+try a block of code for exceptions
+while loop
+with statement for resources
+yield a value
+base class for arithmetic errors
+Assertion Error
+Attribute Error
+Exception
+End of File Error
+Floating Point Error
+Generator Exit
+Import Error
+Indentation Error
+Index Error
+Key Error
+Keyboard Interrupt
+Lookup Error
+Memory Error
+Name Error
+Not Implemented Error
+Operating System Error
+Overflow Error
+Reference Error
+Runtime Error
+Stop Iteration
+Syntax Error
+Tab Error
+System Error
+System Exit
+Type Error
+Unbound Local Error
+Unicode Error
+Unicode Encode Error
+Unicode Decode Error
+Unicode Translate Error
+Value Error
+Zero Division Error

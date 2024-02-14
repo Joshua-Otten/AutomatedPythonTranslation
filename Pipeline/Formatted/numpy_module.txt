@@ -1,0 +1,145 @@
+is real
+mean
+swap axes
+is infinite
+arc sine
+product
+greater
+radians
+exp minus 1
+repeat
+index of the maximum value ignoring NaNs
+hypotenuse
+ceiling
+vector dot product
+random data or random values generated with uniform distribution
+element-wise logical AND
+True if input arrays are equivalent
+complex conjugate
+new byte order
+get field
+to string
+arg max
+power
+bin count
+logical or
+arc tangent
+equal
+re shape
+co sine hyperbolic
+is complex object
+flip up
+cumulative product
+hyperbolic sine
+to bytes
+exponential 2
+is positive infinity
+array equal
+hyperbolic tangent
+cube root
+floor
+variable
+item set
+degrees
+dot
+divide
+argument minimum
+ravel
+view
+apply over axes
+identity matrix
+logical exclusive OR
+diagonal
+rotate 90
+inverse tangent
+logarithm
+diagonal flatten
+full like
+lower triangular
+is scalar
+block matrix
+Transpose
+Logarithm Base 10
+Flip Left Right
+Non-zero
+Squeeze
+Choose
+Extract
+Is Fortran
+Flatten
+Zeros Like
+byte swap
+is not a number
+argument sort
+apply along axis
+diagonal indices
+peak-to-peak
+greater than or equal to
+array maximum
+to list
+triangular upper.
+net present value
+argument partition
+less than
+rolling
+true divide
+cosine
+cumulative sum
+NaN argmin
+trace
+logarithm 1
+tiling
+logarithm base 2
+data dump
+search sorted
+round
+identity matrix
+standard deviation
+all ones
+set flags
+to file
+diagonal
+conjugate
+resize
+set field
+dump
+present value
+ones like
+tangent
+arc cosine
+flip
+is finite
+place
+fill
+ndarray flat
+is real object
+as matrix
+as type
+sine
+square
+item
+absolute value
+is complex
+empty like
+fix
+random normal distribution
+delete
+arrange
+clip
+is negative infinity
+truncate
+future value
+round towards nearest integer
+array of zeros
+empty array
+take elements from an array
+array minimum
+float power
+triangle shape
+put values into array
+logical not operation
+exponential
+not equal
+compression
+less than or equal
+floor division

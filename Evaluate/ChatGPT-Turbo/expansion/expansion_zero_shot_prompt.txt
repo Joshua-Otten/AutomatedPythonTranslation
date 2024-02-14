@@ -1,0 +1,222 @@
+absolute value
+all elements
+any element
+ascii representation
+binary representation
+boolean
+byte array
+bytes
+callable
+character
+class method
+compile
+complex
+delete attribute
+dictionary
+directory
+divide and modulus
+enumerate
+evaluate
+execute
+filter
+floating-point number
+formatting
+frozen set
+get attribute
+global variables
+has attribute
+hash value
+help
+hexadecimal
+identifier
+user_input
+integer
+is_instance
+is_subclass
+iterator
+length
+collection_list
+local_variables
+mapping function
+maximum
+memory view
+minimum
+next
+object
+octal
+open
+ordinal
+power
+print
+property
+range
+representation
+reversed
+round
+set
+set attribute
+slice
+sorted
+static method
+string
+sum
+super
+tuple
+type
+variables
+zip
+capitalize
+casefold
+center
+count
+encode
+ends with
+expand tabs
+find
+format map
+index
+is alpha numeric
+is alpha
+is ascii
+is decimal
+is digit
+is identifier
+is lower
+is numeric
+is printable
+is space
+is title
+is upper
+join
+left-justify
+convert to lowercase
+left strip
+make translation
+split into 3 parts
+substitute
+right find
+right index
+right justify
+right partition
+right split
+right strip
+split
+split lines
+starts with
+strip
+swap case
+title
+translate
+upper
+zero fill
+append
+clear
+copy
+extend
+insert
+pop
+remove
+reverse
+sort
+create a new dictionary with keys from a sequence and values set to a specified value
+retrieve the value of a specified key in a dictionary
+return a list of key-value pairs in a dictionary
+return a list of keys in a dictionary
+remove and return an arbitrary key-value pair from a dictionary
+return the value of a specified key in a dictionary, adding the key with a specified value if it doesn't exist
+update a dictionary with key-value pairs from another dictionary or iterable
+return a list of values in a dictionary
+add an element to a set
+return a set containing the difference between two or more sets
+difference update
+discard
+intersection
+intersection update
+is disjoint
+is subset
+is superset
+symmetric difference
+symmetric difference update
+union
+close
+detach
+file descriptor number
+flush
+is a tty (teletypewriter)
+read
+readable
+read line
+read lines
+seek
+seekable
+tell
+truncate
+writable
+write
+writelines
+and
+as
+assert
+break
+classification
+continue
+define
+delete
+else if
+else
+exception
+False
+finally
+for
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+logical operator
+null operation
+throw exception
+end function and return value
+boolean value representing true
+exception handling
+loop
+context manager
+return value from generator
+base class for arithmetic errors
+Assertion Error
+Attribute Error
+Exception
+End of File Error
+Floating Point Error
+Generator Exit
+Import Error
+Indentation Error
+Index Error
+Key Error
+Keyboard Interrupt
+Lookup Error
+Memory Error
+Name Error
+Not Implemented Error
+OS Error
+Overflow Error
+Reference Error
+Runtime Error
+Stop Iteration
+Syntax Error
+Tab Error
+System Error
+System Exit
+Type Error
+Unbound Local Error
+Unicode Error
+Unicode Encode Error
+Unicode Decode Error
+Unicode Translate Error
+Value Error
+Zero Division Error

@@ -1,0 +1,222 @@
+absolute value
+all items are true
+any item is true
+return the string representation of an object
+binary representation
+boolean value
+mutable sequence of integers
+immutable sequence of integers
+callable object
+character from the specified Unicode code point
+class method
+compile
+complex
+delete attribute
+dictionary
+directory
+division and modulo
+enumerate
+evaluate
+execute
+filtering
+floating point number
+formatting
+frozen set
+get attribute
+global variables
+has attribute
+hashing
+help
+hexadecimal
+identifier
+input
+integer
+is instance
+is subclass
+iterator
+length
+list
+locals
+map
+maximum
+memory view
+minimum
+next
+object
+octal
+open
+ordinal
+power
+print
+property
+range
+repr
+reversed
+round
+set
+setattr
+slice
+sorted
+staticmethod
+string
+sum
+super
+tuple
+type
+variables
+zip
+capitalize
+casefold
+center
+count
+encode
+endswith
+expand tabs
+find
+format map
+index
+is alphanumeric
+is alphabetic
+is ascii
+is decimal
+is digit
+is identifier
+is lower
+is numeric
+is printable
+is space
+is title
+is upper
+join
+left-justify
+convert to lowercase
+left strip
+make translation
+partition
+replace
+right find
+right index
+right-justify
+right partition
+right split
+right strip
+split
+split lines
+starts with
+strip
+swap case
+title
+translate
+upper
+zero fill
+add to the end
+remove all items
+duplicate
+add to the end
+add at a specific position
+remove and return
+delete
+invert the order
+organize in order
+create a new dictionary with keys from a sequence and values set to a certain value
+retrieve the value of a specified key in a dictionary
+return a list of key-value pairs in a dictionary
+return a list of keys in a dictionary
+remove and return a key-value pair from the dictionary
+return the value of a specified key in a dictionary, and if the key does not exist, insert the key with a specified value
+update the dictionary with the key-value pairs from another dictionary or from an iterable of key-value pairs
+return a list of values in a dictionary
+add an element to a set
+return a set that contains the difference between two sets
+difference update
+discard
+intersection
+intersection update
+is disjoint
+is subset
+is superset
+symmetric difference
+symmetric difference update
+union
+Close
+Detach
+File Number
+Flush
+Is A TTY
+Read
+Readable
+Read Line
+Read Lines
+Seek
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+No abbreviation, so no expansion
+class
+continue
+define
+delete
+else if
+else
+except
+False
+finally
+for
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+no expansion
+Logical operator
+Null statement
+Raise an exception
+Return a value
+Boolean value representing true
+Exception handling block
+Looping control structure
+Context manager
+Produce a value
+Base class for arithmetic errors.
+Assertion Error
+Attribute Error
+Exception
+End Of File Error
+Floating Point Error
+Generator Exit
+Import Error
+Indentation Error
+Index Error
+Key Error
+Keyboard Interrupt
+Look up Error
+Memory Error
+Name Error
+Not Implemented Error
+OS Error
+Overflow Error
+Reference Error
+Runtime Error
+Stop Iteration
+Syntax Error
+Tab Error
+System Error
+System Exit
+Type Error
+Unbound Local Error
+Unicode Error
+Unicode Encode Error
+Unicode Decode Error
+Unicode Translate Error
+Value Error
+Zero Division Error

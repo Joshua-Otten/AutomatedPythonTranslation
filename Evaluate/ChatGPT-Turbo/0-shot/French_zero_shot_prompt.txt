@@ -1,0 +1,222 @@
+valeur absolue
+tout
+n'importe quel
+ascii
+binaire
+booléen
+tableau de bytes
+bytes
+appelable
+caractère
+méthode de classe
+compiler
+complexe
+supprimer l'attribut
+dictionnaire
+répertoire
+diviser le reste
+énumérer
+évaluer
+exécuter
+filtre
+virgule flottante
+format
+ensemble gelé
+obtenir l'attribut
+globales
+a un attribut
+hachage
+aide
+hexadécimal
+identité
+entrée
+entier
+est une instance
+est une sous-classe
+itérateur
+longueur
+liste
+locaux
+carte
+maximum
+vue de la mémoire
+minimum
+prochain
+objet
+octal
+ouvert
+ordinal
+puissance
+imprimer
+propriété
+plage
+représenter
+inversé
+rond
+ensemble
+définir l'attribut
+tranche
+trié
+méthode statique
+chaîne
+sommation
+sur-ensemble
+tuple
+type
+variables
+zipper
+mettre en majuscule
+pliage de cas
+centre
+compter
+encoder
+se termine par
+développer les onglets
+trouver
+carte de format
+indice
+est alphanumérique
+est alphabétique
+est ascii
+est décimal
+est un chiffre
+est un identifiant
+est en minuscule
+est numérique
+est imprimable
+est un espace
+est en majuscules
+est en majuscules
+joindre
+justifier à gauche
+plus bas
+bande de gauche
+faire traduction
+partition
+remplacer
+trouver inversé
+index inversé
+justifier à droite
+partition droite
+fraction droite
+bande droite
+fractionner
+lignes fractionnées
+commence par
+enlever
+échanger les majuscules et minuscules
+titre
+traduire
+majuscules
+remplissage de zéro
+ajouter
+effacer
+copier
+étendre
+insérer
+dépiler
+supprimer
+inverser
+trier
+à partir de clés
+obtenir
+articles
+clés
+élément de pop
+définir par défaut
+mettre à jour
+valeurs
+ajouter
+différence
+mise à jour de la différence
+éliminer
+intersection
+mise à jour de l'intersection
+est disjoint
+est un sous-ensemble
+est un super-ensemble
+différence symétrique
+mise à jour de la différence symétrique
+union
+fermer
+détacher
+numéro de dossier
+vider
+est interactif
+lire
+lisible
+lire une ligne
+lire des lignes
+rechercher
+recherchable
+dire
+tronquer
+inscriptible
+écrire
+écrire des lignes
+et
+comme
+affirmer
+casser
+classe
+continuer
+définir
+supprimer
+sinon si
+sinon
+sauf
+Faux
+enfin
+pour
+de
+global
+si
+importer
+dans
+est
+lambda
+Aucun
+non-local
+pas
+ou
+passer
+soulever une exception
+retour
+Vrai
+essayer
+pendant que
+avec
+produire
+Erreur arithmétique
+Erreur d'assertion
+Erreur d'attribut
+Exception
+Erreur de fin de fichier
+Erreur de point flottant
+Sortie du générateur
+Erreur d'importation
+Erreur d'indentation
+Erreur d'index
+Erreur de clé
+Interruption clavier
+Erreur de recherche
+Erreur de mémoire
+Erreur de nom
+Erreur non implémentée
+Erreur du système d'exploitation
+Erreur de dépassement
+Erreur de référence
+Erreur d'exécution
+Arrêter l'itération
+Erreur de syntaxe
+Erreur de tabulation
+Erreur système
+Sortie du système
+Erreur de type
+Erreur locale non liée
+Erreur Unicode
+Erreur d'encodage Unicode
+Erreur de décodage Unicode
+Erreur de traduction Unicode
+Erreur de valeur
+Erreur de division par zéro
