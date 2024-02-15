@@ -7,6 +7,8 @@ Requirements:
 	- openai_cost_tracker Python library
 	- API key for ChatGPT
 
+The csv 'pipeline_translations_corrections' includes all translations and corrections from the pipeline in French, Greek, Hindi, and Bengali.  Note that these are also automatically processed (replace spaces with underscores and eliminate determiners) in order to be compatible with UniPy.    
+
 Usage Steps for translating Python terms in pipeline:
 1. add terms to translate within the 'make_lists.py' file, according to commented specifications
 2. run make_lists.py
@@ -17,3 +19,6 @@ Usage Steps for translating Python terms in pipeline:
    - Note: may need to uncomment line 17 for stanza download if this is the first time using this language code
    - Once terms are expanded from steps 1-5, you can run this multiple times to translate to additional languages
 8. the new translated library will be in /Formatted/Translations/
+9. optionally, run 'process_terms.py' with 2 args: arg1 = yourModuleName.txt, arg2 = language code
+   - This will process translations so they are more "Pythonic"
+   - Note that stanza does not currently work for Bengali

@@ -1,7 +1,17 @@
-f = open('French_libraries.txt','r')
+# processes translations so that they are more "Pythonic"
+# replaces spaces with underscores, removes determiners
+# Note that stanza does not work for Bengali
+# arguments: [filename] [lang code]
+import sys
+
+lang_id = sys.argv[2]
+filename = sys.argv[1]
+
+path = 'Translated/'
+f = open(path+filename,'r')
 lines = f.readlines()
 f.close()
-n = open('French_libraries_formatted.txt','w')
+n = open(path+'PROCESSED_'+filename,'w')
 
 def beginning_download(lang_id):
     import stanza
@@ -10,7 +20,7 @@ def beginning_download(lang_id):
     print('completed initializations')
     return nlp
 
-nlp = beginning_download('fr')
+nlp = beginning_download(lang_id)
 
 for line in lines:
     to_write = ''

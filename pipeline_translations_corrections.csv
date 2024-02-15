@@ -1,0 +1,170 @@
+Python terms,Expanded Terms,French Translations,French Corrections,Greek Translations,Greek Corrections,Hindi Translations,Hindi Corrections,Bengali  Translations,Bengali  Corrections
+Random Module,,,,,,,,,
+choices,choices,choix,choix,επιλογές,επιλογές,विकल्प,विकल्प,পছন্দ,পছন্দ
+vonmisesvariate,Von Mises variate,Von_mises_varier,variable_de_Von_Mises,Von_Mises_Variate,von_mises_μετ,वॉन_मिस्स_वेरिएट,वॉन_मिस्स_वेरिएट,ভন _মাইস _ভেরিয়েট,ভন _মাইস _ভেরিয়েট
+gauss,Gaussian,Gaussian,gaussien,Gaussian,Κανονική,गाऊसी,गॉस,গাউসিয়ান,গাউসিয়ান
+choice,choice,choix,choix,επιλογή,επιλογή,पसंद,विकल्प,পছন্দ,পছন্দ
+normalvariate,normal variate,variation_normale,variable_normale,κανονική_ποικιλία,κανονική_μεταβλητή,सामान्य_परिवर्तन,सामान्य_वेरिएट,সাধারণ _ভেরিয়েট,সাধারণ _ভেরিয়েট
+getstate,get state,faire_état,obtenir_état,παίρνω_κατάσταση,πάρε_κατάσταση,राज्य_प्राप्त_करना,स्थिति_प्राप्त_करें,রাষ্ট্র _পান,অবস্থা _আন
+uniform,uniform,uniforme,uniforme,στολή,ομοιόμορφη,वर्दी,समरूप,ইউনিফর্ম,অভিন্ন
+getrandbits,get random bits,Obtenez_bits_aléatoires,obtenir_bits_aléatoires,Λάβετε_τυχαία_κομμάτια,πάρε_τυχαία_bit,यादृच्छिक_बिट्स_प्राप्त_करें,यादृच्छिक_बिट्स_प्राप्त_करें,এলোমেলো _বিট _পান,এলোমেলো _বিট _আন
+setstate,set state,établir_état,établir_état,τεκμηριωμένη_κατάσταση,θέσε_κατάσταση,निर्धारित_राज्य,स्थिति_निर्धारित_करें,রাজ্য _সেট _করুন,অবস্থা _সেট _কর
+random,random,aléatoire,aléatoire,τυχαίος,τυχαίος,यादृच्छिक,यादृच्छिक,এলোমেলো,এলোমেলো
+shuffle,shuffle,mélange,mélanger,ανακατέψτε,ανακάτεψε,पुथल,पुथल,বদলানো,বদলানো
+randrange,random range,gamme_aléatoire,domaine_aléatoire,τυχαίο_εύρος,τυχαίο_εύρος,यादृच्छिक_श्रेणी,यादृच्छिक_श्रेणी,এলোমেলো _পরিসীমা,এলোমেলো _পরিসীমা
+lognormvariate,log normal variate,variateur_lognormal,log_variable_normal,ελλείμως,λογαριθμική_κανονική_μεταβλητή,लॉगनॉर्मल_वैरिएट,लॉग_सामान्य_वेरिएट,লগনরমাল _ভেরিয়েট,লগনরমাল _ভেরিয়েট
+randint,random integer,entier_aléatoire,entier_aléatoire,τυχαίος_ακέραιος,τυχαίος_ακέραιος,यादृच्छिक_पूर्णांक,यादृच्छिक_पूर्णांक,এলোমেলো _পূর্ণসংখ্যা,এলোমেলো _পূর্ণসংখ্যা
+seed,seed,semis,graine,σπορά,σπόρος,बीज_बोने_की_क्रिया,मूल,বীজ,বীজ
+sample,sample,échantillonnage,échantilloner,δειγματοληψία,δειγματοληψία,नमूना,नमूना,নমুনা,নমুনা
+betavariate,beta variate,Beta_varier,variable_bêta,βήτα_ποικίλου,βήτα_μεταβλητή,बीटा_वेरिएट,बीटा_वेरिएट,বিটা _ভেরিয়েট,বেটা _ভেরিয়েট
+paretovariate,pareto variate,Pareto_varier,variable_paréto,ποικιλία_pareto,pareto_μεταβλητή,पारेटो_वेरिएट,परेटो_वेरिएट,পেরেটো _ভেরিয়েট,পেরেটো _ভেরিয়েট
+weibullvariate,weibull variate,weibull_varier,variable_weibull,Weibull_Variate,weibull_μεταβλητή,वीबुल_वैरिएट,वीबुल_वेरिएट,ওয়েইবুল _ভেরিয়েট,ওয়েইবুল _ভেরিয়েট
+gammavariate,gamma variate,gamma_varier,variable_gamma,μεταβλητής_γάμμα,weibull_μεταβλητή,गामा_वेरिएट,गामा_वेरिएट,গামা _ভেরিয়েট,গামা _ভেরিয়েট
+triangular,triangle function,fonction_triangulaire,fonction_triangulaire,Λειτουργία_τριγώνου,τριγωνική,त्रिभुज_समारोह,त्रिभुज_कृत्य,ত্রিভুজ _ফাংশন,ত্রিভুজ _ফাংশন
+expovariate,exponential variate,variation_exponentielle,variable_exponentielle,εκθετική_ποικιλία,εκθετική_μεταβλητή,घातीय_परिवर्तन,घातीय_वेरिएट,তাত্পর্যপূর্ণ _বৈকল্পিক,সূচকীয় _ভেরিয়েট
+Numpy Module,,,,,,,,,
+isreal,is real,est_vrai,est_réel,είναι_αληθινό,είναι_αληθινό,यह_सचमुच_का_है,वास्तविक_है,সত্যি,বাস্তব _সংখ্যা?
+mean,mean,signifier,moyenne,σημαίνω,μέσος,अर्थ,माध्य,মানে,গড়
+swapaxes,swap axes,échanger_haches,échanger_axes,ανταλλαγή_άξονα,ανταλλαγή_αξόνων,कुल्हाड़ी,अक्ष_बदलो,অক্ষগুলি _অদলবদল,অক্ষগুলি _অদলবদল
+isinf,is infinite,est_infini,est_infini,είναι_άπειρο,είναι_άπειρο,अनंत_है,अनंत_है,অসীম,অসীম?
+arcsin,arc sine,sinus_arc,arcsin,σούπερ,αντίστροφο_ημίτονο,चाप_साइन,चाप_ज्या,আর্ক _সাইন,আর্ক _সাইন
+prod,product,produit,produit,προϊόν,γινόμενο,उत्पाद,गुणनफल,পণ্য,গুণ
+greater,greater,plus_grand,supérieur,μεγαλύτερος,μεγαλύτερος,ग्रेटर,महत्तर,বৃহত্তর,বৃহত্তর
+radians,radians,radians,radians,ακτίνες,ακτίνια,रेडियंस,रेडियंस,রেডিয়ান,রেডিয়ান
+expm1,exp minus 1,exp_moins_1,exposant_moins_1,exp_μείον_1,εκθετικό_μείον_1,EXP_माइनस_1,घातांकीय_ऋण_1,এক্সপ্রেস _বিয়োগ _1,সূচক _বিয়োগ _1
+repeat,repeat,répéter,répéter,επαναλαμβάνω,επαναλαμβάνω,दोहराना,दोहराएँ,পুনরাবৃত্তি,পুনরাবৃত্তি
+nanargmax,index of the maximum value ignoring NaNs,Index_de_valeur_maximale_ignorant_NANS,index_de_valeur_maximale_ignorant_non_nombres,Δείκτης_μέγιστης_τιμής_που_αγνοεί_NANS,Δείκτης_μέγιστης_τιμής_που_αγνοεί_NANS,अधिकतम_मूल्य_की_अनदेखी_करने_वाले_मूल्य_का_सूचकांक,अधिकतम_मूल्य_की_अनदेखी_करने_वाले_मूल्य_का_सूचकांक,এনএএন _উপেক্ষা _করে _সর্বাধিক _মানের _সূচক,ন্যান _উপেক্ষা _করে _সর্বাধিক _মানের _সূচক
+hypot,hypotenuse,hypoténuse,hypoténuse,υποτείνουσα,υποτείνουσα,कर्ण,कर्ण,হাইপোটেনিউজ,কর্ণ
+ceil,ceiling,plafond,plafond,οροφή,οροφή,छत,निम्नतम,সিলিং,ছাদ
+vdot,vector dot product,Produit_DOT_Vector,produit_scalaire_vectoriel,προϊόν_διανυσμάτων,γινόμενο_διανυσμάτων,वेक्टर_डॉट_उत्पाद,सदिश_बिंदु_गुणनफल,ভেক্টর _ডট _পণ্য,ভেক্টর _ডট _গুণ
+random.rand,random data or random values generated with uniform distribution,données_aléatoires_ou_valeurs_aléatoires_générées_avec_distribution_uniforme,données_aléatoires_ou_valeurs_aléatoires_générées_avec_distribution_uniforme,τυχαία_δεδομένα_ή_τυχαίες_τιμές_που_παράγονται_με_ομοιόμορφη_κατανομή,τυχαία_δεδομένα_ή_τυχαίες_τιμές_που_παράγονται_με_ομοιόμορφη_κατανομή,एक_समान_वितरण_के_साथ_उत्पन्न_यादृच्छिक_डेटा_या_यादृच्छिक_मान,एक_समान_वितरण_के_साथ_उत्पन्न_यादृच्छिक_डेटा_या_यादृच्छिक_मान,অভিন্ন _বিতরণ _সহ _উত্পন্ন _এলোমেলো _ডেটা _বা _এলোমেলো _মান,অভিন্ন _বিতরণ _সহ _উত্পন্ন _এলোমেলো _ডেটা _বা _এলোমেলো _মান
+logical_and,element-wise logical AND,logique_sur_éléments_et,ET_logique_élément_par_élément,Λογική_και_λογική_και,λογικό_και_ανά_στοιχείο,तत्व-वार_लॉजिकल_और,तत्व-वार_लॉजिकल_और,উপাদান _ভিত্তিক _যৌক্তিক _এবং,উপাদান _ভিত্তিক _যৌক্তিক _এবং
+array_equiv,True if input arrays are equivalent,Vrai_si_tableaux_d'_entrée_sont_équivalents,vrai_si_tableaux_d'_entrée_sont_équivalents,Αλήθεια_εάν_συστοιχίες_εισόδου_είναι_ισοδύναμες,Αληθές_εάν_οι_πίνακες_εισόδου_είναι_ισοδύναμοι,सच_है_अगर_इनपुट_सरणियाँ_समतुल्य_हैं,सत्य_है_अगर_इनपुट_सरणियाँ_समतुल्य_हैं,সত্য _যদি _ইনপুট _অ্যারে _সমতুল্য _হয়,সত্য _যদি _ইনপুট _অ্যারে _সমতুল্য _হয়
+conjugate,complex conjugate,Conjugaison_compliquée,complexe_conjuguer,σύνθετο_συζυγικό,σύνθετη_συζυγής,जटिल_सन्युग्म,जटिल_सन्युग्म,জটিল _অনুবন্ধী,জটিল _অনুবন্ধী
+newbyteorder,new byte order,nouvelle_commande_d'_octets,nouvel_ordre_octets,νέα_παραγγελία_byte,νέα_σειρά_byte,न्यू_बाइट_ऑर्डर,नया_बाइट_क्रम,নতুন _বাইট _অর্ডার,নতুন _বাইট _ক্রম
+getfield,get field,obtenir_champ,obtenir_champ,Λάβετε_πεδίο,πάρε_πεδίο,क्षेत्र_प्राप्त_करना,क्षेत्र_प्राप्त_करें,মাঠ _পান,ক্ষেত্র _আন
+tostring,to string,à_chaîne,enchaîner_caractères,σε_συμβολοσειρά,σε_συμβολοσειρά,स्ट्रिंग,स्ट्रिंग,স্ট্রিং,স্ট্রিং
+argmax,arg max,arg_max,arg_max,arg_max,μέγιστο_όρισμα,अर्ग_मैक्स,अर्ग_मैक्स,আরগ _ম্যাক্স,আরগ _সর্বাধিক
+power,power,pouvoir,puissance,εξουσία,δύναμη,शक्ति,घातांक,শক্তি,পাওয়ার
+bincount,bin count,dénombrement_poubelles,nombre_bacs,μετρητής,μετρητής,बिन_गिनती,कोष्ठ_गिनती,বিন _গণনা,বিন _গণনা
+logical_or,logical or,logique_ou,OU_logique,λογικό_ή,λογικό_ή,तार्किक_या,तार्किक_या,যৌক্তিক _বা,যৌক্তিক _বা
+arctan,arc tangent,arc_tangent,arctan,τόξο_εφαπτομένη,αντίστροφο εφαπτομένη,चाप_स्पर्शरेखा,चाप_स्पर्शरेखा,আর্ক _ট্যানজেন্ট,আর্ক _স্পর্শক
+equal,equal,equal,égal,ίσος,ίσος,बराबर,बराबर,সমান,সমান
+reshape,re shape,forme_de_forme,modifier_dimension,διαμορφώ,αναδιαμορφώνω,फिर_से_आकार,आकृति_बदलें,পুনরায় _আকার,পুনরায় _আকার
+cosh,cosine hyperbolic,co_sine_hyperbolique,cosh,Υπερβολικό_ημιτονοειδές,υπερβολικό συνημίτονο,सिन_साइन_हाइपरबोलिक,कोज्या_अतिपरवलिक,কো _সাইন _হাইপারবোলিক,কোসাইন _অধিবৃত্ত
+iscomplexobj,is complex object,est_objet_complexe,est_objet_complexe,είναι_πολύπλοκο_αντικείμενο,είναι_μιγαδικό_αντικείμενο,जटिल_वस्तु_है,जटिल_वस्तु_है,জটিল _বস্তু,জটিল _বস্তু?
+flipud,flip up,se_redresser,inverser,αναποδογυρίζω,γυρίζγυρ πάνω,बटन_दबाएं,पलटें,উলটানো,উলটানো
+cumprod,cumulative product,produit_cumulatif,produit_cumulatif,σωρευτικό_προϊόν,σωρευτικό_γινόμενο,संचयी_उत्पाद,संचयी_गुणनफल,ক্রমবর্ধমান _পণ্য,ক্রমবর্ধমান _গুণ
+sinh,hyperbolic sine,sinus_hyperbolique,sinh,υπερβολικό_ημίτονο,υπερβολικό_ημίτονο,अतिशयोक्ति_साइन,अतिपरवलिक_ज्या,হাইপারবোলিক _সাইন,অধিবৃত্ত _সাইন
+tobytes,to bytes,à_octets,en_octets,σε_bytes,σε_bytes,बाइट्स_को,बाइट्स_में_बदलें,বাইট,বাইট
+exp2,exponential 2,exponentiel_2,exponentielle_2,εκθετικός_2,εκθετικός_2,घातीय_2,घातीय_2,এক্সফোনেনশিয়াল _2,সূচকীয় _2
+isposinf,is positive infinity,est_infini_positif,est_infini_positif,είναι_θετικό_άπειρο,είναι_θετικό_άπειρο,सकारात्मक_अनंत_है,धनात्मक_अनन्तता_है,ইতিবাচক _অনন্ত,ইতিবাচক _অনন্ত?
+array_equal,array equal,tableau_égal,tableau_égal,alray_ίσος,ίσος_πίνακας,सरणी_बराबर,सरणी_बराबर,অ্যারে _সমান,অ্যারে _সমান
+tanh,hyperbolic tangent,tangente_hyperbolique,tanh,υπερβολική_εφαπτομένη,υπερβολική_εφαπτομένη,अतिशयोक्ति,अतिपरवलिक_स्पर्शरेखा,হাইপারবোলিক _স্পর্শক,অধিবৃত্ত _স্পর্শক
+cbrt,cube root,racine_cubique,racine_cubique,κυβική_ρίζα,κυβική_ρίζα,क्युब_जड़,घनमूल,ঘনমূল,ঘনমূল
+floor,floor,sol,plancher,πάτωμα,πάτωμα,ज़मीन,उच्चतम,মেঝে,মেঝে
+var,variable,variable,variable,μεταβλητός,μεταβλητή,चर,चर,পরিবর্তনশীল,পরিবর্তনশীল
+itemset,item set,ensemble_d'_articles,ensemble_d'_éléments,αντικειμενικό_στοιχείο,σύνολο αντικειμένων,आइटम_सेट,वस्तु_सेट,আইটেম _সেট,আইটেম _সেট
+degrees,degrees,degrés,degrés,βαθμοί,μοίρες,डिग्री,डिग्री,ডিগ্রী,ডিগ্রী
+dot,dot,point,point,τελεία,εσωτερικό γινόμενο,डॉट,बिंदु,বিন্দু,ডট
+divide,divide,diviser,diviser,διαιρέστε,διαιρέστε,विभाजित_करना,भाग,বিভক্ত _করা,ভাগ _করা
+argmin,argument minimum,argument_minimum,argument_minimum,ελάχιστο_όρισμα,ελάχιστο_όρισμα,न्यूनतम_तर्क,आर्ग_मिन,ন্যূনতম _যুক্তি,সর্বনিম্ন _আরগ
+ravel,ravel,effilochage,effilochage,εκτυλίσσω,εκτυλίσσω,प्रसिद्ध_हो_जाना,खोलें,রাভেল,রাভেল
+view,view,voir,vu,θέα,θέα,देखना,देखें,দেখুন,দেখ
+apply_over_axes,apply over axes,Appliquer_sur_axes,appliquer_sur_axes,Εφαρμόστε_πάνω_από_άξονες,Εφαρμόστε_πάνω_από_άξονες,कुल्हाड़ियों_पर_लागू_करें,अक्ष_पर_लागू_करें,অক্ষের _উপর _প্রয়োগ _করুন,অক্ষের _উপর _প্রয়োগ _কর
+eye,identity matrix,matrice_d'_identité,matrice_d'_identité,μήτρα_ταυτότητας,μοναδιαίος_πίνακας,शिनाख्त_सांचा,इकाई_मैट्रिक्स,পরিচয় _ম্যাট্রিক্স,আইডেন্টিটি _ম্যাট্রিক্স
+logical_xor,logical exclusive OR,exclusif_logique_ou,OU_exclusif_logique,Λογική_αποκλειστική_ή,λογικό_αποκλειστικό_ή,तार्किक_अनन्य_या,तार्किक_अनन्य_या,যৌক্তিক _একচেটিয়া _বা,যৌক্তিক _একচেটিয়া _বা
+diagonal,diagonal,diagonal,diagonal,διαγώνιος,διαγώνιος,विकर्ण,विकर्ण,তির্যক,তির্যক
+rot90,rotate 90,tourner_90,tourner_90,περιστρέψτε_90,περιστρέψτε_90,90_घुमाएँ,90_घुमाएँ,90 _ঘোরান,90 _ঘোরান
+arctan2,inverse tangent,tangente_inverse,arctan2,αντίστροφη_εφαπτομένη,αντίστροφη_εφαπτομένη,उलटा_स्पर्शरेखा,उलटा_स्पर्शरेखा,বিপরীত _স্পর্শকাতর,বিপরীত _স্পর্শক
+log,logarithm,logarithme,logarithme,λογάριθμος,λογάριθμος,लोगारित्म,लघुगणक,লগারিদম,লগারিদম
+diagflat,diagonal flatten,aplatissement_diagonal,aplatissement_diagonal,διαγώνιος_ισοπέλετος,διαγώνια_ισοπέδωση,विकर्ण_चपटा,विकर्ण_समतल,তির্যক _সমতল,তির্যক _সমতল
+full_like,full like,plein,plein_comme,σαν,γεμάτο σαν,पूरी_तरह_से,पूर्ण_जैसा,পূর্ণ _মত,পূর্ণ _মত
+tril,lower triangular,inférieur_triangulaire,triangulaire_inférieure,κατώτερος_τριγωνικός,κάτω_τριγωνικός,त्रिकोणीय,निचला_त्रिकोणीय,নিম্ন _ত্রিভুজাকার,নিম্ন _ত্রিভুজাকার
+isscalar,is scalar,est_scalaire,est_scalaire,είναι_κλιμακωτό,είναι_αριθμός,स्केलर_है,स्केलर_है,স্কেলার,স্কেলার?
+bmat,block matrix,matrice_de_blocs,matrice_de_blocs,μπλοκ_μήτρας,μπλοκ_μήτρας,ब्लॉक_मैट्रिक्स,ब्लॉक_मैट्रिक्स,ব্লক _ম্যাট্রিক্স,ব্লক _ম্যাট্রিক্স
+transpose,Transpose,Transposer,transposer,Μεταθέτω,Μεταθέτω,खिसकाना,ट्रांसपोज़,ট্রান্সপোজ,ট্রান্সপোজ
+log10,Logarithm Base 10,Logarithme_Base_10,logarithme_base_10,Βάση_λογαρίθμου_10,λογάριθμος βάσης 10,लघुगणक_आधार_10,लघुगणक_आधार_10,লগারিদম _বেস _10,লগারিদম _বেস _10
+fliplr,Flip Left Right,Flip_à_gauche_à_droite,flipper_gauche_droite,Γυρίστε_αριστερά_δεξιά,γύρισε_αριστερά_δεξιά,बाएं_दाएं_फ्लिप_करें,बाएं_दाएं_पलटें,বাম _ডান _ফ্লিপ,বাম _ডান _উলটানো
+nonzero,Non-zero,Non_nul,non_nul,Μη_μηδέν,μη-μηδενικός,शून्य,गैर_शून्य,অ-শূন্য,অ-শূন্য
+squeeze,Squeeze,Presser,comprimer,Σφίξιμο,σφίξε,निचोड़,चाप,চাপ,চাপ
+choose,Choose,Choisir,choisir,Επιλέγω,επέλεξε,चुनना,चुनें,পছন্দ _করা,পছন্দ _করা
+extract,Extract,Extrait,extraire,Εκχύλισμα,εξάγω,निकालना,निकालें,নির্যাস,বের _করা
+isfortran,Is Fortran,Est_Fortran,est_fortran,Είναι_Fortran,Είναι_Fortran,फोरट्रान_है,फोरट्रान_है,ফোরট্রান,ফোরট্রান?
+flatten,Flatten,Aplatir,aplatir,Ισοπεδώνω,ισοπέδωσε,समतल,समतल,সমতল,সমতল
+zeros_like,Zeros Like,Zéros_comme,comme_zéros,Αρσενικά,μηδενικά σαν,की_तरह_शून्य,शून्य_की_तरह,জিরোস _লাইক,শূন্যের _মত
+byteswap,byte swap,échange_d'_octets,échange_d'_octets,ανταλλαγή_byte,ανταλλαγή_byte,बाइट_स्वैप,बाइट_स्वैप,বাইট _অদলবদল,বাইট _অদলবদল
+isnan,is not a number,n'_est_pas_nombre,n'_est_pas_nombre,δεν_είναι_αριθμός,δεν_είναι_αριθμός,संख्या_नहीं_है,संख्या_नहीं_है,একটি _সংখ্যা _নয়,ন্যান?
+argsort,argument sort,tri,argument_tri,ταξινόμηση_επιχειρήματος,ταξινόμηση_ορισμάτων,तर्क_क्रम,तर्क_क्रम,আর্গুমেন্ট _বাছাই,আরগ _সাজানো
+apply_along_axis,apply along axis,Appliquer_long_de_axe,appliquer_long_de_axe,Εφαρμόστε_κατά_μήκος_άξονα,Εφαρμόστε_κατά_μήκος_άξονα,अक्ष_के_साथ_आवेदन_करें,अक्ष_के_साथ_लागू_करें,অক্ষ _বরাবর _প্রয়োগ _করুন,অক্ষ _বরাবর _প্রয়োগ _কর
+diag_indices,diagonal indices,indices_diagonaux,indices_diagonaux,διαγώνιοι_δείκτες,διαγώνιοι_δείκτες,विकर्ण_सूचकांक,विकर्ण_सूचकांक,তির্যক _সূচক,তির্যক _সূচক
+ptp,peak-to-peak,pic_à_crue,pic_à_crue,αιχμή_σε_κορυφή,κορυφή-σε-κορυφή,शिखर_से_शिखर_तक,शिखर_से_शिखर_तक,শিখর _থেকে _শিখরে,শিখর _থেকে _শিখরে
+greater_equal,greater than or equal to,Plus_grand_ou_égal_à,superieur_où_egal,μεγαλύτερο_ή_ίσο_με,μεγαλύτερο_ή_ίσο_με,इससे_बड़ा_या_इसके_बराबर,इससे_बड़ा_या_इसके_बराबर,এর _চেয়ে _বড় _বা _সমান,বৃহত্তর _বা _সমান
+amax,array maximum,tableau_maximum,tableau_maximum,μέγιστο_διάταγμα,μέγιστο πίνακα,अधिकतम_सरणी,अधिकतम_सरणी,অ্যারে _সর্বাধিক,অ্যারে _সর্বাধিক
+tolist,to list,lister,lister,να_λίστα,σε_λίστα,सूची_बनाने_के_लिए,तालिका,তালিকা,তালিকা
+triu,triangular upper.,supérieur_triangulaire_.,supérieur_triangulaire,τριγωνικό_άνω_.,άνω_τριγωνικό,त्रिकोणीय_ऊपरी।,ऊपरी_त्रिकोणीय,ত্রিভুজাকার _উপরের।,ত্রিভুজাকার _উপরের।
+npv,net present value,valeur_actuelle_nette,valeur_actuelle_nette,καθαρή_παρούσα_αξία,καθαρή_παρούσα_αξία,शुद्ध_वर्तमान_मूल्य,शुद्ध_वर्तमान_मूल्य,নিট _বর্তমান _মূল্য,নিট _বর্তমান _মান
+argpartition,argument partition,partition_d'_argument,argument_partition,διαμέρισμα_επιχειρήματος,διαμέριση_ορισμάτων,तर्क_विभाजन,आर्ग_विभाजन,আর্গুমেন্ট _পার্টিশন,আরগ _পার্টিশন
+less,less than,moins_que,moins_que,λιγότερο_από,λιγότερο_από,से,से,এর _চেয়ে _কম,এর _চেয়ে _কম
+roll,rolling,rolling,rouler,κυλιομένος,κυλιομένος,रोलिंग,रोलिंग,ঘূর্ণায়মান,ঘূর্ণায়মান
+true_divide,true divide,vraie_fracture,vraie_division,αληθής_διαίρεση,αληθής_διαίρεση,सच्चा_विभाजित,सत्य_भाग,সত্য _বিভাজন,সত্য _ভাগ
+cos,cosine,cosinus,cosinus,συνημίτονο,συνημίτονο,कोज्या,कोज्या,কোসাইন,কোসাইন
+cumsum,cumulative sum,somme_cumulative,somme_cumulative,αθροιστικό_ποσό,σωρευτικό άθροισμα,संचयी_योग,संचयी_योग,ক্রমবর্ধমান _যোগফল,ক্রমবর্ধমান _যোগফল
+nanargmin,NaN argmin,Nan_Argmin,pas_numéro_argument_minimum,Nan_Argmin,ΝαΝ ελάχιστο όρισμα,नान_अर्गमिन,नान_अर्गमिन,নান _আরগমিন,ন্যান _আরগ _সর্বনিম্ন
+trace,trace,tracer,trace,ίχνος,ίχνος,पता_लगाना,अनुरेखण,ট্রেস,ট্রেস
+log1,logarithm 1,Logarithme_1,logarithme_1,λογάριθμος_1,λογάριθμος_1,लॉगरिदम_1,लघुगणक_1,লগারিদম _1,লগারিদম _1
+tile,tiling,carrelage,pavage,σκέπασμα_με_κεραμίδια,σκέπασμα_με_κεραμίδια,खपरैल_का_छत,टाइलिंग,টাইলিং,টাইলিং
+log2,logarithm base 2,Base_de_logarithme_2,logarithm_en_base_2,Βάση_λογαρίθμου_2,Βάση_λογαρίθμου_2,लघुगणक_आधार_2,लघुगणक_आधार_2,লগারিদম _বেস _2,লগারিদম _বেস _2
+dump,data dump,vidage_de_données,déverser_données,χωματερές,ρίψη δεδομένων,डेटा_फेंका_गया,डेटा_डंप,ডেটা _ডাম্প,ডেটা _ডাম্প
+searchsorted,search sorted,Recherche_triée,recherche_triée,Αναζήτηση_ταξινομημένη,αναζήτησε_ταξινομημένη,खोज_क्रमबद्ध,क्रमबद्ध_खोज,সাজানো _অনুসন্ধান,সাজানো _অনুসন্ধান
+around,round,round,arrondir,γύρος,στρογγυλοποίηση,गोल,पूर्णांकीकरण,গোল,রাউন্ড
+identity,identity matrix,matrice_d'_identité,matrice_d'_identité,μήτρα_ταυτότητας,μοναδιαίος_πίνακας,शिनाख्त_सांचा,इकाई_मैट्रिक्स,পরিচয় _ম্যাট্রিক্স,আইডেন্টিটি _ম্যাট্রিক্স
+std,standard deviation,écart-type,écart-type,τυπική_απόκλιση,τυπική_απόκλιση,मानक_विचलन,मानक_विचलन,আদর্শ _চ্যুতি,আদর্শ _চ্যুতি
+ones,all ones,tous,tous_uns,όλα,όλα ένα,लोग,सभी_एक,সব,সব _এক
+setflags,set flags,Définir_drapeaux,définir_drapeaux,σειρίστε_σημαίες,θέσε_σημαίες,झंडे_लगाना,झंडे_लगाना,পতাকা _সেট _করুন,পতাকা _সেট _কর
+tofile,to file,pour_déposer,ficher,να_αρχειοθετήσω,σε_αρχείο,दायर_करना,दायर_करना,নথিতে,নথিতে
+diag,diagonal,diagonal,diagonal,διαγώνιος,διαγώνιος,विकर्ण,विकर्ण,তির্যক,তির্যক
+conj,conjugate,conjuguer,conjuguer,κλίνω,συζυγής,संयुग्म,संयुग्म,কনজুগেট,অনুবন্ধী
+resize,resize,redimensionner,redimensionner,μέγεθος_μεγέθους,αλλάζω μέγεθος,आकार,आकार_बदलें,আকার _পরিবর্তন _করুন,আকার _পরিবর্তন _কর
+setfield,set field,régler_champ,définir_champ,καθορισμένο_πεδίο,θέσε_πεδίο,फ़ील्ड_सेट_करना,क्षेत्र_सेट_करें,ক্ষেত্র _সেট _করুন,ক্ষেত্র _সেট _কর
+dumps,dump,décharge,déverses,εγκαταλείπω,ρίψη,गंदी_जगह,डंप,ডাম্প,ডাম্প
+pv,present value,valeur_actuelle,valeur_actuelle,παρούσα_αξία,παρούσα_αξία,वर्तमान_मूल्य,वर्तमान_मूल्य,বর্তমান _মূল্য,বর্তমান _মান
+ones_like,ones like,ceux_comme,comme_uns,σαν,ένα σαν,की_तरह,जैसे_1,পছন্দ,একের _মত
+tan,tangent,tangente,tan,εφαπτομένη_γραμμή,εφαπτομένη,स्पर्शरेखा,स्पर्शरेखा,স্পর্শকাতর,স্পর্শক
+arccos,arc cosine,arc_cosinus,arccos,συνημίτονο_τόξου,αντίστροφο συνημίτονο,चाप_कोसीन,चाप_कोज्या,আর্ক _কোসাইন,আর্ক _কোসাইন
+flip,flip,retourner,retourner,αναρρίπτω,γύρισε,पलटना,पलटें,ফ্লিপ,উলটানো
+isfinite,is finite,est_fini,est_fini,είναι_πεπερασμένο,είναι_πεπερασμένο,परिमित_है,परिमित_है,সীমাবদ্ধ,সীমাবদ্ধ?
+place,place,lieu,placer,θέση,θέση,जगह,जगह,স্থান,স্থান
+fill,fill,remplir,remplir,γέμισμα,γέμισε,भरना,भरें,পূরণ _করুন,পূরণ _কর
+ndarray.flat,ndarray flat,NDARRAY_FLAT,tableau_a_haute_dimension_aplati,ndarray_επίπεδη,επίπεδος_ndarray,ndarray_फ्लैट,एन_आयामी_सरणी_समतल,এনডারাই _ফ্ল্যাট,এন _মাত্রার _অ্যারে _সমতল
+isrealobj,is real object,est_vrai_objet,est_objet_réel,είναι_πραγματικό_αντικείμενο,είναι_πραγματικό_αντικείμενο,असली_वस्तु_है,असली_वस्तु_है,আসল _বস্তু,আসল _বস্তু?
+asmatrix,as matrix,comme_matrice,comme_matrice,ως_μήτρα,ως_μήτρα,मैट्रिक्स_के_रूप_में,मैट्रिक्स_के_रूप_में,ম্যাট্রিক্স _হিসাবে,ম্যাট্রিক্স _হিসাবে
+astype,as type,comme_type,comme_type,ως_τύπος,ως_τύπος,प्रकार_के_रूप_में,प्रकार_के_रूप_में,টাইপ _হিসাবে,টাইপ _হিসাবে
+sin,sine,sinus,sin,ημίτονο,ημίτονο,ज्या,ज्या,সাইন,সাইন
+square,square,square,à_carré,τετράγωνο,τετράγωνο,वर्ग,वर्ग,বর্গক্ষেত্র,বর্গক্ষেত্র
+item,item,article,article,είδος,στοιχείο,वस्तु,वस्तु,আইটেম,আইটেম
+absolute,absolute value,valeur_absolue,valeur_absolue,απόλυτη_τιμή,απόλυτη_τιμή,निरपेक्ष_मूल्य,निरपेक्ष_मूल्य,পরম _মান,পরম _মান
+iscomplex,is complex,est_complexe,est_complexe,είναι_περίπλοκο,είναι_μιγαδικό,जटिल_है,जटिल_है,জটিল,জটিল?
+empty_like,empty like,vider_comme,vider_comme,άδειο_σαν,άδειο_σαν,खाली_करना,खाली_जैसे,খালি _মত,খালি _মত
+fix,fix,réparer,fixer,διορθώσετε,στρογγυλοποίησε,हल_करना,ठीक_करें,ঠিক _করুন,ঠিক _কর
+random.randn,random normal distribution,distribution_normale_aléatoire,distribution_normale_aléatoire,τυχαία_κανονική_κατανομή,τυχαία_κανονική_κατανομή,यादृच्छिक_सामान्य_वितरण,यादृच्छिक_सामान्य_वितरण,এলোমেলো _সাধারণ _বিতরণ,এলোমেলো _সাধারণ _বিতরণ
+delete,delete,supprimer,supprimer,διαγράφω,διαγράφω,मिटाना,मिटाएँ,মুছে _ফেলা,মুছে _ফেলা
+arange,arrange,organiser,organiser,κανονίζω,εύρος,व्यवस्थित_करना,व्यवस्थित_करें,ব্যবস্থা _করা,ব্যবস্থা _করা
+clip,clip,agrafe,couper,συνδετήρας,κόψε,क्लिप,क्लिप,ক্লিপ,ক্লিপ
+isneginf,is negative infinity,est_infini_négatif,est_infini_négatif,είναι_αρνητικό_άπειρο,είναι_αρνητικό_άπειρο,नकारात्मक_अनंत_है,नकारात्मक_अनंत_है,নেতিবাচক _অনন্ত,নেতিবাচক _অনন্ত?
+trunc,truncate,tronquer,tronquer,κολοβός,περικοπή,काट-छांट,काट-छांट,কাটা,কাটা
+fv,future value,valeur_future,valeur_future,μελλοντική_αξία,μελλοντική_αξία,भविष्य_मूल्य,भविष्य_मूल्य,ভবিষ্যত _মান,ভবিষ্যত _মান
+rint,round towards nearest integer,Round_vers_entier_plus_proche,arrondir_vers_entier_plus_proche,στρογγυλό_προς_πλησιέστερο_ακέραιο,στρογγυλοποίηση_προς_πλησιέστερο_ακέραιο,निकटतम_पूर्णांक_की_ओर,निकटतम_पूर्णांक_की_ओर,নিকটতম _পূর্ণসংখ্যার _দিকে _গোল,নিকটতম _পূর্ণসংখ্যার _দিকে _রাউন্ড
+zeros,zeroes array,tableau_de_zéros,tableau_de_zéros,σειρά_μηδενικών,πίνακας_μηδενικών,ज़ीरोस_का_सरणी,शून्य_सरणी,জিরোসের _অ্যারে,শূন্যের _অ্যারে
+empty,empty array,tableau_vide,vide,άδειος_πίνακας,άδειος_πίνακας,खाली_सरणी,खाली_सरणी,খালি _অ্যারে,খালি _অ্যারে
+take,take elements from an array,prendre_éléments_d'_tableau,prendre_éléments_de_tableau,Πάρτε_στοιχεία_από_πίνακα,πάρε_στοιχεία_από_πίνακα,एक_सरणी_से_तत्वों_को_लें,एक_सरणी_से_तत्वों_को_लें,একটি _অ্যারে _থেকে _উপাদান _নিন,অ্যারে _থেকে _উপাদান _নাও
+amin,array minimum,tableau_minimum,tableau_minimum,ελάχιστο_διάταγμα,ελάχιστο_πίνακα,न्यूनतम_सरणी,न्यूनतम_सरणी,সর্বনিম্ন _অ্যারে,সর্বনিম্ন _অ্যারে
+float_power,float power,puissance_flottante,puissance_flottante,πλωτή_δύναμη,ρητή_δύναμη,तैरने_की_शक्ति,फ्लोट_पावर,ভাসমান _শক্তি,ভাসমান _পাওয়ার
+tri,triangle shape,forme_de_triangle,forme_de_triangle,σχήμα_τρίγωνου,σχήμα_τρίγωνου,त्रिभुज_आकार,त्रिभुज_आकार,ত্রিভুজ _আকার,ত্রিভুজ _আকার
+put,put values into array,mettre_valeurs_dans_tableau,mettre_valeurs_dans_tableau,Τοποθετήστε_τιμές_σε_πίνακα,τοποθέτησε_τιμές_σε_πίνακα,मूल्यों_को_सरणी_में_डालें,मूल्यों_को_सरणी_में_डालें,অ্যারেতে _মান _রাখুন,অ্যারেতে _মান _রাখ
+logical_not,logical not operation,Logique_non_opération,opération_NON_logique,λογική_μη_λειτουργία,λογικό όχι,तार्किक_नहीं_ऑपरेशन,तार्किक_नहीं_ऑपरेशन,যৌক্তিক _নয় _অপারেশন,যৌক্তিক _না _অপারেশন
+exp,exponential,exponential,exponentiel,εκθετικός,εκθετικός,घातीय,घातीय,ক্ষতিকারক,সূচকীয়
+not_equal,not equal,inégal,inégal,όχι_ίσος,όχι_ίσος,सम_नही,सम_नही,সমান _না,সমান _না
+compress,compression,compression,compresser,συμπίεση,συμπίεση,COMPRESSION,संकोचन,সঙ্কোচন,সঙ্কোচন
+less_equal,less than or equal,moins_ou_égal,inférieur_ou_égal,λιγότερο_από_ή_ίσο,λιγότερο_από_ή_ίσο,इससे_या_इसके_बराबर,इससे_या_इसके_बराबर,কম _বা _সমান,কম _বা _সমান
+floor_divide,floor division,division_de_étages,division_planché,διαίρεση_δαπέδου,ακέραια_διαίρεση,फ़्लोर_डिवीजन,फ़्लोर_भाग,মেঝে _বিভাগ,মেঝে _ভাগ

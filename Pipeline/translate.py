@@ -48,6 +48,7 @@ for line in lines:
         
         
     # additional formatting/processing
+    # this code can also be found in process_terms.py
     '''
     processed = ''
     doc = nlp(to_write)
