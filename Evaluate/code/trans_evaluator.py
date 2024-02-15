@@ -82,19 +82,19 @@ def CHRF_score(gold_trans, test_trans):
 def print_llm_scores(language, prompt):
     print('"'+language+'"')
     print('ChatGPT text-davinci')
-    raw_accuracy('Gold/'+language+'Key.txt','ChatGPT/'+language+prompt+'.txt')
-    CHRF_score('Gold/'+language+'Key.txt','ChatGPT/'+language+prompt+'.txt')
+    raw_accuracy('../Gold/'+language+'Key.txt','../ChatGPT-Dav/'+prompt+'/'+language+'.txt')
+    CHRF_score('../Gold/'+language+'Key.txt','../ChatGPT-Dav/'+prompt+'/'+language+'.txt')
     print('GPT-turbo')
-    raw_accuracy('Gold/'+language+'Key.txt','ChatGPT-Turbo/'+language+prompt+'.txt')
-    CHRF_score('Gold/'+language+'Key.txt','ChatGPT-Turbo/'+language+prompt+'.txt')
+    raw_accuracy('../Gold/'+language+'Key.txt','../ChatGPT-Turbo/'+prompt+'/'+language+'.txt')
+    CHRF_score('../Gold/'+language+'Key.txt','../ChatGPT-Turbo/'+prompt+'/'+language+'.txt')
     print('Llama2')
-    raw_accuracy('Gold/'+language+'Key.txt','Llama2/'+language+prompt+'.txt')
-    CHRF_score('Gold/'+language+'Key.txt','Llama2/'+language+prompt+'.txt')
+    raw_accuracy('../Gold/'+language+'Key.txt','../Llama2/'+prompt+'/'+language+'.txt')
+    CHRF_score('../Gold/'+language+'Key.txt','../Llama2/'+prompt+'/'+language+'.txt')
 
 def print_google_scores(language, version):
     print('"'+language+'"')
-    raw_accuracy('Gold/'+language+'Key.txt','GoogleTranslate/'+language+version+'.txt')
-    CHRF_score('Gold/'+language+'Key.txt','GoogleTranslate/'+language+version+'.txt')
+    raw_accuracy('../Gold/'+language+'Key.txt','../GoogleTranslate/'+version+'/'+language+'.txt')
+    CHRF_score('../Gold/'+language+'Key.txt','../GoogleTranslate/'+version+'/'+language+'.txt')
 
 # for testing
 #nlp = beginning_download('fr')
@@ -104,56 +104,90 @@ def print_google_scores(language, version):
 # in the function -> Gold first, then test file
 
 
-print('Get warning message out of the way:')
-CHRF_score('Gold/SpanishKey.txt','Llama2/Spanish_zero_shot_prompt.txt')
+print('Get silly warning out of the way:')
+CHRF_score('../Gold/SpanishKey.txt','../Llama2/0-shot/Spanish.txt')
 print('\n')
+
+
+
+print('\nEXPANSION with GPT-Turbo\n')
+print('Baseline (scores for standard compared with expanded)')
+raw_accuracy('../Gold/EnglishKey.txt','../Gold/EnglishOriginalTerms.txt')
+CHRF_score('../Gold/EnglishKey.txt','../Gold/EnglishOriginalTerms.txt')
+prompts = ['_0-shot','_0+Motive','_1-shot','_5-shot']
+for prompt in prompts:
+    print('PROMPT:',prompt[1:])
+    filename = '../ChatGPT-Turbo/expansion/expansion'+prompt+'.txt'
+    raw_accuracy('../Gold/EnglishKey.txt',filename)
+    CHRF_score('../Gold/EnglishKey.txt',filename)
+
+
 
 
 # Automatically evaluating all languages over raw accuracy + CHRF
 test_languages = ['Spanish','French','Greek','Mandarin','Hindi','Bengali','Arabic','SoraniKurdish']
 
 # ChatGPT and Llama2
-'''
-prompts = ['_zero_shot_prompt','_zero_shot_motivation','_one_example','_few_shot','_entire_set_prompt']
+print('\nTRANSLATION SCORES for ChatGPT and Llama2\n')
+prompts = ['0-shot','0+Motive','1-shot','5-shot','all-other']
 for prompt in prompts:
-    print('PROMPT:',prompt[1:])
+    print('PROMPT:',prompt)
     for language in test_languages:
         print_llm_scores(language,prompt)
         print()
 
 # Google Translate
 print('\nGOOGLE TRANSLATE SCORES\n')
-versions = ['V1','V2','V3']
+versions = ['no-cntxt','def','expl']
 for version in versions:
-    print('VERSION:',version)
+    print('GOOGLE:',version)
     for language in test_languages:
         print_google_scores(language, version)
         print()
     print()
 
-print('\nGPT-Turbo Expansion\n')
-print('Baseline (scores for standard compared with expanded)')
-raw_accuracy('Gold/EnglishKey.txt','Gold/EnglishOriginalTerms.txt')
-CHRF_score('Gold/EnglishKey.txt','Gold/EnglishOriginalTerms.txt')
-prompts = ['_zero_shot_prompt','_zero_shot_motivation','_one_example','_few_shot']
-for prompt in prompts:
-    print('PROMPT:',prompt[1:])
-    filename = 'ChatGPT-Turbo/expansion'+prompt+'.txt'
-    raw_accuracy('Gold/EnglishKey.txt',filename)
-    CHRF_score('Gold/EnglishKey.txt',filename)
-'''
-'''
+
 print('\nPipeline Testing French\n')
 print('Random module:')
-raw_accuracy('Gold/French_pipeline_random.txt','Pipeline/French_pipeline_test_random.txt')
-CHRF_score('Gold/French_pipeline_random.txt','Pipeline/French_pipeline_test_random.txt')
+raw_accuracy('../Gold/French_pipeline_random.txt','../Pipeline/French_pipeline_test_random.txt')
+CHRF_score('../Gold/French_pipeline_random.txt','../Pipeline/French_pipeline_test_random.txt')
 print('Numpy module:')
-raw_accuracy('Gold/French_pipeline_numpy.txt','Pipeline/French_pipeline_test_numpy.txt')
-CHRF_score('Gold/French_pipeline_numpy.txt','Pipeline/French_pipeline_test_numpy.txt')
+raw_accuracy('../Gold/French_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
+CHRF_score('../Gold/French_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
 print('Total (both modules):')
-raw_accuracy('Gold/French_pipeline_gold.txt','Pipeline/French_pipeline_test.txt')
-CHRF_score('Gold/French_pipeline_numpy.txt','Pipeline/French_pipeline_test_numpy.txt')
-'''
-print('Sorani Kurdish Google V1:')
-raw_accuracy('Gold/SoraniKurdishKey.txt','GoogleTranslate/SoraniKurdishV1.txt')
-CHRF_score('Gold/SoraniKurdishKey.txt','GoogleTranslate/SoraniKurdishV1.txt')
+raw_accuracy('../Gold/French_pipeline_gold.txt','../Pipeline/French_pipeline_test.txt')
+CHRF_score('../Gold/French_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
+
+print('\nPipeline Testing Greek\n')
+print('Random module:')
+raw_accuracy('../Gold/Greek_pipeline_random.txt','../Pipeline/Greek_pipeline_test_random.txt')
+CHRF_score('../Gold/Greek_pipeline_random.txt','../Pipeline/Greek_pipeline_test_random.txt')
+print('Numpy module:')
+raw_accuracy('../Gold/Greek_pipeline_numpy.txt','../Pipeline/Greek_pipeline_test_numpy.txt')
+CHRF_score('../Gold/Greek_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
+print('Total (both modules):')
+raw_accuracy('../Gold/Greek_pipeline_gold.txt','../Pipeline/Greek_pipeline_test.txt')
+CHRF_score('../Gold/Greek_pipeline_numpy.txt','../Pipeline/Greek_pipeline_test_numpy.txt')
+
+print('\nPipeline Testing Hindi\n')
+print('Random module:')
+raw_accuracy('../Gold/Hindi_pipeline_random.txt','../Pipeline/Hindi_pipeline_test_random.txt')
+CHRF_score('../Gold/Hindi_pipeline_random.txt','../Pipeline/Hindi_pipeline_test_random.txt')
+print('Numpy module:')
+raw_accuracy('../Gold/Hindi_pipeline_numpy.txt','../Pipeline/Hindi_pipeline_test_numpy.txt')
+CHRF_score('../Gold/Hindi_pipeline_numpy.txt','../Pipeline/Hindi_pipeline_test_numpy.txt')
+print('Total (both modules):')
+raw_accuracy('../Gold/Hindi_pipeline_gold.txt','../Pipeline/Hindi_pipeline_test.txt')
+CHRF_score('../Gold/Hindi_pipeline_numpy.txt','../Pipeline/Hindi_pipeline_test_numpy.txt')
+
+
+print('\nPipeline Testing Bengali\n')
+print('Random module:')
+raw_accuracy('../Gold/Bengali_pipeline_random.txt','../Pipeline/Bengali_pipeline_test_random.txt')
+CHRF_score('../Gold/Bengali_pipeline_random.txt','../Pipeline/Bengali_pipeline_test_random.txt')
+print('Numpy module:')
+raw_accuracy('../Gold/Bengali_pipeline_numpy.txt','../Pipeline/Bengali_pipeline_test_numpy.txt')
+CHRF_score('../Gold/Bengali_pipeline_numpy.txt','../Pipeline/Bengali_pipeline_test_numpy.txt')
+print('Total (both modules):')
+raw_accuracy('../Gold/Bengali_pipeline_gold.txt','../Pipeline/Bengali_pipeline_test.txt')
+CHRF_score('../Gold/Bengali_pipeline_numpy.txt','../Pipeline/Bengali_pipeline_test_numpy.txt')
