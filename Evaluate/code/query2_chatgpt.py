@@ -2,7 +2,7 @@
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 model_engine = "text-davinci-003" # use turbo
 path = 'chatgpt_results_per_lang/'
 

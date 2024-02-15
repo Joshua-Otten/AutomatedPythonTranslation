@@ -3,7 +3,7 @@
 import os
 import replicate
 
-os.environ["REPLICATE_API_TOKEN"] = "r8_NV2k3Kf6hwDrGgddRtAWECEhC4wU0im32gPFH"
+os.environ["REPLICATE_API_TOKEN"] = ""
 path = 'llama2_results_per_lang/'
 
 

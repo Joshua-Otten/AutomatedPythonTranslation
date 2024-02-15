@@ -22,3 +22,4 @@ Usage Steps for translating Python terms in pipeline:
 9. optionally, run 'process_terms.py' with 2 args: arg1 = yourModuleName.txt, arg2 = language code
    - This will process translations so they are more "Pythonic"
    - Note that stanza does not currently work for Bengali
+Note that files in the Pipeline/Translated/ directory are not corrected

@@ -3,7 +3,7 @@
 import openai
 from openai_cost_tracker import query_openai
 
-openai.api_key = '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' #"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"
+openai.api_key = ''
 model_engine = "gpt-3.5-turbo-1106" #"text-davinci-003" # use turbo
 path = 'chatgpt_results_per_lang2/'
 
