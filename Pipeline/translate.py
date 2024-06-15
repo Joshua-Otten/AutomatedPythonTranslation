@@ -6,7 +6,7 @@ from googletrans import Translator
 import sys
 from httpcore import ReadTimeout
 
-lang = sys.argv[2]
+langs = sys.argv[2:]
 filename = sys.argv[1]
 file = open('Formatted/'+filename,'r')
 lines = file.readlines()
@@ -20,50 +20,55 @@ def beginning_download(lang_id):
     return nlp
     
     
-    
-new = open('Translated/'+lang+'_'+filename,'w')
+def translate(lang):
+    new = open('Translated/'+lang+'_'+filename,'w')
 
-translator = Translator()
-
-
-#nlp = beginning_download(lang)
+    translator = Translator()
 
 
-for line in lines:
-    #print('translating:',line.strip())
-    try_again = True
-    to_write = ''
-    while try_again:
-        try:
-            output = translator.translate(line.strip(), src='en', dest=lang)
-            print(output.text)
-            to_write = output.text.strip()
-            try_again = False
-        except TypeError:
-            print('unable to translate:',line.strip())
-            to_write = line.strip()
-            try_again = False
-        except ReadTimeout:
-            print('read operation timed out, trying again')
+    #nlp = beginning_download(lang)
+
+
+    for line in lines:
+        #print('translating:',line.strip())
+        try_again = True
+        to_write = ''
+        while try_again:
+            try:
+                output = translator.translate(line.strip(), src='en', dest=lang)
+                print(output.text)
+                to_write = output.text.strip()
+                try_again = False
+            except TypeError:
+                print('unable to translate:',line.strip())
+                to_write = line.strip()
+                try_again = False
+            except ReadTimeout:
+                print('read operation timed out, trying again')
+            except AttributeError:
+                print('probably an internet connection issue, trying again...')
+            #except:
+            #    print('just continuing because this is too annoying otherwise...')
+            
+        # additional formatting/processing
+        '''
+        processed = ''
+        doc = nlp(to_write)
+        for sentence in doc.sentences:
+            for word in sentence.words:
+                if not str(word.pos) == 'DET':
+                    processed += word.text + '_'
+                else:
+                    print('discarding:',word.text)
+        processed = processed[:len(processed)-1]
+        #print('writing:',processed)
+        new.write(processed+'\n')
+        '''
         
-        
-    # additional formatting/processing
-    # this code can also be found in process_terms.py
-    '''
-    processed = ''
-    doc = nlp(to_write)
-    for sentence in doc.sentences:
-        for word in sentence.words:
-            if not str(word.pos) == 'DET':
-                processed += word.text + '_'
-            else:
-                print('discarding:',word.text)
-    processed = processed[:len(processed)-1]
-    #print('writing:',processed)
-    new.write(processed+'\n')
-    '''
-    
-    new.write(to_write+'\n')
+        new.write(to_write+'\n')
 
-new.close()
+    new.close()
+
+for lang in langs:
+    translate(lang)
 

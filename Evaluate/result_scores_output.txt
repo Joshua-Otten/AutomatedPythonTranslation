@@ -1,4 +1,3 @@
-
 EXPANSION with GPT-Turbo
 
 Baseline (scores for standard compared with expanded)
@@ -17,6 +16,24 @@ PROMPT: 5-shot
 	Raw: 75.68%
 	CHRF: 74.60%
 
+EXPANSION with GPT-4
+
+Baseline (scores for standard compared with expanded)
+	Raw: 46.85%
+	CHRF: 61.21%
+PROMPT: 0-shot
+	Raw: 89.64%
+	CHRF: 81.27%
+PROMPT: 0+Motive
+	Raw: 92.34%
+	CHRF: 80.87%
+PROMPT: 1-shot
+	Raw: 90.99%
+	CHRF: 80.68%
+PROMPT: 5-shot
+	Raw: 93.24%
+	CHRF: 81.32%
+
 TRANSLATION SCORES for ChatGPT and Llama2
 
 PROMPT: 0-shot
@@ -27,6 +44,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 70.27%
 	CHRF: 72.43%
+GPT-4
+	Raw: 71.62%
+	CHRF: 72.20%
 Llama2
 	Raw: 58.56%
 	CHRF: 64.65%
@@ -38,6 +58,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 63.96%
 	CHRF: 68.46%
+GPT-4
+	Raw: 62.61%
+	CHRF: 67.83%
 Llama2
 	Raw: 49.55%
 	CHRF: 59.35%
@@ -49,6 +72,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 41.44%
 	CHRF: 53.58%
+GPT-4
+	Raw: 43.24%
+	CHRF: 54.00%
 Llama2
 	Raw: 12.61%
 	CHRF: 27.94%
@@ -60,6 +86,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 52.70%
 	CHRF: 30.18%
+GPT-4
+	Raw: 54.05%
+	CHRF: 30.96%
 Llama2
 	Raw: 27.03%
 	CHRF: 16.36%
@@ -71,6 +100,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 27.48%
 	CHRF: 35.37%
+GPT-4
+	Raw: 13.51%
+	CHRF: 16.86%
 Llama2
 	Raw: 5.86%
 	CHRF: 12.84%
@@ -82,6 +114,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 27.48%
 	CHRF: 37.44%
+GPT-4
+	Raw: 34.23%
+	CHRF: 45.57%
 Llama2
 	Raw: 4.95%
 	CHRF: 10.28%
@@ -93,6 +128,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 25.68%
 	CHRF: 39.06%
+GPT-4
+	Raw: 26.58%
+	CHRF: 38.88%
 Llama2
 	Raw: 12.61%
 	CHRF: 20.58%
@@ -104,6 +142,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 10.36%
 	CHRF: 21.49%
+GPT-4
+	Raw: 31.08%
+	CHRF: 41.22%
 Llama2
 	Raw: 1.80%
 	CHRF: 5.93%
@@ -116,6 +157,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 71.17%
 	CHRF: 73.47%
+GPT-4
+	Raw: 68.92%
+	CHRF: 71.70%
 Llama2
 	Raw: 59.01%
 	CHRF: 65.36%
@@ -127,6 +171,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 63.51%
 	CHRF: 68.06%
+GPT-4
+	Raw: 60.81%
+	CHRF: 67.42%
 Llama2
 	Raw: 49.55%
 	CHRF: 59.83%
@@ -138,6 +185,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 40.99%
 	CHRF: 54.15%
+GPT-4
+	Raw: 41.89%
+	CHRF: 53.62%
 Llama2
 	Raw: 13.51%
 	CHRF: 28.54%
@@ -149,6 +199,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 50.45%
 	CHRF: 29.42%
+GPT-4
+	Raw: 56.31%
+	CHRF: 31.38%
 Llama2
 	Raw: 25.23%
 	CHRF: 15.08%
@@ -160,6 +213,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 27.03%
 	CHRF: 34.72%
+GPT-4
+	Raw: 28.83%
+	CHRF: 37.84%
 Llama2
 	Raw: 6.31%
 	CHRF: 14.16%
@@ -171,6 +227,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 26.58%
 	CHRF: 35.41%
+GPT-4
+	Raw: 31.08%
+	CHRF: 44.97%
 Llama2
 	Raw: 4.50%
 	CHRF: 9.64%
@@ -182,6 +241,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 25.68%
 	CHRF: 38.40%
+GPT-4
+	Raw: 27.48%
+	CHRF: 41.45%
 Llama2
 	Raw: 9.46%
 	CHRF: 19.33%
@@ -193,6 +255,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 11.71%
 	CHRF: 19.45%
+GPT-4
+	Raw: 35.59%
+	CHRF: 44.03%
 Llama2
 	Raw: 1.80%
 	CHRF: 6.33%
@@ -205,6 +270,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 72.97%
 	CHRF: 73.22%
+GPT-4
+	Raw: 71.17%
+	CHRF: 72.46%
 Llama2
 	Raw: 59.01%
 	CHRF: 65.25%
@@ -216,6 +284,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 57.66%
 	CHRF: 66.28%
+GPT-4
+	Raw: 61.71%
+	CHRF: 68.07%
 Llama2
 	Raw: 46.40%
 	CHRF: 56.68%
@@ -227,6 +298,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 44.14%
 	CHRF: 55.52%
+GPT-4
+	Raw: 45.05%
+	CHRF: 57.86%
 Llama2
 	Raw: 13.06%
 	CHRF: 27.26%
@@ -238,6 +312,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 54.50%
 	CHRF: 30.71%
+GPT-4
+	Raw: 50.45%
+	CHRF: 29.53%
 Llama2
 	Raw: 26.58%
 	CHRF: 16.74%
@@ -249,6 +326,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 25.23%
 	CHRF: 36.78%
+GPT-4
+	Raw: 29.73%
+	CHRF: 38.91%
 Llama2
 	Raw: 7.21%
 	CHRF: 14.91%
@@ -260,6 +340,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 31.98%
 	CHRF: 39.56%
+GPT-4
+	Raw: 31.98%
+	CHRF: 45.03%
 Llama2
 	Raw: 4.95%
 	CHRF: 9.65%
@@ -271,6 +354,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 27.93%
 	CHRF: 40.42%
+GPT-4
+	Raw: 29.73%
+	CHRF: 41.42%
 Llama2
 	Raw: 13.96%
 	CHRF: 20.10%
@@ -282,6 +368,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 14.41%
 	CHRF: 24.19%
+GPT-4
+	Raw: 30.63%
+	CHRF: 42.27%
 Llama2
 	Raw: 2.25%
 	CHRF: 6.78%
@@ -294,6 +383,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 72.52%
 	CHRF: 73.80%
+GPT-4
+	Raw: 67.57%
+	CHRF: 70.32%
 Llama2
 	Raw: 57.21%
 	CHRF: 65.00%
@@ -305,6 +397,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 64.41%
 	CHRF: 69.23%
+GPT-4
+	Raw: 61.26%
+	CHRF: 68.17%
 Llama2
 	Raw: 48.20%
 	CHRF: 58.82%
@@ -316,6 +411,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 43.69%
 	CHRF: 55.28%
+GPT-4
+	Raw: 44.14%
+	CHRF: 55.87%
 Llama2
 	Raw: 16.22%
 	CHRF: 28.84%
@@ -327,6 +425,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 50.45%
 	CHRF: 29.54%
+GPT-4
+	Raw: 27.48%
+	CHRF: 15.67%
 Llama2
 	Raw: 27.93%
 	CHRF: 17.44%
@@ -338,6 +439,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 28.83%
 	CHRF: 37.85%
+GPT-4
+	Raw: 35.59%
+	CHRF: 42.63%
 Llama2
 	Raw: 10.81%
 	CHRF: 19.65%
@@ -349,6 +453,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 31.53%
 	CHRF: 40.15%
+GPT-4
+	Raw: 36.94%
+	CHRF: 47.87%
 Llama2
 	Raw: 2.25%
 	CHRF: 8.09%
@@ -360,6 +467,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 26.58%
 	CHRF: 39.31%
+GPT-4
+	Raw: 13.51%
+	CHRF: 20.02%
 Llama2
 	Raw: 12.16%
 	CHRF: 21.39%
@@ -371,6 +481,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 13.51%
 	CHRF: 23.29%
+GPT-4
+	Raw: 34.23%
+	CHRF: 44.76%
 Llama2
 	Raw: 2.70%
 	CHRF: 7.75%
@@ -383,6 +496,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 55.41%
 	CHRF: 66.92%
+GPT-4
+	Raw: 70.27%
+	CHRF: 72.01%
 Llama2
 	Raw: 59.01%
 	CHRF: 65.99%
@@ -394,6 +510,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 60.36%
 	CHRF: 67.35%
+GPT-4
+	Raw: 61.26%
+	CHRF: 67.91%
 Llama2
 	Raw: 50.00%
 	CHRF: 60.96%
@@ -405,6 +524,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 44.14%
 	CHRF: 56.40%
+GPT-4
+	Raw: 44.14%
+	CHRF: 56.05%
 Llama2
 	Raw: 15.32%
 	CHRF: 28.24%
@@ -416,6 +538,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 47.30%
 	CHRF: 29.96%
+GPT-4
+	Raw: 51.80%
+	CHRF: 30.85%
 Llama2
 	Raw: 24.32%
 	CHRF: 15.77%
@@ -427,6 +552,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 26.58%
 	CHRF: 35.92%
+GPT-4
+	Raw: 29.28%
+	CHRF: 38.26%
 Llama2
 	Raw: 6.76%
 	CHRF: 14.00%
@@ -438,6 +566,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 25.68%
 	CHRF: 38.37%
+GPT-4
+	Raw: 28.38%
+	CHRF: 45.72%
 Llama2
 	Raw: 3.15%
 	CHRF: 7.08%
@@ -449,6 +580,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 23.42%
 	CHRF: 36.89%
+GPT-4
+	Raw: 25.68%
+	CHRF: 39.38%
 Llama2
 	Raw: 11.26%
 	CHRF: 20.61%
@@ -460,6 +594,9 @@ ChatGPT text-davinci
 GPT-turbo
 	Raw: 8.11%
 	CHRF: 21.67%
+GPT-4
+	Raw: 28.38%
+	CHRF: 41.67%
 Llama2
 	Raw: 1.80%
 	CHRF: 6.45%

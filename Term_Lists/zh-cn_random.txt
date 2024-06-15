@@ -1,0 +1,22 @@
+选择
+von mises variate
+高斯
+选择
+正常变化
+获得状态
+制服
+获取随机位
+设定状态
+随机的
+改组
+随机范围
+log normalal variate
+随机整数
+播种
+采样
+beta变量
+帕累托变量
+weibull variate
+伽玛变量
+三角函数
+指数变量

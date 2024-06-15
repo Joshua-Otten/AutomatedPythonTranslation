@@ -1,0 +1,2530 @@
+torche
+distribué
+algorithmes
+Crochets de communication DDP
+Crochet SGD de puissance
+État SGD de puissance
+méthode
+init
+fx
+graphique
+module
+Affecter les rangs des travailleurs
+élastique
+agent
+server
+Agent élastique simple
+Créer une fonction juste en temps
+calculer l'architecture de l'appareil unifié
+J iterator
+Créer une fonction multiproport à temps
+déchargement de vidage
+mémoire
+barrière de sortie
+foreach absolu
+foreach arccosine
+arcsine foreach
+foreach arctangent
+plafond foreach
+foreach cosinus
+foreach hyperbolique cosinus
+Pour chaque fonction d'erreur
+Pour chaque fonction d'erreur complémentaire
+pour chaque exponentiation
+pour chaque exponentiation moins 1
+pour chaque étage
+Pour chaque fraction
+pour chaque journal gamma
+pour chaque logarithme
+Pour chaque logarithme de base-10
+pour chaque logarithme de (1 + x)
+pour chaque base de logarithme 2
+pour chaque négatif
+pour chaque réciproque
+pour chaque tour
+pour chaque sigmoïde
+pour chaque sinus
+pour chaque sinus hyperbolique
+Pour chaque racine carrée
+pour chaque tangente
+pour chaque tronqué
+pour chaque zéro
+Initialiser les travailleurs
+Profil Kineto
+profileur
+surveiller les travailleurs
+enregistrer l'historique de la mémoire
+rendez-vous
+redémarrer
+fermer
+instantané
+démarrer les travailleurs
+arrêter les travailleurs
+Tenseur
+Transformation absolue
+distribution
+se transforme
+arc cosinus
+arc cosinus hyperbolique
+acquérir
+minuteur
+Girant
+Delta adaptatif
+optimiser
+Gradient adaptatif
+Estimation du moment adaptatif
+Estimation du moment adaptatif avec Norm Infinity
+Estimation du moment adaptatif avec désintégration du poids
+Adapter les entrées de torche pour ouvrir l'échange de réseau neuronal
+Échange de réseaux de neurones ouverts
+Programme d'échange de réseaux de neurones ouverts
+Adapter les sorties de torche à ONNX
+Gamme automobile adaptative
+Services publics
+référence
+Minuteur
+Pool moyen adaptatif 1-D
+réseau neuronal
+functional
+Pool moyen adaptatif 2-D
+zone d'effet
+quantized
+Association moyenne adaptative 3D
+Avocation maximale adaptative 1D
+Avocation maximale adaptative 2D
+Avocat maximum adaptatif 3D
+Avocation moyenne adaptative 1D
+Avocation moyenne adaptative 2D
+Association moyenne adaptative 3D
+-
+-
+Adaptive Max Pool 2D
+Adaptive Max Pool 3D
+ajouter audio
+tensorboard
+writer
+Rédacteur
+Ajouter des scalaires personnalisés
+ajouter une dépendance
+emballer
+Exportateur de packages
+Ajouter un rappel fait
+avenir
+Avenir
+Ajouter une configuration dtype
+quantification
+configuration backend
+Configuration du modèle backend
+Ajouter une intégration
+Ajouter la silhouette
+Ajouter le graphique
+Ajouter l'histogramme
+Ajouter des hyperparamètres
+ajouter une image
+ajouter des images
+Ajouter les bûcherons
+non spécifié
+fonction de suite numérique
+ajouter un maillage
+Ajouter des métadonnées
+Ajouter des métadonnées au format JSON
+Ajouter le module
+juste à temps
+Module de script
+Ajouter un groupe de paramètres
+Optimiseur de redondance zéro
+Ajouter la courbe de précision
+Ajouter la méthode d'élagage
+prune
+Récipient
+Ajouter la quantification
+Ajouter une unité linéaire rectifiée
+suite numérique
+ombre
+ajouter un scalaire
+Ajouter des scalaires
+Ajouter des bûcherons d'ombre
+Ajouter le sous-module
+Module graphique
+ajouter du texte
+ajouter une vidéo
+Ajout de deux matrices lots multipliées
+Ajout de tenseur contenant le quotient des tenseurs spécifiés
+Ajout de tenseur contenant le produit multiplicatif
+Ajout de deux matrices multipliées
+ajout de produit matriciel-vecteur
+Produit extérieur des vecteurs
+transposition conjuguée
+générer une grille 2D de points pour une transformation affine
+Appliquer une transformation affine en entrée 3D
+-
+surveillance
+intelligence artificielle aérée
+special
+s'aligner sur
+aligner a
+tous se rassemblent
+tous se rassemblent dans le tenseur
+Tous rassemblent des objets
+Tous les nœuds d'entrée
+Nœud
+Toutes les informations sur le graphique des feuilles de décalage
+vérification
+Informations sur le graphique
+Tous les chemins
+tous réduisent
+Tous à tous
+Tout à tous les célibataires
+Tout se rapprocher
+Autoriser la réduction de la précision BF16
+backends
+Multiplication matricielle
+Autoriser la réduction de la réduction de précision réduite à point flottante 16
+Autoriser le graphique
+compiler
+Autoriser la mutation sur les tenseurs sauvés
+différenciation automatique
+graphique
+Autoriser TensorFlow 32
+Allreduce Hook
+Crochets par défaut
+abandon alpha
+Abandon alpha
+Un min max
+angle
+annoter
+appliquer
+Données entièrement parallèles parallèles
+-
+Appliquer un masque
+Méthode d'élagage de base
+arc hyperbolique cosinus
+arc hyperbolique sinus
+tangent à arc hyperbolique
+sont des algorithmes déterministes activés
+contraintes d'argument
+Bernoulli
+Bernoulli
+attribut
+arguments
+argument où
+En tant que tenseur imbriqué
+nested
+comme vérification des diplômés clairsemés
+sparse
+comme standardisé
+Statistiques de callgrind
+comme frappé
+comme sous-classe
+comme tenseur
+comme tableau
+Descente de gradient stochastique accéléré
+sinus arc
+sinus hyperbolique inverse
+affirmer tout près
+essai
+affirmer la fermeture
+Assumer un résultat constant
+exécution asynchrone
+Appel de procédure à distance
+les fonctions
+arc tangent
+arc tangent 2
+arc tangent hyperbolique
+au moins 1 dimension
+au moins 2 dimensions
+au moins 3 dimensions
+attribut
+moulage automatique
+Piscine moyenne 1 dimensionnelle
+piscine moyenne 2 dimensionnelle
+Envoi moyen en 3 dimensions
+Envoi moyen 1 dimension
+Envoi moyen de 2 dimensions
+Envoi moyen en 3 dimensions
+arrière
+configuration arrière
+Type arrière
+en arrière
+Préfet arrière
+Lot Ajouter une multiplication de la matrice par lots
+point de synchronisation
+Méthode Bartlett
+représentation d'une variable
+Interfaces du système d'exploitation
+Fenêtre de Bartlett
+lot ISend irecv
+normalisation par lots
+forme du lot
+distribution statistique
+distribution de probabilité
+tailles de lots
+réseau neuronal récurrent
+Séquence emballée
+Hook Sgd Power
+Normalisation par lots en 1 dimension
+Normalisation par lots bidimensionnelle
+Normalisation par lots en trois dimensions
+Échantillonneur
+data
+Perte d'entropie croisée binaire
+Entropie croisée binaire avec perte de logits
+CUDA Deep Neural Network
+limite de référence
+Fonction de bessel du premier type d'ordre 0
+Fonction de bessel du premier type d'ordre 1
+Distribution bêta
+distribution bêta
+Crochet de compression à point flottant cérébral 16
+Brain Floating Point 16 Compression Wrapper
+-
+Cerveau flottant 16 rangement
+Bilinéaire
+bi linéaire
+Entropie croisée binaire
+Entropie croisée binaire avec logits
+Binôme
+binôme
+dans le monde et
+Shift gauche à gauche
+Bitwise pas
+bit ou
+Shift à droite bitwise
+XOR
+homme noir
+fenêtre Blackman
+bloquer la diagonale
+gamme automatique bloquée
+Multiplication de la matrice par lots
+Normalisation par lots Unité linéaire rectifiée 2D
+intrinsèque
+Normalisation par lots Unité linéaire rectifiée 3D
+Stockage booléen
+runnal
+Interprète
+point de rupture
+diffuser
+communication
+diffusion codéquetée
+Liste d'objets de diffusion
+Formes de diffusion
+diffuser les tenseurs
+diffuser
+se cacher
+tampon
+Seau de dégradé
+tampons
+exporter
+Programme exporté
+Construire une extension
+Extension C ++
+octet
+Octestorage
+Stockage non typé
+Backend de rendez-vous C10d
+backend de rendez-vous C10d
+mis en cache
+paramétrer
+allocateur de mise en cache alloc
+Suppression d'allocateur de mise en cache
+calculer le gain
+Calculer les paramètres de quantification
+observer
+Min-Max Observer
+fonction d'appel
+Méthode d'appel
+module d'appel
+peut couler
+peut accéder à l'appareil à pair
+peut utiliser une attention efficace
+Peut utiliser l'attention du flash
+Capture commence
+Graphique CUDA
+Capture End
+produit cartésien
+enchaîner
+contraintes
+Catégorique
+catégorique
+Transformée de chat
+Cauchy
+Cauchy
+Indices de colonne
+Fonction de distribution cumulative
+Calcul de distance
+Double complexe
+Unité linéaire exponentielle continue
+Unité linéaire exponentielle continue
+Flotteur complexe
+Multiplication de la matrice de chaîne
+Ensemble de données de chaîne
+Planificateur enchaîné
+Planificateur de taux d'apprentissage
+Moitié complexe
+Changer l'allocateur de courant
+Palet de canal
+Personnage
+Stockage des personnages
+Vérifier
+ETCD
+-
+vérifier est root
+Vérifiez les invariants du tenseur clairsemé
+point de contrôle
+Vérifier le point séquentiel
+Chi 2
+chi 2
+Erreur d'échec de l'enfant
+traitement multiples
+les erreurs
+enfants
+Cholesky
+Extensions de cholesky
+Algèbre linéaire
+Cholesky inverse
+Cholesky Solve
+Tronçon
+PAD CIRCULAIRE 1 dimension
+PAD CIRCULAIRE 2 Dimensionnel
+PAD CIRCULAIRE 3 dimensions
+Serrer
+Cache du plan de manchette
+Temporisateurs
+Serveur de minuterie
+Norgage de dégradé de clip
+Valeur de gradient de clip
+Taux d'horloge
+Cloner
+Rendez-vous dynamique
+Délai de rendez-vous
+Classe pour devenir
+Normalisation par lots paresseux 1 dimension
+se fondre
+code
+code avec constantes
+indices de colonne
+collationner
+tout collecter
+Collectez Callgrind
+pile de colonne
+Colwise parallèle
+tenseur
+parallèle
+combinaisons
+commettre un tenseur
+Planificateur de chargement
+Comparez les sorties du modèle
+Comparez Stub du modèle
+Comparez l'ensemble
+Magasin
+Comparez les poids
+compilé avec CXX11 ABI
+Double complexe
+Stockage dactylographié
+flotteur complexe
+Double stockage complexe
+Stockage flottant complexe
+distribution des composants
+mélange même famille
+Mélange même famille
+Composer la transformée
+calculer la similitude cosinée
+masque de calcul
+Calculez l'erreur L2 normalisée
+calculer le rapport de bruit de signalisation
+enchaîner
+Ensemble de données Concat
+enchaînement
+concentration
+gamma inverse
+Gamma inverse
+concentration 0
+concentration 1
+condition
+configurations
+configurations
+des mesures
+confirmé par le propriétaire
+Référence à distance Python
+conjugué physique
+Gestionnaire métrique de la console
+Interface de programmation d'applications
+Consolider le dictionnaire d'État
+Constante
+Taux d'apprentissage constant
+Rembourrage constant en 1 dimension
+Rembourrage constant bidimensionnel
+Rembourrage constant tridimensionnel
+Contrainte
+Registre des contraintes
+Registre des contraintes
+contexte
+contiguous
+Bernoulli continu
+bernoulli continu
+Convolution 1 dimension
+Conv 1 dimension
+Convolution 2 dimension
+Formation consciente de la quantification
+Conv 2 dimension
+Convolution 3 dimension
+convolutionnel en 3 dimensions
+Convolution transposent une dimension
+convolution transposer bidimensionnel
+Convolution Transpose en trois dimensions
+Normalisation par lots convolutionnelle 1 dimension
+Normalisation par lots convolutionnelle bidimensionnelle
+Normalisation par lots convolutionnelle tridimensionnel
+Rect de normalisation par lot convolutionnelle
+-
+-
+convertir
+Convertir le format de mémoire de poids 2D convolutionnel
+Convertir FX
+quantifier fx
+Convertir le modèle de Shadows
+convertir la normalisation par lots synchronisée
+Synchroniser la normalisation des lots
+Convertir la configuration personnalisée
+configuration personnalisée
+Convolution rectifiée unité linéaire 1 dimension
+Convolution Unité linéaire rectifiée 2D
+Convolution Unité linéaire rectifiée 3D
+Convolution Transpose 1D
+Convolution Transpose 2D
+Convolution Transpose 3D
+Dictionnaire de paramètres
+signe de copie
+Corrélation cholesky transformée
+corrélation
+Cosine Corpording Loss
+-
+similitude du cosinus
+Cosine recuit LR
+Cosine recuit des redémarrages chauds
+Cosine Corpording Loss
+Similitude du cosinus
+Stat
+Count non zéro
+comptes
+casse
+matrice de covariance
+Normal multivarié à faible rang
+Normal multivarié à faible rang
+Extension C ++
+unité de traitement centrale
+CPU CONTRE
+créer un argument
+tracer
+Créer des arguments pour la racine
+Créer un backend
+Créer un plan mondial
+créer un gestionnaire
+Créer un plan local
+Créer un nœud
+créer un proxy
+croix
+entropie
+Perte d'entropie croisée
+indices de corbeau
+perte de CTC
+Perte de classification temporelle connexiste
+Calculer l'extension d'architecture de l'appareil unifié
+Étape de marque graphique de Cuda commence
+Calculer l'architecture de l'appareil unifié allocateur enfichable
+Maximum cumulatif
+Minimum cumulé
+Trapézoïde cumulatif
+Transformée de distribution cumulative
+Mémoire allouée actuelle
+Service de processus géré
+poignée BLAS actuelle
+dispositif actuel
+courant actuel
+Custom vers l'arrière
+Précision mélangée automatique
+Custom from Mask
+en avant sur mesure
+Custom from Mask
+Taux d'apprentissage cyclique
+Événement
+données parallèles
+pointeur de données
+Type de valeur des données
+Chargeur de données
+Données parallèles
+Base de données
+Débogue
+Configation de quantification d'activation par défaut
+configuration de quantification
+Collation par défaut
+converti par défaut
+Observer de débogage par défaut
+Débogage par défaut qconfig
+dynamique par défaut qconfig
+Observer quant dynamique par défaut
+EVAL FN par défaut
+Faux par défaut
+faux quantifier
+Observer Float Qparams par défaut
+Par défaut ACT FAUSE FAUX QU quant
+Par défaut fusionné par canal Fake Faux quant
+Par défaut Fondu Falle Faux quant
+Générateur par défaut
+Histogramme par défaut faux quant
+Histogramme par défaut Observer
+Observer par défaut
+Par défaut par canal qconfig
+Par défaut par canal poids faux quant
+Par défaut par poids du canal
+-
+Numérisation par défaut Formation au courant qconfig
+Par défaut, formation consciente de la quantification QConfig version 2
+qconfig par défaut
+flux par défaut
+Fausse de poids par défaut
+Observateur de poids par défaut
+Poids par défaut uniquement qconfig
+Planificateur de chargement par défaut
+Planificateur de sauvegarde par défaut
+définir
+Une collection de modules
+Degrés aux radians
+Retirez tous les modules qui ne sont pas utilisés
+Supprimer la clé
+Retirer le sous-module
+changement
+modules non autorisés ou interdits
+supprimer le bruit
+Nombre de fonctions
+dimension dense
+refuser
+chaîne de graphique de dépendance
+propriété dépendante
+désactiver
+Dequantstub
+determinant
+détecter l'anomalie
+déterministe
+appareil
+comptage des appareils
+cartes de périphérique
+Options de backend Tensorpipe RPC
+dispositif de
+Maillage de l'appareil
+maillage de l'appareil
+dispositifs
+trame de données
+ENFRANDE DUAGEAUX
+contexte diagnostique
+Options de diagnostic
+dispersion diagonale
+différence
+di-gamma
+dimension
+dimension
+ordre de dimension
+dimensions
+Dirac
+annuaire
+Dirichlet
+Dirichlet
+désactiver
+Désactiver le faux quant
+Désactiver le journal
+désactiver l'observateur
+Désactiver les crochets des tenseurs enregistrés
+distribution
+Erreur du backend de distribution
+Erreur de distribution
+Erreur du réseau de distribution
+Données distribuées parallèles
+Optimiseur distribué
+Échantillonneur distribué
+Erreur de magasin distribuée
+division
+finished
+deux fois plus
+Double stockage
+Télécharger l'URL dans le fichier
+centre
+dessiner
+quasi aléatoire
+Moteur Sobol
+Tire la base 2
+Mémoire allouée au pilote
+Abandonner
+abandonner
+Déposez 1D
+Déposez 1D
+Abandonner 2d
+décrochage 2d
+Dropout 3D
+Dropout 3D
+D Split
+d pile
+Type de données
+Type scalaire juste dans le temps
+Configuration de type de données
+Type de données avec contraintes
+double niveau
+accumulation vers l'avant
+dimension dynamique
+Gestionnaire de rendez-vous dynamique
+Exportation de dynamo
+décomposition propre
+Eigen Décomposition hermitienne
+valeurs propres
+valeurs propres hermitiennes
+Sommation d'Einstein
+temps écoulé
+Agent élastique
+taille d'élément
+Éliminer le code mort
+Unité linéaire exponentielle
+Unité linéaire exponentielle
+intégration
+intégration
+sac d'incorporation
+Sac d'incorporation
+émettez la transformation de type int
+émettre nvtx
+cache vide
+vide
+Erreur de correspondance vide
+activer
+statique
+Activer le désinfectant Cuda
+désinfectant
+Activer le mode de débogage
+Activer le faux mode
+Activer la fausse quantification
+Activer le double chemin Flash Stochastic
+Activer le gradient
+Activer le logarithme
+Activer le double chemin stochastique mathématique
+Activer la mémoire à double chemin stochastique efficace
+permettre à l'observateur
+Activer la fusion de la bibliothèque DPC ++ ONEAPI
+actif
+entropie
+entropie
+Énumérer le support
+equal
+nœud effacer
+fonction d'erreur
+fonction d'erreur complémentaire
+Fonction d'erreur complémentaire à l'échelle
+fonction d'erreur inverse
+Gestionnaire d'erreurs
+Nombre de nœuds essentiels
+types de nœuds essentiels
+Etcd Rendez-vous backend
+etcd Rendez-vous backend
+Etcd Rendezvous Handler
+etcd rendez-vous
+Serveur etcd
+serveur etcd
+forme de l'événement
+Poignée du gestionnaire d'événements
+Valeur des métadonnées de l'événement
+événements
+Source d'événement
+développer
+se développer en tant que
+expire
+expit
+Exponential
+exponential
+Famille exponentielle
+Famille Exp
+Taux d'apprentissage exponentiel
+Exporter Chrome Trace
+profil
+Chronologie de la mémoire d'exportation
+reproduction des exportations
+piles d'exportation
+Exporter vers une jolie chaîne
+Exporter la signature arrière
+Signature du graphique d'exportation
+Options d'exportation
+Transformée d'extension
+Liste de modules
+Étendre les résultats de l'enregistreur avec la comparaison
+Externe
+Flux externe
+Modules externes
+Représentation supplémentaire
+Paramètres quantifiés fixes fausse quantification
+Extraire les informations d'enregistrement
+Extraire les résultats et les ombres du modèle
+Extraire les informations de l'enregistreur de l'ombre
+Extraire des poids
+Faux contexte
+Faux quantif par canal affine
+Faux quantifier par tenseur affine
+Faux quantifier
+Fausse base de quantification
+Noyau de chute
+Avance rapide
+Caractéristique ALPHA Dropout
+Caractéristique ALPHA Dropout
+Répondre aux arguments Mots-clés de l'environnement
+Attribut Fetch
+Transformée de Fourier Rapide
+Transformée de Fourier rapide 2
+Fréquence de transformée de Fourier rapide
+Transforment de Fourier rapide n
+Shift de transformée de Fourier rapide
+structure de fichiers
+Importateur de package
+nom de fichier
+Magasin
+Lecteur de système de fichiers
+Rédacteur
+Client de la minuterie de fichiers
+Serveur de minuterie de fichiers
+remplir la diagonale
+Remplissez la mémoire non initialisée
+trouver un décalage
+trouver une partition
+finition
+Rédacteur
+plan de finition
+Fisher snedecor
+fisher snedecor
+Flash SDP activé
+Aplatir
+aplatir les paramètres
+Base RNN
+aplatir le dict d'état d'optimorce
+Float 16 Dynamic Q Config
+Float 16 Configuration statique Q
+flotteur 8 e 4 m 3fn
+flotteur 8 e 5 m 2
+float q params poids de poids uniquement q config
+Flotteur fonctionnel
+Rangement flottant
+valeur maximum
+le minimum
+-
+Fonction de transformation
+Pli
+Créer une nouvelle vue de mémoire
+Diviser le générateur de nombres aléatoires
+Nœud de format
+Passe avant
+Capable d'être quantifié
+Attention multiples
+Forme de passe avant
+Fonction de transformation
+FP16 COMPRESS
+Emballage FP16 Compress
+fractionnaire
+Pool max fractionnaire 2D
+Pool max fractionnaire 3D
+Pool max fractionnaire 2D
+Pool max fractionnaire 3D
+geler
+Statistiques de normalisation de congélation par lot
+exposant fractionnaire
+du backend
+De tampon
+du dictionnaire
+à partir du pack de types de données
+à partir du type de données
+à partir du fichier
+du point flottant
+Linéaire
+de la poignée de communication interprocess
+de Python numérique
+de pré-entraîné
+de la référence
+dynamique
+de la valeur
+De tampon
+modules FSDP
+full
+Dict d'état Optim complet
+Configuration du dict d'état complet complet
+Configuration du dict à l'état complet
+Fonction
+appel fonctionnel
+fonction
+faire fonctionner
+Évaluation de la normalisation par lot de convolution de fusible
+Fusible Convolution Batch Normalisation Poids
+effets de fusible
+Évaluation de la normalisation du lot linéaire fusible
+Fuser les poids de normalisation des lots linéaires
+modules de fusible
+Configuration personnalisée fusionnée
+Observations moyennes fusionnées en mobile fausse quantification
+Fx flottant fonctionnel
+Gamma
+gamma
+gamma en c
+Gamma en CC
+Gamma LN
+rassembler
+rassembler des objets
+Gaussian
+Perte de vraisemblance de journal négatif gaussien
+Perte de vraisemblance de journal négatif gaussien
+Plus grand diviseur commun
+Meilleur que ou égal
+Unité linéaire d'erreur gaussienne
+Unité linéaire d'erreur gaussienne
+Cosinus généralisé
+Hamming généralisé
+Générer des méthodes pour un usage privé 1 backend
+générer un masque ultérieur carré
+Transformateur
+Generator
+Géométrique
+géométrique
+geqrf
+rotation
+Obtenez toutes les stratégies de partage
+Obtenez le backend d'allocateur
+Obtenez la liste d'architecture
+Obtenez comme bool
+Paramètres de rendez-vous
+Obtenez comme int
+obtenir un attribut
+se faire backend
+Obtenez le facteur de revers
+Scalaire de gradation
+Obtenez un tampon
+Obtenez la compatibilité et la version du compilateur ABI
+Obtenez C ++ Backtrace
+Obtenez la capacité de l'unité de traitement centrale
+obtenir un contexte
+Obtenir un état de débogage
+fonction de script
+Obtenir le type de données par défaut
+Obtenir une endication de chargement par défaut
+sérialiser en une série d'octets
+Obtenez des tests d'assurance qualité par défaut et une cartographie de configuration du contrôle de la qualité
+Test d'assurance qualité et cartographie de configuration du contrôle de la qualité
+get_default_qconfig_mapping
+Obtenez le mode de débogage déterministe
+obtenir un appareil
+Obtenir la capacité de l'appareil
+Obtenir le nom de l'appareil
+Obtenir les propriétés de l'appareil
+Obtenir l'annuaire
+Obtenez le nom de la noeud d'entrée
+Spec de travailleur
+Obtenez des minuteries expirées
+Obtenez un état supplémentaire
+Obtenez la précision de multiplication matricielle Float 32
+Obtenez des drapeaux de code
+Obtenir le rang mondial
+Obtenez un bord de gradient
+Obtenir les gradients
+Obtenir le rang de groupe
+Obtenir le facteur de croissance
+obtenir un intervalle de croissance
+Obtenez des fonctions ignorées
+surclassement
+Obtenez le dernier taux d'apprentissage
+Obtenez le dictionnaire Logger
+Obtenez un gestionnaire de journalisation
+Obtenir le taux d'apprentissage
+obtenir des activations correspondantes
+Obtenir le dictionnaire d'État modèle
+dictionnaire d'État
+Obtenir la référence à distance du module
+module distant
+Module distant
+Obtenez le nombre de threads interops
+Obtenez le nombre de fils
+Obtenez un dictionnaire d'État d'observateur
+Obtenir des fonctions d'opération
+Registre des échanges de réseaux de neurones ouverts
+être optimisé la somme einstein
+somme d'einstein optimisée
+Obtenez le dictionnaire d'État Optimizer
+Obtenez des fonctions de remplacement
+obtenir le paramètre
+Obtenir les rangs des groupes de processus
+se classer
+obtenir des dépendances récursives
+Obtenez l'état de générateur de nombres aléatoires
+Obtenez tout le générateur de nombres aléatoires tout
+Obtenez une pièce d'identité
+Maître de rendez-vous
+obtenir une échelle
+Obtenir une stratégie de partage
+faire état
+Obtenez le dictionnaire d'État
+Obtenez le type de dictionnaire d'État
+Obtenez un sous-module
+Obtenir le mode de débogage de synchronisation
+Obtenir des remplacements de tests
+Obtenez un identifiant unique
+Obtenez un groupe de travailleurs
+Obtenir des informations sur les travailleurs
+Obtenir la taille du monde
+non structuré mondial
+Unité linéaire fermée
+Utilitaire de la bibliothèque graphique
+pente
+gradient et valeur
+chèque de gradient
+Vérification du gradient de dégradé
+taux d'inclinaison
+Bord de gradient
+changements dans les pentes
+copie du graphique
+Poignée de la piscine graphique
+plus grand que
+Meilleur que ou égal
+échantillon de grille
+normalisation du groupe
+normalisation du groupe
+unité récurrente fermée
+Gru cellule
+plus grand que
+Boucle
+Boucle
+Gumbel Softmax
+H
+moitié
+intervalle à moitié ouvert
+À moitié Cauchy
+à moitié Cauchy
+À moitié normal
+à moitié normal
+Demi-stockage
+Coup de fouet
+Fenêtre Hamming
+Gérer la fonction de torche
+Hann
+Fenêtre Hann
+Rétrécissement
+rétrécissement
+sigmoïde dur
+Sigmoïde dur
+Swish dur
+swish dur
+Tanh dur
+Tanh dur
+a énuméré le support
+a un fichier
+a un décalage
+a rsample
+a la fonction de torche
+a des paramètres non initialisés
+modules
+Lazy
+Mélange de module paresseux
+Magasin de hachage
+battement de coeur
+Se cumuler
+Toile de jute
+hfft
+hfft2
+hfftn
+Perte d'intégration de charnière
+Perte d'intégration de charnière
+comptage d'histogramme
+histogramme
+histogramme n-dimension
+Observateur d'histogramme
+produit de ménage
+HPU
+hsplit
+hspmm
+hstack
+Perte de Huber
+Perte de Huber
+Produit vecteur de Hesse
+Fonction Bessel modifiée du premier type
+Fonction Bessel modifiée à l'échelle exponentielle du premier type
+fonction Bessel modifiée du deuxième type
+Fonction Bessel modifiée à l'échelle exponentielle du deuxième type
+fonction de distribution cumulative inverse
+Informations sur les travailleurs
+Identité
+transformée de Fourier rapide inverse
+Fourier rapide inverse Transform 2D
+Transformée de Fourier rapide inverse ND
+Déplacement de transformée de Fourier rapide inverse
+Fonction gamma incomplète
+complément de fonction gamma incomplète
+ignorer
+Transformée de Fourier rapide hermitienne inverse
+Fourier rapide hermitien inverse transformée 2d
+Fourier rapide de l'hermitien inverse Transform nd
+imaginaire
+mettre en œuvre
+mettre en œuvre le résumé
+module d'importation
+Inclure des chemins
+Independent
+independent
+Transformée indépendante
+Index Ajouter
+copie d'indexation
+remplissage d'index
+put index
+Index Réduire
+Sélection de l'index
+indices
+mode d'inférence
+Initialiser le maillage de l'appareil
+Initialiser la méthode
+Options de backend d'appel à distance
+Initialiser le groupe de processus
+Initialiser l'appel de procédure à distance
+initial seed
+Initialiser les paramètres
+graphique incliné
+inner
+Sortie d'entrée non observée
+type d'observation
+type d'entrée
+Signature du graphique
+Spécification d'entrée
+insert argument
+insérer après
+insérer avant
+normalisation d'instance
+Normalisation des instances 1D
+Normalisation d'instance 2d
+Normalisation des instances 3D
+représentation entière
+intervalle entier
+interface
+interne
+modules internés
+interpoler
+intervalle
+Stockage int
+Inv
+Inv ex
+Erreur d'options d'exportation non valide
+inverse
+forme inverse
+Communication inter-processus Collecte
+Poignée de communication interprète
+unité de traitement d'image
+réception immédiate
+Transforment de Fourier inverse et rapide rapide
+Fourier inverse réel rapide Transform 2
+inverse réel de Fourier rapide Transform n
+est disponible
+est construit
+est fermé
+est fusionné
+est complexe
+est conjugué
+est contigu
+est un calcul de l'architecture de l'appareil unifié
+La capture du flux actuel est-elle
+Les algorithmes déterministes préviennent uniquement
+est autorisé
+est le point flottant
+Est-ce que Gloo est disponible
+Le gradient est-il activé
+est une unité de traitement hétérogène
+n'est pas pur
+est dans l'exportation d'échange de réseaux de neurones ouverts
+est une inférence
+Le mode d'inférence est activé
+est initialisé
+est le dernier
+est la feuille
+est le module de feuille
+Traceur ns
+est méta
+MPI est-il disponible
+NCCL est-il disponible
+Ninja est-il disponible
+n'est pas zéro
+est le backend onnxrt pris en charge
+Son propriétaire
+est paramétré
+est épinglé
+est taillé
+est quantifié
+est une opération enregistrée
+est en cours d'exécution
+État des travailleurs
+est le script
+est réglé sur
+est partagé
+est signé
+est clairsemé
+est une ligne clairsemée compressée clairsemée
+est stockage
+est le tenseur
+le tenseur est-il comme
+est la méthode ou la propriété du tenseur
+Est-ce que Torch Elastic est lancé
+est le traçage
+Warn est toujours activé
+est proche
+j'envoie
+est dans
+Transformée de Fourier à court terme inverse
+Dictionnaire de module
+taille de chaque élément
+Ensemble de données itérable
+Jacobian en mode avant
+Jacobien
+Jacobian en mode inversé
+combiner
+Contexte de ponte
+rejoindre l'appareil
+rejoindre
+rejoindre Hook
+Rejoignez un groupe de processus
+rejoindre Hook
+JVP
+K
+kiming normal
+uniforme de kiming
+kaiser
+Fenêtre Kaiser
+Moyennes clés
+Divergence kullback-lebler
+Divergence kullback-lebler
+Kullback-Lebler
+KL Perte de divergence
+Produit Kronecker
+Valeur K -th
+Kumaraswamy (pas d'expansion)
+Kumaraswamy (
+Arguments de mots clés
+longueur
+perte de L1
+L1 non structuré
+perte de L1
+L1 non structuré
+Taux d'apprentissage lambda
+Laplace
+laplace
+dernier appel
+normalisation de la couche
+normalisation de la couche
+mise en page
+Normalisation par lots paresseux 2D
+Normalisation par lots paresseux 3D
+Convolution paresseuse 1d
+Convolution 2D paresseuse
+Convolution 3D paresseuse
+Transposition de convolution paresseuse 1d
+Transposition de convolution 2D paresseuse
+Paressez Convolution Transpose 3D
+Normalisation d'instance paresseuse 1d
+Normalisation d'instance paresseuse 2D
+Normalisation d'instance paresseuse 3D
+Linear paresseux
+Mémoire limitée Broyden-Fletcher-Goldfarb-Shanno
+Multiple moins commun
+Chargez l'exposant
+LDL
+-
+Factorisation de faible rang d'une matrice définie positive
+inférieur ou égal à
+Unité linéaire rectifiée qui fuit
+Unité linéaire rectifiée qui fuit
+interpolation linéaire
+moins que
+Logarithme de la fonction gamma
+Collection de modules et de fonctions
+en ligne droite
+faire linéaire
+Taux d'apprentissage linéaire
+Unité linéaire rectifiée linéaire
+espace linéaire
+peluche
+Backends de la liste
+Répertoriez les processus GPU
+LKJ Cholesky
+LKJ Cholesky
+logarithme naturel structuré
+Ligne structurée
+charger
+chargement binaire
+Chargez les octets
+Chargez en ligne
+charger nvprof
+Load Observer State Dict
+cornichon de chargement
+Charge State Dict
+Charge State Dict de l'URL
+Chargez le texte
+Chargez un localisateur de ressources uniformes
+Zoo modèle
+Plan de chargement
+Gradient de conjugué préconditionné de blocs optimaux localement
+emplacement
+logarithmique normal
+Logarithmique normal
+Normalisation de la réponse locale
+valeur locale
+Agent élastique local
+agent élastique local
+Config Config
+Norme de réponse locale
+Configuration de l'État local
+Client de minuterie locale
+Serveur de minuterie local
+Logarithme de 1 Plus
+Logarithme du déterminant absolu du jacobien
+événement de logarithme
+Logarithme de la distribution normale
+Logarithme de probabilité
+Logarithme de Softmax
+Logarithme d'ajout d'exponenties
+Logarithme de l'ajout d'exponentiels (base 2)
+Logarithme de la somme cumulative des exponentielles
+Logarithme de déterminant
+système de journalisation
+Ensemble de systèmes de journalisation activé
+Les systèmes de journalisation définissent les activations de sauvegarde
+fonction logistique
+Logit détendu Bernoulli
+Bernoulli détendu
+unités logistiques
+Logarithme de la fonction sigmoïde
+logarithme du sigmoïde
+Logarithme de la fonction Softmax
+tableau de logarithme espacé
+Journal de la somme des exponentielles
+Type de données entier pour les entiers plus longs
+stockage long
+objet de recherche
+tenseur de recherche
+Transformée de Cholesky inférieure
+Pool LP 1D
+Pool LP 2d
+Pool LP 1D
+Pool LP 2d
+Mémoire à court terme
+Cellule de mémoire à court terme
+moindres carrés
+moins que
+supérieur inférieur
+Factorisation supérieure inférieure
+Factorisation supérieure plus faible étendue
+Solve supérieure inférieure
+Débackage supérieur inférieur
+crochet principal
+faire du double
+faire des callables graphiques
+faire du tenseur
+graine manuelle
+Semence manuelle tout
+Carte des nœuds aux valeurs
+perte de classement des marges
+perte de classement des marges
+marque
+nvtx
+Mark Dirk
+fonction
+Contexte de fonction
+Mark non différenciable
+remplissage masqué
+dispersion masquée
+Sélection masquée
+Détection du signal mathématique et estimation des paramètres activées
+matrice exponentielle
+norme matricielle
+puissance matricielle
+classement matriciel
+Mémoire maximale allouée
+Mémoire maximale qui peut être mise en cache
+Mémoire maximale réservée
+Poolage unidimensionnel maximum
+Poolage à deux dimensions maximum
+Poolage tridimensionnel maximal
+taille maximum
+non-dimension maximum non dimensionnel
+non-dimension maximum en deux dimensions
+maximum en trois dimensions non pool
+le meilleur
+Envoi maximum 1 dimension
+Envoi maximum en 2 dimensions
+Envoi maximum en 3 dimensions
+Maximum inoffensif 1 dimension
+Maximum inoffensif en 2 dimensions
+Maximum inoffensif en 3 dimensions
+La mesure
+Median
+Mémoire
+-
+mémoire allouée
+mémoire mise en cache
+format de mémoire
+Mémoire réservée
+instantané de mémoire
+statistiques de la mémoire
+Résumé de la mémoire
+utilisation de la mémoire
+fusionner
+fusion des masques
+grille en maille
+métadonnées
+Gestionnaire métrique
+m h
+le minimum
+Brouiller
+brouiller
+Précision mixte
+distribution du mélange
+m m
+mocking
+modules moqués
+mode
+protocole modèle
+Signature du modèle
+configuration
+enregistrement
+Mode de coulée automatique
+fusionné
+Convolution fusionnée
+linéaire fusionné
+relu linéaire
+Normalisation par lots Relu
+Convolution ajouter
+convolution relu
+convolution
+opérations d'incorporation
+Activation
+normalisation par lots
+modules fonctionnels
+normalisation
+référence
+correspondant graphique
+réussite graphique
+mappages
+n ombres utilisent
+types ns
+UTILS DE MOTIFS
+QConfig Multi mappage
+Utilisation du poids
+prune
+calendrier
+calendrier de base
+calendrier cube
+calendrier lambda
+sparse
+base clairsemée
+Presque clairsemé diagonal
+Normalisation du poids clairsemé
+exécutorch
+Facebook Gemm
+indigène
+type d'observation
+oneDNN
+pack de réseaux de neurones quantifiés
+Tensor en temps réel
+Étendu 86
+mappages de méthode de fusion
+fusible
+gestionnaire de fusibles
+module graphique
+plus bas à FBGEMM
+plus bas à Qnnpack
+Utilitaires LSTM
+correspondre aux services publics
+préparer
+Utilitaires de cartographie QConfig
+Quantifier le gestionnaire
+tracer
+pt 2 e
+Passe de qualité des données en double
+Utilitaires d'évaluation
+générer une poignée de débogage numérique
+graphiquement des services publics
+Passe de métadonnées portuaires
+Utilitaires de techniques d'analyse quaternaire
+représentation
+récrire
+type de quantification
+mappages de quantification
+quantification
+quantification juste à temps
+quantification Partie 2 Amélioration
+fonction de quantification
+Fonction de quantification composable
+Fonction de quantification d'intégration
+x86 Fonction de quantification des inducteurs
+Fonction de quantification XNNPACK
+Utilitaires de fonction de quantification XNNPACK
+-
+mode anomalie
+mode dégradé
+héritage profileur
+utilitaire de profileur
+variable
+bibliothèque du noyau mathématique
+Bibliothèque du noyau mathématique pour les réseaux de neurones profonds
+Ouvrir plusieurs procédures
+Intel Xeon
+Exécuter sur CPU
+Primitives de réseau neuronal accéléré
+contribution
+habituel ou traditionnel
+échelle de dégradé
+erreur ou faute
+Représentation visuelle des données
+Bibliothèque de communication collective NVIDIA
+flux de données
+Deep Learning Zero Hook
+Outils pour identifier et corriger les erreurs dans le code
+Crochets de précision mixte
+Crochets de chevauchement Optimiseur
+Publier un crochet SGD local
+crochets de quantification
+Modèle de moyenne
+Averagers
+Modèle hiérarchique Averager
+Argparse util
+Enregistreur C10D
+planificateur par défaut
+système de fichiers
+optimisation
+planifier
+Planifiez une aide
+re fragment
+chargeur d'état
+Économiseur d'état
+indiquer
+Âge du magasin
+services publics collectifs
+constantes
+C10D distribué
+gestionnaires
+gestionnaire d'erreurs
+redirection
+journal de queue
+enregistrement
+TCP statique rendez-vous
+minuterie locale basée sur des fichiers
+minuterie locale
+itérateur de cyclisme
+échantillonneur élastique distribué
+niveau de journal
+magasin
+Données entièrement parallèles parallèles
+scalaire de gradue franc
+envelopper
+lancement
+launcher
+Exploiter les gestionnaires
+instanciateur
+modèles
+modèle de module distant
+Appliquer Optimizer en arrière
+Adadelta fonctionnelle
+Adagrad fonctionnel
+Adam fonctionnel
+Adamax fonctionnel
+ADAMW fonctionnel
+RMSPROP fonctionnel
+rétropropagation résiliente
+Descente de gradient stochastique fonctionnel
+Optimiseur nommé
+Optimiseur de descente de gradient stochastique post-local
+Optimiseur de redondance zéro
+pipeline
+synchronisation
+dépendance
+micro-lot
+phony
+pipeline
+sauter
+espace de nom
+portail
+skippable
+tracker
+flux
+worker
+appareil distant
+Registre backend
+interne
+options
+proxy RREF
+Processus de serveur Profiler global
+courir
+DDP
+Entrée Resharity
+style
+NORMAL LOGISTIQUE
+multination
+Normal multivarié
+binôme négatif
+normale
+une catégorielle chaude
+pareto
+Poisson
+catégorique détendu
+t
+distribution transformée
+von mises
+Weibull
+Wishart
+programme exporté
+experimental
+partitionnaire accélérateur
+pliage constant
+déboguer
+Graphique de type graphique
+Multiplication de la matrice fusion
+méta-traceur
+migrer les types progressifs
+contrainte
+générateur de contraintes
+transformation des contraintes
+opération
+se transformer en z3
+utilitaire
+Types Z3
+normaliser
+optimisation
+Utilitaires des partitions
+tenseur de proxy
+enregistrement
+Types de raffinement
+réécrit
+Annotation de type schéma
+nœud symbolique
+formes symboliques
+unification
+cœur
+expédition
+correspondre
+plus
+dépêche multiple
+conflit
+dispatcher
+variatique
+outils d'unification
+Unifier les raffinements
+validateur
+Collections immuables
+interprète
+nœud
+schémas opérateurs
+col
+annoter obtenir des nœuds d'articles
+cudagraphes
+dialecte
+col CSE
+fausses propriétés du tenseur
+tiroir graphique
+manipulation du graphique
+infra
+partitionnaire
+base de passe
+Pass Manager
+Base nette min
+support de l'opérateur
+param
+place
+former des biens
+module divisé
+partager les services publics
+base de séparateur
+tests
+Test Pass Manager
+Outils communs
+Utilitaires de fusion
+Utilitaires des Matcher
+Mattre avec des utilitaires de carte de nœud de nom
+Utilitaires des correspondances source
+Procuration
+réécriture de subgraph
+type de tenseur
+trace
+annotations
+l'extrémité avant
+générer des bytecodes
+mobile
+opérations prises en charge
+Opérations de tenseur non pris en charge
+masked
+tenseur masqué
+binaire
+création
+traverser
+réductions
+unary
+événement
+piscine
+file d'attente
+frayer
+TNN
+types communs
+C Plus Plus
+adaptive
+palet de canal
+récipient
+distance
+normalisation d'instance
+perte
+rembourrage
+Pixel Shuffle
+mise en commun
+transformateur
+échantillonnage
+Parallèle Appliquer
+reproduire
+disperser
+paramètre
+gradient de clip
+convertir les paramètres
+la fusion
+paramétrisations
+normalisation spectrale
+apatride
+normalisation du poids
+les opérateurs
+Caffe symbolique2
+aiguille symbolique
+Opset symbolique 10
+Opset symbolique 11
+Opset symbolique 12
+Opset symbolique 13
+Opset symbolique 14
+Opset symbolique 15
+Opset symbolique 16
+Opset symbolique 17
+Opset symbolique 18
+ENSEMBLE OPÉRATION SYMBOLIQUE 7
+ENSEMBLE OPÉRATION SYMBOLIQUE 8
+Opération symbolique Ensemble 9
+delta adaptatif
+gradient adaptatif
+Estimation du moment adaptatif
+Estimation du moment adaptatif avec max
+Estimation du moment adaptatif avec désintégration du poids
+Descente moyenne de gradient stochastique
+Mémoire limitée Broyden-Fletcher-Goldfarb-Shanno
+Estimation du moment adaptatif Nesterov
+Rectifié Adam
+accessoire carré moyen racine
+rétropropagation résiliente
+Descente de gradient stochastique
+Estimation du moment adaptatif clairsemé
+poids stochastique des services publics en moyenne
+analyse
+Trouvez la première utilisation de modules cassés
+provient du package
+traces de trace
+Représentation de la structure des fichiers
+trouver des dépendances de fichiers
+groupe global
+importer
+exportateur de packages
+importateur de package
+itt
+traceur python
+motifs de fusion
+modèles de quantification
+Types de quantification
+types de retour
+semi-structuré
+version torche
+les types
+compat arrière
+inscription backend
+exemples
+BLAS Comparez la configuration
+comparer
+testeur de fuzz
+Benchmark de l'opérateur
+timing simple
+Test de fuzz de l'opérateur spectral
+fuzzers
+pas besoin de se développer
+pas besoin de se développer
+pas besoin de se développer
+Compilateur C ++ juste à temps
+pas besoin de se développer
+Wrapper Valgrind
+Interface de minuterie
+Goulot
+Entrées groupées
+Recueillir un environnement
+Backtrace C ++
+Rétrocompatibilité
+Chargeur de données
+Tuyaux de données
+Trame de données
+emballage de trame de données
+cadres de données
+structure
+tuyau de données
+?
+combinatoire
+combinaison
+déposer Lister
+ouvreur de fichiers
+regroupement
+décodeur acheminé
+sélection
+fragment
+lecteur de diffusion
+décodeur
+base de données
+Paramètres graphiques
+sampler
+dlpack
+dossier
+compteur d'opérations à points flottants
+hipify
+Cuda aux mappages de la hanche
+Hipify Python
+version
+crochets
+extrait de journal
+Optimiseur mobile
+Modèle de vidage
+montrer le cornichon
+résumé
+Benchmark de débit
+visualisation
+faible
+Nadam
+nom
+tampons nommés
+enfants nommés
+modules nommés
+paramètres nommés
+des noms
+Nan au nombre
+Nan signifie
+Nan médiane
+Nan quantile
+Sommet nan
+narrow
+copie étroite
+nombre d'octets
+nombre de dimensions
+dimension n
+Distribution normale tronquée
+inverse de la distribution normale
+inégal
+negative
+negative
+binôme négatif
+nombre d'éléments
+tenseur imbriqué
+Créer une nouvelle instance
+Nouveau vide
+Nouveau complet
+nouveau groupe
+les nouvelles
+nouveau tenseur
+nouveaux zéros
+Fonctions suivantes
+prochain rendez-vous
+Suivant après
+Perte de vraisemblance de logarithme négatif
+Perte de vraisemblance de logarithme négatif
+Pas de dégradé
+non synchronisé
+copie de nœud
+nœuds
+pas de crochet d'opération
+Pas d'observateur d'opération
+normalisation
+distribution normale
+Arguments normalisés
+informer le contexte de jointure
+Gestionnaire métrique nul
+Nombre de clés
+Nombre de nœuds en attente
+Nombre de fils de travail
+nombre d'éléments
+python numérique
+fenêtre Nuttall
+base d'observateur
+sur générer du code
+un chaud
+Un cycle LR
+Fusion Onednn Activé
+Une catégorielle chaude
+ONNX compatible
+Type onnx
+Erreur d'exportateur ONNX
+Sérialiseur du programme ONNX
+Options d'exécution ONNX
+Version OPSET
+Dictionnaire d'état d'optimisation
+Dictionnaire d'état d'optimisation à charger
+Optimisation pour l'inférence
+Optimisation pour mobile
+Processeur d'optimisation
+Configuration du dictionnaire d'état d'optimisation
+réflecteur de matrice orthogonale
+Réflecteur de matrice orthogonale et multiplier
+perpendiculaire et se croisant à un angle droit
+externe ou le plus à l'extérieur
+Erreur hors mémoire
+sortir
+Partager l'observateur de sortie avec entrée
+La sortie utilise un observateur différent comme entrée
+Enregistreur de comparaison de sortie
+Type de sortie
+Bûcheron de sortie
+Spécification de sortie
+propriétaire
+le nom du propriétaire
+Opération point à point
+Séquence rembourrée de pack
+séquence de pack
+Erreur d'emballage
+rembourrage
+séquence emballée
+séquence de pad
+Distance par paire
+Distance par paire
+Informations parallèles
+paralléliser le module
+forme de param
+paramètre
+liste des paramètres
+paramètres
+Paramètres au vecteur
+liste de paramétrisation
+Pareto
+chemin du module
+PCA bas rang
+contexte d'impression
+Distance par paire
+Configuration de quantification dynamique par canal
+par canal Min Max Observer
+permuté
+perplexité
+type de stockage de cornichon
+mémoire épinglée
+pseudoinverse
+pseudoinverse
+Pipeline
+Pixel Shuffle
+Pixel
+Pixel Shuffle
+Pixel
+espace réservé
+Observateur d'espace réservé
+Distribution de probabilité nommée d'après Simeon Denis Poisson
+Poisson négatif du journal de la vraisemblance
+Poisson négatif du journal de la vraisemblance
+polaire
+polygème
+Régression linéaire polynomiale
+positive
+Transformité définie positive
+poteau de poteau
+Post Optimiseur de descente de gradient stochastique local
+tirage au sort
+Transformée de puissance
+matrice de précision
+prédiction
+bibliothèque d'algèbre linéaire préférée
+Magasin de préfixe
+Unité linéaire rectifiée paramétrique
+Unité linéaire rectifiée paramétrique
+préparer les effets
+Préparer le plan mondial
+Lecteur de stockage
+Préparer le plan local
+Préparer les sorties du modèle
+Préparer le modèle avec des talons
+Préparez le modèle N Shadows
+Préparer quantifié et formé
+Préparer la fonction quantifiée et formée
+Préparer la configuration personnalisée
+Préparer l'entrée du module
+Préparer la sortie du module
+Ajouter à l'avant
+Jolie inadéquation d'impression
+Jolie imprimé
+previous
+Modèle d'impression des comparaisons et des ombres
+Imprimer la régression linéaire
+imprimer lisible
+tabulaire imprimé
+probabilités
+traiter les entrées
+Processus Sorties
+Échec du traitement
+profil
+Action de profileur
+Activité profileur
+Promouvoir les types
+propager qconfig
+Procuration
+psi
+mettre la métrique
+code python
+version python
+Q par axe de canal
+Quantifier par échelle de canal
+Quantifier les points zéro par canal
+quantifier l'échelle
+quantifier zéro point
+Configuration de quantification
+Mappage de configuration de quantification
+Quantification fonctionnelle
+Stockage INT32 quantifié
+Stockage INT8 quantifié
+DÉCOMPOSITION QR
+schéma quantifié
+quantile
+quantifier dynamique
+quantifier par canal
+quantifier par tenseur
+quantifier quantifié à
+Normalisation de lots quantifiée
+Envoi maximum quantifié en 1 dimension
+Poolage maximal quantifié bidimensionnel
+Talon de quantification
+Emballage quantitatif
+requête
+Stockage entier 2x4 quantifié non signé
+Stockage entier 4x2 quantifié non signé
+Stockage entier non signé quantifié 8
+Radians à Degrés
+Rectifié Adam
+nombre aléatoire
+nombre aléatoire comme
+entier aléatoire comme
+normal aléatoire
+Normal aléatoire comme
+division aléatoire
+Structuré aléatoire
+non structuré aléatoire
+Échantillonneur aléatoire
+Structuré aléatoire
+Non structuré aléatoire
+permutation aléatoire
+range
+poussée de portée
+taux
+lire les données
+Lire les métadonnées
+Lire l'élément
+real
+réciproque
+recompiler
+enregistrer
+Événement record
+flux de disques
+Recordant l'observateur
+recevoir
+réduire
+réduire l'ajout
+réduire l'exploitation
+réduire la dispersion
+réduire le tenseur de dispersion
+Réduire le taux d'apprentissage sur le plateau
+Réduire l'exploitation
+Affiner les noms
+Pad de réflexion 1d
+Pad de réflexion 2D
+Pad de réflexion 3D
+registre
+Registre des gestionnaires de rendez-vous
+enregistrer le backend
+Enregistrez le crochet arrière
+Enregistrer le tampon
+Enregistrer le crochet Comm
+Enregistrer le fonctionnement personnalisé symbolique
+Enregistrer la classe de données
+enregistrer le gestionnaire d'événements
+Enregistrer le crochet externe
+inscrire le crochet avant
+Inscrivez-vous avant la pré-crochet
+Enregistrez le crochet arrière complet
+Enregistrez le pré-crochet en arrière complet
+enregistrer le crochet
+Enregistrer le crochet interne
+Enregistrer Kullback-Lebler
+Enregistrer le poteau de dictionnaire de chargement de chargement de chargement
+Enregistrer le dictionnaire de chargement de chargement pré-crochet
+Enregistrer le crochet simulé
+module de registre
+Enregistrer le module vers l'arrière
+Enregistrer le crochet d'enregistrement du tampon du module
+enregistrer le crochet avant
+Enregistrer le module avant pré-crochet
+Enregistrer le module complet à dos en arrière
+Enregistrer le module complet avant le pré-crochet
+Enregistrer le crochet d'enregistrement du module du module
+Enregistrer le crochet d'enregistrement des paramètres du module
+Enregistrer le crochet multipraft
+registre OP
+registre
+paramètre d'enregistrement
+Enregistrer paramétrisation
+Enregistrer le poste accumulé Hook Grad
+Enregistrer le préchauffage
+Enregistrer l'État d'état Post Hook
+Enregistrer le dict de l'État pré-crochet
+Enregistrer le poste de poste d'étape
+Enregistrez l'étape avant le crochet
+enregistrer les minuteries
+Rekey Optim State Dict
+Bernoulli détendu
+Détendu une catégorielle chaude
+libérer
+Unité linéaire rectifiée
+unité linéaire rectifiée
+Unité linéaire rectifiée 6
+Unité linéaire rectifiée 6
+montant restant
+Emplacement éloigné
+paramètres d'un emplacement éloigné
+Éliminer les paramétrisations
+Éliminer la normalisation spectrale
+Éliminer la normalisation du poids
+changer le nom
+Renommer l'utilisation privée 1 backend
+Backend de rendez-vous
+Erreur fermée de rendez-vous
+Erreur de connexion de rendez-vous
+Erreur de rendez-vous
+Erreur d'état de rendez-vous
+Erreur de délai de rendez-vous
+renormalisation
+répéter entrelacer
+Remplacer tous les modules de norme par lots
+remplacer toutes les utilisations
+remplacer toutes les utilisations par
+remplacer l'entrée par
+remplacer le motif
+rejouer
+Pad de réplication 1D
+Pad de réplication 2D
+Pad de réplication 3D
+nécessite un gradient
+réinitialiser
+Réinitialiser la mémoire maximale allouée
+réinitialiser la mémoire maximale mise en cache
+Réinitialiser les valeurs maximales minimales
+Réinitialiser les statistiques de mémoire de pointe
+remodeler comme
+Transformée de remodelage
+redimensionner comme
+Résoudre le conjugué
+Résoudre les données
+Sauver le planificateur
+Nom de résolution
+Résoudre négatif
+résoudre le tenseur
+Type de résultat
+conserver le gradient
+conserve le gradient
+Transformée de Fourier vraiment rapide
+Transform Fourier très rapide 2
+Fréquence de transformation de Fourier réelle rapide
+Transform Fourier vraiment rapide n
+droit inverse
+Propagation carrée moyenne des racines
+Réseau neuronal récurrent
+Cellule de réseau neuronal récurrente
+indices de lignes
+pile de lignes
+Parallèle
+procédure distante appelle asynchrone
+procédure distante appelle synchrone
+procédure à distance délai d'appel
+Rétropropagation résiliente
+Unité linéaire rectifiée randomisée
+Unité linéaire rectifiée randomisée
+Approximation stochastique réparatée de la marginale
+Racine carrée réciproque
+Node de course
+Résultat des processus d'exécution
+Résultat de l'exécution
+Numéro d'échantillon
+Minimisation Adaline / Madeline échantillonnée
+Méthode d'échantillonnage
+Sauvegarder
+Sauver en tant que binaire
+Enregistrer les diagnostics
+Sauvegarder en arrière
+Enregistrer le module
+Économisez sur le processeur
+Enregistrer en cornichon
+Enregistrer le fichier source
+Enregistrer la chaîne source
+Sauver le dictionnaire d'État
+Enregistrer le texte
+Enregistrer dans le tampon
+Crochets des tenseurs sauvés
+Plan de sauvegarde
+nom scalaire
+échelle
+Échelle trille
+Attention du produit à point à l'échelle
+Bessel modifié à l'échelle K0
+Bessel K1 modifié à l'échelle
+dispersion
+disperser ajouter
+Dictionnaire d'État à disperser complet
+Liste d'objets de dispersion
+Dispersion réduit
+calendrier
+scénario
+script si tracé
+noyau SDP
+Paramètres d'algorithme de programmation semi-fini
+Backend de programmation semi-fini
+semer tout
+sélectionner
+Sélectionnez le mode modèle pour l'exportation
+Sélectionner la dispersion
+Temps de temps du processeur de soi
+Unité linéaire exponentielle à l'échelle
+unité linéaire exponentielle à l'échelle
+envoyer
+Séquence
+Gauche à droite séquentielle
+Échantillonneur séquentiel
+Sérialisation
+Définir la configuration du modèle backend
+Définir les configurations de motifs backend
+Facteur de retour
+Régler le tampon
+Définir le débogage du point de contrôle activé
+Fermé
+Définir la génération de code
+Définir le périphérique par défaut
+Définir le type de données par défaut
+Définir le chargement par défaut Endianness
+Définir le type de tenseur par défaut
+Définir les arguments de validation par défaut
+Définir l'anomalie
+Définir le mode de débogage déterministe
+régler le dispositif
+Définir la carte de l'appareil
+régler les appareils
+régler le répertoire
+Définir les configurations de type de données
+Définir l'exception
+Définir un état supplémentaire
+Définir la précision de multiplication matricielle Float 32
+Définir le flotteur sur la cartographie observée
+Définir Flush Denormal
+Définir le module fusionné
+Définir la méthode de fusion
+Définir la stratégie de fusion
+définir le monde
+Définir les diplômés activés
+Définir le facteur de croissance
+régler l'intervalle de croissance
+Définir les index quantifiés d'entrée
+Définir les journaux
+Définir les diplômés de matérialisation
+Set Model State Dict
+régler le module
+Définir le nom du module
+Définir la commande de type d'objet du nom du module
+Définir le nom du module Regex
+nom
+Définir les classes de modules non tratiables
+Définir les noms de modules non traçables
+Définir les threads interop
+Définir les threads NUM
+Définir le type d'objet
+ensemble
+ensemble observé à la cartographie quantifiée
+Définir Optimizer State Dictionary
+Définir les index quantifiés de sortie
+régler le modèle
+Définir par fraction de mémoire de processus
+Définir les attributs conservés
+Définir les options d'impression
+Définir le module de formation au courant de la quantification
+Définir le module quantifié de référence
+ensemble
+Définir l'état du générateur de nombres aléatoires
+Définissez l'état du générateur de nombres aléatoires pour tous
+Définir le module racine
+Définir la stratégie de partage
+Définir la classe des modules autonomes
+définir le nom du module autonome
+État de réglage
+Définir le dictionnaire d'État
+Définir le type de dictionnaire d'État
+décoller
+Définir le mode de débogage synchrone
+Définir le délai
+Configurer le planificateur
+Configurer le lecteur de stockage
+Configuration de l'écrivain de stockage
+Définir toujours
+Descente de gradient stochastique
+signe
+Bûcher de l'ombre
+forme
+dictionnaire d'État d'optimisme Full Shard
+Dictionnaire d'État optimiste parment
+Configuration du dictionnaire d'état Optim Sharded
+Configuration du dictionnaire d'État parasié
+stratégie de rupture
+partager la mémoire
+short
+rangement court
+montrer
+sigmoïde
+fonction sigmoïde
+Transformation sigmoïde
+signe
+signe
+chiffres importants
+Unité sinusoïdale linéaire
+Unité sinusoïdale linéaire
+Cardinal sinusoïdal
+taille
+sauter l'initialisation
+trancher
+Déterminant du journal des signes
+Matrice de multiplication de somme
+Perte lisse en L1
+Perte lisse en L1
+perte de marge souple
+Perte de marge souple
+Maximum doux
+Maximum doux
+2d maximum doux
+SoftMax Transform
+Soft Min
+Soft Min
+Soft plus
+Soft plus
+Transformée de softplus
+Pliant doux
+pliant doux
+Signe doux
+signe doux
+résoudre
+solve_ex
+résoudre triangulaire
+indices triés
+Tenseur comprimé de blocs clairsemés
+Tensor structuré du bloc clairsemé
+Tensor comprimé clairsemé
+Tenseur de coordonnées clairsemé
+Colonne clairsemée tenseur comprimé
+Tenseur de ligne clairsemée comprimée clairsemée
+dimension clairsemée
+masque clairsemé
+redimensionnement clairsemé
+redimensionnement clairsemé et clair
+Estimation du moment adaptatif clairsemé
+Diagonales clairsemées
+Fonction de bessel sphérique du premier type d'ordre 0
+racine carrée
+Multiplication matricielle clairsemée
+empiler
+État du module de pile
+trace de la pile
+Jeu de données de pile
+Transformée de pile
+Entrée de configuration du module autonome
+commencer
+start processes
+planque
+Type d'état
+Configation d'état
+Options du dictionnaire d'État
+Paramètres du dictionnaire d'État
+État plein
+statistiques
+moyenne standard
+écart-type
+pas
+Taux d'apprentissage pas
+Transformée de Fourier à court terme
+Transformée de bris de bâton
+arrêt
+décalage de stockage
+Type de stockage
+stratégie
+Flux
+Contexte de la diffusion
+Fusion stricte
+foulée
+Étudiant T
+sous
+Contexte de sous-processus
+Sous-ensemble
+Sous-ensemble d'échantillonneur aléatoire
+sous-traction
+résumer
+invoquer des paramètres complets
+soutien
+Décomposition de valeur singulière
+SVD bas
+Valeurs SVD
+module d'échange
+dimensions d'échange
+flotteur symbolique
+entier symbolique
+Symbolique if-thel-else
+maximum symbolique
+minimum symbolique
+symbolique pas
+trace symbolique
+booléen symbolique
+Flotteur symbolique
+Entier symbolique
+synchronisation
+Temps
+variable représentant le temps
+étiquette
+Effectuer un fonctionnement le long des dimensions
+tangente hyperbolique
+Tangent hyperbolique Tangent
+rétrécir la tangente hyperbolique
+Tangens Hyperbolicus Transformation
+Magasin de protocole de contrôle de la transmission
+température
+division du tenseur
+Tensorboard Traceler
+TENSORBOED Événements
+Ensemble de données du tenseur
+Produit Dot Tensor
+tenseur inverse
+Tensor Solve
+alors
+seuil
+Seuil
+le temps
+Demande de minuterie
+horodatage
+à
+à bool
+dense
+au dictionnaire
+à dlpack
+à vider
+au dossier
+jusqu'ici
+à mkldnn
+Tenseur rembourré
+à clairsemer
+à BSC clairsemé
+à BSR clairsemé
+à un COO clairsemé
+colonne clairsemée comprimée clairsemée
+Row clairsemée comprimée clairsemée
+top k
+informations flottantes
+Informations entières
+nom de torche
+moyenne totale
+le compte total
+Multination
+module de trace
+entraînement
+transformation
+transformer l'objet
+transformer le tenseur
+Distribution transformée
+Décodeur de transformateur
+Couche de décodeur de transformateur
+Encodeur de transformateur
+Couche d'encodeur de transformateur
+trapézoïde
+règle trapézoïdale
+résolution triangulaire
+Indices triangulaires inférieurs
+perte de marge de triplet
+marge de triplet avec perte de distance
+Perte de marge de triplet
+Marge de triplet avec perte de distance
+Indices triangulaires supérieurs
+Trouvé normal
+taper comme
+Délier
+Non déployé
+Non déployé
+Se dérouler
+Se dérouler
+Uniforme
+Tampon non initialisé
+Paramètre non initialisé
+Unique
+Consécutif unique
+déballer dual
+déballer la séquence
+séquence UNFAD
+index de démêle
+non enregistrer un OP personnalisé symbolique
+Tépareur d'événements non enregistrés
+échelle des Nations Unies
+indices non triés
+une pression
+non typé
+Stockage non typé
+unused
+mettre à jour l'argument
+Mettre à jour les statistiques de normalisation par lots
+Mettre à jour l'argument des mots clés
+échantillon
+Échantillon
+Bilinear à la hausse
+Échantillon le plus proche
+Upsampling Bilinear 2D
+Échantillonnage 2D le plus proche
+Utiliser des algorithmes déterministes
+utilisation
+valeur
+Vander
+moyenne variable
+variance
+point vecteur
+norme vectorielle
+vecteur aux paramètres
+Verbose
+Options de vérification
+Vérifiez l'exportation
+Vérifiez la disponibilité du ninja
+Vérifiez les skippables
+VHP
+Voir comme
+Voir comme complexe
+Voir comme réel
+Vjp
+carte vectorisée
+Von mises
+division verticale
+pile verticale
+attendez
+Attendez tout
+événement d'attente
+street d'attente
+Weibull
+Échantillonneur aléatoire pondéré
+où
+Wishart
+avec des arguments
+avec des arguments appelés
+Worker
+Groupe de travailleurs
+Fonction de torche enveloppe
+écrire des données
+Écrire un élément
+Xavier Normal
+Uniforme Xavier
+Calculer le journal (1 + exp (x))
+Calculer x * log (y)
+Gérer la mémoire de l'appareil
+Zéro
+Zéro gradients
+Un rembourrage zéro dimensionnel
+Rembourrage zéro dimensionnel
+Rembourrage zéro dimensionnel
+Fonction Riemann Zeta

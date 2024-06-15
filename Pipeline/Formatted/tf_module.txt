@@ -1,0 +1,2523 @@
+parse single example
+Predict Output
+remove checkpoint
+Cudnn Params Format Converter Relu
+Strategy Extended
+Feature List
+Optimizer Options
+DNN Linear Combined Regressor
+Vocab Info
+Dense
+Repeat Vector
+Mean Absolute Error
+Tensor Spec
+get generating operations
+Big Query Reader
+make list of t
+get compile flags
+set step
+string to number
+read keyed batch examples shared queue
+no regularizer
+Vector Diffeomixture
+graph editor
+accumulate n
+Sync Replicas Optimizer
+enable remote eager execution
+image
+compute accidental hits
+streaming false positives
+GGT Optimizer
+Depthwise Convolution 2D Backprop Input
+Sequence Input From Feature Columns
+Experimental Debug Information
+Lifted Structured Loss
+Average Pool
+Separable Convolution 2D
+NumPy Input Function
+Learned Unigram Candidate Sampler
+Sequence Enqueuer
+python function
+infinite not a number callback
+time frequency long short-term memory cell
+dynamic stitch
+parse sequence example
+to hash bucket strong
+Quantized Distribution
+linear cosine decay
+streaming covariance
+TensorFlow Configuration Cluster Resolver
+linear space
+Signature Definition Utilities
+Iterable
+Segment Minimum
+Connectionist Temporal Classification Beam Search Decoder
+Self-Adjoint Eigenvalues
+Maybe Shuffle Batch Join
+Stochastic Dual Coordinate Ascent Model
+Embedding Lookup
+Application
+To Complex 128
+Loss
+Cropping 2D
+apply regularization
+streaming mean tensor
+run n
+string to index table from tensor
+non max suppression overlaps
+prefetch to device
+tensor scatter sub
+Fixed Loss Scale
+data processing
+assign the changed collection handler
+change order and repeat
+define size
+use color shifting
+issue of unknown nature
+dilated two-dimensional convolution transpose
+use linear transformation
+large table
+beta distribution with softplus concentration
+Reduction
+bayes flow
+Linear Estimator
+eval dir
+extract dask labels
+reduce euclidean norm
+filter variables
+Feature
+implicit value and gradients
+Features
+set soft device placement
+assign from checkpoint
+get name scope ops
+system configuration
+extract dask data
+sparse add
+argument maximum
+streaming sensitivity at specificity
+make csv dataset
+Collective Communication
+detach control outputs
+sparse column with keys
+Mixture
+decode compressed
+model variables
+central crop
+get structure
+all candidate sampler
+unicode decode with offsets
+Resource
+get losses
+random normal
+truncated normal
+Initializable Lookup Table Base
+batch norm with global normalization
+reduce max
+index to string
+ordered
+confusion matrix
+from saved model
+activation functions
+transform operation if inside handler
+resampling algorithm
+various choices or possibilities
+sparse tensor dense matrix multiplication
+configure Google Cloud Storage hook
+clip gradient magnitudes
+obtain trainable variables
+outdated flipped softmax cross-entropy with logits
+build_raw_serving_input_receiver_fn
+Convolution 1-D
+Gamma With Softplus Concentration Rate
+Simple Recurrent Unit Cell
+Tensor Scatter N-Dimensional Sub
+Checkpointable Base
+make directory
+detach outputs
+Learning Rate Scheduler
+Session Log
+Cross Device Ops
+grayscale to red green blue
+quantized average pool
+compatibility
+hinge
+assert less
+percentile
+linear to mel weight matrix
+switch case
+single image random dot stereograms
+convolution 2D in plane
+Input Projection Wrapper
+HDF5 Matrix
+gradients function
+One Shot Prediction Head
+floating point x
+assert rank
+Experimental
+set session
+streaming sparse average precision at top k
+in test phase
+Max Pool 2D
+cluster resolver
+advise
+choose from datasets
+add control inputs
+Max Bytes In Use
+add loss
+batch and drop remainder
+Text File Index
+Global Average Pool 2D
+report uninitialized variables
+Input Function Operations
+Parameter Server Strategy
+mean cosine distance
+convert to tensor or sparse tensor
+get verbosity
+in cross replica context
+Server Definition
+feature column
+Up Sampling 2D
+Checkpoint exists
+Conditional random field decode
+Tensor diagonal part
+Unsorted segment join
+Maybe saved model directory
+Save network checkpoint
+Minimum
+Forward compatible
+Streaming specificity at sensitivity
+Depthwise convolution 2D native
+control dependencies
+Not a number Tensor Hook
+classifier parse example specification
+TensorFlow Lite Converter
+Warm Start Settings
+streaming root mean squared error
+Sparse Accuracy
+Layer Normalized Basic Long Short-Term Memory Cell
+List Value
+true positives
+maximum pooling with argmax
+safe cumulative product
+square
+coupled input forget gate long short-term memory cell
+regressor parse example specification
+zeros
+gradient descent optimizer
+do quantize training on graph definition
+sparse categorical crossentropy
+DNN Classifier With Layer Annotations
+tensor scatter nd update
+Masked Autoregressive Flow
+CSV Logger
+conv1d transpose
+dimension value
+adjust brightness
+evaluate once
+fake quant with min max args gradient
+Baseline Regressor
+Progbar
+by pass
+GRU Block Cell
+inverse short-time Fourier Transform window function
+extract pandas data
+squared hinge
+Tensor Processing Unit Estimator Specification
+internet movie database
+define function
+regularization terms
+fixed unigram candidate sampler
+Visual Geometry Group 19
+Convolutional 2D Transpose
+convert to tensor
+Slurm Cluster Resolver
+Step Counter Hook
+Sparse Tensor Value
+bit cast
+scale gradient
+load operation library
+Scaffold
+constant initializer
+enable control flow version 2
+moving average variables
+get value
+2-dimensional real-valued discrete fast Fourier transform
+string input producer
+multiplied by weights plus biases
+configure Colab session
+Head
+area under the curve using histogram
+stack dynamic partitions
+scatter update
+edit distance
+decode image
+map function
+Affine Scalar
+assert rank in
+Serving Input Receiver
+make early stopping hook
+Coo Sparse
+is numeric tensor
+concatenation of ReLU
+scatter substraction
+write operation log
+adaptive gradient descent with decoupled adaptive learning rates optimizer
+logarithmic loss
+array of ones
+import meta graph
+operations
+sparse feature
+placeholder with default
+get checkpoint modified times
+convert all kernels in model
+Long Short-Term Memory block cell
+infer
+wrapper
+matrix triangular solve
+training specification
+bias add
+repeat elements
+ordinary differential equation integration fixed
+run standard tensorflow server
+skip grams
+Reshape
+Remove
+Dense Features
+right shift
+Record Input
+deep neural network regressor
+load keras model
+Variance Scaling
+Stochastic Dual Coordinate Ascent Optimizer
+Zeros Initializer
+Zero Padding 1 Dimensional
+Segment IDs to Row Splits
+Load Version 2
+Legacy Sequence to Sequence
+Gated Long Short-Term Memory Cell
+Padding First-In, First-Out Queue
+Locally Connected 2D
+Op Log Proto
+Convolutional 3D
+enable eager execution
+save Keras model
+tensor shape from node definition name
+get variable
+predict continuation input function
+Affine
+Fused RNN Cell
+Exponential Update Loss Scale Manager
+set value
+Locally Connected 1D
+placeholder
+assert equal
+legacy linear
+cast
+hard max
+compute gradient error
+fake quantization with minimum maximum arguments
+encode audio
+set error
+current argument scope
+bi-directional functional recurrent neural network
+Resource Exhausted Error
+dynamic decode
+select operations
+streaming false negative rate
+statistics options
+enable version 2 behavior
+regression head
+Accuracy
+sgv scope
+ctc batch cost
+random uniform
+get weight sparsity
+decode and crop jpeg
+save model
+set learning phase
+average pooling 2d
+check feature columns
+reduce join
+YUV to RGB
+CuDNN GRU
+Linear Operator Diag
+depth to space
+hinge loss
+open
+convolutional delta orthogonal
+K Means
+pool 2D
+set visible devices
+sequence to images
+sample distorted bounding box
+deserialize keras object
+copy to device
+variable scope
+generate checkpoint state protocol buffer
+cosine decay
+conditional random field log normalization
+linear regressor
+Masked Basic Long Short-Term Memory Cell
+Mean Relative Error
+extract jpeg shape
+transform features
+expectation importance sampler
+copy graph
+rotate
+resource loader
+reciprocal no nan
+Data Loss Error
+Layer-wise Adaptive Rate Scaling Optimizer
+Softmax Cross Entropy
+Not Differentiable
+Shampoo Optimizer
+Hierarchical Copy All Reduce
+Sparse Dense Matrix Multiplication
+Create Feature Specification for Parsing
+Sparse Softmax
+Swap Outputs
+In Memory Evaluator Hook
+Glorot Uniform
+Rank Sampled Softmax Loss
+Create Database Writer
+Convolution 3D Backpropagation Filter Version 2
+Make List of Operation
+Delete Statistic Summarizer
+Set Device Policy
+Global Max Pooling 1D
+summaries
+-
+Trace Event
+Sparse Matrix Multiplication
+Additive Swap Regret Optimizer
+Softmax Cross Entropy with Logits Version 2
+Wishart Full
+Predict Continuation
+Profiling
+Image to Array
+Module
+Model
+Update Gated Recurrent Neural Network Cell
+Recall at thresholds
+Momentum Optimizer
+Select operations and tensors
+Swap tensors
+Logarithm of the hyperbolic cosine
+Random shear
+L1 L2
+Bigtable Client
+Streaming curve points
+Masked Convolution 2D
+learn
+Task Type
+has Argument Scope
+normalize batch in training
+reorder
+false negatives
+TPU Strategy
+binary cross entropy
+group by window
+streaming false negative rate at thresholds
+substring
+bi-directional
+reduce sum
+Adagrad Parameters
+assert global step
+get data files path
+depthwise conv2d
+mean square error
+execution mode
+Unit Norm
+filter timeseries
+squared difference
+get distribution strategy
+Beam Search Decoder
+Cosine Decay
+CRF binary score
+Vector Sinh Arcsinh Diagonal
+streaming percentage less
+assert negative
+Moving Average Optimizer
+Linear Operator Circulant 2D
+auto correlation
+Scipy Optimizer Interface
+create summary file writer
+is sequence
+crop and resize
+random poisson
+angles to projective transforms
+Not Found Error
+map and batch with legacy function
+export output
+decode protocol
+experimental run functions eagerly
+parse feature columns from examples
+cuDNN recurrent neural network
+wrap function
+matrix inverse triangular lower
+step context
+cuDNN recurrent neural network rectified
+checkpoints iterator
+strip pruning vars function
+Metric Specification
+Conditional Transformed Distribution
+Drop Stale Gradient Optimizer
+set image data format
+sparse softmax cross entropy
+Residual Network 101
+should record summaries
+Sub Graph View
+Orthogonal
+Strategy
+is non decreasing
+non max suppression with scores
+Failed Precondition Error
+map structure with paths
+bidirectional dynamic rnn
+fill triangular inverse
+Id Table With Hash Buckets
+strings
+tied Recurrent Neural Network Sequence to Sequence
+reduce sum sparse
+vector exponential diagonal
+cross replica sum
+infeed enqueue tuple
+integrate
+custom object scope
+is built with CUDA
+Mean Squared Logarithmic Error
+false positives
+scalar multiplication
+reduce slice operations
+matrices to flat transforms
+summary writer initializer operation
+Filtering Results
+sloppy interleave
+experimental connect to host
+matrix transpose
+Xception
+get or create global step
+replicate model function
+trace off
+Masked Long Short-Term Memory Cell
+filter operations from regular expression
+initialize variables
+list devices
+Squared Hinge
+Linear Operator Lower Triangular
+reverse version 2
+create partitioned variables
+Glorot Normal
+Deep Neural Network Linear Combined Estimator
+Graph Actions
+Assert Integer
+He Uniform
+Extract Image Patches
+With Shape
+Required Space To Batch Paddings
+Piecewise Constant Decay
+Update Context
+summary scope
+stripped operation list for graph
+fuse operation
+Tensorflow Record Writer
+K Means Clustering
+convolutional orthogonal 3d
+Aggregation Method
+Bessel I1e
+extract pandas labels
+Saver Definition
+self-gated linear activation function
+embedding attention sequence to sequence
+Sparse Tensor
+unicode encode
+training
+Linear Model
+reverse sequence
+group
+fused batch normalization
+zero fraction
+scatter minimum
+Mean Absolute Error
+run feeds
+get synchronous execution
+builder
+Global Max Pooling 3D
+static state saving rnn
+embedding lookup sparse
+optimizers
+gather_nd
+irfft3d
+Run Configuration
+bytes split
+batch flatten
+fully connected
+pad sequences
+list physical devices
+sequence
+Embedding Configuration Specification
+Cudnn GRU Saveable
+Variable Length Feature
+Indicator Column
+MobileNet Version 2
+Histogram Summary
+Noisy Linear Cosine Decay
+Staging
+Dense
+Tile Batch
+Sequence Categorical Column With Vocabulary List
+connectionist temporal classification greedy decoder
+Cluster Resolver
+Eager Variable Store
+Input Layer
+streaming mean relative error
+just in time scope
+resize with padding
+frame
+adjust gamma
+Table Initializer Base
+Logistic
+scatter nd
+Decoupled Weight Decay Extension
+reroute outputs
+Tensor Info
+Slot Variable Reference
+atrous conv 2d
+Multiplicative Swap Regret Optimizer
+load checkpoint
+Vector Deterministic
+Loss Scale Manager
+Hasher Spec
+Separable Convolution 2D
+Multi-Class Head
+experimental create training graph
+get replica context
+Multivariate Normal Diagonal Plus Low Rank
+Stop At Step Hook
+WALS Matrix Factorization
+unicode_script
+local variable
+absolute difference
+never record summaries
+unicode split
+tensor diagonal
+in eager mode
+compose transforms
+Nadam Optimizer
+Sequence
+NAS Net Large
+flip left right
+infer real valued columns from input
+segment mean
+regex replace
+n grams
+categorical column with identity
+get walks intersection ops
+reverse block
+logarithm m
+all variables
+add to collections
+value and gradients function
+sequence numeric column
+Tensor Array Structure
+build signature definition
+streaming pearson correlation
+static bidirectional rnn
+quantized convolutional 2D
+variance scaling initializer
+get variables by name
+Independent Recurrent Neural Network Cell
+average
+merge all
+random uniform initializer
+sparse reduce sum sparse
+data sets
+convert variables to constants
+Sql Dataset
+multi label head
+get custom objects
+maximum pooling
+embedding sequence
+Not Fitted Error
+monotonic attention
+adjust hue
+get unique identifier
+sequence categorical column with vocabulary file
+serialize Keras object
+sparse average precision at k
+map and batch
+applications
+Conditional Distribution
+Unconnected Gradients
+guarantee const
+Lookup Interface
+outfeed enqueue
+bucket
+find best candidate distribution
+sparse reduce sum
+sparse to dense
+sequence loss by example
+get output shapes
+argument minimum
+Tensor Processing Unit Estimator
+to complex 64
+Summary
+Linear Operator Block Diagonal
+to double
+learn runner
+batch
+Spatial Dropout 2 Dimensional
+Loss Scale
+matrix determinant
+mean absolute error
+expand dimensions
+remove training nodes
+Sequence Features
+make batched features dataset
+list objects
+cosine decay restarts
+graph definition from checkpoint
+Dense Network 121
+fatal
+list logical devices
+Random Dataset
+parallel stack
+Object Reference
+Viterbi decode
+NASNet
+Standard Input Step
+Batch Reshape
+Job Definition
+categorical cross entropy
+create global step
+quantized relu x
+Evaluatable
+get regularization loss
+load delegate
+extract patches
+mean absolute error
+Data Set Structure
+Hash Table
+History
+Recurrent Neural Network Cell
+Chief Session Creator
+Ignore Errors
+Embedding Recurrent Neural Network Decoder
+Keep Tensor If Possible Handler
+Basic Decoder
+Get Session Tensor
+infeed dequeue tuple
+Cosine Decay Restarts
+convolution 3d transpose
+Structure
+cosine proximity
+mean squared error
+mean intersection over union
+to hash bucket fast
+Numpy Array Iterator
+stop if no decrease hook
+make template
+Input Pipeline Config
+assert positive
+RGB to YIQ
+diagonal part
+Multi Worker Mirrored Strategy
+space to batch
+implicit gradients
+streaming accuracy
+Inverse Gamma With Softplus Concentration Rate
+assert same structure
+random rotation
+quantize version 2
+save slice information
+transform diagonal
+strided slice
+is sequence or composite
+set seed
+get pruning hyperparameters
+GPU options
+get operations input output
+model checkpoint
+dimension at index
+Tensor Processing Unit distribution strategy
+He normal
+embedding wrapper
+is graphics processing unit available
+terminate on not a number
+hashing trick
+masking
+my fact
+Affine Linear Operator
+tensor scatter nd add
+Permission Denied Error
+async wait
+Multi Label Head
+Singular Monitored Session
+Critical Section
+rejection resample
+streaming sparse precision at k
+Mean Absolute Percentage Error
+Conditional Bijector
+Binary Class Head
+Triplet Semi Hard Loss
+Fixed Length Feature
+Get Backward Walk Operations
+Strong Hash Specification
+Kullback-Leibler Divergence
+Is Infinity
+Cross Shard Optimizer
+sparse slice
+Checkpoint Manager
+random saturation
+Linear Operator Composition
+tensor scatter update
+Sparse Top K Categorical Accuracy
+matrix diag part
+mean intersection over union
+get collection reference
+batch to space n d
+run all tests in graph and eager modes
+matrix set diag
+Attention
+set random seed
+object metadata
+Activity Regularization
+reduce logsumexp
+Global Step Waiter Hook
+Sinh Arcsinh
+matrix band part
+read batch features
+precision at top k
+random brightness
+disable version 2 tensor shape
+Ragged Tensor Value
+Model Function Operations
+Checkpointable Object Graph
+Conditional Random Field multi-tag sequence score
+flatten with joined string paths
+embedding attention decoder
+adjust JPEG quality
+converted call
+draw bounding boxes
+Optimizer version 2
+set experimental options
+Adagrad Optimizer
+register tensor conversion function
+floor division
+Global Average Pool 1D
+Sparse Tensor Structure
+decode base 64
+fold right
+raw operations
+reroute tensor
+batch get value
+random flip left right
+streaming mean intersection over union
+Node Definition
+image gradients
+receptive field
+optimize
+sigmoid cross entropy
+Linear Cosine Decay
+saturate cast
+Interactive Session
+trace on
+Dense Net 201
+infinity callback
+update subtract
+as bytes
+remove squeezable dimensions
+Linear Operator Circulant 3D
+Hyperparameters
+convert to tensor or indexed slices
+Wide Deep Model
+sequence mask
+Is Directory
+disable version 2 behavior
+take while
+Feed Function Hook
+Image Data Generator
+dense to sparse
+get local variable
+Linear Operator Zeros
+bessel i0
+model from json
+segment product
+export meta graph
+Baseline Estimator
+keras to tpu model
+Chain
+initialise_from_checkpoint
+is_variable_initialized
+get_default_session
+integer_shape
+Autoregressive
+DeviceAssignment
+colocate_with
+executing_eagerly
+control_flow_version_2_enabled
+Linear Operator Inversion
+summarize activation
+streaming precision
+random binomial
+Batch Normalization
+get next as optional
+Identity Reader
+make place holder tensors for base features
+batch set value
+separable convolution 2d
+string to hash bucket fast
+Conditional Accumulator Base
+read file
+Timeseries Generator
+number of GPUs
+Additive External Regret Optimizer
+merge all summaries
+Sparse Categorical Crossentropy
+Execution Callback
+batch function
+recall at k
+to int 64
+sparse concatenate
+server
+find best candidate index
+sparse reorder
+replica context
+segment maximum
+load image
+whole dataset input function
+Fake Quantization with Minimum and Maximum Variables per Channel
+Logarithm of Hyperbolic Cosine Error
+Support Vector Machine
+Task Level Status Message
+Indexed Slices Specification
+Union Cluster Resolver
+Gaussian Noise
+Global Average Pooling 2-D
+Load Library
+Nccl All Reduce
+set intra-operation parallelism threads
+resize bilinear
+disable control flow version 2
+True Negatives
+make placeholder from tensor
+Logistic Regression Head
+Regularizer
+sparse precision at k
+compute receptive field from graph definition
+export
+detach control inputs
+Kullback-Leibler divergence
+scalar summary
+Composite Tensor
+decoder
+TensorFlow profiler
+assert type
+path to string
+type specification
+convolution 3D
+list variables
+get forward walk operations
+version 2
+CUDA Deep Neural Network Compatible Long Short-Term Memory Cell
+total variation
+Fixed Length Record Reader
+bucketized column
+Up Sampling 1 Dimensional
+as string any
+Saved Model Builder
+specificity at sensitivity
+exists
+get path to datafile
+parse values
+Optional Spec
+decode wav
+to bfloat16
+non max suppression padded
+model with buckets
+always record summaries
+scatter nd sub
+relu layer
+fractional avg pool
+Convolution 2D
+model variable
+Invalid Argument Error
+Walk
+Keras Classifier
+Scheduled Embedding Training Helper
+quantized max pool
+unbatch
+assert none equal
+serialize sparse
+matrix inverse
+Poisson Log Normal Quadrature Compound
+rejection sample
+stop gradient
+create eval graph
+square root matrix
+log if
+set synchronous execution
+Reparameterization Type
+log poisson loss
+load variable
+Make Directory
+load from saved model
+get copied operation
+manipulation
+get log device placement
+shuffle batch
+conv2d backpropagation filter
+Device
+reduce sum n
+read keyed batch examples
+batch join
+check numerics
+monte carlo
+Sensitivity At Specificity
+assert proper iterable
+temporal padding
+Deep Neural Network Regressor With Layer Annotations
+add execution callback
+to categorical
+to variant
+External Optimizer Interface
+weighted categorical column
+extract glimpse
+unsorted segment max
+assert greater
+benchmark config
+Checkpoint Input Pipeline Hook
+Average Pool 3D
+Bessel I 1
+Glorot Normal
+First In First Out Queue
+Accuracy
+Mirrored Strategy
+Random JPEG Quality
+Get Output Types
+Invert Permutation
+weighted sum from feature columns
+sparse maximum
+constrained optimization
+Dirichlet Multinomial
+LMDB Dataset
+Priority Queue
+layers
+Convolution 3D
+Fused RNN Cell Adaptor
+enable tensor equality
+unsorted segment product
+collapse repeated
+Resize Method
+Accelerated Linear Algebra
+Monitored Session
+assert scalar integer
+experimental set strategy
+non negative
+text
+log beta
+Deadline Exceeded Error
+Tensor Array Spec
+Estimator Spec
+maybe batch join
+experimental create eval graph
+streaming dynamic auc
+Problem Type
+outside compilation
+Cancelled Error
+Stats Aggregator
+Average Pooling 2D
+Sparse Tensor Specification
+separable convolution 1D
+Adam Gradient Stochastic Optimizer
+add to collection
+string to index
+Root Mean Squared Error
+estimator head distribution regression
+maximum norm
+Huber
+sparse image warp
+value
+sparse conditional accumulator
+assert near
+RGB to YUV
+get include
+residual network
+L1 L2
+get model variables
+stack trace mapper
+Mean Absolute Percentage Error
+AGN Custom Getter
+Depthwise Conv2D Native Backprop Input
+Exponential Decay
+set diagonal
+sequence input layer
+log every n
+Recurrent Neural Network Cell Residual Wrapper
+Categorical Accuracy
+hsv_to_rgb
+Multi task Optimizer Wrapper
+Random Normal
+Multi Graph Node Proto
+Run Metadata
+set verbosity
+l2 loss
+Up Sampling 3D
+warning
+audio summary
+dynamic partition
+Simple Recurrent Neural Network
+Scatter nd Update
+Real Fast Fourier Transform 3D
+Whole File Reader
+String to Index Table From File
+X divide Y
+Get Variable Scope
+Remote Monitor
+Index to String Table From Tensor
+Record Summaries
+Conditional Accumulator
+streaming true positives at thresholds
+scan
+string join
+extend with decoupled weight decay
+truncated normal initializer
+in train phase
+streaming sparse precision at top k
+Args Entry
+Add Sign Optimizer
+get total loss
+percentage below
+get graph from inputs
+images to sequence
+inputs
+scikit learn
+identity n
+Linear Operator Identity
+binary accuracy
+xception
+add check numerics operations
+AdamW Optimizer
+Luong Monotonic Attention
+Logarithm of Cosine Hyperbolic
+get intra operation parallelism threads
+Register Gradient
+batch parallel
+inverse time decay
+parallel interleave
+stateless
+recurrent
+Toco Converter
+space to depth
+Copy
+Laplace With Softplus Scale
+Zero Padding 3D
+dense to sparse batch
+filter operations
+build parsing serving input receiver function
+exponential decay
+operation scope
+maximum pool version 2
+boosted trees regressor
+hinge
+text file string table initializer
+tensor forest
+real non-volume preserving
+weighted moments
+make stop at checkpoint step hook
+exponential relaxed one-hot categorical
+polynomial decay
+RNN Cell Dropout Wrapper
+reduce variance
+auto graph
+get strategy
+make placeholder from data type and shape
+add gradients summaries
+convolution
+Beam Search Decoder Output
+simple save
+Mixed Precision Loss Scale Optimizer
+Optional
+segment square root n
+is not a number
+outfeed dequeue
+byte size load function
+stateless truncated normal
+global variables initializer
+assert element shape
+Residual Network 101 V2
+map structure with tuple paths up to
+is strictly increasing
+connected components
+ordinary differential equation integrate
+zero padding 2 dimensional
+resample at rate
+specificity at sensitivity
+must run on central processing unit
+streaming sparse recall at k
+Second Or Step Timer
+Random Window Input Function
+sparse max
+max pooling 2-dimensional
+group by reducer
+inverse discrete cosine transform
+Kullback-Leibler Divergence
+max pooling 1-dimensional
+Kubernetes Cluster Resolver
+Device Count Entry
+mean tensor
+sparse reshape
+CuDNN compatible GRU cell
+latest checkpoint
+Profile Option Builder
+Global
+Constrained Minimization Problem
+resize image with crop or pad
+parse tensor
+Global average pool 3D
+variable operation scope
+sparse top k categorical accuracy
+sequence loss
+Global Average Pooling 1D
+model from YAML
+Recurrent
+random channel shift
+build tensor info
+CSV Dataset
+make ndarray
+lookup
+assert rank at least
+numpy function
+inception v3
+infeed dequeue
+sum regularizer
+make directories
+get walks union operations
+Intersection RNN Cell
+get tensor from tensor info
+File Writer
+Softmax Cross Entropy with Logits
+Batch to Space
+AUC with Confidence Intervals
+Legacy Fully Connected
+Kullback-Leibler Divergence
+Basic Train Loop
+Follow-The-Regularized-Leader Optimizer
+Distribution Configuration
+Safe Embedding Lookup Sparse
+signature_constants
+beta incomplete
+Mean Squared Error
+Simple Cluster Resolver
+shared embeddings
+flip up down
+Audio
+Id To String Entry
+Exponential
+back end
+constant value
+stratified sample
+Feature Entry
+distribute
+Linear Operator Low Rank Update
+max out
+Session Run Hook
+get weights
+get root dir with all resources
+map structure
+bipartite match
+stochastic gradient variate
+maximum pooling three-dimensional
+inverse fast Fourier transform two-dimensional
+ragged tensor specification
+chi-squared with absolute degrees of freedom
+neural architecture search cell
+read batch record features
+metric
+gather tree
+get static value
+get optimizer variables
+reduce max sparse
+Central Storage Strategy
+get variables to restore
+get potentially supported operations
+root mean squared error
+sparse column with vocabulary file
+convolution 2d transpose
+Deterministic
+Output Projection Wrapper
+get cross replica context
+moving average update
+select ts
+Already Exists Error
+user operations
+sparse retain
+area under the curve
+Text File Initializer
+Coordinator
+Counter
+set difference
+moments
+unicode decode
+Wishart Cholesky
+Logging Tensor Hook
+read batch examples
+reduce dataset
+histogram fixed width
+Pruning
+math
+Visual Geometry Group 16
+compute boundary time series
+get traverse shallow structure
+random flip up down
+cumulative logarithm of the sum of the exponential
+no gradient
+Ragged Tensor Structure
+Unauthenticated Error
+Convolutional 1D Long Short-Term Memory Cell
+scatter max
+categorical column with vocabulary list
+Advice Protocol
+Stochastic Gradient Descent Parameters
+AGN Optimizer
+Momentum Weight Optimizer
+Cudnn Long Short-Term Memory Saveable
+Prediction Key
+inception resnet version 2
+conv3d transpose
+Example
+Absolute Value
+Lazy Adam Gradient Scale Optimizer
+Basic Long Short-Term Memory Cell
+as string
+list
+streaming true negatives at thresholds
+Logistic Regressor
+as text
+statistic
+convolutional 3-dimensional backpropagation filter
+Inception ResNet V2
+generic
+de-serialize
+Network
+make sampling table
+streaming true positives
+load data
+weighted sparse column
+summarize tensor
+aggregate metric map
+Long Short-Term Memory Block Wrapper
+Tensor Processing Unit
+Index Table From Tensor
+Matrix Solve Least Squares
+Get Checkpoint State
+Space To Batch n-dimensional
+Legacy Rectified Linear Unit
+Quadrature Scheme Lognormal Quantiles
+Next Queued Sequence Batch
+convert image dtype
+unique with counts
+Gaussian Dropout
+predict signature definition
+delete session tensor
+decode portable network graphics
+real divide
+preprocess input
+invert
+sample embedding helper
+get global step
+shuffle batch join
+Convolutional 3D Long-Short Term Memory Cell
+in top k
+tables initializer
+Histogram Protocol
+Key Value Tensor Initializer
+contrastive loss
+masked dense
+to integer 32
+asynchronous clear error
+per image standardization
+map flat values
+random shuffle
+classification signature definition
+average pooling 2D
+get library
+broadcast dynamic shape
+Python function
+indexed slices
+CuDNN RNN Tanh Saveable
+Mean Absolute Percentage Error
+not concatenated together
+Static Vocabulary Table
+Luong Attention
+main
+multiply no NaN
+WALS Model
+Depthwise Convolutional 2D
+global
+LeCun Normalization
+Google Cloud Engine Cluster Resolver
+Concatenate
+logarithmic uniform candidate sampler
+get memory growth
+fixed size partitioner
+trainable variables
+truncate division
+optimize loss
+early stopping
+precision
+TPU Cluster Resolver
+assert same float dtype
+audio
+get variables by suffix
+failure Exception
+global step
+divide no nan
+assign log moving mean exp
+load embedding initializer
+AdaMax Optimizer
+set difference 1d
+streaming false negatives
+set epsilon
+raise exception on not ok status
+mixed precision
+Constrained Optimizer
+get session handle
+record if
+sparse fill empty rows
+categorical accuracy
+encode wav
+Cudnn RNN Tanh
+sequence categorical column with identity
+Mobile Net V2
+false negatives at thresholds
+local variables initializer
+assert shallow structure
+operations used by graph definition
+parse example dataset
+Linear
+assert non positive
+regular expression full match
+text to word sequence
+max norm
+parse example
+CUDNN RNN Relu Saveable
+exponential with softplus rate
+bytes limit
+inverse short time fourier transform
+resources entry
+Standard Single Loss Step
+glorot normal initializer
+error code from exception type
+Stop After N Evals Hook
+min max variable partitioner
+adjust contrast
+disable eager execution
+sparse categorical accuracy
+nce loss
+scatter div
+Convolution 2D
+Bijective Transform
+Set Memory Growth
+Shape Number
+Dot Graph From Checkpoint
+Tensor Array
+Tensor Shape
+Streaming Concatenation
+Numeric Column
+Maximum Pool 3D
+Union Resolver
+error state
+string to hash bucket
+zero initializer
+smart constant value
+stack bidirectional dynamic rnn
+Power Sign Optimizer
+mobile net
+functional rnn
+resize volumes
+encode base 64
+L 2 normalize
+Profiler Hook
+reuters
+TF Record Reader
+Multivariate Normal Diag With Softplus Scale
+sparse to indicator
+gmm
+get experimental options
+fill empty rows
+Dimension
+bytes produced stats
+Linear Operator Full Matrix
+Regression Output
+Export Strategy
+copy with input replacements
+random uniform variable
+set float x
+Supervisor
+Make Directories
+sparse tensor to dense
+benchmark
+average pooling 1D
+global average pooling 3D
+Python state
+categorical hinge
+stop if higher hook
+variable aggregation
+call logit function
+broadcast static shape
+resize with crop or pad
+NAdam
+make tensor proto
+make export strategy
+is nested
+Attention Cell Wrapper
+sparse transpose
+Eval Spec
+smart cond
+as data type
+sample from datasets
+convert operation hints to stubs
+precision
+variable axis size partitioner
+verify tensor all finite
+tridiagonal matrix multiplication
+clip by average norm
+time series
+fake quantization with minimum maximum variables
+delete recursively
+Worker Session Creator
+tensor summary
+Numpy Reader
+Global Max Pool 1D
+No Dependency
+filter timeseries from regex
+uniform unit scaling initializer
+permute dimensions
+Basic RNN Cell
+assign add
+name scope
+train and evaluate
+Residual Wrapper
+save image
+clip by norm
+AutoRegressive Regressor
+Non-Negative
+Gated Recurrent Unit Block Cell Version 2
+quantize and dequantize
+Bahdanau Attention
+Quadrature Scheme Lognormal Gauss Hermite
+VGG 19
+Schedules
+Polynomial Decay
+Get Regularization Losses
+Streaming False Positive Rate
+Evaluate Repeatedly
+Get Summary Description
+Make View
+From Variant
+is jpeg
+trace export
+TPU config
+Top K Categorical Accuracy
+reset default graph
+to hash bucket
+bucket by sequence length
+ResNet 50
+L1 L2 regularizer
+Nan Loss During Training Error
+TensorFlow Record Compression Type
+as string
+Sobel edges
+Graph Node Protocol
+Make saveable from iterator
+Set inter-operation parallelism threads
+Global Maximum Pool 2D
+load resource
+Session Run Values
+remote fused graph
+reduce mean
+spatial 2d padding
+arg scoped arguments
+Fixed Loss Scale Manager
+RNN Cell Device Wrapper
+init scope
+embedding rnn seq2seq
+pack sequence as
+clip by value
+Time Distributed
+parse single sequence example
+convolutional long short-term memory cell
+log first n
+device wrapper
+flatten with tuple paths up to
+make one shot iterator
+top k
+decode Graphics Interchange Format
+assert scalar
+get tensors
+no operation train function
+Maximum
+custom gradient
+Log Message
+Greedy Load Balancing Strategy
+Image
+gpu device name
+fingerprint
+get placeholders
+self adjoint eig
+Feeding Queue Runner
+Model From Config
+Helper
+Ragged Tensor
+Truncated Normal
+Greedy Embedding Helper
+Stateless Categorical
+Normal Conjugates Known Scale Predictive
+Multiply Gradients
+Loss Scale Optimizer
+Recall at Top K
+Create Local Cluster
+Multi Worker All Reduce
+tune
+encode jpeg
+Static Hash Table
+predictor
+Graph Definition
+masked fully connected
+row splits to segment ids
+set union
+separable conv 2d
+stack bidirectional rnn
+Cudnn Params Format Converter GRU
+cosine distance
+lecun uniform
+Test Case
+Ordered Enqueuer
+add model variable
+Adadelta Optimizer
+get word index
+count parameters
+Phased Long Short-Term Memory Cell
+convolutional orthogonal one dimensional
+Radial Constraint
+metric learning
+resize bicubic
+model to estimator
+sufficient statistics
+Step
+get default graph
+assign from checkpoint function
+optimization options
+write graph
+fast Fourier transform 2D
+modified national institutes of standards and technology
+truncate modulo
+tag constants
+matching files
+Checkpoint able
+Linear Operator Circulant
+decode audio
+streaming mean squared error
+Summary Saver Hook
+fill triangular
+stateless random normal
+imagenet utilities
+sparse merge
+expectation importance sampler log space
+permute
+periodic resample
+assign from values
+Bidirectional Grid LSTM Cell
+input producer
+Dynamic Recurrent Neural Network Estimator
+inverse real fast Fourier transform 2D
+is finite
+factorization
+get seed
+disable mixed precision graph rewrite
+global variables
+embedding lookup unique
+random shuffle queue
+set policy
+session run arguments
+import graph definition
+statistics summarizer
+depthwise convolution 2d backpropagation filter
+latency statistics
+Out of range error
+Deep Neural Network Linear Combined Classifier
+Checkpoint Saver Listener
+Fashion MNIST
+All Reduce Cross Device Operations
+Grid Long Short-Term Memory Cell
+Final Operations Hook
+Clear Execution Callbacks
+Random Fourier Feature Mapper
+Assert Variables Initialized
+Random Contrast
+remove tree
+no operation
+scale regularization loss
+set just in time
+TensorFlow record iterator
+mean relative error
+enable resource variables
+monitor
+streaming true negatives
+decode video
+graph utility
+sparse split
+swap input/output
+split dependency
+final exporter
+proximal AdaGrad optimizer
+unicode transcode
+infer real-valued columns
+conditional random field decode forward recurrent neural network cell
+variable scope
+Sparse Segment Sum
+Batching
+Assign From Values Function
+Sparse Segment Mean
+Collection Definition Entry
+TensorFlow Record Options
+Python
+Keras
+Separable Convolution 1D
+Maybe Batch
+Name Attribute List
+TensorFlow Lite Recurrent Neural Network Cell
+Distribution Strategy
+get logger
+matrix vector
+add queue runner
+Fixed Length Sequence Feature
+case
+create noop writer
+try remote procedure call
+Layer Normalization
+Exporter
+dynamic rnn
+one hot column
+sampled sparse softmax loss
+linear logit function builder
+wrappers
+random zoom
+image summary
+Dot
+get single element
+set Keras style
+queue runner
+assert equal graph definition
+Fixed Length Record Dataset
+Lambda
+is directory
+normal conjugates known scale posterior
+copy operation to graph
+depthwise conv2d native backpropagation filter
+histogram fixed width bins
+Subtract
+update checkpoint state
+Variable Clipping Optimizer
+Infeed Queue
+streaming false negatives at thresholds
+monitors
+exists
+Initializer
+Trainable
+conditional random field unary score
+create training graph
+tensor board
+sparse placeholder
+proximal gradient descent optimizer
+trace
+random crop
+build raw supervised input receiver function
+get session
+false positives at thresholds
+image data format
+get masked weights
+xavier initializer convolutional 2d
+Numpy state
+decode comma separated values
+labeled tensor
+input from feature columns
+operation error
+inline
+boosted trees classifier train in memory
+Convolution 2D Transpose
+Operation Hint Argument Tracker
+Function Graphs
+Multi Class Head
+Stochastic Dual Coordinate Ascent Optimizer
+With Space To Batch
+Load Variable Slot Initializer
+Fractional Maximum Pool
+File Writer Cache
+Residual Network 50
+parse feature columns from sequence examples
+wait for new checkpoint
+epsilon
+erosion 2d
+crop to bounding box
+Abstract RNN Cell
+from contrib estimator
+extract sub graph
+Boosted Trees Classifier
+dense net
+vectorized map
+deserialize many sparse
+builder
+Base Estimator
+Graph Options
+rnn decoder
+exception type from error code
+Checkpoint Saver Hook
+reset shape
+mean squared logarithmic error
+boston housing
+Estimator
+merge summary
+Data Type
+yield flat paths
+AutoRegressive Model
+verbose log
+Session Manager
+Inverse Time Decay
+local variables
+get output classes
+Feature List Entry
+unsorted segment sum
+Sparse Feature Column
+ensure shape
+unsorted segment min
+FFmpeg
+detach inputs
+convolution 2d in plane
+Operations Set
+machine learning models
+natural exponential decay
+clustering loss
+mean squared error
+target specification
+attention decoder
+new statistics summarizer
+devices entry
+TensorFlow record dataset
+initialize system
+Sum
+Elastic Average Custom Getter
+uniform candidate sampler
+warm start
+get local variables
+Long Short-Term Memory Block Fused Cell
+Saver
+restore network checkpoint
+slice input producer
+while loop
+Asynchronous Checkpoint Saver Hook
+Enumerate Dataset
+Poisson Regression Head
+Base Logger
+To Number
+Best Exporter
+Mean Absolute Percentage Error
+Random Normal Initializer
+Joint Weighted Sum From Feature Columns
+Google File
+cross hashed
+from estimator
+get compute order
+precision at thresholds
+Collective All Reduce Strategy
+unit norm
+Representative Dataset
+VGG 16
+assign sub
+Unimplemented Error
+map structure with tuple paths
+clone model
+Summary Description
+Time Reversed Fused RNN
+mean per class accuracy
+Fill Triangular
+Serialized Tensor
+Multi RNN Cell
+Basic Decoder Output
+Lambda Callback
+Conversion Options
+Sequence Queueing State Saver
+Highway Wrapper
+Connectionist Temporal Classification Label Dense to Sparse
+Non-differentiable Batch Function
+Build Supervised Input Receiver Function from Input Function
+Average
+Shared Embedding Columns
+Pad to B
+aggregate metrics
+Variable Device Chooser
+map structure up to
+decode jpeg
+Dropout Wrapper
+export saved model for mode
+False Negatives
+capture dependencies
+ctc unique labels
+disable tensor equality
+Summary At End Hook
+piecewise constant
+Linear Operator Toeplitz
+Spatial Dropout 1D
+filter continuation
+get file
+grad pass through
+Queue Base
+summary iterator
+Max Pooling 1D
+compute average loss
+experimental list devices
+n pairs loss
+true negatives
+Gradient Tape
+sparse segment square root n
+Bounded Tensor Spec
+real nvp default template
+Map Vectorization Options
+decode bmp
+initializers
+Structural Ensemble Regressor
+streaming area under the curve
+get within boundary operations
+precision recall at equal thresholds
+contains saved model
+no abbreviation or expansion necessary
+initialize local variables
+spatial 3d padding
+clip gradient norms function
+get soft
+Python Input/Output
+Reduce Any
+Bytes List
+Where Version 2
+Multivariate Normal Distribution - Diagonal
+Recall
+Subgraph
+Remote Fused Graph Execution
+Deep Neural Network Estimator
+Masked Autoregressive Default Template
+global variable
+has strategy
+False Positives
+boosted trees regressor train in memory
+remove control inputs
+Virtual Devices
+cardinality
+Experiment
+poisson regression head
+embedding tied RNN seq2seq
+Maximum Pooling 1-D
+Read Keyed Batch Features Shared Queue
+Batch Scatter Update
+Unavailable Error
+Exponential Moving Average
+Sparse Reduce Maximum
+Raw Recurrent Neural Network
+Convolutional Orthogonal 2-D
+Left Shift
+model_to_dot
+sparse column with hash bucket
+xavier initializer
+is valid signature
+batch sequences with states
+initialize tpu system
+reroute inputs
+clip gradients by global norm
+Piecewise Constant Decay
+function executor type
+add n
+Stub Out For Testing
+Fake Quant With Min Max Vars Per Channel Gradient
+Encode PNG
+Swap Inputs
+Softplus Inverse
+Outfeed Dequeue Tuple
+Scale Triangular Lower
+AutoGraph Error
+saved model
+Assert Non Negative
+streaming false positives at thresholds
+streaming recall at thresholds
+Global Max Pool 3D
+restore variables on create
+Register KL
+variance scaling
+Checkers Entry
+reduce product
+Average Pooling 3D
+RMS Prop Optimizer
+make regular expression
+get virtual device configuration
+initialize all tables
+graph replace
+get variables
+area under the curve
+multi head
+boolean mask
+copy variable to graph
+random gamma
+Glorot Uniform
+Adam Parameters
+compute weighted loss
+plot model
+get or create eval step
+Convolution 1 Dimensional
+Long Short-Term Memory State Tuple
+Operation Hint
+maybe shuffle batch
+Average Pooling 1 Dimensional
+batch gather
+Cholesky Outer Product
+Fast G File
+connect to remote host
+Queue Runner
+make initializable iterator
+moving mean variance
+enable mixed precision graph rewrite
+export all saved models
+Convolutional Long Short Term Memory 2D
+Mapping
+Convolutional 2D Long Short-Term Memory Cell
+string to hash bucket strong
+categorical column with hash bucket
+weighted cross entropy with logits
+pool 3d
+Control Outputs
+scalar
+Optimize
+input pipeline
+Inference Helper
+Trackable Object
+Threading Options
+transpose image
+L1
+weighted resample
+Run Options
+Crf Decode Backward Rnn Cell
+Cudnn Params Format Converter Tanh
+flatten up to
+extract volume patches
+Linear Scaled Dual Coordinate Ascent
+Fast Fourier Transform 3-dimensional
+Tensor Serving Input Receiver
+Linear Operator Householder
+recall at precision
+reduce standard deviation
+strip name scope
+linear optimizer
+prepend name scope
+sliding window batch
+convolution 1d
+ctc decode
+configure Google Cloud Storage
+non maximum suppression
+enable version 2 tensor shape
+adjust saturation
+conditional random field sequence score
+input shapes entry
+read ahead file path
+best effort input batch size
+variable
+precision at recall
+deprecated flipped sparse softmax cross entropy with logits
+text line reader
+ones initializer
+vector Laplace diagonal
+variables
+dense image warp
+linear model
+CUDA Deep Neural Network Library Long Short-Term Memory
+string split
+true negatives at thresholds
+Maximum Pooling 2D
+clear session
+sparse max loss
+stateless random uniform
+Seed Stream
+get loss reduction
+tridiagonal
+forward compatibility horizon
+Mobile Net
+deep neural network logit function builder
+Optional Structure
+assert or get global step
+streaming recall at k
+Transformer Info
+nth element
+get variable full name
+glorot uniform initializer
+Sparse softmax cross entropy with logits
+CIFAR-10
+Disable resource variables
+Reduce all
+Multivariate normal full covariance
+Resize image with pad
+Keras style scope
+Inverse fast Fourier transform 3D
+Bitwise
+Mean squared logarithmic error
+crossed column
+Device Specification
+Training Helper
+True Positives
+replica device setter
+match filenames once
+one hot encoding
+limit epochs
+Scheduled Output Training Helper
+Meta Graph Definition
+Rename
+Input Replication Mode
+Residual Network 50 V2
+experimental connect to cluster
+Variables Initializer
+callbacks
+make view from scope
+set virtual device configuration
+peak signal-to-noise ratio
+Conditional Random Field Forward Recurrent Neural Network Cell
+radial constraint
+Thresholded ReLU
+hessians
+proto
+nest
+batch normalization
+reset uids
+bfloat16 scope
+manual variable initialization
+compute gradient
+re-route
+Custom Helper
+index to string table from file
+create train operation
+red green blue to hue saturation value
+Dense Hash Table
+stop if lower hook
+Staging Area
+toco convert
+scatter nd add
+Adam Optimizer
+warn
+Cluster Definition
+input layer
+Distribute Options
+learning phase scope
+sparse multiclass hinge loss
+Linear Operator Scaled Identity
+polynomial evaluation
+is built with GPU support
+sparse column with integerized feature
+Tagged Run Metadata
+Progbar Logger
+from dense
+random hue
+edit
+CSV Reader
+deprecated arguments
+Custom Object Scope
+range input producer
+Stochastic Dual Coordinate Ascent Shrink L1
+Categorical Cross Entropy
+Deprecated Argument Values
+Summarize Tensors
+Cohen Kappa
+Get Temporary Directory
+Do Not Convert
+Kernel Linear Classifier
+Divide No NaN
+Add
+Categorical Hinge
+Cluster Spec
+print tensor
+fold l
+Generator Enqueuer
+Latest Exporter
+streaming sparse average precision at k
+Tensor Structure
+Sequence Example
+real valued column
+get device policy
+string strip
+Dynamic Loss Scale
+get consuming operations
+quadrature scheme softmax normal gauss hermite
+random shift
+Mutable Dense Hash Table
+Activation
+Max Pooling 3D
+matrix diagonal
+flat transforms to matrices
+sparse reset shape
+resize images
+Reader Base
+placeholder name
+exponentiation of a matrix
+Canadian Institute for Advanced Research 100
+Plugin Data
+sequence-to-sequence
+Mel Frequency Cepstral Coefficients from Log Mel-frequency Spectrograms
+matrix square root
+basic RNN sequence-to-sequence
+stateless uniform
+solvers
+assert shapes
+separable convolution 1D
+get global generator
+Simple RNN cell
+Feature Lists
+Layer
+assert less equal
+sensitivity at specificity
+get unique variable
+replace t with placeholder handler
+average pooling 1d
+pre processing
+multi head
+is built with rocm
+infeed enqueue
+slim
+Baseline Classifier
+resize nearest neighbor
+L2 Regularizer
+Student T With Absolute Degrees of Freedom Softplus Scale
+sigmoid cross entropy with logits
+global policy
+scatter multiply
+gradient descent
+SDCA formatted print
+Random Strategy
+smart case
+Attribute Value
+get name scope
+obtain next
+to indicator
+Linear Operator Adjoint
+Tasks Entry
+streaming mean
+Conditional Random Field
+generic file
+array to image
+quantized concatenate
+sets
+Binary Accuracy
+Recall
+Beam Search Decoder State
+Tensorflow Lite LSTM Cell
+band part
+to code
+Input
+load and remap matrix initializer
+streaming precision at thresholds
+serialize tensor
+cast to floating point x
+estimate or estimator
+resnet version 2
+Residual Network 152
+multi class target
+overlap and add
+categorical column with vocabulary file
+Input Context
+transpose batch time
+reduce minimum
+device assignment
+Internal Error
+unsorted segment mean
+with same shape
+Peephole Long Short-Term Memory Cell
+Linear Operator
+decode predictions
+eager
+Mode Keys
+dilation 2d
+Virtual Device Configuration
+crf log likelihood
+encode proto
+DNN Classifier
+masked convolution
+l1 regularizer
+outfeed enqueue tuple
+Learning Rate Schedule
+Layer Recurrent Neural Network Cell
+to graph
+recompute gradient
+unsorted segment square root n
+Monitored Training Session
+streaming false positive rate at thresholds
+stop if no increase hook
+extract pandas matrix
+get source
+streaming mean absolute error
+Gaussian Mixture Model
+Cropping 1-dimensional
+one-to-many recurrent neural network sequence-to-sequence
+stateless normal distribution
+red-green-blue to grayscale
+spatial softmax
+streaming mean cosine distance
+global normalization
+export saved
+variable creator scope
+get step
+L2
+initialize
+Ftrl
+sparse minimum
+Int 64 List
+flatten with tuple paths
+fake quant with min max vars gradient
+get link flags
+Call back
+Session Run Context
+get masks
+write raw pb
+floor mod
+read keyed batch features
+Convolutional 2D
+summarize activations
+embedding column
+Discrete Cosine Transform
+set global generator
+Train Eval Features
+all v2 summary operations
+set execution mode
+NASNet Mobile
+regression target
+resource variables enabled
+Elastic Average Optimizer
+local convolutional 1D
+padded batch and drop remainder
+assign moving mean variance
+nan callback
+set log device placement
+Attention Wrapper State
+Sparse Categorical Accuracy
+reduce weighted log sum exp
+orthogonal initializer
+ctc beam search decoder v2
+reroute i os
+Gmm Algorithm
+add metrics
+binary classification head
+sampled softmax loss
+Attention Wrapper
+Keras Regressor
+Mutable Hash Table
+Random Uniform
+quadrature scheme softmax normal quantiles
+Mean Tensor
+Regularized Adagrad Optimizer
+local response normalization
+print
+Reduction To One Device
+switch
+min max norm
+assert greater equal
+Final Beam Search Decoder Output
+load linear multiclass bias initializer
+YIQ to RGB
+GDN
+Graph Keys
+streaming recall
+get inter op parallelism threads
+connect
+make parse example spec
+to float
+unicode split with offsets
+interpolate spline
+arg scope
+list directory
+Spatial Dropout 3D
+CuDNN Params Format Converter LSTM
+List Directory
+SK Compatibility
+Topology
+Output All Intermediates
+Run Test in Graph and Eager Modes
+Convolution 2D Transpose
+Create File Writer
+min max norm
+Version 1
+Recurrent Neural Network Classifier
+Data Set Specification
+Batch Dot Product
+Unique Name Tracker
+Python State Wrapper
+Static Recurrent Neural Network
+Reduction Function
+Text File Identifier Table Initializer
+Bahdanau Monotonic Attention
+check cios
+ssim multiscale
+Tokenizer
+New Checkpoint Reader
+combined non max suppression
+ResNet 152V2
+true positives at thresholds
+resize area
+deprecated flipped sigmoid cross entropy with logits
+C
+Convolution 3D Transpose
+logarithm of the sigmoid
+Softmax Centered
+segment sum
+top k categorical accuracy
+matrix solve
+optimizer version 2
+mean
+get thresholds
+build parsing serving input function
+serialize many sparse
+TensorFlow
+Constant
+average pooling 3d
+set element type
+Cropping 3D
+CUDA Deep Neural Network Gated Recurrent Unit
+threading
+lite
+framework
+Bessel function of the first kind of order 0 exponentially scaled
+Convolutional 2D backpropagation input
+F1 score
+Learning phase
+Dense Network 169
+Bijective operators
+Model average custom getter
+Global maximum pooling 2D
+Summar
+one device strategy
+Directory Iterator
+Model Average Optimizer
+Meta Information Definition
+reversal block
+evaluate
+multi GPU model
+Attention Mechanism
+copy operation handler
+create random number generator state
+Linear Classifier
+convolution transpose
+update add
+start queue runners
+sequence categorical column with hash bucket
+logistic regression head
+input/output
+regression signature definition
+test source directory path
+classification output
+hard sigmoid
+n pairs loss multi label
+Session
+decode json example
+No Gradient
+pandas input function
+Bytes In Use
+clip gradients by norm
+count up to
+apply brightness shift
+Signature Def Entry
+random normal variable
+Looper Thread
+LMDB Reader
+Convolutional 3D Transpose
+binary support vector machine head
+get visible devices
+Summary Metadata
+policy
+terminate Keras multiprocessing pools
+Saved Model Estimator
+local response normalization
+Aborted Error
+noisy linear cosine decay
+has distribution strategy
+translations to projective transforms
+cloud
+main op with restore
+average precision at k
+get collection
+Normal With Softplus Scale
+Independently Recurrent Long Short-Term Memory Cell
+Matrix Diagonal Transformation
+Mean Squared Logarithmic Error
+Set Server Definition
+Tridiagonal Solve
+Retain
+Checkpoint
+Normalize Moments
+Can Be Regular Expression
+Specifications
+local convolution 2d
+Text Line Dataset
+expectation
+Float List
+Binary Crossentropy
+assert all finite
+shutdown system
+uniform unit scaling
+Block Cache Parameters
+require replica context
+Configuration Protocol
+Saved Model Utilities
+Initialize All Variables
+Inception Version 3
+Lazy Adam Optimizer
+Import Event
+Losses
+Bag of Words Encoder
+Set Intersection
+Compiled Wrapper
+flatten dictionary items
+Variable Synchronization
+Session Creator
+Multivariate Normal Triangular Lower
+Precision at k
+Time Series Regressor
+all summary operation
+average pool version 2
+Tower Optimizer
+add argument scope
+sparse reduce max sparse
+tensor scatter add
+additive attention
+checker
+load file system library
+kernel methods
+model pruning
+multiply
+scaled softplus
+get just-in-time
+Attribute Entry
+Recurrent Neural Network Estimator
+forward features
+Assertion
+regression head
+infer real valued columns from input function
+decode raw
+main operation
+Independent Gated Recurrent Unit Cell
+invert
+Stat Summarizer
+scattered embedding column
+ctc loss version 2
+mean pairwise squared error
+cold start filter
+shard
+grid RNN
+Stacked RNN Cells
+clip by global norm
+index table from file
+debug ging
+load model
+Boosted Trees Estimator
+structural similarity index

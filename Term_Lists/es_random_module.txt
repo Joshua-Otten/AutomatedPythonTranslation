@@ -1,0 +1,22 @@
+opción
+Von Mises variar
+Gaussiano
+elección
+Variar normal
+obtener el estado
+uniforme
+Obtenga bits aleatorios
+Estado establecido
+random
+arrastramiento
+rango aleatorio
+Variar lognormal
+entero aleatorio
+semilla
+muestreo
+beta variar
+Pareto Variar
+Weibull Variate
+gamma variar
+función triangular
+Variar exponencial

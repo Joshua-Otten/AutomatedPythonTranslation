@@ -1,0 +1,2523 @@
+Ejemplo individual de analizador
+Predecir la salida
+Eliminar el punto de control
+Convertidor de formato de parámetros CUDNN Relu
+Estrategia extendida
+Lista de características
+Opciones de optimizador
+DNN lineal combinado regresor
+Información de vocabulario
+Dense
+Repetir vector
+Error absoluto medio
+Especificación de tensor
+Obtener operaciones generadoras
+Lector de consultas grandes
+hacer una lista de t
+Obtener banderas de compilación
+poner un paso
+Cadena al número
+Leer Ejemplos de lotes Keyed Queue compartido
+Sin regularizador
+Diferencia vectorial
+editor de gráficos
+acumular n
+Optimizador de réplicas de sincronización
+Habilitar una ejecución remota ansiosa
+imagen
+Calcular golpes accidentales
+transmitir falsos positivos
+Optimizador GGT
+Entrada de BackProp 2D Convolution de profundidad
+Entrada de secuencia de columnas de características
+Información de depuración experimental
+Pérdida estructurada elevada
+Piscina promedio
+Convolución separable 2D
+Función de entrada numpy
+Sampler de candidato unigram aprendió
+Secuencia enqueuer
+función de pitón
+infinito no es una devolución de llamada numérica
+Frecuencia de tiempo a largo plazo celular de memoria a corto plazo
+punto dinámico
+Ejemplo de secuencia de análisis
+al hash cubo fuerte
+Distribución cuantificada
+decadencia de coseno lineal
+covarianza de transmisión
+Resolución de clúster de configuración de TensorFlow
+espacio lineal
+Utilidades de definición de firma
+Itreable
+Segmento mínimo
+Decodificador de búsqueda de rayos de clasificación temporal conectores
+Valores propios
+Tal vez Shuffle Batch se une
+Modelo de ascenso de coordenadas duales estocásticas
+Búsqueda de búsqueda
+Solicitud
+Al complejo 128
+Pérdida
+Curting 2d
+aplicar regularización
+transmisión de tensor medio
+correr n
+Cadena a la tabla de índice de tensor
+Superposición de supresión no máxima
+Prefirtar al dispositivo
+Tensor de dispersión Sub
+Escala de pérdida fija
+procesamiento de datos
+Asignar el manejador de colección cambiado
+Cambiar orden y repetir
+Definir tamaño
+Use el cambio de color
+Tema de naturaleza desconocida
+transposición de convolución bidimensional dilatada
+Use transformación lineal
+mesa grande
+Distribución beta con concentración de Softplus
+Reducción
+Bayes Flow
+Estimador lineal
+eval eval dir
+Extraer etiquetas de dask
+reducir la norma euclidiana
+variables de filtro
+Característica
+valor implícito y gradientes
+Características
+Establecer la colocación de dispositivos suaves
+Asignar desde el punto de control
+Obtener el nombre Ops de alcance
+configuración del sistema
+Extraer datos de DASK
+SPARSE ADD
+argumento máximo
+Sensibilidad de transmisión a especificidad
+hacer un conjunto de datos CSV
+Comunicación colectiva
+Separe las salidas de control
+columna escasa con teclas
+Mezcla
+decodificar comprimido
+Variables de modelo
+cosecha central
+Obtener estructura
+Toda la muestra candidata
+Unicode decodifique con compensaciones
+Recurso
+obtener pérdidas
+Normal al azar
+Normal truncado
+Base de tabla de búsqueda inicializable
+Norma por lotes con normalización global
+reducir max
+índice de cadena
+ordered
+matriz de confusión
+del modelo guardado
+Funciones de activación
+Operación de transformación si el manejador interno
+algoritmo de remuestreo
+Varias opciones o posibilidades
+Multiplicación de matriz densa tensor escaso
+Configurar el gancho de almacenamiento en la nube de Google
+Magnitudes de gradiente de clip
+obtener variables capacitables
+Entropía cruzada de Softmax fluida obsoleta con logits
+build_raw_serving_input_reCeiver_fn
+Convolución 1-d
+Gamma con tasa de concentración blandoplus
+Celda unitaria recurrente simple
+Dispersión tensor n-dimensional
+Base de control
+hacer directorio
+separar las salidas
+Programador de tarifas de aprendizaje
+Registro de la sesión
+Ops de dispositivos cruzados
+escala de grises a azul rojo verde
+Piscina promedio cuantificada
+compatibilidad
+bisagra
+afirmar menos
+percentil
+matriz de peso lineal a mel
+estuche de interruptor
+Single Image Dot estereogramas de puntos aleatorios
+Convolución 2D en avión
+Envoltura de proyección de entrada
+Matriz HDF5
+función de los gradientes
+Cabeza de predicción de un tiro
+punto flotante x
+afirmar rango
+Experimental
+set session
+transmisión de precisión promedio escasa en Top K
+En la fase de prueba
+Max Pool 2d
+resolución de clúster
+advise
+Elija entre conjuntos de datos
+add control inputs
+Bytes máximos en uso
+agregar pérdida
+Batch and Drop Rester
+Índice de archivos de texto
+Grupo promedio global 2D
+Informar variables no inicializadas
+Operaciones de función de entrada
+Estrategia del servidor de parámetros
+distancia media cosena
+convertir a tensor o tensor escaso
+obtener verbosidad
+en contexto de réplica cruzada
+Definición del servidor
+columna de características
+Up Sampling 2d
+Existe el punto de control
+Decodificación de campo aleatorio condicional
+Parte diagonal del tensor
+Segmento sin clasificar unirse
+Tal vez el directorio de modelos guardados
+Guardar el punto de control de la red
+Minimum
+Compatible hacia adelante
+Especificidad de transmisión a la sensibilidad
+Convolución de profundidad Nativa 2D
+dependencias de control
+No es un número de tensor
+Especificación de ejemplo de análisis del clasificador
+Convertidor tensorflow lite
+Configuración de inicio cálido
+transmisión de error cuadrado de raíz raíz
+Precisión escasa
+Capa normalizada básica a largo plazo a corto plazo
+Valor de lista
+verdaderos positivos
+Grupo máximo con argmax
+Producto acumulativo seguro
+cuadrado
+Entrada acoplada Olvídate de la puerta a largo plazo Celular de memoria a corto plazo
+Especificación de ejemplo de análisis del regresor
+ceros
+Optimizador de descenso de gradiente
+cuantizar el entrenamiento en la definición de gráficos
+Crossentropía categórica escasa
+Clasificador DNN con anotaciones de capa
+Actualización de tensor de dispersión nd
+Flujo autorregresivo enmascarado
+Logger CSV
+Conv1d Transpose
+valor de dimensión
+ajustar el brillo
+evaluar una vez
+Quant falso con Min Max Args Gradiente
+Regresor de línea de base
+Progbar
+derivación
+GRU Bloque de células
+Función de ventana de transformación de Fourier de corto tiempo inverso
+Extraer datos de pandas
+bisagra cuadrado
+Especificación del estimador de la unidad de procesamiento del tensor
+base de datos de películas de Internet
+definir la función
+Términos de regularización
+Sampler de candidato unigram fijo
+Grupo de geometría visual 19
+Transposición 2D convolucional
+convertir a tensor
+Resolutor de clúster slurm
+Gancho de mostrador
+Valor tensor escaso
+Bit Castion
+gradiente de escala
+Biblioteca de operación de carga
+Andamio
+inicializador constante
+Habilitar Control Flow Versión 2
+Variables de promedio móvil
+obtener valor
+Transformación de Fourier rápida discreta de Fourier de valor real de valor real bidimensional
+productor de entrada de cadena
+multiplicado por pesas más prejuicios
+Configurar la sesión de Colab
+Cabeza
+área debajo de la curva usando histograma
+particiones dinámicas de pila
+Actualización de dispersión
+distancia de edición
+imagen de decodificación
+función de mapa
+Escalar
+afirmar rango en
+Servir receptor de entrada
+hacer un gancho de parada temprano
+Director de operaciones
+es tensor numérico
+Concatenación de Relu
+sustracción de dispersión
+Registro de operaciones de escritura
+descenso de gradiente adaptativo con tasas de aprendizaje adaptativas desacopladas optimizador
+pérdida logarítmica
+gama de otros
+Importar meta gráfico
+operaciones
+característica escasa
+marcador de posición con incumplimiento
+Obtener tiempos modificados de punto de control
+convertir todos los núcleos en el modelo
+Celda de bloques de memoria a corto plazo
+inferir
+envoltura
+resolución triangular de matriz
+especificación de entrenamiento
+Sesgo Agregar
+Elementos repetidos
+Integración de ecuación diferencial ordinaria fijada
+Ejecutar el servidor estándar TensorFlow
+omitir gramos
+Remodelar
+Eliminar
+Características densas
+Giro a la derecha
+Entrada de registro
+REUMPLADO DE RED Neural Deep Regessor
+Modelo de carga keras
+Escala de varianza
+Optimizador de ascenso de doble coordenada estocástica
+Inicializador de ceros
+Cero relleno 1 dimensional
+ID de segmento a las divisiones de fila
+Cargar versión 2
+Secuencia heredada a secuencia
+Celera de memoria de memoria a largo plazo cerrada
+Rolando First-In, First-Out Queue
+2D conectado localmente
+OP Log Proto
+3D convolucional
+Habilitar una ejecución ansiosa
+Guardar el modelo Keras
+forma tensor del nombre de la definición del nodo
+Obtener variable
+Predecir la función de entrada de continuación
+Afín
+Celda RNN fusionada
+Manager de escala de pérdida de pérdida de actualización exponencial
+valor ajustado
+Conectado localmente 1D
+marcador de posición
+afirmar igual
+heredado lineal
+elenco
+duro max
+Error de gradiente de calcular
+Cuantización falsa con argumentos máximos mínimos
+codificar audio
+Establecer un error
+alcance del argumento actual
+red neuronal recurrente funcional bidireccional
+Error agotado de recursos
+decodificación dinámica
+Seleccionar operaciones
+transmisión de tasa falsa negativa
+opciones estadísticas
+Habilitar el comportamiento de la versión 2
+cabeza de regresión
+Exactitud
+alcance de SGV
+Costo por lotes de CTC
+uniforme aleatorio
+Obtener escasez de peso
+decodificar y recortar jpeg
+Guardar modelo
+Establecer fase de aprendizaje
+Agrupación promedio 2D
+Verifique las columnas de características
+Reducir unirse
+Yuv a RGB
+Cudnn Gru
+Operador lineal diag
+profundidad al espacio
+pérdida de bisagra
+open
+delta convolucional ortogonal
+K significa
+piscina 2D
+Establecer dispositivos visibles
+secuencia a imágenes
+Muestra de caja delimitadora distorsionada
+Deserializar el objeto keras
+Copiar al dispositivo
+Alcance variable
+Generar el búfer de protocolo de estado de control de control
+decadencia de coseno
+Normalización de registro de campo aleatorio condicional
+regresión lineal
+Celda de memoria básica a corto plazo enmascarada
+Error relativo medio
+Extraer forma jpeg
+transformar características
+Sampler de importancia expectativa
+Copiar gráfico
+girar
+cargador de recursos
+recíproco sin nan
+Error de pérdida de datos
+Optimizador de escala de velocidad adaptativa de forma de capa
+Entropía cruzada de Softmax
+No diferenciable
+Optimizador de champú
+Copia jerárquica todos reducen
+Multiplicación de matriz densa escasa
+Crear especificación de características para análisis
+Softmax escaso
+Salidas de intercambio
+En el gancho del evaluador de memoria
+Uniforme de glorot
+Rango de pérdida de Softmax
+Crear escritor de bases de datos
+Convolución 3D Backpropagation Filter versión 2
+Hacer una lista de operación
+Eliminar resumen estadístico
+Establecer Política del dispositivo
+Global Max Agrupación 1D
+resumen
+-
+Rastro
+Multiplicación de matriz escasa
+Optimizador de arrepentimiento de intercambio aditivo
+Softmax Cross Entropy con logits versión 2
+Wishart lleno
+Predecir la continuación
+Perfil
+Imagen a la matriz
+Módulo
+Modelo
+Actualizar celda de red neuronal recurrente cerrada
+Recuerde en los umbrales
+Optimizador de momento
+Seleccionar operaciones y tensores
+Intercambiar tensores
+Logaritmo del coseno hiperbólico
+Corte al azar
+L1 L2
+Cliente grande
+Puntos de curva de transmisión
+Convolución enmascarada 2D
+aprender
+Tipo de tarea
+tiene alcance de argumento
+Normalizar lotes en el entrenamiento
+reordenar
+falsos negativos
+Estrategia de TPU
+entropía cruzada binaria
+Grupo por ventana
+transmisión de la tasa falsa negativa en los umbrales
+subconocencia
+bidireccional
+reducir la suma
+Parámetros de Adagrad
+afirmar el paso global
+Obtener la ruta de archivos de datos
+Conv2d de profundidad
+error cuadrado medio
+modo de ejecución
+Norma de la unidad
+Filtro de tiempo de tiempo
+diferencia cuadrada
+Obtener estrategia de distribución
+Decodificador de búsqueda de haz
+Decadencia de coseno
+Puntuación binaria de CRF
+Vector sinh arcsinh diagonal
+Porcentaje de transmisión menos
+afirmar negativo
+Optimizador de promedio móvil
+Operador lineal circulante 2d
+autocorrelación
+Interfaz de optimizador SciPy
+Crear escritor de archivos resumidos
+es secuencia
+cultivar y cambiar el tamaño
+Poisson al azar
+ángulos para transformaciones proyectivas
+Error no encontrado
+mapa y lote con función heredada
+exportación de salida
+protocolo de decodificación
+Funciones de ejecución experimental con entusiasmo
+columnas de características de análisis de ejemplos
+red neuronal recurrente de Cudnn
+función de envoltura
+Matriz Inverso triangular inferior
+contexto paso
+RED NEUNUAL RECURMA RECTIFICADA RECTIFICADA DE CUDNN
+iterador de puntos de control
+Función VARS de poda de tiras
+Especificación métrica
+Distribución transformada condicional
+Drop Optimizer de gradiente rancio
+Establecer formato de datos de imagen
+entropía cruzada de softmax escaso
+Red residual 101
+¿Deberían registrar resúmenes?
+Vista subgráfica
+Ortogonal
+Estrategia
+no disminuye
+supresión no máxima con puntajes
+Error de condición previa fallida
+Estructura de mapa con rutas
+RNN dinámico bidireccional
+llenar el inverso triangular
+Mesa de identificación con cubos hash
+instrumentos de cuerda
+Ajuste la secuencia de la red neuronal recurrente a la secuencia
+reducir la suma escasa
+vector exponencial diagonal
+suma de réplica cruzada
+Tuple de enqueue deits
+integrar
+alcance de objeto personalizado
+está construido con cuda
+Error logarítmico cuadrático medio
+falsos positivos
+multiplicación escalar
+Reducir las operaciones de la porción
+matrices a transformaciones planas
+Operación de inicializador de escritor resumen
+Resultados filtrantes
+entrelazarse
+Conectación experimental al huésped
+transposición de matriz
+Xcepción
+obtener o crear un paso global
+Función de modelo replicar
+rastrear
+Celular de memoria a largo plazo enmascarada
+Filtrar operaciones de expresión regular
+Inicializar variables
+Lista de dispositivos
+Bisagra cuadrado
+Operador lineal inferior triangular
+Versión inversa 2
+crear variables divididas
+Glorot normal
+Estimador combinado lineal de red neuronal profunda
+Acciones gráficas
+Afirmar entero
+El uniforme
+Extraer parches de imagen
+Con forma
+El espacio requerido para los lote de lotes
+Decadencia constante por partes
+Contexto de actualización
+resumen de alcance
+Lista de operaciones despojado para gráfico
+operación de fusible
+Escritor de discos de tensorflow
+K significa agrupación
+ortogonal convolucional 3D
+Método de agregación
+Bessel i1e
+Extraer etiquetas de pandas
+Definición de ahorro
+Función de activación lineal autopatada
+Incrustar la secuencia de atención a la secuencia
+Tensor escaso
+unicode codificar
+capacitación
+Modelo lineal
+secuencia inversa
+grupo
+Normalización de lotes fusionados
+fracción cero
+mínimo de dispersión
+Error absoluto medio
+Feeds de carrera
+Obtener ejecución síncrona
+builder
+Global Max Pooling 3D
+Estado estático Guardar RNN
+Incrustación de búsqueda escasa
+optimizadores
+reunir_nd
+irfft3d
+Ejecutar configuración
+Bytes Split
+lote aplanado
+Totalmente conectado
+secuencias de almohadilla
+Lista de dispositivos físicos
+secuencia
+Especificación de configuración de incrustación
+CUDNN GRU SAVABLE
+Característica de longitud variable
+Columna indicadora
+MobileNet versión 2
+Resumen de histograma
+Decadencia de coseno lineal ruidoso
+Puesta en escena
+Dense
+Lote de baldosas
+Columna categórica de secuencia con lista de vocabulario
+Clasificación temporal Connectista Decoder codicioso
+Resolución de clúster
+Tienda de variable ansiosa
+Capa de entrada
+transmisión de error relativo medio
+Justo al alcance de tiempo
+cambiar el tamaño con acolchado
+marco
+ajustar gamma
+Base de inicializador de tabla
+Logistic
+disperso y
+Extensión de descomposición de peso desacoplado
+Reloutas salidas
+Información de tensor
+Referencia de variable de ranura
+ATROUS Conv 2D
+Optimizador de arrepentimiento de intercambio multiplicativo
+Cargar punto de control
+Determinista vectorial
+Gerente de escala de pérdida
+Especificaciones de Hasher
+Convolución separable 2D
+Cabeza múltiple
+Gráfico de entrenamiento de creación experimental
+Obtener el contexto de réplica
+Diagonal normal multivariante más bajo rango
+Detente en el gancho de paso
+Factorización de la matriz de Wals
+unicode_script
+variable local
+diferencia absoluta
+Nunca registre resúmenes
+división de unicode
+tensor diagonal
+en modo ansioso
+COMPONE CONSULTRAS
+Optimizador nadam
+Secuencia
+Nas net grande
+voltear a la derecha a la izquierda
+Inferir columnas valoradas reales de la entrada
+media de segmento
+regex reemplazar
+n gramos
+columna categórica con identidad
+Ops de intersección de Get Walks
+bloque inverso
+logaritmo m
+Todas las variables
+Agregar a colecciones
+Valor y función de gradiente
+columna numérica de secuencia
+Estructura de matriz de tensor
+construir definición de firma
+Transmisión de la correlación de Pearson
+RNN bidireccional estática
+2D convolucional cuantificado
+Inicializador de escala de varianza
+Obtener variables por nombre
+Celda de red neuronal recurrente independiente
+promedio
+fusionar todo
+Inicializador de uniforme aleatorio
+escaso reducir suma escaso
+conjuntos de datos
+convertir variables en constantes
+Conjunto de datos SQL
+cabezal de etiqueta múltiple
+Obtener objetos personalizados
+agrupación máxima
+secuencia de incrustación
+Error no equipado
+atención monotónica
+ajustar el tono
+Obtener un identificador único
+columna categórica de secuencia con archivo de vocabulario
+Serializar objeto keras
+Precisión promedio escasa en K
+mapa y lote
+aplicaciones
+Distribución condicional
+Gradientes no conectados
+garantía constante
+Interfaz de búsqueda
+enqueue de salida
+balde
+Encuentra la mejor distribución de candidatos
+escaso reduce suma
+escaso a denso
+pérdida de secuencia por ejemplo
+Obtener formas de salida
+argumento mínimo
+Estimador de la unidad de procesamiento del tensor
+al complejo 64
+Resumen
+Bloque de operador lineal diagonal
+para duplicar
+Aprender corredor
+lote
+Abandono espacial 2 dimensional
+Escala de pérdida
+determinante de la matriz
+error absoluto medio
+expandir las dimensiones
+Eliminar nodos de entrenamiento
+Características de secuencia
+hacer un conjunto de datos de características por lotes
+Lista de objetos
+Se reinicia la descomposición de coseno
+Definición de gráficos desde el punto de control
+Densa red 121
+fatal
+Lista de dispositivos lógicos
+Conjunto de datos aleatorio
+pila paralela
+Referencia de objeto
+Viterbi decodifica
+Nasnet
+Paso de entrada estándar
+Remodelar lotes
+Definición de trabajo
+entropía cruzada categórica
+Crear paso global
+Relu X cuantizado
+Evaluable
+Obtenga pérdida de regularización
+cargar delegado
+extracto de parches
+error absoluto medio
+Estructura del conjunto de datos
+Tabla de picadillo
+Historia
+Celda de red neuronal recurrente
+Creador de la sesión principal
+Ignorar errores
+Incrustación de decodificador de red neuronal recurrente
+Mantenga el tensor si es posible manejador
+Decodificador básico
+Obtener tensor de sesión
+Tuple de Doceue de Feeds
+Se reinicia la descomposición de coseno
+Convolución 3D Transpose
+Estructura
+proximidad coseno
+error medio cuadrado
+intersección media sobre la unión
+al hash cubo rápido
+Iterador de matriz numpy
+Detente si no disminuye el gancho
+hacer plantilla
+Configuración de la tubería de entrada
+afirmar positivo
+Rgb a yiq
+parte diagonal
+Multi trabajadores MirroredStrategy
+espacio para lotes
+Gradientes implícitos
+precisión de transmisión
+Gamma inverso con tasa de concentración blandoplus
+afirmar la misma estructura
+rotación aleatoria
+Versión de cuantificación 2
+Guardar información sobre rebanadas
+transformar diagonal
+porción sencilla
+es secuencia o compuesto
+sembrar
+Obtenga hiperparámetros de poda
+Opciones de GPU
+Obtener la salida de entrada de operaciones
+punto de control modelo
+dimensión en el índice
+Estrategia de distribución de la unidad de procesamiento del tensor
+El normal
+envoltura de incrustación
+¿Está disponible la unidad de procesamiento de gráficos?
+Terminar en no un número
+truco de hashing
+enmascaramiento
+mi hecho
+Operador lineal afín
+dispersión tensor y agregar
+Permiso Error denegado
+Asíncrata espera
+Cabezal de etiqueta múltiple
+Sesión monitoreada singular
+Sección crítica
+reamm de rechazo
+transmisión de precisión escasa en K
+Error de porcentaje absoluto medio
+Biector condicional
+Cabeza de clase binaria
+Triplete de pérdida semi dura
+Característica de longitud fija
+Operaciones para caminar hacia atrás
+Especificación de hash fuerte
+Divergencia de Kullback-Lebler
+Es infinito
+Optimizador de fragmentos cruzados
+porción escasa
+Administrador de puntos de control
+saturación aleatoria
+Composición del operador lineal
+Actualización de dispersión de tensor
+Precisión categórica de K SPARSE
+Matrix Diag parte
+intersección media sobre la unión
+Obtener referencia de colección
+lote al espacio n d
+Ejecute todas las pruebas en gráficos y modos ansiosos
+Matriz Set Diag
+Atención
+Establecer semillas aleatorias
+metadatos de objeto
+Regularización de la actividad
+Reducir logsumexp
+Global Step Waiter Hook
+Sinh Arcsinh
+parte de la banda matriz
+Leer funciones de lotes
+Precisión en Top K
+brillo aleatorio
+Deshabilitar la forma del tensor de la versión 2
+Valor de tensor irregular
+Operaciones de función de modelo
+Gráfico de objetos de control de control
+Puntaje de secuencia múltiple de campo aleatorio condicional
+aplanar con rutas de cuerda unidas
+incrustación de decodificador de atención
+Ajustar la calidad de JPEG
+llamada convertida
+Dibujar cajas delimitadoras
+Optimizer versión 2
+Establecer opciones experimentales
+Optimizador de adagrad
+Registre la función de conversión del tensor
+división de piso
+Grupo promedio global 1D
+Estructura del tensor escaso
+Decode Base64
+doblar a la derecha
+Operaciones en bruto
+Tensor de red
+Batch Get Value
+Flip aleatorio a la derecha a la izquierda
+transmisión de intersección media sobre la unión
+Definición de nodo
+Gradientes de imagen
+campo receptivo
+optimizar
+entropía cruzada sigmoide
+Decadencia de coseno lineal
+el elenco de saturación
+Sesión interactiva
+rastrear
+Densenet 201
+devolución de llamada infinita
+actualizar reste
+como bytes
+Eliminar las dimensiones exprimibles
+Operador lineal circulante 3D
+Hiperparámetros
+convertir a cortes tensor o indexados
+Modelo amplio y profundo
+máscara de secuencia
+Es directorio
+Desactivar el comportamiento de la versión 2
+tomar mientras
+Gancho de función de alimentación
+Generador de datos de imágenes
+denso a escaso
+Obtener variable local
+Ceros de operador lineal
+Bessel i0
+modelo de JSON
+producto de segmento
+Exportar meta gráfico
+Estimador de línea de base
+Keras al modelo TPU
+Cadena
+Initialise_from_checkpoint
+is_variable_initialized
+get_default_session
+entero_shape
+Autorregresivo
+Devateassignment
+colocate_with
+ejecuting_eagerly
+control_flow_version_2_enabled
+Inversión del operador lineal
+resumir la activación
+precisión de transmisión
+binomial aleatorio
+Normalización por lotes
+Obtenga el siguiente como opcional
+Lector de identidad
+Tensores de soporte de colocación para características base
+Valor de conjunto de lotes
+convolución separable 2D
+Cadena al cubo hash rápido
+Base de acumulador condicional
+leer el archivo
+Generador de fuentes de tiempo
+número de GPU
+Optimizador de arrepentimiento externo aditivo
+fusionar todos los resúmenes
+Crossentropía categórica escasa
+Devolución de llamada de ejecución
+función por lotes
+Recuerde en K
+a int 64
+escaso concatenado
+server
+Encuentre el mejor índice de candidatos
+reordenar escaso
+contexto de réplica
+segmento máximo
+cargar imagen
+función de entrada de conjunto de datos entero
+Cuantización falsa con variables mínimas y máximas por canal
+Logaritmo de error de coseno hiperbólico
+Máquinas de vectores soporte
+Mensaje de estado de nivel de tarea
+Especificación de cortes indexados
+Resolver de clúster sindical
+Ruido gaussiano
+Agrupación promedio global 2-D
+Biblioteca de carga
+NCCL todos reducen
+Establecer hilos de paralelismo de intraoperación
+cambiar el tamaño bilineal
+Deshabilitar Control Flow Versión 2
+Verdaderos negativos
+hacer marcador de posición desde tensor
+Cabeza de regresión logística
+Regularizer
+precisión escasa en K
+Calcular campo receptivo a partir de la definición de gráfico
+exportar
+separar las entradas de control
+Divergencia de Kullback-Lebler
+resumen escalar
+Tensor compuesto
+descifrador
+Perfilador de tensor
+afirmar tipo
+camino a la cadena
+especificación de tipo
+convolución 3D
+Variables de lista
+Operaciones de caminata para avanzar
+versión 2
+CUDA Celda de memoria a largo plazo compatible con red neuronal a largo plazo
+variación total
+Lector de registros de longitud fija
+columna con itineridad
+Up muestreo 1 dimensional
+como cadena cualquiera
+Constructor de modelos guardado
+especificidad en la sensibilidad
+existe
+Obtener camino hacia DataFile
+valores de análisis
+Especificación opcional
+WAV de decodificación
+a bfloat16
+Supresión no máxima acolchada
+modelo con cubos
+siempre registrar resúmenes
+disperso nd sub
+Capa de Relu
+piscina AVG fraccional
+Convolución 2D
+variable de modelo
+Error de argumento no válido
+Caminar
+Clasificador keras
+Helper de capacitación de incrustación programada
+Piscina máxima cuantificada
+desbloquear
+afirmar ninguno igual
+serializar escaso
+matriz inversa
+Poisson log compuesto de cuadratura normal
+muestra de rechazo
+detener el gradiente
+Crear gráfico evalu
+matriz de raíz cuadrada
+registrar si
+establecer ejecución síncrona
+Tipo de reparameterización
+Log Poisson pérdida
+variable de carga
+Hacer directorio
+Carga del modelo guardado
+Obtener operación copia
+manipulación
+Obtener la colocación del dispositivo de registro
+lote de barras
+Filtro de retropropagación de conv2d
+Dispositivo
+reducir la suma n
+Leer ejemplos de lotes con liquidación
+lote de unión
+Verificar numéricos
+Monte Carlo
+Sensibilidad a especificidad
+afirmar apropiado iterable
+relleno temporal
+Regessor de red neuronal profunda con anotaciones de capa
+Agregar devolución de llamada de ejecución
+a categórico
+a la variante
+Interfaz de optimizador externo
+columna categórica ponderada
+extraer vislumbrar
+segmento no organizado max
+afirmar más
+configuración de referencia
+Gancho de tubería de entrada de punto de control
+Grupo promedio 3D
+Bessel I 1
+Glorot normal
+Primero en First Out Queue
+Exactitud
+Estrategia reflejada
+Calidad aleatoria de JPEG
+Obtener tipos de salida
+Invertir permutación
+suma ponderada de columnas de características
+máximo
+optimización con restricciones
+Dirichlet multinomial
+Conjunto de datos LMDB
+Cola prioritaria
+capas
+Convolución 3D
+Adaptador de células RNN fusionado
+Habilitar la igualdad del tensor
+Producto de segmento no organizado
+colapso repetido
+Método de cambio de tamaño
+Álgebra lineal acelerada
+Sesión monitoreada
+afirmar entero escalar
+Estrategia de conjunto experimental
+no negativo
+texto
+beta de registro
+Fecha límite excedió el error
+Especificación de matriz de tensor
+Especificación estimadora
+tal vez lotes unirse
+Experimental Crear gráfico Eval
+transmisión de AUC dinámico
+Tipo de problema
+compilación exterior
+Error cancelado
+Agregador de estadísticas
+Agrupación promedio 2D
+Especificación de tensor escaso
+Convolución separable 1D
+Optimizador estocástico de gradiente de Adam
+añadir a la colección
+cadena para indexar
+Error cuadrado medio de raíz
+Regresión de distribución de la cabeza del estimador
+Norma máxima
+Huber
+deformación de la imagen escasa
+valor
+acumulador condicional escaso
+afirmar cerca
+RGB a YUV
+conseguir incluir
+red residual
+L1 L2
+Obtener variables de modelo
+mapeador de rastreo de pila
+Error de porcentaje absoluto medio
+AGN Custom Getter
+Entrada backprop nativa de Conv2d de profundidad
+Decrecimiento exponencial
+poner diagonal
+capa de entrada de secuencia
+registrar cada n
+Envoltura residual de celda de red neuronal recurrente
+Precisión categórica
+hsv_to_rgb
+Envoltura de optimizador de tareas múltiples
+Normal al azar
+Proto de nodo múltiple gráfico
+Ejecutar metadatos
+Establecer verbosidad
+pérdida de L2
+Up Sampling 3D
+advertencia
+resumen de audio
+partición dinámica
+Red neuronal recurrente simple
+Dispersar y actualizar
+Transformación 3D de Fourier muy rápido
+Lector de archivos completo
+Cadena a la tabla de índice desde el archivo
+X divide y
+Obtener alcance variable
+Monitor remoto
+Tabla de índice a cadena de tensor
+Resúmenes récord
+Acumulador condicional
+Transmitiendo los verdaderos positivos en los umbrales
+escanear
+Cadena unirse
+Extender con la descomposición de peso desacoplado
+inicializador normal truncado
+en fase de tren
+transmisión de precisión escasa en Top K
+Entrada de argumentos
+Agregar signo optimizador
+Obtener pérdida total
+Porcentaje a continuación
+Obtener gráfico de entradas
+Imágenes a secuencia
+entradas
+Scikit Learn
+identidad n
+Identidad del operador lineal
+precisión binaria
+xcepción
+Agregar operaciones de cheques numéricos
+Adamw Optimizer
+Atención monótonica de Luong
+Logaritmo de coseno hiperbólico
+Obtener hilos de paralelismo intraoperperatorios
+Registrar gradiente
+paralelo por lotes
+Decadencia de tiempo inverso
+entrelazarse
+apátrida
+recurrente
+Convertidor de toco
+espacio a la profundidad
+Copiar
+Laplace con escala blanda
+Cero relleno 3D
+lote denso a escaso
+operaciones de filtro
+construir la función de receptor de entrada para servir por servicio
+Decrecimiento exponencial
+alcance de la operación
+Máximo Pool versión 2
+Árboles aumentados regresor
+bisagra
+Inicializador de la tabla de cadena de archivo de texto
+bosque tensor
+Preservación real de no volumen
+Momentos ponderados
+Hacer parar en el gancho de paso del punto de control
+Exponencial relajado relajado categórico
+decadencia polinomial
+Envoltorio de abandono de celdas RNN
+reducir la varianza
+gráfico automático
+Obtener estrategia
+Hacer un marcador de posición a partir del tipo de datos y la forma
+Agregar resúmenes de gradientes
+circunvolución
+Salida del decodificador de búsqueda de haz
+guardar simple
+Optimizador de escala de pérdida de precisión mixta
+Opcional
+Segmento Raíz cuadrado N
+no es un número
+Outfeed Dequeue
+función de carga de tamaño de byte
+Normal truncado sin estado
+Inicializador de variables globales
+Afirmar la forma del elemento
+Red residual 101 V2
+Estructura de mapa con caminos de tupla hasta
+está aumentando estrictamente
+componentes conectados
+Integrar la ecuación diferencial ordinaria
+Cero relleno 2 dimensional
+volver a muestrear a tasa
+especificidad en la sensibilidad
+Debe ejecutarse en la unidad de procesamiento central
+transmisión de retiro escaso en K
+Temporizador de segundo o paso
+Función de entrada de ventana aleatoria
+Max escaso
+Max Grupo en bidimensional
+Grupo por reductor
+transformación de coseno discreta inversa
+Divergencia de Kullback-Lebler
+Max Proying 1-dimensional
+Resolver de clúster de Kubernetes
+Entrada de recuento de dispositivos
+tensor medio
+remodelar escaso
+Célula gru compatible con cudnn
+último punto de control
+Constructor de opciones de perfil
+Global
+Problema de minimización restringido
+cambiar el tamaño de la imagen con cosecha o almohadilla
+tensor de análisis
+Grupo promedio global 3D
+alcance de operación variable
+Precisión categórica de K SPARSE
+pérdida de secuencia
+Agrupación promedio global 1D
+modelo de YAML
+Recurrente
+cambio de canal aleatorio
+construir información tensor
+Conjunto de datos CSV
+hacer ndarray
+buscar
+afirmar rango al menos
+función numpy
+Inception V3
+FEDED DEQUEO
+suma regularizador
+hacer directorios
+Get Walks Union Operations
+Intersección RNN Cell
+Obtener tensor de la información de tensor
+Escritor de archivos
+Entropía cruzada Softmax con logits
+Lote al espacio
+AUC con intervalos de confianza
+Legacy totalmente conectado
+Divergencia de Kullback-Lebler
+Bucle de tren básico
+Seguimiento-el optimizador de líder regularizado
+Configuración de distribución
+Búsqueda segura de inserción escasa
+firma_constants
+beta incompleto
+Error medio cuadrado
+Resolver de clúster simple
+Incrustos compartidos
+voltear
+Audio
+ID a la entrada de cadena
+Exponencial
+back -end
+valor constante
+muestra estratificada
+Entrada de características
+distribuir
+Actualización de bajo rango del operador lineal
+máximo fuera
+Gancho de ejecución de sesión
+obtener pesas
+Obtenga Root Dir con todos los recursos
+estructura de mapa
+partido bipartito
+Variar el gradiente estocástico
+máxima agrupación tridimensional
+Inverso Fast Fourier Transformación bidimensional
+Especificación de tensor irregular
+Chi-cuadrado con grados absolutos de libertad
+Celda de búsqueda de arquitectura neural
+Leer funciones de registro de lotes
+metric
+recoger árbol
+Obtener valor estático
+Obtener variables optimizador
+Reduce Max Sparse
+Estrategia de almacenamiento central
+Obtenga variables para restaurar
+Obtenga operaciones potencialmente compatibles
+Error cuadrado medio de raíz
+columna escasa con archivo de vocabulario
+Convolución 2D Transposición
+Determinista
+Envoltura de proyección de salida
+Obtener contexto de réplica cruzada
+Actualización del promedio móvil
+seleccionar TS
+Ya existe error
+Operaciones de usuario
+SPARSE Retener
+área bajo la curva
+Inicializador de archivo de texto
+Coordinator
+Encimera
+Establecer la diferencia
+momentos
+unicode decodificar
+Wishart Cholesky
+Gancho de tensor de registro
+Leer ejemplos de lotes
+Reducir el conjunto de datos
+Histograma de ancho fijo
+Poda
+matemáticas
+Grupo de geometría visual 16
+Serie de tiempo límite de calcular
+Obtenga una estructura poco profunda de Traverse
+voltearse al azar
+logaritmo acumulativo de la suma del exponencial
+Sin gradiente
+Estructura de tensor irregular
+Error no autenticado
+Célula de memoria a corto plazo convolucional 1D a largo plazo
+dispersar max
+columna categórica con lista de vocabulario
+Protocolo de asesoramiento
+Parámetros de descenso de gradiente estocástico
+AGN Optimizer
+Optimizador de peso de impulso
+CUDNN Memoria a corto plazo SAVABLE
+Clave de predicción
+Inception Resnet versión 2
+Conv3d Transpose
+Ejemplo
+Valor absoluto
+Optimizador de escala de gradiente de Adam Adam
+Celda de memoria a corto plazo a largo plazo
+como cuerda
+lista
+transmitiendo verdaderos negativos en los umbrales
+Regresión logística
+como texto
+estadística
+filtro de retropropagación tridimensional convolucional
+Inception ResNet v2
+generic
+des-serializar
+Red
+hacer mesa de muestreo
+transmitir positivos verdaderos
+Cargar datos
+columna escasa pesada
+resumir el tensor
+mapa métrico agregado
+Envoltura de bloques de memoria a corto plazo
+Unidad de procesamiento de tensor
+Tabla de índice de tensor
+Matriz resolver mínimos cuadrados
+Obtener estado de punto de control
+Espacio para lotes n-dimensionales
+Unidad lineal rectificada Legacy
+Esquema de cuadratura lognormal cuantiles
+Siguiente lote de secuencia de cola
+convertir la imagen dtype
+único con conteos
+Abandono gaussiano
+Predecir la definición de firma
+Eliminar tensor de sesión
+Decodifica gráficos de red portátiles
+División real
+entrada preprocesada
+invertir
+Muestra de inserción
+Get Global Step
+SHOFLEY BATH Únete
+Celda de memoria 3D a largo plazo 3D convolucional
+en la parte superior k
+inicializador de mesas
+Protocolo de histograma
+Inicializador de tensor de valor clave
+pérdida de contrastes
+enmascarado denso
+al entero 32
+Error transparente asíncrono
+por estandarización de la imagen
+Mapeador de valores planos
+baraja aleatoria
+Definición de firma de clasificación
+Agrupación promedio 2D
+Obtener biblioteca
+Forma dinámica de transmisión
+Función de pitón
+rodajas indexadas
+CUDNN RNN TANH SAVABLE
+Error de porcentaje absoluto medio
+no concatenados juntos
+Mesa de vocabulario estático
+Atención de Luong
+principal
+Multiplicar no nan
+Modelo WALS
+Profundidad en 2D convolucional
+global
+Normalización de lecun
+Resolver de clúster de Google Cloud Engine
+Concatenar
+Muestra de candidato uniforme logarítmico
+Obtener crecimiento de la memoria
+Particionador de tamaño fijo
+variables entrenables
+división truncada
+optimizar la pérdida
+parada temprana
+precisión
+Resolvente de clúster de TPU
+afirmar el mismo dtype flotante
+audio
+Obtener variables por sufijo
+excepción de falla
+paso global
+Divide no nan
+Asignar registro de mudanza media EXP
+Inicializador de incrustación de carga
+Optimizer Adamax
+Establecer la diferencia 1D
+transmitir falsos negativos
+Establecer Epsilon
+aumentar la excepción en el estado de no estar bien
+precisión mixta
+Optimizador restringido
+Obtener el manejo de la sesión
+registrar si
+escaso relleno de filas vacías
+precisión categórica
+codificar WAV
+Cudnn Rnn Tanh
+columna categórica de secuencia con identidad
+Red móvil V2
+falsos negativos en los umbrales
+Inicializador de variables locales
+afirmar estructura poco profunda
+Operaciones utilizadas por definición de gráfico
+conjunto de datos de ejemplo de ejemplo
+Lineal
+afirmar no positivo
+Expresión regular Match Full Match
+secuencia de texto a palabras
+Norma máxima
+ejemplo
+CUDNN RNN RELU SAVABLE
+Exponencial con tasa de Softplus
+Límite de bytes
+Inverso corto tiempo de Fourier Transform
+entrada de recursos
+Paso estándar de pérdida única
+Glorot inicializador normal
+Código de error del tipo de excepción
+Detente después de n Evals Hook
+Min max Variable Particioner
+ajustar el contraste
+Deshabilitar la ejecución ansiosa
+precisión categórica escasa
+pérdida de NCE
+disperso div
+Convolución 2D
+Transformación bijectiva
+Establecer el crecimiento de la memoria
+Número de forma
+Gráfico de puntos desde el punto de control
+Matriz de tensor
+Forma tensor
+Concatenación de transmisión
+Columna numérica
+Máximo Pool 3D
+Solucionador sindical
+Estado de error
+cadena al cubo hash
+inicializador cero
+valor constante inteligente
+pila rnn dinámico bidireccional
+Optimizador de señal de alimentación
+red móvil
+RNN funcional
+cambiar el tamaño de los volúmenes
+codificar base64
+L 2 normalizar
+Gancho
+reuters
+Lector de registros de TF
+Diag normal multivariado con escala blanda
+escaso al indicador
+gmm
+Obtener opciones experimentales
+llenar filas vacías
+Dimensión
+Bytes produjo estadísticas
+Operador lineal matriz completa
+Salida de regresión
+Estrategia de exportación
+Copiar con reemplazos de entrada
+variable uniforme aleatoria
+establecer flotador x
+Supervisor
+Hacer directorios
+tensor escaso a denso
+punto de referencia
+Agrupación promedio 1D
+Agrupación promedio global 3D
+Estado de Python
+bisagra categórica
+Detente si es un gancho más alto
+agregación variable
+Llamar a la función logit
+Forma estática transmitida
+cambiar el tamaño de la cosecha o la almohadilla
+Nadam
+hacer tensor proto
+hacer estrategia de exportación
+esta anidada
+Envoltura de células de atención
+transposición escasa
+Especificación de evaluación
+conded inteligente
+como tipo de datos
+muestra de conjuntos de datos
+convertir sugerencias de operación a stubs
+precisión
+Partitionista del tamaño del eje variable
+Verificar el tensor todo finito
+multiplicación de matriz tridiagonal
+Clip por norma promedio
+series de tiempo
+Cuantización falsa con variables máximas mínimas
+Eliminar recursivamente
+Creador de la sesión de trabajadores
+resumen del tensor
+Lector numpy
+Global Max Pool 1D
+Sin dependencia
+Filtro Timeseries de Regex
+Inicializador de escala de unidad uniforme
+Dimensiones permutas
+Celda RNN básica
+Asignar agregar
+alcance del nombre
+entrenar y evaluar
+Envoltura residual
+guardar imagen
+clip de norma
+Regresor autorregresivo
+No negativo
+Bloque de unidades de unidad recurrente cerrada Versión 2
+cuantizar y desquantizar
+Atención de Bahdanau
+Esquema de cuadratura lognormal gauss hermite
+VGG 19
+Horario
+Decadencia polinomial
+Obtenga pérdidas de regularización
+Transmisión de tasa de falsos positivos
+Evaluar repetidamente
+Obtener descripción resumida
+Dar la opinión
+De variante
+es jpeg
+rastreo de exportación
+Configuración de TPU
+Precisión categórica K
+Restablecer gráfico predeterminado
+al hash cubo
+cubo por longitud de secuencia
+Resnet 50
+L1 L2 regularizador
+Pérdida de NAN durante el error de entrenamiento
+Tipo de compresión de registro TensorFlow
+como cuerda
+Bordes de soborno
+Protocolo de nodo gráfico
+Hacer que sea salvible desde el iterador
+Establecer hilos de paralelismo de interoperación
+Global Maximum Pool 2D
+recurso de carga
+Valores de ejecución de la sesión
+Gráfico fusionado remoto
+reducir la media
+relleno espacial 2D
+Arg argumentos alcanzados
+Gerente de escala de pérdida fija
+Envoltura de dispositivos de celda RNN
+alcance inicial
+incrustación de rnn seq2seq
+secuencia de paquete como
+Clip por valor
+Tiempo distribuido
+Ejemplo de secuencia única de analizador
+celda de memoria a corto plazo convolucional a largo plazo
+registrar primero n
+envoltura de dispositivos
+aplanarse con caminos de tuple hasta
+Haz un iterador de un tiro
+Top K
+Formato de intercambio de gráficos decodificadores
+afirmar escalar
+Obtener tensores
+Sin función de la operación del tren
+Maximum
+gradiente personalizado
+Mensaje de registro
+Estrategia de equilibrio de carga codiciosa
+Imagen
+Nombre del dispositivo GPU
+huella dactilar
+Obtener marcadores de posición
+eig auto adjunto
+Corredor de la cola de alimentación
+Modelo de configuración
+Ayudante
+Tensor desigual
+Normal truncado
+Helper de incrustación codiciosa
+Categórico sin estado
+Conjugados normales a escala conocida predictiva
+Multiplicar gradientes
+Optimizador de escala de pérdida
+Recuerde en Top K
+Crear clúster local
+Multi trabajador todos reducen
+melodía
+codificar JPEG
+Mesa de hash estático
+predictor
+Definición de gráficos
+Enmascarado completamente conectado
+división de filas a ID de segmento
+establecer unión
+Conv 2D separable
+pila rnn bidireccional
+Convertidor de formato de parámetros de cudnn gru
+distancia coseno
+uniforme para lecun
+Caso de prueba
+Enqueuer ordenado
+Agregar variable de modelo
+Optimizador de Adadelta
+obtener un índice de palabras
+Cuenta de parámetros
+Celda de memoria a largo plazo a largo plazo
+ortogonal convolucional unidimensional
+Restricción radial
+aprendizaje métrico
+cambiar el tamaño de bicúbico
+modelo a estimador
+estadísticas suficientes
+Paso
+Obtener un gráfico predeterminado
+Asignar desde la función de punto de control
+opciones de optimización
+Escribir gráfico
+Fast Fourier Transform 2d
+Institutos Nacionales de Normas y Tecnología modificados
+módulo truncado
+constantes de etiqueta
+Archivos coincidentes
+Capaz de control
+Circulante de operador lineal
+Audio de decodificación
+transmisión de error cuadrado medio
+Resumen Saver Hook
+llenar triangular
+Estractón al azar normal
+Utilidades de Imagenet
+fusión escasa
+Expectativa Importante Espacio de registro de muestras
+permutar
+reamitación periódica
+Asignar desde valores
+Cuadrícula bidireccional celda LSTM
+productor de entrada
+Estimador de red neuronal recurrente dinámica
+Inverso Real Fast Fourier Transform 2d
+es finito
+factorización
+obtener una semilla
+deshabilitar la reescritura de gráficos de precisión mixta
+variables globales
+Incrustar la búsqueda única
+cola aleatoria de shuffle
+Política establecida
+argumentos de ejecución de sesión
+Definición de gráfico de importación
+resumen de estadísticas
+Filtro de backpropagation de la convolución de profundidad
+estadística de latencia
+Error fuera de rango
+Clasificador combinado lineal de red neuronal profunda
+Golpe de checkpoint Saver oyente
+Mnist de la moda
+Todos reducen las operaciones del dispositivo cruzado
+Cuadrícula a largo plazo a corto plazo
+Gancho de operaciones finales
+Borrar las devoluciones de llamadas de ejecución
+Mapeador de características de Fourier aleatorio
+Afirmar las variables inicializadas
+Contraste aleatorio
+quitar el árbol
+No operacion
+Pérdida de regularización de escala
+establecido justo a tiempo
+TensorFlow Record Iterator
+error relativo medio
+Habilitar variables de recursos
+monitor
+transmitiendo negativos verdaderos
+Video decodificador
+utilidad gráfica
+división escasa
+intercambio de entrada/salida
+dependencia dividida
+exportador final
+optimizador proximal de adagrad
+transcodo Unicode
+inferir columnas de valor real
+Campo aleatorio condicional decodifica avanzar celda de red neuronal recurrente
+Alcance variable
+Suma de segmento escaso
+Lotes por lotes
+Asignar desde la función de valores
+Media de segmento escaso
+Entrada de definición de colección
+Opciones de registro de tensorflow
+Pitón
+Keras
+Convolución separable 1D
+Tal vez lote
+Lista de atributos de nombre
+Tensorflow Lite Cell de red neuronal recurrente
+Estrategia de distribución
+Get Logger
+vector matriz
+Agregar corredor de colas
+Característica de secuencia de longitud fija
+caso
+Crear escritor de NOOP
+Pruebe la llamada de procedimiento remoto
+Normalización de la capa
+Exporter
+RNN dinámico
+una columna caliente
+pérdida de Softmax disperso de muestreo
+Builder de funciones logit lineal
+envolturas
+zoom aleatorio
+resumen de la imagen
+Punto
+Obtener un solo elemento
+Establecer estilo keras
+corredor de colas
+Afirmar la definición de gráficos iguales
+Conjunto de datos de registro de longitud fija
+Lambda
+es directorio
+conjugados normales de escala conocida posterior
+Copiar operación a gráfico
+Filtro de retropropagación nativo de Conv2d de profundidad
+Bins de ancho fijo de histograma
+Sustraer
+Actualizar el estado del punto de control
+Optimizador de recorte variable
+Cola de alimentación
+transmitir falsos negativos en umbrales
+monitors
+existe
+Inicializador
+Entrenable
+puntaje unario de campo aleatorio condicional
+Crear gráfico de entrenamiento
+tabla tensor
+marcador de posición escaso
+optimizador de descenso de gradiente proximal
+rastro
+cosecha aleatoria
+construir función de receptor de entrada supervisada sin procesar
+recibir sesión
+falsos positivos en umbrales
+formato de datos de imagen
+Obtener pesas enmascaradas
+Xavier Inicializador Convolutional 2D
+Estado numpy
+Valores separados por comas decodificados
+Tensor etiquetado
+Entrada de columnas de características
+error de operación
+en línea
+Clasificador de árboles aumentados en la memoria
+Convolución 2D Transposición
+Operation Sugerencia de argumentos de argumento
+Gráficos de funciones
+Cabezal de múltiples clases
+Optimizador de ascenso de doble coordenada estocástica
+Con espacio para lotes
+Inicializador de ranura variable de carga
+Grupo máximo fraccional
+Cache del escritor de archivos
+Red residual 50
+columnas de características de análisis de ejemplos de secuencia
+Espere un nuevo punto de control
+epsilón
+Erosión 2d
+Corte a la caja delimitadora
+Célula RNN abstracta
+del estimador de contribución
+extraer subgráfico
+Clasificador de árboles impulsados
+densenet
+mapa vectorial
+Deserializar muchos escasos
+builder
+Estimador base
+Opciones de gráficos
+decodificador de RNN
+Tipo de excepción del código de error
+Gancho de ahorro de punto de control
+reiniciar la forma
+Error logarítmico cuadrático medio
+vivienda de Boston
+Estimator
+Resumen de fusiones
+Tipo de datos
+Reducir caminos planos
+Modelo autorregresivo
+registro detallado
+Gerente de sesión
+Decadencia de tiempo inverso
+variables locales
+Obtener clases de salida
+Entrada de la lista de funciones
+suma de segmento sin clasificar
+Columna de características escasas
+asegurar la forma
+segmento no organizado min
+Ffmpeg
+separar las entradas
+Convolución 2D en avión
+Conjunto de operaciones
+Modelos de aprendizaje automático
+decadencia exponencial natural
+pérdida de agrupación
+error medio cuadrado
+especificación objetivo
+decodificador de atención
+Nuevo resumen de estadísticas
+Entrada de dispositivos
+Conjunto de datos de registro de tensorflow
+Inicializar el sistema
+Suma
+Getter personalizado promedio elástico
+Muestra de candidato uniforme
+arranque en caliente
+Obtener variables locales
+Celda de células fusionadas a largo plazo a corto plazo
+Ahorrador
+Restaurar el punto de control de la red
+Productor de entrada de rodajas
+Mientras que el bucle
+Gancho de ahorro de punto de control asincrónico
+Enumerar el conjunto de datos
+Cabeza de regresión de Poisson
+Maderero base
+Al numero
+Mejor exportador
+Error de porcentaje absoluto medio
+Inicializador normal aleatorio
+Suma ponderada de la junta de las columnas de características
+Archivo de Google
+cross
+del estimador
+Obtener pedido de cómputo
+precisión en los umbrales
+Collective TODO Reducir la estrategia
+Norma de la unidad
+Conjunto de datos representativo
+VGG 16
+asignar sub
+Error no implementado
+Estructura de mapa con rutas de tupla
+modelo de clon
+Descripción resumida
+Tiempo invertido RNN fusionado
+precisión media por clase
+Llenar triangular
+Tensor serializado
+Célula múltiple
+Salida de decodificador básico
+Devolución de llamada Lambda
+Opciones de conversión
+Secuencia Saver de estado de cola
+Envoltura de carreteras
+Etiqueta de clasificación temporal Connectionista densa a escasa
+Función de lotes no diferenciable
+Crear función de receptor de entrada supervisada a partir de la función de entrada
+Promedio
+Columnas de incrustación compartidas
+Almohadilla a B
+métricas agregadas
+Selector de dispositivos variables
+Estructura de mapa hasta
+decodificar jpeg
+Envoltorio de deserción
+Modelo guardado de exportación para el modo
+Falsos negativos
+capturar dependencias
+Etiquetas únicas de CTC
+Desactivar la igualdad del tensor
+Resumen al final del gancho
+constante a partes
+Toeplitz de operador lineal
+Abandono espacial 1D
+continuación del filtro
+Obtener el archivo
+Pasar graduado
+Base de la cola
+Resumen iterador
+Max Proying 1D
+Calcular la pérdida promedio
+Dispositivos de lista experimental
+N
+verdaderos negativos
+Cinta de gradiente
+Segmento de la raíz cuadrada del segmento escaso n
+Especificación del tensor limitado
+plantilla predeterminada de NVP real
+Opciones de vectorización de mapas
+decodificar BMP
+inicializadores
+Retroor de conjunto estructural
+Área de transmisión debajo de la curva
+meterse dentro de las operaciones de límite
+Recuerdo de precisión en umbrales iguales
+contiene modelo guardado
+No se necesita abreviación ni expansión
+Inicializar las variables locales
+relleno 3D espacial
+Función de normas de gradiente de clip
+estar suave
+Entrada/salida de Python
+Reducir cualquier
+Lista de bytes
+Donde la versión 2
+Distribución normal multivariada - diagonal
+Recordar
+Subgraph
+Ejecución de gráficos fusionados remotos
+Estimador de red neuronal profunda
+Plantilla predeterminada autorregresiva enmascarada
+variable global
+tiene estrategia
+Falsos positivos
+Árboles aumentados de tren de regresor en la memoria
+Eliminar las entradas de control
+Dispositivos virtuales
+cardinalidad
+Experimento
+Cabeza de regresión de Poisson
+Incrustación atada rnn seq2seq
+Agrupación máxima 1-D
+Leer características de lotes con clave
+Actualización de dispersión por lotes
+Error no disponible
+Promedio móvil exponencial
+Escaso reduce el máximo
+Red neuronal recurrente en bruto
+Ortogonal convolucional 2-D
+Shift izquierdo
+model_to_dot
+columna escasa con cubo hash
+inicializador xavier
+es una firma válida
+secuencias por lotes con estados
+Inicializar el sistema TPU
+Entradas de red
+Gradientes de clip de la norma global
+Decadencia constante por partes
+Tipo de ejecutor de funciones
+agregar n
+Atrolarse para las pruebas
+Quant falso con min max vars por gradiente de canal
+Codificar PNG
+Insumos de intercambio
+Softplus inverso
+Tuple de salida de la salida
+Escala triangular inferior
+Error de autógrafo
+modelo guardado
+Afirmar no negativo
+transmitir falsos positivos en los umbrales
+Retiro de transmisión en los umbrales
+Global Max Pool 3D
+Restaurar variables en Crear
+Registre KL
+escala de varianza
+Entrada de damas
+reducir el producto
+Agrupación promedio 3D
+Optimizador de proporción de RMS
+hacer una expresión regular
+Obtener la configuración del dispositivo virtual
+Inicializar todas las tablas
+Reemplazar gráfico
+Obtener variables
+área bajo la curva
+múltiple
+máscara booleana
+Copiar variable al gráfico
+gamma aleatorio
+Uniforme de glorot
+Parámetros de Adam
+Calcular la pérdida ponderada
+modelo
+Obtener o crear paso de evaluación
+Convolución 1 dimensional
+Tuple de estado de memoria a corto plazo
+SUGERACIÓN DE OPERACIÓN
+Tal vez Bastar Batch
+Agrupación promedio de 1 dimensión
+lotes reunidos
+Producto exterior de Cholesky
+Archivo G Fast G
+conectarse al host remoto
+Corredor de colas
+hacer iterador inicializable
+Varianza media en movimiento
+Habilitar la reescritura de gráficos de precisión mixta
+Exportar todos los modelos guardados
+Memoria convolucional a largo plazo 2D
+Cartografía
+Celda de memoria a corto plazo 2D a largo plazo
+cuerda al cubo de hash fuerte
+columna categórica con cubo hash
+Entropía cruzada pesada con logits
+piscina 3D
+Salidas de control
+escalar
+Optimizar
+tubería de entrada
+Inferido auxiliar
+Objeto rastreable
+Opciones de enhebrado
+Imagen de transposición
+L1
+resample ponderado
+Opciones de ejecución
+CRF decodifica la celda RNN hacia atrás
+Convertidor de formato de parámetros CUDNN Tanh
+aplanar hasta
+Extraer parches de volumen
+Ascenso de doble coordenada a escala lineal
+Transformación rápida de Fourier tridimensional
+Receptor de entrada para servir tensor
+Propietario del operador lineal
+Recordar en precisión
+Reducir la desviación estándar
+alcance del nombre de la tira
+optimizador lineal
+PREPEND Nombre alcance
+lote de ventana deslizante
+Convolución 1D
+decodificación de CTC
+Configurar el almacenamiento en la nube de Google
+supresión no máxima
+Habilitar la forma del tensor de la versión 2
+ajustar la saturación
+puntuación de secuencia de campo aleatorio condicional
+Entrada de formas de entrada
+Lea la ruta del archivo de anticipación
+Mejor esfuerzo de entrada Tamaño de lote
+variable
+precisión en el retiro
+Entropía cruzada de softmax escasez escasa despreciada con logits
+lector de línea de texto
+inicializador
+vector laplace diagonal
+variables
+urgencia densa warp
+Modelo lineal
+Biblioteca de red neuronal profunda de CUDA memoria a largo plazo
+división de cuerdas
+verdaderos negativos en los umbrales
+Máxima agrupación 2D
+sesión clara
+Pérdida máxima escasa
+Uniforme aleatorio sin apátrico
+Corriente de semilla
+Obtener una reducción de pérdidas
+tridiagonal
+horizonte de compatibilidad hacia adelante
+Red móvil
+Interruptor de funciones logit de red neuronal
+Estructura opcional
+afirmar o obtener un paso global
+Retiro de transmisión en K
+Información del transformador
+enésimo elemento
+Obtener el nombre completo de la variable
+Inicializador uniforme de glorot
+Entropía cruzada de Softmax escaso con logits
+Cifar-10
+Deshabilitar variables de recursos
+Reducir todo
+Covarianza completa multivariada
+Cambiar el tamaño de la imagen con almohadilla
+Alcance de estilo keras
+Inverso Fast Fourier Transform 3D
+Boxwise
+Error logarítmico cuadrático medio
+columna cruzada
+Especificación del dispositivo
+Ayudante de entrenamiento
+Verdaderos positivos
+réplica de dispositivos
+coincidir con los nombres de archivo una vez
+una codificación caliente
+limitar las épocas
+Ayudante de entrenamiento de salida programado
+Definición de meta gráficos
+Rebautizar
+Modo de replicación de entrada
+Red residual 50 v2
+Conectación experimental al clúster
+Inicializador de variables
+devoluciones de llamada
+Darle la vista desde el alcance
+Establecer la configuración del dispositivo virtual
+relación señal-ruido máxima
+Campo aleatorio condicional avanzado celda de red neuronal recurrente
+restricción radial
+Relu umbral
+hessianos
+proto
+nido
+normalización por lotes
+restablecer uids
+alcance bfloat16
+Inicialización variable manual
+calcular gradiente
+desviar a
+Ayudante personalizado
+Tabla de índice a cadena desde el archivo
+Crear operación de tren
+Valor de saturación de azul rojo verde a tono
+Mesa de hash densa
+Detente si el gancho inferior
+Área de ensayo
+TOCO Convertir
+dispersar y agregar
+Adam Optimizer
+advertir
+Definición de clúster
+capa de entrada
+Distribuir opciones
+alcance de fase de aprendizaje
+Pérdida de bisagra multiclase escasa
+Identidad a escala del operador lineal
+evaluación polinomial
+está construido con soporte de GPU
+columna escasa con característica entera
+Etiquetado Run metadatos
+Maderero de progbar
+de denso
+tono aleatorio
+editar
+Lector de CSV
+argumentos desactivados
+Alcance de objeto personalizado
+productor de entrada de rango
+Ascenso de dual coordenada estocástica encogida L1
+Entropía cruzada categórica
+Valores de argumentos desactivados
+Resumir tensores
+Cohen Kappa
+Obtener directorio temporal
+No convertir
+Clasificador lineal del núcleo
+Divide no nan
+Agregar
+Bisagra categórica
+Especificación de clúster
+tensor de impresión
+doblar l
+Generador enqueuer
+Último exportador
+transmisión de precisión promedio escasa en k
+Estructura tensor
+Ejemplo de secuencia
+columna valiosa real
+Obtener la política del dispositivo
+tira
+Escala de pérdida dinámica
+Obtener operaciones de consumo
+esquema de cuadratura Softmax Gauss Normal Hermite
+cambio aleatorio
+Mesa de hash densa mutable
+Activación
+Max Proying 3D
+matriz diagonal
+transformaciones planas a matrices
+forma de reinicio escaso
+cambiar el tamaño de las imágenes
+Base del lector
+Nombre del marcador de posición
+exponencia de una matriz
+Instituto Canadiense de Investigación Avanzada 100
+Datos de complemento
+secuencia a secuencia
+Coeficientes cepstrales de frecuencia MEL de los espectrogramas de frecuencia MEL de registro
+raíz cuadrada de matriz
+secuencia de RNN básica
+uniforme de estado
+solucionadores
+Afirmar formas
+Convolución separable 1D
+Get Global Generator
+Celda RNN simple
+Listas de características
+Capa
+afirmar menos igual
+sensibilidad a especificidad
+Obtenga una variable única
+Reemplace T con el manejador de marcador de posición
+Agrupación promedio 1D
+previo procesamiento
+múltiple
+está construido con rocm
+Enoción de placas
+slim
+Clasificador de línea de base
+cambiar el tamaño del vecino más cercano
+Regularidad L2
+Estudiante T con grados absolutos de libertad Softplus Escala
+entropía cruzada sigmoidea con logits
+política global
+dispersión multiplicar
+descenso de gradiente
+Impresión formateada SDCA
+Estrategia aleatoria
+funda inteligente
+Valor de atributo
+Obtener alcance de nombre
+obtener el siguiente
+al indicador
+Operador lineal adjunto
+Entrada de tareas
+media transmisión
+Campo aleatorio condicional
+archivo genérico
+matriz a imagen
+concatenado cuantificado
+sets
+Precisión binaria
+Recordar
+Estado del decodificador de búsqueda de haz
+Tensorflow Lite LSTM Cell
+parte de la banda
+codificar
+Aporte
+Inicializador de matriz de carga y reasigna
+transmisión de precisión en los umbrales
+serializar tensor
+fundido al punto flotante x
+estimar o estimador
+Resnet versión 2
+Red residual 152
+objetivo de clase múltiple
+superponerse y agregar
+columna categórica con archivo de vocabulario
+Contexto de entrada
+Tiempo de lote de transposición
+reducir el mínimo
+asignación de dispositivos
+Error interno
+Media del segmento no organizado
+con la misma forma
+Peephole a largo plazo de células de memoria a corto plazo
+Operador lineal
+predicciones decodificadoras
+eager
+Teclas de modo
+dilatación 2d
+Configuración del dispositivo virtual
+Probabilidad del registro de CRF
+codificar proto
+Clasificador DNN
+convolución enmascarada
+L1 RELICISTERIZER
+Tuple de enqueue de salida
+Programa de tarifas de aprendizaje
+Capa de celda de red neuronal recurrente
+a gráfico
+recomputar gradiente
+raíz cuadrada de segmento no organizado n
+Sesión de capacitación monitoreada
+transmisión de tasa de falsos positivos en los umbrales
+Detente si no aumenta el gancho
+Extraer matriz de pandas
+Obtener fuente
+transmisión de error absoluto medio
+Modelo de mezcla gaussiana
+Recorte 1-dimensional
+uno a muchos secuencia de red neuronal recurrente a secuencia
+distribución normal sin estado
+rojo-verde-azul a la escala de grises
+Softmax espacial
+transmisión de distancia media cosena
+Normalización global
+Exportación guardada
+alcance del creador variable
+obtener un paso
+L2
+inicializar
+Ftrl
+mínimo escaso
+Lista int 64
+aplanar con caminos de tupla
+Quant falso con Min Max Vars Gradiente
+Obtener banderas de enlace
+Llamar de vuelta
+Contexto de ejecución de sesión
+Obtener máscaras
+Escribe PB crudo
+moderno
+Leer funciones de lotes con teclas
+2D convolucional
+resumir las activaciones
+columna de incrustación
+Transformación de coseno discreto
+Establecer generador global
+Características de evaluación del tren
+Todas las operaciones de resumen de V2
+Establecer el modo de ejecución
+Nasnet Mobile
+objetivo de regresión
+Variables de recursos habilitados
+Optimizador promedio elástico
+Convolución local 1D
+Lote acolchado y caída del resto
+Asignar varianza media en movimiento
+nan devolución de llamada
+Establecer la colocación del dispositivo de registro
+Estado de envoltura de atención
+Precisión categórica escasa
+Reducir la suma de registro ponderada EXP
+inicializador ortogonal
+decodificador de búsqueda de haz CTC v2
+restablecer el os
+Algoritmo GMM
+Agregar métricas
+jefe de clasificación binaria
+Pérdida de Softmax muestreada
+Envoltura de atención
+Keras regresor
+Mesa de hash mutable
+Uniforme aleatorio
+esquema de cuadratura softmax cuantiles normales
+Tensor medio
+Optimizador de adagrad regularizado
+Normalización de la respuesta local
+imprimir
+Reducción a un dispositivo
+cambiar
+Min Norma Max
+afirmar mayor igual
+Salida del decodificador de búsqueda de haz final
+Cargar inicializador de polarización multiclase lineal
+Yiq a rgb
+Gdn
+Teclas gráficas
+retiro de transmisión
+Obtener hilos de paralelismo interpóptero
+conectar
+hacer especificaciones de ejemplo de análisis
+flotar
+Unicode dividido con compensaciones
+spline interpolar
+alcance de arg.
+directorio de listas
+Abandono espacial 3D
+Convertidor de formato de parámetros CUDNN LSTM
+Directorio de listas
+Compatibilidad SK
+Topología
+Emitir todos los intermedios
+Ejecutar la prueba en gráfico y modos ansiosos
+Convolución 2D Transposición
+Crear escritor de archivos
+Min Norma Max
+Versión 1
+Clasificador de red neuronal recurrente
+Especificación del conjunto de datos
+Producto de puntos por lotes
+Rastreador de nombres único
+Python State Wrapper
+Red neuronal recurrente estática
+Función de reducción
+Inicializador de la tabla de identificadores de archivo de texto
+Bahdanau Atención monotónica
+revisar los CIO
+SSIM multiescala
+Tokenizador
+Nuevo lector de punto de control
+supresión no máxima combinada
+Resnet 152v2
+verdaderos positivos en los umbrales
+red para cambiar el tamaño
+Entropía cruzada sigmoides desapercibida con logits
+C
+Convolución 3D Transpose
+logaritmo del sigmoide
+Softmax centrado
+suma de segmento
+Precisión categórica K
+Matriz resolver
+Optimizer versión 2
+significar
+Obtener umbrales
+Función de entrada de servicio de análisis de análisis
+serializar muchos escasos
+Flujo tensor
+Constante
+Agrupación promedio 3D
+Establecer el tipo de elemento
+Curting 3D
+CUDA Deep Network Neural Network Recurrent Recurrent Unidad recurrente
+threading
+lite
+estructura
+Función de Bessel del primer tipo de orden 0 escalado exponencialmente
+Entrada de backpropagación 2D convolucional
+Puntaje F1
+Fase de aprendizaje
+Densa red 169
+Operadores bijectivos
+Modelo Getter personalizado promedio
+Global Maximum Agrupo 2D
+Resumen
+Estrategia de un dispositivo
+Iterador de directorio
+Optimizador promedio de modelo
+Definición de meta información
+bloque de inversión
+evaluar
+modelo de GPU múltiple
+Mecanismo de atención
+manejador de operación de copia
+crear un estado de generador de números aleatorios
+Clasificador lineal
+transposición de la convolución
+ACTUALIZACIÓN AGREGAR
+Iniciar corredores de cola
+columna categórica de secuencia con cubo hash
+cabeza de regresión logística
+de entrada y salida
+Definición de firma de regresión
+ruta de directorio de fuente de prueba
+salida de clasificación
+Sigmoide duro
+n pares de pérdida de múltiples etiquetas
+Sesión
+Ejemplo de JSON decodificador
+Sin gradiente
+función de entrada de pandas
+Bytes en uso
+Clip gradientes por norma
+contar
+Aplicar cambio de brillo
+Entrada de DEF de firma
+variable normal aleatoria
+Hilo de looper
+Lector lmdb
+Transposición 3D convolucional
+cabezal de máquina de vectores de soporte binario
+Obtener dispositivos visibles
+Metadatos de resumen
+política
+Terminar grupos de multiprocesamiento de keras
+Estimador de modelo guardado
+Normalización de la respuesta local
+Error abortado
+Decadencia de coseno lineal ruidoso
+tiene estrategia de distribución
+Traducciones a transformaciones proyectivas
+nube
+OP principal con restauración
+Precisión promedio en K
+Obtener colección
+Normal con escala blanda
+Celda de memoria a largo plazo a largo plazo independiente recurrente
+Transformación diagonal de matriz
+Error logarítmico cuadrático medio
+Establecer la definición del servidor
+Resolver tridiagonal
+Retener
+Control
+Normalizar momentos
+Puede ser expresión regular
+Especificaciones
+Convolución local 2D
+Conjunto de datos de línea de texto
+expectativa
+Lista de flotadores
+Cruce binario
+afirmar todo finito
+sistema apagado
+escala uniforme de la unidad
+Bloquear parámetros de caché
+Requerir contexto de réplica
+Protocolo de configuración
+Modelo de servicio guardado
+Inicializar todas las variables
+Inception versión 3
+Lazy Adam Optimizer
+Evento de importación
+Pérdidas
+Bolsa de palabras codificador
+Establecer la intersección
+Envoltura compilada
+Aplicar elementos del diccionario
+Sincronización variable
+Creador de sesión
+Bajo triangular normal multivariante
+Precisión en k
+Series de tiempo regresor
+Toda la operación resumida
+Versión promedio de la piscina 2
+Optimizador de torre
+Agregar alcance de argumento
+escaso reduce max escaso
+Tensor dispersión Agregar
+atención aditiva
+checker
+Cargar la biblioteca del sistema de archivos
+Métodos de núcleo
+poda
+multiplicar
+Softplus escalado
+llegar a tiempo justo a tiempo
+Entrada de atributo
+Estimador de red neuronal recurrente
+Características delantero
+Afirmación
+cabeza de regresión
+Inferir columnas valoradas reales de la función de entrada
+decodificar bruto
+operación principal
+Celda unitaria recurrente cerrada independiente
+invertir
+Resumen de estadísticas
+columna de incrustación dispersa
+CTC Loss versión 2
+Error cuadrado de pares medios
+Filtro de inicio en frío
+casco
+cuadrícula rnn
+Células RNN apiladas
+Clip por Norma Global
+Tabla de índice desde el archivo
+depurar ging
+modelo de carga
+Estimador de árboles impulsados
+índice de similitud estructural

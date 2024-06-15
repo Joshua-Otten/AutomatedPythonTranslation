@@ -2,7 +2,8 @@
 # each file is formatted the same way a LanguageKey is formatted (each term on one line), but we don't have underscores, etc.  Formatting subject to change depending on how translators write output, etc
 # We compare the lemmatized versions of the expanded terms
 # if stanza does not support a particular language, we will have to evaluate that some other way
-from torchmetrics.text import CHRFScore
+#from torchmetrics.text import CHRFScore
+import sacrebleu
 
 def beginning_download(lang_id):
     import stanza
@@ -58,7 +59,7 @@ def raw_accuracy(gold_trans, test_trans):
 
 
 def CHRF_score(gold_trans, test_trans):
-    chrf = CHRFScore()
+    #chrf = CHRFScore()
     gold_trans = open(gold_trans,'r')
     gold = gold_trans.readlines()
     gold_trans.close()
@@ -72,12 +73,19 @@ def CHRF_score(gold_trans, test_trans):
     total = len(gold)
     all_scores = 0
     for i in range(len(gold)):
-        target = [gold[i].lower().strip()]
-        pred = [test[i].lower().strip()]
-        score = chrf(pred, target).item()
-        all_scores += score
+        target = gold[i].lower().strip()
+        pred = test[i].lower().strip()
+
+        target_list = [target]
+
+        
+        score = sacrebleu.corpus_chrf([pred], [target_list])
+        #score = chrf(pred, target).item()
+        #print(target,'compared to',pred,'=',score.score)
+        all_scores += score.score
     #print("Avg CHRF score is:",all_scores/total)
-    print(f"\tCHRF: {100*all_scores/total:.2f}%")
+    #print(f"\tCHRF: {100*all_scores/total:.2f}%")
+    print(f"\tCHRF: {all_scores/total:.2f}%")
         
 def print_llm_scores(language, prompt):
     print('"'+language+'"')
@@ -87,6 +95,9 @@ def print_llm_scores(language, prompt):
     print('GPT-turbo')
     raw_accuracy('../Gold/'+language+'Key.txt','../ChatGPT-Turbo/'+prompt+'/'+language+'.txt')
     CHRF_score('../Gold/'+language+'Key.txt','../ChatGPT-Turbo/'+prompt+'/'+language+'.txt')
+    print('GPT-4')
+    raw_accuracy('../Gold/'+language+'Key.txt','../GPT-4/'+prompt+'/'+language+'.txt')
+    CHRF_score('../Gold/'+language+'Key.txt','../GPT-4/'+prompt+'/'+language+'.txt')
     print('Llama2')
     raw_accuracy('../Gold/'+language+'Key.txt','../Llama2/'+prompt+'/'+language+'.txt')
     CHRF_score('../Gold/'+language+'Key.txt','../Llama2/'+prompt+'/'+language+'.txt')
@@ -109,7 +120,7 @@ CHRF_score('../Gold/SpanishKey.txt','../Llama2/0-shot/Spanish.txt')
 print('\n')
 
 
-
+'''
 print('\nEXPANSION with GPT-Turbo\n')
 print('Baseline (scores for standard compared with expanded)')
 raw_accuracy('../Gold/EnglishKey.txt','../Gold/EnglishOriginalTerms.txt')
@@ -120,6 +131,18 @@ for prompt in prompts:
     filename = '../ChatGPT-Turbo/expansion/expansion'+prompt+'.txt'
     raw_accuracy('../Gold/EnglishKey.txt',filename)
     CHRF_score('../Gold/EnglishKey.txt',filename)
+
+print('\nEXPANSION with GPT-4\n')
+print('Baseline (scores for standard compared with expanded)')
+raw_accuracy('../Gold/EnglishKey.txt','../Gold/EnglishOriginalTerms.txt')
+CHRF_score('../Gold/EnglishKey.txt','../Gold/EnglishOriginalTerms.txt')
+prompts = ['0-shot','0+Motive','1-shot','5-shot']
+for prompt in prompts:
+    print('PROMPT:',prompt[1:])
+    filename = '../GPT-4/expansion/'+prompt+'.txt'
+    raw_accuracy('../Gold/EnglishKey.txt',filename)
+    CHRF_score('../Gold/EnglishKey.txt',filename)
+
 
 
 
@@ -145,6 +168,7 @@ for version in versions:
         print_google_scores(language, version)
         print()
     print()
+'''
 
 
 print('\nPipeline Testing French\n')
@@ -154,9 +178,19 @@ CHRF_score('../Gold/French_pipeline_random.txt','../Pipeline/French_pipeline_tes
 print('Numpy module:')
 raw_accuracy('../Gold/French_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
 CHRF_score('../Gold/French_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
-print('Total (both modules):')
+print('TensorFlow module:')
+raw_accuracy('../Gold/French_pipeline_gold_tf.txt','../Pipeline/French_pipeline_test_tf.txt')
+CHRF_score('../Gold/French_pipeline_gold_tf.txt','../Pipeline/French_pipeline_test_tf.txt')
+print('Pandas module:')
+raw_accuracy('../Gold/French_pipeline_gold_pandas.txt','../Pipeline/French_pipeline_test_pandas.txt')
+CHRF_score('../Gold/French_pipeline_gold_pandas.txt','../Pipeline/French_pipeline_test_pandas.txt')
+print('pytorch module:')
+raw_accuracy('../Gold/French_pipeline_gold_pytorch.txt','../Pipeline/French_pipeline_test_pytorch.txt')
+CHRF_score('../Gold/French_pipeline_gold_pytorch.txt','../Pipeline/French_pipeline_test_pytorch.txt')
+print('Total (all modules):')
 raw_accuracy('../Gold/French_pipeline_gold.txt','../Pipeline/French_pipeline_test.txt')
-CHRF_score('../Gold/French_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
+CHRF_score('../Gold/French_pipeline_gold.txt','../Pipeline/French_pipeline_test.txt')
+
 
 print('\nPipeline Testing Greek\n')
 print('Random module:')
@@ -164,10 +198,23 @@ raw_accuracy('../Gold/Greek_pipeline_random.txt','../Pipeline/Greek_pipeline_tes
 CHRF_score('../Gold/Greek_pipeline_random.txt','../Pipeline/Greek_pipeline_test_random.txt')
 print('Numpy module:')
 raw_accuracy('../Gold/Greek_pipeline_numpy.txt','../Pipeline/Greek_pipeline_test_numpy.txt')
-CHRF_score('../Gold/Greek_pipeline_numpy.txt','../Pipeline/French_pipeline_test_numpy.txt')
-print('Total (both modules):')
-raw_accuracy('../Gold/Greek_pipeline_gold.txt','../Pipeline/Greek_pipeline_test.txt')
 CHRF_score('../Gold/Greek_pipeline_numpy.txt','../Pipeline/Greek_pipeline_test_numpy.txt')
+print('TensorFlow module:')
+raw_accuracy('../Gold/Greek_pipeline_gold_tf.txt','../Pipeline/Greek_pipeline_test_tf.txt')
+CHRF_score('../Gold/Greek_pipeline_gold_tf.txt','../Pipeline/Greek_pipeline_test_tf.txt')
+print('Pandas module:')
+raw_accuracy('../Gold/Greek_pipeline_gold_pandas.txt','../Pipeline/Greek_pipeline_test_pandas.txt')
+CHRF_score('../Gold/Greek_pipeline_gold_pandas.txt','../Pipeline/Greek_pipeline_test_pandas.txt')
+print('pytorch module:')
+raw_accuracy('../Gold/Greek_pipeline_gold_pytorch.txt','../Pipeline/Greek_pipeline_test_pytorch.txt')
+CHRF_score('../Gold/Greek_pipeline_gold_pytorch.txt','../Pipeline/Greek_pipeline_test_pytorch.txt')
+print('Total (all modules):')
+raw_accuracy('../Gold/Greek_pipeline_gold.txt','../Pipeline/Greek_pipeline_test.txt')
+CHRF_score('../Gold/Greek_pipeline_gold.txt','../Pipeline/Greek_pipeline_test.txt')
+
+
+
+
 
 print('\nPipeline Testing Hindi\n')
 print('Random module:')
@@ -178,7 +225,7 @@ raw_accuracy('../Gold/Hindi_pipeline_numpy.txt','../Pipeline/Hindi_pipeline_test
 CHRF_score('../Gold/Hindi_pipeline_numpy.txt','../Pipeline/Hindi_pipeline_test_numpy.txt')
 print('Total (both modules):')
 raw_accuracy('../Gold/Hindi_pipeline_gold.txt','../Pipeline/Hindi_pipeline_test.txt')
-CHRF_score('../Gold/Hindi_pipeline_numpy.txt','../Pipeline/Hindi_pipeline_test_numpy.txt')
+CHRF_score('../Gold/Hindi_pipeline_gold.txt','../Pipeline/Hindi_pipeline_test.txt')
 
 
 print('\nPipeline Testing Bengali\n')
@@ -188,6 +235,24 @@ CHRF_score('../Gold/Bengali_pipeline_random.txt','../Pipeline/Bengali_pipeline_t
 print('Numpy module:')
 raw_accuracy('../Gold/Bengali_pipeline_numpy.txt','../Pipeline/Bengali_pipeline_test_numpy.txt')
 CHRF_score('../Gold/Bengali_pipeline_numpy.txt','../Pipeline/Bengali_pipeline_test_numpy.txt')
-print('Total (both modules):')
+print('TensorFlow module:')
+raw_accuracy('../Gold/Bengali_pipeline_gold_tf.txt','../Pipeline/Bengali_pipeline_test_tf.txt')
+CHRF_score('../Gold/Bengali_pipeline_gold_tf.txt','../Pipeline/Bengali_pipeline_test_tf.txt')
+print('Pandas module:')
+raw_accuracy('../Gold/Bengali_pipeline_gold_pandas.txt','../Pipeline/Bengali_pipeline_test_pandas.txt')
+CHRF_score('../Gold/Bengali_pipeline_gold_pandas.txt','../Pipeline/Bengali_pipeline_test_pandas.txt')
+print('pytorch module:')
+raw_accuracy('../Gold/Bengali_pipeline_gold_pytorch.txt','../Pipeline/Bengali_pipeline_test_pytorch.txt')
+CHRF_score('../Gold/Bengali_pipeline_gold_pytorch.txt','../Pipeline/Bengali_pipeline_test_pytorch.txt')
+print('Total (all modules):')
 raw_accuracy('../Gold/Bengali_pipeline_gold.txt','../Pipeline/Bengali_pipeline_test.txt')
-CHRF_score('../Gold/Bengali_pipeline_numpy.txt','../Pipeline/Bengali_pipeline_test_numpy.txt')
+CHRF_score('../Gold/Bengali_pipeline_gold.txt','../Pipeline/Bengali_pipeline_test.txt')
+
+
+
+
+
+
+
+
+

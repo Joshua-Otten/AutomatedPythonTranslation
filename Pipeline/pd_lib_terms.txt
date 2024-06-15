@@ -1,0 +1,984 @@
+pd.read_csv(filename) -- From a CSV file
+pd.read_table(filename) -- From a delimited text file (like TSV)
+pd.read_excel(filename) -- From an Excel file
+pd.read_sql(query, connection_object) -- Reads from a SQL table/database
+pd.read_json(json_string) -- Reads from a JSON formatted string, URL or file.
+pd.read_html(url) -- Parses an html URL, string or file and extracts tables to a list of dataframes
+pd.read_clipboard() -- Takes the contents of your clipboard and passes it to read_table()
+pd.DataFrame(dict) -- From a dict, keys for columns names, values for data as lists
+df.to_csv(filename) -- Writes to a CSV file
+df.to_excel(filename) -- Writes to an Excel file
+df.to_sql(table_name, connection_object) -- Writes to a SQL table
+df.to_json(filename) -- Writes to a file in JSON format
+df.to_html(filename) -- Saves as an HTML table
+df.to_clipboard() -- Writes to the clipboard
+obj.get(key) -- returns an item from an object (e.g. a column from a DataFrame, a value from a Series, etc.)
+df[col] -- select and name a column and return it as a Series
+df.loc[label1, label2, ...] -- select one or more rows or columns in a DataFrame by its label
+df.loc[row_label, col_label] -- select a single item in a DataFrame by its row and column labels
+df.loc[start_row_label : end_row_label, start_col_label : end_col_label] -- select a slice of a DataFrame by starting and ending row/column labels
+df.iloc[row_index,:] -- select a row in a DataFrame by index position
+df.iloc[row_index, col_index] -- select a single item in a DataFrame by the index position of its row and col
+df.iloc[start_index : end_index, start_index : end_index] -- select a slice of a DataFrame by starting and ending index row/column positions; (ending index stop at index before it)
+s.iloc[index] -- select a single item by its position
+s.loc[index] -- select a slice of items from a Series
+df[[col1, col2]] -- select and name multiple columns and return them as a new data frame
+df.nlargest(n, 'value') -- Select and order top n entries.
+df.nsmallest(n, 'value') -- Select and order bottom n entries
+obj.truncate([before, after, axis) -- Truncate an object before and after some index value (*S & df)
+obj.where(cond, other = NaN, inplace = False, axis = None) -- replace values in the object where the condition is False
+pd.isnull() -- checks for null values in the data and returns an array of booleans, where "True" means missing and "False" means present
+pd.notnull() -- returns all values that are NOT null
+df.dropna() -- remove all missing values
+df.fillna(x) —- replace all missing values with some value "x"
+s.replace(1,'one') -- replace all values equal to 1 with 'one'
+s.replace([1,3],['one','three']) -- replace all values equal to 1 with 'one' and all values equal to 3 with 'three'
+df.rename(columns={'old_name': 'new_ name'}) -- rename specific columns
+df.set_index('column_one') -- change the index of the data frame
+df.columns = ['a','b','c'] -- Renames columns
+pd.isnull() -- Checks for null Values, Returns Boolean Array
+pd.notnull() -- Opposite of s.isnull()
+df.dropna() -- Drops all rows that contain null values
+df.dropna(axis=1) -- Drops all columns that contain null values
+df.dropna(axis=1,thresh=n) -- Drops all rows have have less than n non null values
+df.fillna(x) -- Replaces all null values with x
+s.fillna(s.mean()) -- Replaces all null values with the mean (mean can be replaced with almost any function from the statistics section)
+df.duplicated([subset, keep]) -- Rrturn boolean Series denoting duplicate rows; can choose to consider a subset of columns
+drop_duplicates([subset, keep, inplace]) -- returns DataFrame with duplicate rows removed, optionally only considering certain columns.
+s.replace(1,'one') -- Replaces all values equal to 1 with 'one'
+s.replace([1,3],['one','three']) -- Replaces all 1 with 'one' and 3 with 'three'
+df.rename(columns=lambda x: x + 1) -- Mass renaming of columns
+`df.rename(columns={'old_name': 'new_ name'}) -- Selective renaming
+df.set_index('column_one') -- Changes the index
+df.rename(index=lambda x: x + 1) -- Mass renaming of index
+df.info() -- returns index, datatype and memory information
+df.shape -- returns the number of rows and columns in a data frame
+len(obj) -- returns # of rows in the object data (*S & df)
+obj.size -- returns # of elements in the object (*S & df)
+df.index -- returns index of the rows specifically (*S & df)
+df.columns -- returns the column labels of the DataFrame.
+df.head(n) -- returns last n rows of a data frame
+df.tail(n) -- returns last n rows of a data frame
+copy(obj) -- create a deep copy of the object (*S & df)
+obj.empty -- returns booleans for whether object is empty or not
+describe() -- returns basic summary statistics (e.g. count, mean, std, min, quartiles, & max)
+df.count() -- returns number of non-null values in each data frame column
+value_counts() -- returns count of each category in a categorical attributed series of values
+df.mean() -- returns mean of all columns
+df.median() -- returns median of each column
+df.min() -- returns lowest value in each column
+df.max() -- returns highest value in each column
+quantile(x) -- quantile
+cumsum() -- cummulative sum
+comprod() -- cumulative product
+cummin() -- cumulative minimum
+var() -- returns the variance among values in each column
+df.std() -- returns standard deviation of each column
+cov() -- covariance
+mad() -- mean absolute variation
+skew() -- skewness of distribution
+sem() -- unbiased standard error of the mean
+kurt() -- kurtosis
+corr() -- returns the Pearson correlation coefficent between columns in a data frame
+autocorr() -- auto-correlation
+diff() -- first discrete difference
+df1.append(df2) -- add the rows in df1 to the end of df2 (columns should be identical)
+df.concat([df1, df2],axis=1) —- add the columns in df1 to the end of df2 (rows should be identical)
+df1.join(df2,on=col1,how='inner') —- SQL-style join the columns in df1 with the columns on df2 where the rows for colhave identical values. how can be equal to one of: 'left', 'right', 'outer', 'inner'
+df.sort_values(col1) -- sort values in a certain column in ascending order
+df.sort_values(col2,ascending=False) -- sort values in a certain column in descending order
+df.sort_values([col1,col2],ascending=[True,False]) -- sort values in a col1 in asscending order, then sort values in col2 in descending order
+df[df[col] > 0.5] # Rows where the col column is greater than 0.5
+df[(df[col] > 0.5) & (df[col] < 0.7)] # Rows where 0.5 < col < 0.7
+df.groupby(col) -- returns groupby object for values from a single, specific column
+df.groupby([col1,col2]) -- returns a groupby object for values from multiple columns, which you can specify
+df.groupby(col1)[col2].mean() # Returns the mean of the values in col2, grouped by the values in col1 (mean can be replaced with almost any function from the statistics section)
+df.pivot_table(index=col1, values= col2,col3], aggfunc=mean) # Creates a pivot table that groups by col1 and calculates the mean of col2 and col3
+df.groupby(col1).agg(np.mean) # Finds the average across all columns for every unique column 1 group
+df.apply(np.<function>) # Applies a function across each column
+df.apply(np.<function>, axis=1) # Applies a function across each row
+DataFrame.index
+
+DataFrame.index
+DataFrame.columns
+DataFrame.dtypes
+DataFrame.info([verbose, buf, max_cols, ...])
+DataFrame.select_dtypes([include, exclude])
+DataFrame.values
+DataFrame.axes
+DataFrame.ndim
+DataFrame.size
+DataFrame.shape
+DataFrame.memory_usage([index, deep])
+DataFrame.empty
+DataFrame.set_flags(*[, copy, ...])
+DataFrame.astype(dtype[, copy, errors])
+DataFrame.convert_dtypes([infer_objects, ...])
+DataFrame.infer_objects([copy])
+DataFrame.copy([deep])
+DataFrame.bool()
+DataFrame.head([n])
+DataFrame.at
+DataFrame.iat
+DataFrame.loc
+DataFrame.iloc
+DataFrame.insert(loc, column, value[, ...])
+DataFrame.__iter__()
+DataFrame.items()
+DataFrame.keys()
+DataFrame.iterrows()
+DataFrame.itertuples([index, name])
+DataFrame.pop(item)
+DataFrame.tail([n])
+DataFrame.xs(key[, axis, level, drop_level])
+DataFrame.get(key[, default])
+DataFrame.isin(values)
+DataFrame.where(cond[, other, inplace, ...])
+DataFrame.mask(cond[, other, inplace, axis, ...])
+DataFrame.query(expr, *[, inplace])
+DataFrame.__add__(other)
+DataFrame.add(other[, axis, level, fill_value])
+DataFrame.sub(other[, axis, level, fill_value])
+DataFrame.mul(other[, axis, level, fill_value])
+DataFrame.div(other[, axis, level, fill_value])
+DataFrame.truediv(other[, axis, level, ...])
+DataFrame.floordiv(other[, axis, level, ...])
+DataFrame.mod(other[, axis, level, fill_value])
+DataFrame.pow(other[, axis, level, fill_value])
+DataFrame.dot(other)
+DataFrame.radd(other[, axis, level, fill_value])
+DataFrame.rsub(other[, axis, level, fill_value])
+DataFrame.rmul(other[, axis, level, fill_value])
+DataFrame.rdiv(other[, axis, level, fill_value])
+DataFrame.rtruediv(other[, axis, level, ...])
+DataFrame.rfloordiv(other[, axis, level, ...])
+DataFrame.rmod(other[, axis, level, fill_value])
+DataFrame.rpow(other[, axis, level, fill_value])
+DataFrame.lt(other[, axis, level])
+DataFrame.gt(other[, axis, level])
+DataFrame.le(other[, axis, level])
+DataFrame.ge(other[, axis, level])
+DataFrame.ne(other[, axis, level])
+DataFrame.eq(other[, axis, level])
+DataFrame.combine(other, func[, fill_value, ...])
+DataFrame.combine_first(other)
+DataFrame.apply(func[, axis, raw, ...])
+DataFrame.map(func[, na_action])
+DataFrame.applymap(func[, na_action])
+DataFrame.pipe(func, *args, **kwargs)
+DataFrame.agg([func, axis])
+DataFrame.aggregate([func, axis])
+DataFrame.transform(func[, axis])
+DataFrame.groupby([by, axis, level, ...])
+DataFrame.rolling(window[, min_periods, ...])
+DataFrame.expanding([min_periods, axis, method])
+DataFrame.ewm([com, span, halflife, alpha, ...])
+DataFrame.abs()
+DataFrame.all([axis, bool_only, skipna])
+DataFrame.any(*[, axis, bool_only, skipna])
+DataFrame.clip([lower, upper, axis, inplace])
+DataFrame.corr([method, min_periods, ...])
+DataFrame.corrwith(other[, axis, drop, ...])
+DataFrame.count([axis, numeric_only])
+DataFrame.cov([min_periods, ddof, numeric_only])
+DataFrame.cummax([axis, skipna])
+DataFrame.cummin([axis, skipna])
+DataFrame.cumprod([axis, skipna])
+DataFrame.cumsum([axis, skipna])
+DataFrame.describe([percentiles, include, ...])
+DataFrame.diff([periods, axis])
+DataFrame.eval(expr, *[, inplace])
+DataFrame.kurt([axis, skipna, numeric_only])
+DataFrame.kurtosis([axis, skipna, numeric_only])
+DataFrame.max([axis, skipna, numeric_only])
+DataFrame.mean([axis, skipna, numeric_only])
+DataFrame.median([axis, skipna, numeric_only])
+DataFrame.min([axis, skipna, numeric_only])
+DataFrame.mode([axis, numeric_only, dropna])
+DataFrame.pct_change([periods, fill_method, ...])
+DataFrame.prod([axis, skipna, numeric_only, ...])
+DataFrame.product([axis, skipna, ...])
+DataFrame.quantile([q, axis, numeric_only, ...])
+DataFrame.rank([axis, method, numeric_only, ...])
+DataFrame.round([decimals])
+DataFrame.sem([axis, skipna, ddof, numeric_only])
+DataFrame.skew([axis, skipna, numeric_only])
+DataFrame.sum([axis, skipna, numeric_only, ...])
+DataFrame.std([axis, skipna, ddof, numeric_only])
+DataFrame.var([axis, skipna, ddof, numeric_only])
+DataFrame.nunique([axis, dropna])
+DataFrame.value_counts([subset, normalize, ...])
+DataFrame.add_prefix(prefix[, axis])
+DataFrame.add_suffix(suffix[, axis])
+DataFrame.align(other[, join, axis, level, ...])
+DataFrame.at_time(time[, asof, axis])
+DataFrame.between_time(start_time, end_time)
+DataFrame.drop([labels, axis, index, ...])
+DataFrame.drop_duplicates([subset, keep, ...])
+DataFrame.duplicated([subset, keep])
+DataFrame.equals(other)
+DataFrame.filter([items, like, regex, axis])
+DataFrame.first(offset)
+DataFrame.head([n])
+DataFrame.idxmax([axis, skipna, numeric_only])
+DataFrame.idxmin([axis, skipna, numeric_only])
+DataFrame.last(offset)
+DataFrame.reindex([labels, index, columns, ...])
+DataFrame.reindex_like(other[, method, ...])
+DataFrame.rename([mapper, index, columns, ...])
+DataFrame.rename_axis([mapper, index, ...])
+DataFrame.reset_index([level, drop, ...])
+DataFrame.sample([n, frac, replace, ...])
+DataFrame.set_axis(labels, *[, axis, copy])
+DataFrame.set_index(keys, *[, drop, append, ...])
+DataFrame.tail([n])
+DataFrame.take(indices[, axis])
+DataFrame.truncate([before, after, axis, copy])
+DataFrame.backfill(*[, axis, inplace, ...])
+DataFrame.bfill(*[, axis, inplace, limit, ...])
+DataFrame.dropna(*[, axis, how, thresh, ...])
+DataFrame.ffill(*[, axis, inplace, limit, ...])
+DataFrame.fillna([value, method, axis, ...])
+DataFrame.interpolate([method, axis, limit, ...])
+DataFrame.isna()
+DataFrame.isnull()
+DataFrame.notna()
+DataFrame.notnull()
+DataFrame.pad(*[, axis, inplace, limit, ...])
+DataFrame.replace([to_replace, value, ...])
+DataFrame.droplevel(level[, axis])
+DataFrame.pivot(*, columns[, index, values])
+DataFrame.pivot_table([values, index, ...])
+DataFrame.reorder_levels(order[, axis])
+DataFrame.sort_values(by, *[, axis, ...])
+DataFrame.sort_index(*[, axis, level, ...])
+DataFrame.nlargest(n, columns[, keep])
+DataFrame.nsmallest(n, columns[, keep])
+DataFrame.swaplevel([i, j, axis])
+DataFrame.stack([level, dropna, sort, ...])
+DataFrame.unstack([level, fill_value, sort])
+DataFrame.swapaxes(axis1, axis2[, copy])
+DataFrame.melt([id_vars, value_vars, ...])
+DataFrame.explode(column[, ignore_index])
+DataFrame.squeeze([axis])
+DataFrame.to_xarray()
+DataFrame.T
+DataFrame.transpose(*args[, copy])
+DataFrame.assign(**kwargs)
+DataFrame.compare(other[, align_axis, ...])
+DataFrame.join(other[, on, how, lsuffix, ...])
+DataFrame.merge(right[, how, on, left_on, ...])
+DataFrame.update(other[, join, overwrite, ...])
+DataFrame.asfreq(freq[, method, how, ...])
+DataFrame.asof(where[, subset])
+DataFrame.shift([periods, freq, axis, ...])
+DataFrame.first_valid_index()
+DataFrame.last_valid_index()
+DataFrame.resample(rule[, axis, closed, ...])
+DataFrame.to_period([freq, axis, copy])
+DataFrame.to_timestamp([freq, how, axis, copy])
+DataFrame.tz_convert(tz[, axis, level, copy])
+DataFrame.tz_localize(tz[, axis, level, ...])
+Flags(obj, *, allows_duplicate_labels)
+DataFrame.attrs
+DataFrame.plot([x, y, kind, ax, ....])
+DataFrame.plot.area([x, y, stacked])
+DataFrame.plot.bar([x, y])
+DataFrame.plot.barh([x, y])
+DataFrame.plot.box([by])
+DataFrame.plot.density([bw_method, ind])
+DataFrame.plot.hexbin(x, y[, C, ...])
+DataFrame.plot.hist([by, bins])
+DataFrame.plot.kde([bw_method, ind])
+DataFrame.plot.line([x, y])
+DataFrame.plot.pie(**kwargs)
+DataFrame.plot.scatter(x, y[, s, c])
+DataFrame.boxplot([column, by, ax, ...])
+DataFrame.hist([column, by, grid, ...])
+DataFrame.sparse.density
+DataFrame.sparse.from_spmatrix(data[, ...])
+DataFrame.sparse.to_coo()
+DataFrame.sparse.to_dense()
+DataFrame.from_dict(data[, orient, dtype, ...])
+DataFrame.from_records(data[, index, ...])
+DataFrame.to_orc([path, engine, index, ...])
+DataFrame.to_parquet([path, engine, ...])
+DataFrame.to_pickle(path, *[, compression, ...])
+DataFrame.to_csv([path_or_buf, sep, na_rep, ...])
+DataFrame.to_hdf(path_or_buf, *, key[, ...])
+DataFrame.to_sql(name, con, *[, schema, ...])
+DataFrame.to_dict([orient, into, index])
+DataFrame.to_excel(excel_writer, *[, ...])
+DataFrame.to_json([path_or_buf, orient, ...])
+DataFrame.to_html([buf, columns, col_space, ...])
+DataFrame.to_feather(path, **kwargs)
+DataFrame.to_latex([buf, columns, header, ...])
+DataFrame.to_stata(path, *[, convert_dates, ...])
+DataFrame.to_gbq(destination_table, *[, ...])
+DataFrame.to_records([index, column_dtypes, ...])
+DataFrame.to_string([buf, columns, ...])
+DataFrame.to_clipboard(*[, excel, sep])
+DataFrame.to_markdown([buf, mode, index, ...])
+DataFrame.style
+DataFrame.__dataframe__([nan_as_null, ...])
+pyarrow.bool_()
+pyarrow.int8()
+pyarrow.int16()
+pyarrow.int32()
+pyarrow.int64()
+pyarrow.uint8()
+pyarrow.uint16()
+pyarrow.uint32()
+pyarrow.uint64()
+pyarrow.float32()
+pyarrow.float64()
+pyarrow.time32()
+pyarrow.time64()
+pyarrow.timestamp()
+pyarrow.date32()
+pyarrow.date64()
+pyarrow.duration()
+pyarrow.binary()
+pyarrow.string()
+pyarrow.decimal128()
+pyarrow.list_()
+pyarrow.map_()
+pyarrow.dictionary()
+arrays.ArrowExtensionArray(values)
+ArrowDtype(pyarrow_dtype)
+Timestamp.asm8
+Timestamp.day
+Timestamp.dayofweek
+Timestamp.day_of_week
+Timestamp.dayofyear
+Timestamp.day_of_year
+Timestamp.days_in_month
+Timestamp.daysinmonth
+Timestamp.fold
+Timestamp.hour
+Timestamp.is_leap_year
+Timestamp.is_month_end
+Timestamp.is_month_start
+Timestamp.is_quarter_end
+Timestamp.is_quarter_start
+Timestamp.is_year_end
+Timestamp.is_year_start
+Timestamp.max
+Timestamp.microsecond
+Timestamp.min
+Timestamp.minute
+Timestamp.month
+Timestamp.nanosecond
+Timestamp.quarter
+Timestamp.resolution
+Timestamp.second
+Timestamp.tz
+Timestamp.tzinfo
+Timestamp.unit
+Timestamp.value
+Timestamp.week
+Timestamp.weekofyear
+Timestamp.year
+Timestamp.as_unit(unit[, round_ok])
+Timestamp.astimezone(tz)
+Timestamp.ceil(freq[, ambiguous, nonexistent])
+Timestamp.combine(date, time)
+Timestamp.ctime()
+Timestamp.date()
+Timestamp.day_name([locale])
+Timestamp.dst()
+Timestamp.floor(freq[, ambiguous, nonexistent])
+Timestamp.fromordinal(ordinal[, tz])
+Timestamp.fromtimestamp(ts)
+Timestamp.isocalendar()
+Timestamp.isoformat([sep, timespec])
+Timestamp.isoweekday()
+Timestamp.month_name([locale])
+Timestamp.normalize()
+Timestamp.now([tz])
+Timestamp.replace([year, month, day, hour, ...])
+Timestamp.round(freq[, ambiguous, nonexistent])
+Timestamp.strftime(format)
+Timestamp.strptime(string, format)
+Timestamp.time()
+Timestamp.timestamp()
+Timestamp.timetuple()
+Timestamp.timetz()
+Timestamp.to_datetime64()
+Timestamp.to_numpy([dtype, copy])
+Timestamp.to_julian_date()
+Timestamp.to_period([freq])
+Timestamp.to_pydatetime([warn])
+Timestamp.today([tz])
+Timestamp.toordinal()
+Timestamp.tz_convert(tz)
+Timestamp.tz_localize(tz[, ambiguous, ...])
+Timestamp.tzname()
+Timestamp.utcfromtimestamp(ts)
+Timestamp.utcnow()
+Timestamp.utcoffset()
+Timestamp.utctimetuple()
+Timestamp.weekday()
+Timedelta.asm8
+Timedelta.components
+Timedelta.days
+Timedelta.max
+Timedelta.microseconds
+Timedelta.min
+Timedelta.nanoseconds
+Timedelta.resolution
+Timedelta.seconds
+Timedelta.unit
+Timedelta.value
+Timedelta.view(dtype)
+Timedelta.as_unit(unit[, round_ok])
+Timedelta.ceil(freq)
+Timedelta.floor(freq)
+Timedelta.isoformat()
+Timedelta.round(freq)
+Timedelta.to_pytimedelta()
+Timedelta.to_timedelta64()
+Timedelta.to_numpy([dtype, copy])
+Timedelta.total_seconds()
+Period([value, freq, ordinal, year, month, ...])
+Period.day
+Period.dayofweek
+Period.day_of_week
+Period.dayofyear
+Period.day_of_year
+Period.days_in_month
+Period.daysinmonth
+Period.end_time
+Period.freq
+Period.freqstr
+Period.hour
+Period.is_leap_year
+Period.minute
+Period.month
+Period.ordinal
+Period.quarter
+Period.qyear
+Period.second
+Period.start_time
+Period.week
+Period.weekday
+Period.weekofyear
+Period.year
+Period.asfreq(freq[, how])
+Period.now(freq)
+Period.strftime(fmt)
+Period.to_timestamp([freq, how])
+A collection of 
+Period
+ may be stored in a 
+arrays.PeriodArray
+. Every period in a 
+arrays.PeriodArray
+ must have the same 
+freq
+".
+"
+arrays.PeriodArray(values[, dtype, freq, copy])
+PeriodDtype(freq)
+Interval
+Interval.closed
+Interval.closed_left
+Interval.closed_right
+Interval.is_empty
+Interval.left
+Interval.length
+Interval.mid
+Interval.open_left
+Interval.open_right
+Interval.overlaps(other)
+Interval.right
+arrays.IntervalArray(data[, closed, dtype, ...])
+IntervalDtype([subtype, closed])
+numpy.ndarray
+arrays.IntegerArray
+arrays.IntegerArray(values, mask[, copy])
+Int8Dtype()
+Int16Dtype()
+Int32Dtype()
+Int64Dtype()
+UInt8Dtype()
+UInt16Dtype()
+UInt32Dtype()
+UInt64Dtype()
+arrays.FloatingArray(values, mask[, copy])
+Float32Dtype()
+Float64Dtype()
+CategoricalDtype([categories, ordered])
+CategoricalDtype.categories
+CategoricalDtype.ordered
+Categorical data can be stored in a 
+pandas.Categorical
+"
+"
+Categorical(values[, categories, ordered, ...])
+Categorical.from_codes(codes[, categories, ...])
+Categorical.dtype
+Categorical.categories
+Categorical.ordered
+Categorical.codes
+Categorical.__array__([dtype])
+arrays.SparseArray(data[, sparse_index, ...])
+SparseDtype([dtype, fill_value])
+arrays.StringArray(values[, copy])
+arrays.ArrowStringArray(values)
+StringDtype([storage])
+arrays.BooleanArray(values, mask[, copy])
+BooleanDtype()
+api.types.union_categoricals(to_union[, ...])
+api.types.infer_dtype(value[, skipna])
+api.types.pandas_dtype(dtype)
+api.types.is_any_real_numeric_dtype(arr_or_dtype)
+api.types.is_bool_dtype(arr_or_dtype)
+api.types.is_categorical_dtype(arr_or_dtype)
+api.types.is_complex_dtype(arr_or_dtype)
+api.types.is_datetime64_any_dtype(arr_or_dtype)
+api.types.is_datetime64_dtype(arr_or_dtype)
+api.types.is_datetime64_ns_dtype(arr_or_dtype)
+api.types.is_datetime64tz_dtype(arr_or_dtype)
+api.types.is_extension_array_dtype(arr_or_dtype)
+api.types.is_float_dtype(arr_or_dtype)
+api.types.is_int64_dtype(arr_or_dtype)
+api.types.is_integer_dtype(arr_or_dtype)
+api.types.is_interval_dtype(arr_or_dtype)
+api.types.is_numeric_dtype(arr_or_dtype)
+api.types.is_object_dtype(arr_or_dtype)
+api.types.is_period_dtype(arr_or_dtype)
+api.types.is_signed_integer_dtype(arr_or_dtype)
+api.types.is_string_dtype(arr_or_dtype)
+api.types.is_timedelta64_dtype(arr_or_dtype)
+api.types.is_timedelta64_ns_dtype(arr_or_dtype)
+api.types.is_unsigned_integer_dtype(arr_or_dtype)
+api.types.is_sparse(arr)
+api.types.is_dict_like(obj)
+api.types.is_file_like(obj)
+api.types.is_list_like(obj[, allow_sets])
+api.types.is_named_tuple(obj)
+api.types.is_iterator(obj)
+api.types.is_bool(obj)
+api.types.is_complex(obj)
+api.types.is_float(obj)
+api.types.is_hashable(obj)
+api.types.is_integer(obj)
+api.types.is_interval(obj)
+api.types.is_number(obj)
+api.types.is_re(obj)
+api.types.is_re_compilable(obj)
+api.types.is_scalar(val)
+pandas.Interval
+pandas.Period
+datetime.datetime
+datetime.timedelta
+int
+float
+str
+bool
+asm8
+day
+day_of_week
+day_of_year
+dayofweek
+dayofyear
+days_in_month
+daysinmonth
+fold
+hour
+is_leap_year
+is_month_end
+is_month_start
+is_quarter_end
+is_quarter_start
+is_year_end
+is_year_start
+max
+microsecond
+min
+minute
+month
+nanosecond
+quarter
+resolution
+second
+tz
+tzinfo
+unit
+value
+week
+weekofyear
+year
+Methods
+"
+"
+as_unit(unit[, round_ok])
+astimezone(tz)
+ceil(freq[, ambiguous, nonexistent])
+combine(date, time)
+ctime()
+date()
+day_name([locale])
+dst()
+floor(freq[, ambiguous, nonexistent])
+fromisocalendar
+fromisoformat
+fromordinal(ordinal[, tz])
+fromtimestamp(ts)
+isocalendar()
+isoformat([sep, timespec])
+isoweekday()
+month_name([locale])
+normalize()
+now([tz])
+replace([year, month, day, hour, minute, ...])
+round(freq[, ambiguous, nonexistent])
+strftime(format)
+strptime(string, format)
+time()
+timestamp()
+timetuple()
+timetz()
+to_datetime64()
+to_julian_date()
+to_numpy([dtype, copy])
+to_period([freq])
+to_pydatetime([warn])
+today([tz])
+toordinal()
+tz_convert(tz)
+tz_localize(tz[, ambiguous, nonexistent])
+tzname()
+utcfromtimestamp(ts)
+utcnow()
+utcoffset()
+utctimetuple()
+weekday()
+asm8
+components
+days
+max
+microseconds
+min
+nanoseconds
+resolution
+resolution_string
+seconds
+unit
+value
+as_unit(unit[, round_ok])
+ceil(freq)
+floor(freq)
+isoformat()
+round(freq)
+to_numpy([dtype, copy])
+to_pytimedelta()
+to_timedelta64()
+total_seconds()
+view(dtype)
+day
+day_of_week
+day_of_year
+dayofweek
+dayofyear
+days_in_month
+daysinmonth
+end_time
+freq
+freqstr
+hour
+is_leap_year
+minute
+month
+ordinal
+quarter
+qyear
+second
+start_time
+week
+weekday
+weekofyear
+year
+asfreq(freq[, how])
+now(freq)
+strftime(fmt)
+to_timestamp([freq, how])
+closed
+closed_left
+closed_right
+is_empty
+left
+length
+mid
+open_left
+open_right
+right
+overlaps(other)
+left
+right
+closed
+mid
+length
+is_empty
+is_non_overlapping_monotonic
+from_arrays(left, right[, closed, copy, dtype])
+from_tuples(data[, closed, copy, dtype])
+from_breaks(breaks[, closed, copy, dtype])
+contains(other)
+overlaps(other)
+set_closed(closed)
+to_tuples([na_tuple])
+subtype
+categories
+ordered
+categories
+codes
+ordered
+dtype
+from_codes(codes[, categories, ordered, ...])
+__array__([dtype])
+Index([data, dtype, copy, name, tupleize_cols])
+Index.values
+Index.is_monotonic_increasing
+Index.is_monotonic_decreasing
+Index.is_unique
+Index.has_duplicates
+Index.hasnans
+Index.dtype
+Index.inferred_type
+Index.shape
+Index.name
+Index.names
+Index.nbytes
+Index.ndim
+Index.size
+Index.empty
+Index.T
+Index.memory_usage([deep])
+Index.all(*args, **kwargs)
+Index.any(*args, **kwargs)
+Index.argmin([axis, skipna])
+Index.argmax([axis, skipna])
+Index.copy([name, deep])
+Index.delete(loc)
+Index.drop(labels[, errors])
+Index.drop_duplicates(*[, keep])
+Index.duplicated([keep])
+Index.equals(other)
+Index.factorize([sort, use_na_sentinel])
+Index.identical(other)
+Index.insert(loc, item)
+Index.is_(other)
+Index.is_boolean()
+Index.is_categorical()
+Index.is_floating()
+Index.is_integer()
+Index.is_interval()
+Index.is_numeric()
+Index.is_object()
+Index.min([axis, skipna])
+Index.max([axis, skipna])
+Index.reindex(target[, method, level, ...])
+Index.rename(name, *[, inplace])
+Index.repeat(repeats[, axis])
+Index.where(cond[, other])
+Index.take(indices[, axis, allow_fill, ...])
+Index.putmask(mask, value)
+Index.unique([level])
+Index.nunique([dropna])
+Index.value_counts([normalize, sort, ...])
+Index.set_names(names, *[, level, inplace])
+Index.droplevel([level])
+Index.fillna([value, downcast])
+Index.dropna([how])
+Index.isna()
+Index.notna()
+Index.astype(dtype[, copy])
+Index.item()
+Index.map(mapper[, na_action])
+Index.ravel([order])
+Index.to_list()
+Index.to_series([index, name])
+Index.to_frame([index, name])
+Index.view([cls])
+Index.argsort(*args, **kwargs)
+Index.searchsorted(value[, side, sorter])
+Index.sort_values(*[, return_indexer, ...])
+Index.shift([periods, freq])
+Index.append(other)
+Index.join(other, *[, how, level, ...])
+Index.intersection(other[, sort])
+Index.union(other[, sort])
+Index.difference(other[, sort])
+Index.symmetric_difference(other[, ...])
+Index.asof(label)
+Index.asof_locs(where, mask)
+Index.get_indexer(target[, method, limit, ...])
+Index.get_indexer_for(target)
+Index.get_indexer_non_unique(target)
+Index.get_level_values(level)
+Index.get_loc(key)
+Index.get_slice_bound(label, side)
+Index.isin(values[, level])
+Index.slice_indexer([start, end, step])
+Index.slice_locs([start, end, step])
+RangeIndex([start, stop, step, dtype, copy, ...])
+RangeIndex.start
+RangeIndex.stop
+RangeIndex.step
+RangeIndex.from_range(data[, name, dtype])
+CategoricalIndex([data, categories, ...])
+CategoricalIndex.codes
+CategoricalIndex.categories
+CategoricalIndex.ordered
+CategoricalIndex.rename_categories(*args, ...)
+CategoricalIndex.reorder_categories(*args, ...)
+CategoricalIndex.add_categories(*args, **kwargs)
+CategoricalIndex.remove_categories(*args, ...)
+CategoricalIndex.remove_unused_categories(...)
+CategoricalIndex.set_categories(*args, **kwargs)
+CategoricalIndex.as_ordered(*args, **kwargs)
+CategoricalIndex.as_unordered(*args, **kwargs)
+CategoricalIndex.map(mapper[, na_action])
+CategoricalIndex.equals(other)
+IntervalIndex(data[, closed, dtype, copy, ...])
+IntervalIndex.from_arrays(left, right[, ...])
+IntervalIndex.from_tuples(data[, closed, ...])
+IntervalIndex.from_breaks(breaks[, closed, ...])
+IntervalIndex.left
+IntervalIndex.right
+IntervalIndex.mid
+IntervalIndex.closed
+IntervalIndex.length
+IntervalIndex.values
+IntervalIndex.is_empty
+IntervalIndex.is_non_overlapping_monotonic
+IntervalIndex.is_overlapping
+IntervalIndex.get_loc(key)
+IntervalIndex.get_indexer(target[, method, ...])
+IntervalIndex.set_closed(*args, **kwargs)
+IntervalIndex.contains(*args, **kwargs)
+IntervalIndex.overlaps(*args, **kwargs)
+IntervalIndex.to_tuples(*args, **kwargs)
+MultiIndex([levels, codes, sortorder, ...])
+MultiIndex.from_arrays(arrays[, sortorder, ...])
+MultiIndex.from_tuples(tuples[, sortorder, ...])
+MultiIndex.from_product(iterables[, ...])
+MultiIndex.from_frame(df[, sortorder, names])
+MultiIndex.names
+MultiIndex.levels
+MultiIndex.codes
+MultiIndex.nlevels
+MultiIndex.levshape
+MultiIndex.dtypes
+MultiIndex.set_levels(levels, *[, level, ...])
+MultiIndex.set_codes(codes, *[, level, ...])
+MultiIndex.to_flat_index()
+MultiIndex.to_frame([index, name, ...])
+MultiIndex.sortlevel([level, ascending, ...])
+MultiIndex.droplevel([level])
+MultiIndex.swaplevel([i, j])
+MultiIndex.reorder_levels(order)
+MultiIndex.remove_unused_levels()
+MultiIndex.drop(codes[, level, errors])
+MultiIndex.copy([names, deep, name])
+MultiIndex.append(other)
+MultiIndex.truncate([before, after])
+MultiIndex.get_loc(key)
+MultiIndex.get_locs(seq)
+MultiIndex.get_loc_level(key[, level, ...])
+MultiIndex.get_indexer(target[, method, ...])
+MultiIndex.get_level_values(level)
+IndexSlice
+DatetimeIndex([data, freq, tz, normalize, ...])
+DatetimeIndex.year
+DatetimeIndex.month
+DatetimeIndex.day
+DatetimeIndex.hour
+DatetimeIndex.minute
+DatetimeIndex.second
+DatetimeIndex.microsecond
+DatetimeIndex.nanosecond
+DatetimeIndex.date
+DatetimeIndex.time
+DatetimeIndex.timetz
+DatetimeIndex.dayofyear
+DatetimeIndex.day_of_year
+DatetimeIndex.dayofweek
+DatetimeIndex.day_of_week
+DatetimeIndex.weekday
+DatetimeIndex.quarter
+DatetimeIndex.tz
+DatetimeIndex.freq
+DatetimeIndex.freqstr
+DatetimeIndex.is_month_start
+DatetimeIndex.is_month_end
+DatetimeIndex.is_quarter_start
+DatetimeIndex.is_quarter_end
+DatetimeIndex.is_year_start
+DatetimeIndex.is_year_end
+DatetimeIndex.is_leap_year
+DatetimeIndex.inferred_freq
+DatetimeIndex.indexer_at_time(time[, asof])
+DatetimeIndex.indexer_between_time(...[, ...])
+DatetimeIndex.normalize(*args, **kwargs)
+DatetimeIndex.strftime(date_format)
+DatetimeIndex.snap([freq])
+DatetimeIndex.tz_convert(tz)
+DatetimeIndex.tz_localize(tz[, ambiguous, ...])
+DatetimeIndex.round(*args, **kwargs)
+DatetimeIndex.floor(*args, **kwargs)
+DatetimeIndex.ceil(*args, **kwargs)
+DatetimeIndex.month_name(*args, **kwargs)
+DatetimeIndex.day_name(*args, **kwargs)
+DatetimeIndex.as_unit(*args, **kwargs)
+DatetimeIndex.to_period(*args, **kwargs)
+DatetimeIndex.to_pydatetime(*args, **kwargs)
+DatetimeIndex.to_series([index, name])
+DatetimeIndex.to_frame([index, name])
+DatetimeIndex.mean(*[, skipna, axis])
+DatetimeIndex.std(*args, **kwargs)
+TimedeltaIndex([data, unit, freq, closed, ...])
+TimedeltaIndex.days
+TimedeltaIndex.seconds
+TimedeltaIndex.microseconds
+TimedeltaIndex.nanoseconds
+TimedeltaIndex.components
+TimedeltaIndex.inferred_freq
+TimedeltaIndex.as_unit(unit)
+TimedeltaIndex.to_pytimedelta(*args, **kwargs)
+TimedeltaIndex.to_series([index, name])
+TimedeltaIndex.round(*args, **kwargs)
+TimedeltaIndex.floor(*args, **kwargs)
+TimedeltaIndex.ceil(*args, **kwargs)
+TimedeltaIndex.to_frame([index, name])
+TimedeltaIndex.mean(*[, skipna, axis])
+PeriodIndex([data, ordinal, freq, dtype, ...])
+PeriodIndex.day
+PeriodIndex.dayofweek
+PeriodIndex.day_of_week
+PeriodIndex.dayofyear
+PeriodIndex.day_of_year
+PeriodIndex.days_in_month
+PeriodIndex.daysinmonth
+PeriodIndex.end_time
+PeriodIndex.freq
+PeriodIndex.freqstr
+PeriodIndex.hour
+PeriodIndex.is_leap_year
+PeriodIndex.minute
+PeriodIndex.month
+PeriodIndex.quarter
+PeriodIndex.qyear
+PeriodIndex.second
+PeriodIndex.start_time
+PeriodIndex.week
+PeriodIndex.weekday
+PeriodIndex.weekofyear
+PeriodIndex.year
+PeriodIndex.asfreq([freq, how])
+PeriodIndex.strftime(*args, **kwargs)
+PeriodIndex.to_timestamp([freq, how])
+PeriodIndex.from_fields(*[, year, quarter, ...])
+PeriodIndex.from_ordinals(ordinals, *, freq)

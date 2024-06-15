@@ -5,9 +5,9 @@ from openai_cost_tracker import query_openai
 
 openai.api_key = ''
 model_engine = "gpt-3.5-turbo-1106" #"text-davinci-003" # use turbo
-path = 'chatgpt_results_per_lang2/'
+path = '../ChatGPT-Turbo/'#'chatgpt_results_per_lang2/'
 
-
+'''
 # acquire the English list to translate
 eng = open('EnglishKey.txt','r')
 eng_terms = eng.readlines()
@@ -506,7 +506,7 @@ for prompt in prompts:
 
 
 
-
+'''
 ############################################
 ##### Splitting / Expanding Experiment #####
 ############################################
@@ -527,10 +527,12 @@ zero_shot_motivation = "I am trying to translate Python's key terms into other l
 
 one_example = "I am trying to translate Python's key terms into other languages, so that people can code in their native language.  However, I first need to know the expanded form of the abbreviations.  Please help me with this by expanding (i.e. splitting and unabbreviating) each of the following terms into the word or phrase that they are intended to represent. If no abbreviation or splitting into separate words is necessary, then the expanded form will be the same as the original term.  Do not provide any other response or translations; simply list each term (each on a separate line) followed by => and its corresonding expansion (as in '[term] => [expansion]').  For example: abs => absolute value.  Please expand these terms: "
 
-few_shot = "I am trying to translate Python's key terms into other languages, so that people can code in their native language.  However, I first need to know the expanded form of the abbreviations.  Please help me with this by expanding (i.e. splitting and unabbreviating) each of the following terms into the word or phrase that they are intended to represent. If no abbreviation or splitting into separate words is necessary, then the expanded form will be the same as the original term.  Do not provide any other response or translations; simply list each term (each on a separate line) followed by => and its corresonding expansion (as in '[term] => [expansion]').  For example: abs => absolute value\nmemoryview => memory view\npow => power\nprint => print\nSyntaxError => Syntax Error.  Please expand these terms: "
+few_shot = "I am trying to translate Python's key terms into other languages, so that people can code in their native language.  However, I first need to know the expanded form of the abbreviations.  Please help me with this by expanding (i.e. splitting and unabbreviating) each of the following terms into the word or phrase that they are intended to represent. If no abbreviation or splitting into separate words is necessary, then the expanded form will be the same as the original term. In order to make sure expansions are not too long, provide no more than 4 words for any given expanded form.  Do not provide any other response or translations; simply list each term (each on a separate line) followed by => and its corresonding expansion (as in '[term] => [expansion]').  For example: abs => absolute value\nmemoryview => memory view\npow => power\nprint => print\nSyntaxError => Syntax Error.  Please expand these terms: "
 
-prompts = [zero_shot_prompt, zero_shot_motivation, one_example, few_shot]
-files = ['expansion_zero_shot_prompt', 'expansion_zero_shot_motivation', 'expansion_one_example', 'expansion_few_shot',]
+#prompts = [zero_shot_prompt, zero_shot_motivation, one_example, few_shot]
+#files = ['expansion_zero_shot_prompt', 'expansion_zero_shot_motivation', 'expansion_one_example', 'expansion_few_shot',]
+prompts = [few_shot]
+files = ['shortened_expansion_few_shot']
 
 k=0
 for prompt in prompts:

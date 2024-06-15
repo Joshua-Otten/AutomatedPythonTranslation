@@ -1,0 +1,698 @@
+libro
+hojas
+analizar gramaticalmente
+Marco de datos
+columnas
+tipos de datos
+información
+Seleccionar tipos de datos
+hachas
+establecer banderas
+convertir tipos de datos
+inferir objetos
+Primeras filas
+Localizar un solo valor
+Localizar un solo valor
+ubicación entera
+iterar sobre filas
+iterar sobre tope con nombre
+Últimas filas
+sección transversal
+mascarilla
+multiplicar
+verdadera división
+división de piso
+módulo
+Añadir del lado derecho
+Resta el lado derecho
+Multiplicar el lado derecho
+división del lado derecho
+Dirección verdadera del lado derecho
+División de piso derecho
+Módulo correcto
+poder correcto
+combinar
+Combinar primero
+Aplicar mapa
+agregar
+agregar
+agrupar por
+laminación
+en expansión
+mudanza pesada exponencialmente
+correlación
+correlación con
+describir
+curtosis
+curtosis
+cambio porcentual
+producto
+rango
+Error estandar de la media
+Medida de asimetría de la distribución de probabilidad
+Número de valores únicos
+Cuenta de valores únicos
+Agregue un prefijo a todos los nombres de columnas
+Agregue un sufijo a todos los nombres de columnas
+alinear dos objetos en sus ejes
+Seleccione valores a una hora particular del día
+Seleccione valores entre horas particulares del día
+Eliminar del marco de datos
+dar duplicados
+duplicado
+iguales
+first
+índice máximo
+índice mínimo
+last
+reindex
+reindex como
+Cambiar el nombre del eje
+índice de reinicio
+establecer el eje
+establecer índice
+rellenar
+rellenar
+dejar caer
+llenar
+llenar na
+es na
+es nulo
+no nulo
+no nulo
+nivel de caída
+pivote
+tabla dinámica
+reordenar los niveles
+Valores de clasificación
+índice de clasificación
+n más grande
+N más pequeño
+nivel de intercambio
+desgarrar
+derretir
+explotar
+a xarray
+asignar
+como frecuencia
+a partir de
+cambio
+Primer índice válido
+Último índice válido
+volver a muestrear
+al período
+a la marca de tiempo
+Convertir la zona horaria
+Zona horaria localizar
+banderas
+atributos
+trama
+área
+gráfico de barras
+gráfico de barra horizontal
+trama de caja
+parcela de densidad
+trama hexbin
+histograma
+Estimación de densidad del núcleo
+trama de línea
+Gráfico circular
+trama de caja
+de la matriz dispersa
+coordinar
+De los registros
+a la columna de fila optimizada
+al parquet
+Prescarse
+a los valores separados por comas
+al formato de datos jerárquicos
+al lenguaje de consulta estructurado
+para sobresalir
+a json
+a html
+a la pluma
+al látex
+a Stata
+a Google BigQuery
+a los registros
+Encadenar
+a un portapapeles
+a Markdown
+Flecha de pitón
+entero de 8 bits
+entero de 16 bits
+entero de 32 bits
+entero de 64 bits
+Integer Unsigned Integer 8 bits
+Integer Unsigned Integer de 16 bits
+Integer Unsigned 32 bits
+Integer Unsigned 64 bits
+punto flotante de 32 bits
+Punto flotante 64
+Tiempo 32
+Tiempo 64
+Fecha 32
+Fecha 64
+Duración
+Cadena
+Decimal 128
+Diccionario
+Matrices
+Matriz de extensión de flecha
+Tipo de datos de flecha
+Estampilla de tiempo
+Ensamblador de 8 bits
+Día
+Día de la semana
+Día de la semana
+Día del año
+Día del año
+Días en mes
+días en mes
+hora
+es el año salto
+es un final del mes
+es el comienzo del mes
+es un trimestre
+es el comienzo del trimestre
+es fin de año
+es el comienzo del año
+microsegundo
+minuto
+mes
+nano segundo
+cuarto
+resolución
+second
+zona horaria
+Información de la zona horaria
+unidad
+semana
+Semana del año
+año
+como unidad
+Como zona horaria
+cambio de hora
+fecha
+nombre del día
+horario de verano
+de Ordinal
+de la marca de tiempo
+Calendario iso
+Formato ISO
+ISO lunes a viernes
+nombre de mes
+tiempo actual
+Tiempo de formato de cadena
+Tiempo de análisis de cadena
+punto en el tiempo
+Tuple de tiempo
+objeto de zona horaria
+a DateTime 64
+para que
+a la fecha juliana
+a pydatetime
+hoy
+a Ordinal
+nombre de la zona horaria
+UTC de la marca de tiempo
+UTC ahora
+Compensación de UTC
+Tupla de tiempo UTC
+día laborable
+Tiempo delta
+componentes
+días
+microsegundos
+nano segundos
+segundos
+para hacer tiempo delta
+Time Delta 64
+Segundos totales
+período
+hora de finalización
+frecuencia
+cadena de frecuencia
+ordinal
+cuarto de año
+hora de inicio
+Matriz de período
+Tipo de datos de período
+Intervalo
+closed
+cerrado a la izquierda
+cerrado a la derecha
+esta vacio
+izquierda
+longitud
+mid
+a la izquierda abierta
+abrir a la derecha
+overlaps
+bien
+Matriz de intervalo
+Tipo de datos de intervalo
+matriz n-dimensional
+Matriz entera
+Tipo de datos entero 8
+Integer 16 Tipo de datos
+Integer 32 Tipo de datos
+Integer 64 Tipo de datos
+Tipo de datos Integer 8 Unsigned
+Tipo de datos Integer 16 Unsigned 16
+Tipo de datos Integer 32 sin firmar
+Tipo de datos Integer 64 sin firmar
+Matriz de puntos flotantes
+Tipo de datos de puntos flotantes de 32 bits
+Tipo de datos de puntos flotantes de 64 bits
+Tipo de datos categóricos
+diferentes grupos o clasificaciones
+ordenado en un orden específico
+Análisis de datos de código abierto y biblioteca de manipulación
+Crear desde códigos
+símbolos que representan datos
+Recopilación de elementos de datos
+matriz escasamente poblada
+tipo de datos escaso
+Matriz de cuerdas
+Matriz de cadenas de flecha
+Tipo de datos de cadena
+Matriz booleana
+Tipo de datos booleanos
+Categorías sindicales
+Inferir tipo de datos
+Tipo de datos de pandas
+¿Es algún tipo de datos numérico real?
+¿Es el tipo de datos booleanos?
+es tipo de datos categóricos
+es tipo de datos complejo
+es datetime64 cualquier tipo de datos
+es el tipo de datos datetime64
+es el tipo de datos de nanosegundos de Datetime64
+es el tipo de datos de zona horaria de Datetime64
+¿Es el tipo de datos de matriz de extensión?
+es tipo de datos flotante
+es el tipo de datos int64
+es tipo de datos enteros
+es tipo de datos de intervalo
+es tipo de datos numéricos
+es tipo de datos de objeto
+es tipo de datos de período
+está firmado tipo de datos enteros
+es tipo de datos de cadena
+es el tiempo delta 64 Tipo de datos
+es el tiempo delta 64 ns Tipo de datos
+es un tipo de datos enteros sin firmar
+es dict como
+es archivo como
+es una lista como
+se llama tuple
+es iterador
+es booleano
+es punto flotante
+es hashable
+es entero
+es intervalo
+es número
+es expresión regular
+es compilable de expresión regular
+es escalar
+fecha y hora
+Tiempo delta
+métodos
+del calendario iso
+del formato ISO
+cadena de resolución
+es monotónico no superpuesto
+de matrices
+de tuples
+de descansos
+contiene
+a tuples
+subtipo
+Índice
+¿Está aumentando monótono?
+¿Está disminuyendo monotónica?
+es único
+tiene duplicados
+tiene nans
+tipo inferido
+factorizar
+identical
+es booleano
+es categórico
+está flotando
+es numérico
+es objeto
+poner máscaras
+establecer nombres
+Listar
+a la serie
+enmarcar
+a partir de lugares
+Obtener indexador
+Obtener indexador para
+Obtener indexador no único
+Obtener valores de nivel
+obtener ubicación
+Ponte a bordo
+índice de rebanadas
+ubicaciones de corte
+Índice de rango
+Desde el rango
+Índice categórico
+cambiar el nombre de categorías
+reordenar categorías
+Agregar categorías
+eliminar categorías
+Eliminar categorías no utilizadas
+Establecer categorías
+según lo ordenado
+como desordenado
+Índice de intervalo
+se superpone
+Índice múltiple
+del producto
+desde el marco
+nivel
+número de niveles
+forma nivelada
+Establecer niveles
+establecer códigos
+al índice plano
+nivel de clasificación
+eliminar los niveles no utilizados
+Obtener ubicaciones
+Obtener nivel de ubicación
+Rebanada de índice
+Índice de hora de fecha
+Frecuencia inferida
+Indexador en el momento
+Indexador entre el tiempo
+Quebrar
+Índice delta de tiempo
+Índice de período
+De los campos
+De las ordinales
+Leer Pickle
+tabla de lectura
+Leer valores separados por coma
+Leer archivo de ancho fijo
+Leer portapapeles
+Leer Excel
+Archivo Excel
+Estilo
+Escritor de Excel
+Leer JSON
+Json normalizar
+Schema de mesa de construcción
+Leer HTML
+Leer XML
+a xml
+Leer HDF
+Tienda HDF
+grupos
+caminar
+Leer Feather
+Leer Parquet
+Leer Orco
+Leer SAS
+Leer SPSS
+Leer Tabla SQL
+Leer consulta SQL
+Leer SQL
+Leer GBQ
+Leer Stata
+Lector de sata
+etiqueta de datos
+etiquetas de valor
+etiquetas variables
+Escritor de sata
+escribir archivo
+formato de fecha
+formato de fecha y hora
+motor
+Si existe una hoja
+hojas
+extensiones compatibles
+Verificar la extensión
+pestaña
+cortar
+Q cortado
+fusionar ordenado
+fusionarse
+Obtenga muñecas
+de tontos
+lreshape
+de ancho a largo
+a numérico
+hasta la fecha
+Time Delta
+rango de fechas
+gama de fechas de negocios
+rango de período
+rango delta del tiempo
+inferir frecuencia
+rango de intervalo
+series de tiempo
+Formato de hora de fecha de adivinación
+matriz de hash
+objeto de pandas hash
+intercambio
+del marco de datos
+serie
+banderas
+autocorrelación
+entre
+caso cuando
+fecha y hora
+descodificar
+extraer todo
+encuentra todos
+Partido completo
+eliminar prefijo
+eliminar sufijo
+rebanada reemplazar
+n puntos
+valor de llenado
+valores SP
+De COO
+obtiene el objeto
+estructura
+campo
+multiplicación
+división inversa y módulo
+artículo ISET
+Compensación de fecha
+Argumentos de palabras clave
+nanosegundos
+código de regla
+número
+está anclado
+está en desplazamiento
+Día laboral
+Alias
+Día laboral
+máscara de semana
+vacaciones
+calendario
+Hora de trabajo
+fin
+Día hábil personalizado
+Día personalizado
+Hora comercial personalizada
+Fin de mes
+Mes Begin
+Final del mes de negocios
+Final del mes de negocios
+Mes empresarial Begin
+Mes empresarial Begin
+Final del mes comercial personalizado
+Final del mes comercial personalizado
+compensación de mes
+Mes comercial personalizado Begin
+Mes comercial personalizado Begin
+Fin de mes semi
+dia del mes
+Comienzo semi -mes
+Semana
+Semana del mes
+La semana pasada del mes
+B
+mes inicial
+B Comienzo
+Trimestre
+Brote
+B Fin de año
+Año inicial
+Fin de año
+Año en el año
+Año fiscal 52/53
+variación
+Obtener sufijo de código de regla
+Obtener fin de año
+Fiscal año 52/53 trimestre
+Quarter con semana extra
+Obtener semanas
+El año tiene una semana extra
+Pascua de Resurrección
+Garrapata
+Día
+Hora
+Minuto
+Second
+Mili
+Micro
+Nano
+para compensar
+base
+Retroceder
+rodar hacia adelante
+siguiente día de negocios
+compensar
+Rollo de día hábil personalizado
+rollo de mes
+laminación
+ventana
+Expansión
+Ventana de movimiento exponencial
+Indexadores
+Indexador base
+Indexador de ventana hacia adelante fijo
+Indexador de ventana de compensación de variable
+Grupo de marco de datos por
+Grupo en serie por
+Obtener grupo
+Agrupador
+Agregación nombrada
+Recuento acumulativo
+Número de grupo
+Nth
+Abrir bajo Cierre bajo
+Función agregada
+Columna
+Volver a muestrear
+Más cercano
+De plantilla personalizada
+ambiente
+plantilla de lenguaje de marcado de hipertexto
+plantilla estilo lenguaje de marcado de hipertexto
+Plantilla Tabla de lenguaje de marcado de hipertexto
+Diseño de plantilla expandible
+Secuencia de plantilla de caracteres
+cargador de datos
+Aplicar índice
+índice de mapa
+índice de formato
+reaassignar Índice
+ocultar
+CLASES DE LA ESTACERSE DE TD
+Establecimiento Estilo de Tabla
+Establecimiento ATRITOS DE TABLA
+Establecimiento Consejos
+establecimiento subtítulo
+Establecimiento Pegajoso
+Propiedas del establecimiento
+UUID del establecimiento
+resaltar nulo
+resaltar max
+resaltar min
+destacar entre
+resaltar cuantil
+Gradiente de fondo
+gradiente de texto
+usar
+Aplicar el índice de mapas
+Curvas Andrews
+Parcela de correlación automática
+trama de bootstrap
+DE REGISTRES MATLPLOTLIB CONVERTEROS
+trama de retraso
+coordenadas paralelas
+Parámetros de trazado
+rad a saber
+Registre los convertidores Matplotlib
+matriz de dispersión
+mesa
+Describe la opción
+Opción de reinicio
+Obtener opción
+Opción establecida
+contexto de opción
+Establecer formato de flotación de ingeniería
+extensiones
+registrar el tipo de datos de extensión
+Registre el accesor de DataFrame
+Accesor de la serie de registro
+Accesor de índice de registro
+Tipo de datos de extensión
+Matriz de extensión
+Matriz de extensión numpy
+Verifique el indexador de la matriz
+Clase índice
+Amable
+No tiene valor disponible
+Tipo de matriz de construcción
+Construir a partir de la cadena
+es tipo de datos
+acumular
+Concatenate el mismo tipo
+formato TER
+de factorizado
+De la secuencia
+de secuencia de cuerdas
+almohadilla
+valores para argsort
+valores para factorize
+Afirmar el marco igual
+Afirmar la serie igual
+Afirmar el índice igual
+Afirmar la matriz de extensión igual
+Error del método abstracto
+Advertencia de conflicto de atributos
+Advertencia de conversión categórica
+Error de asignación encadenada
+Error de archivo cerrado
+Advertencia de CSS
+Error de la base de datos
+Error de datos
+ADVERTENCIA DE TIPO DE DATOS
+Error de etiqueta duplicada
+Error de datos vacío
+Advertencia de incompatibilidad
+Error de indexación
+Nombre de columna inválido
+Comparación no válida
+Error de índice no válido
+Versión inválida
+Error de nan de fundición entero
+Error de setItem con pérdida
+Error de fusionar
+No hay tampón presente
+Error de frecuencia nulo
+Error de utilidad de numba
+Error de clobbering numExpr
+Error de opción
+Fuera de los límites de fecha y hora
+Fuera de los límites timedelta
+Error de analizador
+Advertencia de analizador
+Advertencia de rendimiento
+Posible error de pérdida de datos
+Posible pérdida de precisión
+Excepción de pyperclip
+Excepción de PyperClip Windows
+Configuración con error de copia
+Configuración con advertencia de copia
+Error de especificación
+Error de variable indefinido
+Error de índice no organizado
+Llamada de función no compatible
+Valor Tipo de etiqueta No más bien
+mostrar versiones
+prueba
+No disponible
+No es un momento
+numpy
+Fecha y hora 64
+diferencia de horario 64

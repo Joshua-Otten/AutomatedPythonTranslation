@@ -1,0 +1,145 @@
+es real
+significar
+ejes de intercambio
+es infinito
+arco sinuso
+producto
+mayor que
+radianes
+EXP MINUS 1
+repetir
+índice del valor máximo ignorando nans
+hipotenusa
+techo
+Producto de puntos vectoriales
+datos aleatorios o valores aleatorios generados con distribución uniforme
+en cuanto a elemento lógico y
+Verdadero si las matrices de entrada son equivalentes
+complejo conjugado
+Nuevo orden de bytes
+Get Field
+Encadenar
+arg max
+fuerza
+conteo de contenedores
+lógico o
+arco tangente
+igual
+Re -forma
+Co sine hiperbólico
+es objeto complejo
+voltear
+producto acumulativo
+seno hiperbólico
+a bytes
+Exponencial 2
+es un infinito positivo
+matriz igual
+tangente hiperbólico
+raíz cúbica
+piso
+variable
+Conjunto de artículos
+grados
+punto
+dividir
+argumento mínimo
+enmarañar
+vista
+Aplicar sobre hachas
+matriz de identidad
+exclusivo lógico o
+diagonal
+girar 90
+tangente inversa
+logaritmo
+aplanar diagonal
+lleno
+inferior triangular
+es escalar
+matriz de bloque
+Transponer
+Base de logaritmo 10
+Voltear a la derecha a la izquierda
+Distinto de cero
+Estrujar
+Elegir
+Extracto
+Es fortran
+Aplanar
+Ceros como
+Byte Swap
+no es un número
+argumento
+Aplicar a lo largo del eje
+índices diagonales
+pico a pico
+Mayor qué o igual a
+matriz máximo
+Listar
+superior triangular.
+valor presente neto
+partición de argumentos
+menos que
+laminación
+verdadera división
+coseno
+suma acumulativa
+Nan argmin
+rastro
+logaritmo 1
+embaldosado
+Base de logaritmo 2
+volcado de datos
+búsqueda ordenada
+round
+matriz de identidad
+Desviación Estándar
+todos
+establecer banderas
+archivar
+diagonal
+conjugate
+cambiar de tamaño
+Campo establecido
+vertedero
+valor presente
+los que
+tangente
+arco coseno
+voltear
+es finito
+lugar
+llenar
+piso ndarray
+es objeto real
+como matriz
+como tipo
+seno
+cuadrado
+artículo
+valor absoluto
+es complejo
+vacío como
+arreglar
+distribución normal aleatoria
+borrar
+arreglar
+acortar
+es infinito negativo
+truncar
+valor futuro
+Ronda hacia el entero más cercano
+gama de ceros
+matriz vacía
+tomar elementos de una matriz
+mínimo
+potencia flotante
+forma de triángulo
+poner valores en la matriz
+Operación lógica no
+exponencial
+no es igual
+compresión
+menor o igual
+división de piso

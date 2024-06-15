@@ -1,0 +1,222 @@
+valor absoluto
+todo
+cualquier
+ascii
+binario
+booleano
+arreglo de bytes
+bytes
+invocable
+carácter
+método de clase
+compilar
+complejo
+eliminar atributo
+diccionario
+directorio
+dividir módulo
+enumerar
+evaluar
+ejecutar
+filtrar
+punto flotante
+formato
+conjunto congelado
+obtener atributo
+globales
+tiene atributo
+hash
+ayuda
+hexadecimal
+identidad
+entrada
+entero
+es instancia
+es subclase
+iterador
+longitud
+lista
+locales
+mapa
+máximo
+vista de memoria
+mínimo
+siguiente
+objeto
+octal
+abrir
+ordinal
+potencia
+imprimir
+propiedad
+rango
+representar
+invertido
+redondear
+conjunto
+establecer atributo
+rebanada
+ordenado
+método estático
+cadena
+sumatoria
+superconjunto
+tupla
+tipo
+variables
+comprimir
+capitalizar
+plegado de caso
+centrar
+contar
+codificar
+termina con
+expandir tabulaciones
+encontrar
+mapa de formato
+índice
+es alfanumérico
+es alfabético
+es ascii
+es decimal
+es dígito
+es identificador
+es minúscula
+es numérico
+es imprimible
+es espacio
+es título
+es mayúscula
+unir
+justificar a la izquierda
+minúscula
+quitar espacios izquierda
+hacer traducción
+partición
+reemplazar
+buscar inverso
+índice inverso
+justificar a la derecha
+partición derecha
+división derecha
+quitar espacios derecha
+dividir
+dividir líneas
+empieza con
+quitar espacios
+intercambiar mayúsculas y minúsculas
+título
+traducir
+mayúsculas
+relleno de ceros
+añadir
+limpiar
+copiar
+extender
+insertar
+extraer
+eliminar
+invertir
+ordenar
+de las claves
+obtener
+elementos
+claves
+eliminar elemento
+establecer predeterminado
+actualizar
+valores
+añadir
+diferencia
+actualización de diferencia
+descartar
+intersección
+actualización de intersección
+es disjunto
+es subconjunto
+es superconjunto
+diferencia simétrica
+actualización de diferencia simétrica
+unión
+cerrar
+desanclar
+número de fichero
+vaciar
+es interactivo
+leer
+legible
+leer línea
+leer líneas
+buscar
+se puede buscar
+decir
+truncar
+se puede escribir
+escribir
+escribir líneas
+y
+como
+afirmar
+interrumpir
+clase
+continuar
+definir
+eliminar
+si no, si
+sino
+excepto
+Falso
+finalmente
+para
+de
+global
+si
+importar
+en
+es
+lambda
+Ninguno
+no-local
+no
+o
+pasar
+lanzar excepción
+devolver
+Verdadero
+intentar
+mientras
+con
+generar
+Error Aritmético
+Error de Afirmación
+Error de Atributo
+Excepción
+Error de Fin de Archivo
+Error de Punto Flotante
+Salida de Generador
+Error de Importación
+Error de Indentación
+Error de Índice
+Error de Clave
+Interrupción por Teclado
+Error de Búsqueda
+Error de Memoria
+Error de Nombre
+Error No Implementado
+Error de OS
+Error de Desbordamiento
+Error de Referencia
+Error de Ejecución
+Detener Iteración
+Error de Sintaxis
+Error de Tabulación
+Error del Sistema
+Salida del Sistema
+Error de Tipo
+Error Local no Vinculado
+Error de Unicode
+Error de Codificación Unicode
+Error de Decodificación Unicode
+Error de Traducción Unicode
+Error de Valor
+Error de División por Cero

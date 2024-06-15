@@ -1,0 +1,2530 @@
+torch
+distributed
+algorithms
+DDP communication hooks
+Power SGD hook
+Power SGD state
+method
+init
+fx
+graph
+module
+assign worker ranks
+elastic
+agent
+server
+Simple Elastic Agent
+create just-in-time function
+compute unified device architecture
+j iterator
+create multi output just-in-time function
+dump snapshot
+memory
+exit barrier
+foreach absolute
+foreach arccosine
+foreach arcsine
+foreach arctangent
+foreach ceiling
+foreach cosine
+foreach hyperbolic cosine
+for each error function
+for each complementary error function
+for each exponentiation
+for each exponentiation minus 1
+for each floor
+for each fraction
+for each log gamma
+for each logarithm
+for each base-10 logarithm
+for each logarithm of (1 + x)
+for each logarithm base 2
+for each negative
+for each reciprocal
+for each round
+for each sigmoid
+for each sine
+for each hyperbolic sine
+for each square root
+for each tangent
+for each truncate
+for each zero
+initialize workers
+Kineto Profile
+profiler
+monitor workers
+record memory history
+rendezvous
+restart workers
+shut down
+snapshot
+start workers
+stop workers
+Tensor
+Absolute Transformation
+distributions
+transforms
+arc cosine
+arc hyperbolic cosine
+acquire
+timer
+Timer Client
+Adaptive delta
+optimize
+Adaptive gradient
+Adaptive moment estimation
+Adaptive moment estimation with infinity norm
+Adaptive moment estimation with weight decay
+Adapt torch inputs to open neural network exchange
+open neural network exchange
+Open neural network exchange program
+Adapt Torch Outputs to ONNX
+Adaptive Auto Range
+Utilities
+benchmark
+Timer
+Adaptive Average Pool 1-D
+neural network
+functional
+Adaptive Average Pool 2-D
+area of Effect
+quantized
+adaptive average pooling 3d
+adaptive maximum pooling 1d
+adaptive maximum pooling 2d
+adaptive maximum pooling 3d
+Adaptive average pooling 1d
+Adaptive average pooling 2d
+Adaptive average pooling 3d
+-
+-
+Adaptive Max Pool 2d
+Adaptive Max Pool 3d
+add audio
+tensor board
+writer
+Summary Writer
+add custom scalars
+add dependency
+package
+Package Exporter
+add done callback
+futures
+Future
+add dtype config
+quantization
+backend config
+Backend Pattern Config
+add embedding
+add figure
+add graph
+add histogram
+add hyperparameters
+add image
+add images
+add loggers
+not specified
+numeric suite function
+add mesh
+add metadata
+add metadata in JSON format
+add module
+just-in-time
+Script Module
+add parameter group
+Zero Redundancy Optimizer
+add precision-recall curve
+add pruning method
+prune
+Pruning Container
+add quantize-dequantize
+add rectified linear unit
+numeric suite
+shadow
+add scalar
+add scalars
+add shadow loggers
+add submodule
+Graph Module
+add text
+add video
+addition of two batched matrices multiplied
+addition of tensor containing the quotient of the specified tensors
+addition of tensor containing the multiplicative product
+addition of two matrices multiplied
+addition of matrix-vector product
+outer product of vectors
+conjugate transpose
+generate a 2d grid of points for an affine transformation
+apply an affine transformation to input 3D
+-
+monitoring
+airy artificial intelligence
+special
+align as
+align to
+all gather
+all gather into tensor
+all gather object
+all input nodes
+Node
+all mismatch leaf graph info
+verification
+Graph Info
+all paths
+all reduce
+all to all
+all to all single
+all close
+allow bf16 reduced precision reduction
+backends
+matrix multiplication
+allow floating-point 16 reduced precision reduction
+allow in graph
+compiler
+allow mutation on saved tensors
+automatic differentiation
+graph
+allow TensorFlow 32
+allreduce hook
+default hooks
+alpha dropout
+Alpha Dropout
+a min max
+angle
+annotate
+apply
+Fully Sharded Data Parallel
+-
+apply mask
+Base Pruning Method
+hyperbolic arc cosine
+hyperbolic arc sine
+hyperbolic arc tangent
+are deterministic algorithms enabled
+argument constraints
+Bernoulli
+Bernoulli
+attribute
+arguments
+argument where
+as nested tensor
+nested
+as sparse grad check
+sparse
+as standardized
+Callgrind Stats
+as strided
+as subclass
+as tensor
+as array
+Accelerated Stochastic Gradient Descent
+arc sine
+inverse hyperbolic sine
+assert all close
+testing
+assert close
+assume constant result
+asynchronous execution
+remote procedure call
+functions
+arc tangent
+arc tangent 2
+arc tangent hyperbolic
+at least 1 dimension
+at least 2 dimensions
+at least 3 dimensions
+attribute
+automatic casting
+average pool 1 dimensional
+average pool 2 dimensional
+average pooling 3 dimensional
+average pooling 1 dimensional
+average pooling 2 dimensional
+average pooling 3 dimensional
+back end
+back end configuration
+back end type
+backward
+backward prefetch
+batch add batch matrix multiplication
+synchronization point
+Bartlett method
+representation of a variable
+operating system interfaces
+Bartlett window
+batch isend irecv
+batch normalization
+shape of the batch
+statistical distribution
+probability distribution
+batch sizes
+recurrent neural network
+Packed Sequence
+batched power SGD hook
+Batch Normalization 1-dimensional
+Batch Normalization 2-dimensional
+Batch Normalization 3-dimensional
+Batch Sampler
+data
+Binary Cross Entropy Loss
+Binary Cross Entropy With Logits Loss
+CUDA Deep Neural Network
+benchmark limit
+Bessel function of the first kind of order 0
+Bessel function of the first kind of order 1
+Beta distribution
+beta distribution
+Brain Floating-point 16 compression hook
+Brain Floating-point 16 compression wrapper
+-
+Brain Floating 16 Storage
+Bilinear
+bi linear
+binary cross entropy
+binary cross entropy with logits
+Binomial
+bi nomial
+bitwise and
+bitwise left shift
+bitwise not
+bitwise OR
+bitwise right shift
+bitwise XOR
+blackman
+blackman window
+block diagonal
+blocked auto range
+batch matrix multiplication
+batch normalization rectified linear unit 2d
+intrinsic
+Batch Normalization Rectified Linear Unit 3D
+Boolean Storage
+boxed run
+Interpret-er
+break point
+broad cast
+communication
+broadcast coalesced
+broadcast object list
+broadcast shapes
+broadcast tensors
+broadcast to
+bucketize
+buffer
+Gradient Bucket
+buffers
+export
+Exported Program
+Build Extension
+C++ extension
+byte
+ByteStorage
+Untyped Storage
+C10d Rendezvous Backend
+c10d rendezvous backend
+cached
+parametrize
+caching allocator alloc
+caching allocator delete
+calculate gain
+calculate quantization parameters
+observer
+Min-Max Observer
+call function
+call method
+call module
+can cast
+can device access peer
+can use efficient attention
+can use flash attention
+capture begin
+CUDA Graph
+capture end
+cartesian product
+concatenate
+constraints
+Categorical
+categorical
+Cat Transform
+Cauchy
+Cauchy
+Column Indices
+Cumulative Distribution Function
+Distance Calculation
+Complex Double
+Continous Exponential Linear Unit
+Continous Exponential Linear Unit
+Complex Float
+Chain Matrix Multiplication
+Chain Dataset
+Chained Scheduler
+Learning Rate Scheduler
+Complex Half
+Change Current Allocator
+Channel Shuffle
+Character
+Character Storage
+Check
+Etcd Store
+-
+check is root
+check sparse tensor invariants
+check point
+check point sequential
+Chi 2
+chi 2
+Child Failed Error
+multi processing
+errors
+children
+Cholesky
+Cholesky Extensions
+Linear Algebra
+Cholesky Inverse
+Cholesky Solve
+Chunk
+Circular Pad 1 Dimensional
+Circular Pad 2 Dimensional
+Circular Pad 3 Dimensional
+Clamp
+CUFFT Plan Cache
+Clear Timers
+Timer Server
+Clip Gradient Norm
+Clip Gradient Value
+Clock Rate
+Clone
+Dynamic Rendezvous
+Rendezvous Timeout
+Class to Become
+Lazy Batch Normalization 1-dimensional
+coalesce
+code
+code with constants
+column indices
+collate
+collect all
+collect callgrind
+column stack
+Colwise Parallel
+tensor
+parallel
+combinations
+commit tensor
+Load Planner
+compare model outputs
+compare model stub
+compare set
+Store
+compare weights
+compiled with CXX11 ABI
+complex double
+Typed Storage
+complex float
+Complex Double Storage
+Complex Float Storage
+component distribution
+mixture same family
+Mixture Same Family
+Compose Transform
+compute cosine similarity
+compute mask
+compute normalized L2 error
+compute signal to quantization noise ratio
+concatenate
+Concat Dataset
+concatenation
+concentration
+inverse gamma
+Inverse Gamma
+concentration 0
+concentration 1
+condition
+configurations
+configurations
+measurements
+confirmed by owner
+Python Remote Reference
+conjugate physical
+Console Metric Handler
+Application Programming Interface
+Consolidate State Dictionary
+Constant
+Constant Learning Rate
+Constant Padding 1-dimensional
+Constant Padding 2-dimensional
+Constant Padding 3-dimensional
+Constraint
+Constraint Registry
+Constraint Registry
+context
+contiguous
+Continuous Bernoulli
+continuous bernoulli
+Convolution 1 dimension
+conv 1 dimension
+Convolution 2 dimension
+Quantization Aware Training
+conv 2 dimension
+Convolution 3 dimension
+convolutional 3-dimensional
+convolution transpose 1-dimensional
+convolution transpose 2-dimensional
+convolution transpose 3-dimensional
+convolutional batch normalization 1-dimensional
+convolutional batch normalization 2-dimensional
+convolutional batch normalization 3-dimensional
+convolutional batch normalization Rect
+-
+-
+convert
+convert convolutional 2D weight memory format
+convert FX
+quantize FX
+convert n shadows model
+convert synchronized batch normalization
+Synchronize Batch Normalization
+Convert Custom Configuration
+custom configuration
+Convolution Rectified Linear Unit 1-dimensional
+Convolution Rectified Linear Unit 2D
+Convolution Rectified Linear Unit 3D
+Convolution Transpose 1D
+Convolution Transpose 2D
+Convolution Transpose 3D
+Parameter Dictionary
+copy sign
+Correlation Cholesky Transform
+correlation
+cosine embedding loss
+-
+cosine similarity
+Cosine Annealing LR
+Cosine Annealing Warm Restarts
+Cosine Embedding Loss
+Cosine Similarity
+Stat
+count nonzero
+counts
+cov
+covariance matrix
+low rank multivariate normal
+Low Rank Multivariate Normal
+C++ Extension
+central processing unit
+CPU Offload
+create argument
+tracer
+create arguments for root
+create backend
+create global plan
+create handler
+create local plan
+create node
+create proxy
+cross
+cross entropy
+Cross Entropy Loss
+crow indices
+ctc loss
+Connectionist Temporal Classification Loss
+Compute Unified Device Architecture Extension
+CUDA Graph Mark Step Begin
+Compute Unified Device Architecture Pluggable Allocator
+Cumulative Maximum
+Cumulative Minimum
+Cumulative Trapezoid
+Cumulative Distribution Transform
+Current Allocated Memory
+Managed Process Service
+current BLAS handle
+current device
+current stream
+custom backward
+automatic mixed precision
+custom from mask
+custom forward
+Custom From Mask
+Cyclic Learning Rate
+Event
+data parallel
+data pointer
+data value type
+Data Loader
+Data Parallel
+Data Set
+debug dump
+default activation only quantization config
+quantization config
+default collate
+default convert
+default debug observer
+default debug qconfig
+default dynamic qconfig
+default dynamic quant observer
+default eval fn
+default fake quant
+fake quantize
+default float qparams observer
+default fused act fake quant
+Default Fused Per Channel Weight Fake Quant
+Default Fused Weight Fake Quant
+Default Generator
+Default Histogram Fake Quant
+Default Histogram Observer
+Default Observer
+Default Per Channel Qconfig
+Default Per Channel Weight Fake Quant
+Default Per Channel Weight
+-
+default quantization aware training qconfig
+default quantization aware training qconfig version 2
+default qconfig
+default stream
+default weight fake quantization
+default weight observer
+default weight only qconfig
+Default Load Planner
+Default Save Planner
+define
+a collection of modules
+degrees to radians
+remove all modules that are not being used
+remove key
+remove submodule
+change
+unauthorized or prohibited modules
+remove noise
+number of functions
+dense dimension
+deny
+dependency graph string
+dependent property
+dequantize
+DeQuantStub
+determinant
+detect anomaly
+deterministic
+device
+device count
+device maps
+TensorPipe Rpc Backend Options
+device of
+Device Mesh
+device mesh
+devices
+data frame
+diagonal embed
+diagnostic context
+Diagnostic Options
+diagonal scatter
+difference
+di-gamma
+dimension
+dimension
+dimension order
+dimensions
+Dirac
+directory
+Dirichlet
+Dirichlet
+disable
+disable fake quant
+disable log
+disable observer
+disable saved tensors hooks
+distribution
+Distribution Backend Error
+Distribution Error
+Distribution Network Error
+Distributed Data Parallel
+Distributed Optimizer
+Distributed Sampler
+Distributed Store Error
+division
+finished
+twice as much
+Double Storage
+download url to file
+center
+draw
+quasi random
+Sobol Engine
+draw base 2
+driver allocated memory
+Drop out
+drop out
+Drop out 1d
+drop out 1d
+Drop out 2d
+dropout 2d
+Dropout 3d
+dropout 3d
+d split
+d stack
+data type
+Just In Time Scalar Type
+Data Type Configuration
+Data Type With Constraints
+dual level
+forward accumulation
+dynamic dimension
+Dynamic Rendezvous Handler
+dynamo export
+eigen decomposition
+eigen decomposition Hermitian
+eigenvalues
+eigenvalues Hermitian
+Einstein summation
+elapsed time
+Elastic Agent
+element size
+eliminate dead code
+Exponential Linear Unit
+Exponential Linear Unit
+embedding
+embedding
+embedding bag
+Embedding Bag
+emit int type transformation
+emit nvtx
+empty cache
+empty strided
+Empty Match Error
+enable
+static
+enable cuda sanitizer
+sanitizer
+enable debug mode
+enable fake mode
+enable fake quantization
+enable flash stochastic dual path
+enable gradient
+enable logarithm
+enable math stochastic dual path
+enable memory efficient stochastic dual path
+enable observer
+enable oneAPI DPC++ Library fusion
+enables
+entropy
+entropy
+enumerate support
+equal
+erase node
+error function
+complimentary error function
+scaled complimentary error function
+inverse error function
+Error Handler
+essential node count
+essential node kinds
+Etcd Rendezvous Backend
+etcd rendezvous backend
+Etcd Rendezvous Handler
+etcd rendezvous
+Etcd Server
+etcd server
+event shape
+Event Handler Handle
+Event Metadata Value
+events
+Event Source
+expand
+expand as
+expires
+expit
+Exponential
+exponential
+Exponential Family
+exp family
+Exponential Learning Rate
+export Chrome Trace
+profile
+export Memory Timeline
+export Reproduction
+export Stacks
+export to Pretty String
+Export Backward Signature
+Export Graph Signature
+Export Options
+Expansion Transform
+Module List
+Extend Logger Results With Comparison
+External
+External Stream
+External Modules
+Extra Representation
+Fixed Quantized Parameters Fake Quantize
+Extract Logger Information
+Extract Results and Shadows Model
+Extract Shadow Logger Information
+Extract Weights
+Fake Context
+Fake Quantize Per Channel Affine
+Fake Quantize Per Tensor Affine
+Fake Quantize
+Fake Quantize Base
+Fallthrough Kernel
+Fast Forward
+Feature Alpha Dropout
+Feature Alpha Dropout
+fetch arguments keywords from environment
+fetch attribute
+fast Fourier transform
+fast Fourier transform 2
+fast Fourier transform frequency
+fast Fourier transform n
+fast Fourier transform shift
+file structure
+Package Importer
+file name
+File Store
+File System Reader
+File System Writer
+File Timer Client
+File Timer Server
+fill diagonal
+fill uninitialized memory
+find mismatch
+find partition
+finish
+Storage Writer
+finish plan
+Fisher Snedecor
+fisher snedecor
+flash sdp enabled
+Flatten
+flatten parameters
+RNN Base
+flatten sharded optim state dict
+float 16 dynamic q config
+float 16 static q config
+float 8 e 4 m 3fn
+float 8 e 5 m 2
+float q params weight only q config
+Float Functional
+Float Storage
+maximum value
+minimum
+-
+Transformation function
+Fold
+Create a new memory view
+Split the random number generator
+Format node
+Forward pass
+Capable of being quantized
+Multi-head attention
+Forward pass shape
+Transformation function
+fp16 compress hook
+fp16 compress wrapper
+fractional
+fractional max pool 2d
+fractional max pool 3d
+Fractional Max Pool 2d
+Fractional Max Pool 3d
+freeze
+freeze batch normalization stats
+fractional exponent
+from backend
+from buffer
+from dictionary
+from data type pack
+from data type
+from file
+from floating point
+Linear
+from interprocess communication handle
+from numerical python
+from pretrained
+from reference
+dynamic
+from value
+from buffer
+fsdp modules
+full
+full optim state dict
+Full Optim State Dict Config
+Full State Dict Config
+Function
+functional call
+function
+functionalize
+fuse convolution batch normalization evaluation
+fuse convolution batch normalization weights
+fuse effects
+fuse linear batch normalization evaluation
+fuse linear batch normalization weights
+fuse modules
+Fused Custom Config
+Fused Moving Average Observations Fake Quantize
+FX Float Functional
+Gamma
+gamma
+gamma in c
+gamma in cc
+gamma ln
+gather
+gather object
+Gaussian
+Gaussian Negative Log Likelihood Loss
+Gaussian Negative Log Likelihood Loss
+Greatest Common Divisor
+Greater Than or Equal
+Gaussian Error Linear Unit
+Gaussian Error Linear Unit
+Generalized Cosine
+Generalized Hamming
+Generate Methods For Private Use 1 Backend
+generate square subsequent mask
+Transformer
+Generator
+Geometric
+geometric
+geqrf
+ger
+get all sharing strategies
+get allocator backend
+get architecture list
+get as bool
+Rendezvous Parameters
+get as int
+get attribute
+get backend
+get backoff factor
+Grad Scaler
+get buffer
+get compiler ABI compatibility and version
+get C++ backtrace
+get central processing unit capability
+get context
+get debug state
+script function
+get default data type
+get default load endianness
+serialize into a series of bytes
+get default quality assurance testing and quality control configuration mapping
+quality assurance testing and quality control configuration mapping
+get_default_qconfig_mapping
+get deterministic debug mode
+get device
+get device capability
+get device name
+get device properties
+get directory
+get entrypoint name
+Worker Spec
+get expired timers
+get extra state
+get float 32 matrix multiplication precision
+get code flags
+get global rank
+get gradient edge
+get gradients
+get group rank
+get growth factor
+get growth interval
+get ignored functions
+overrides
+get last learning rate
+get logger dictionary
+get logging handler
+get learning rate
+get matching activations
+get model state dictionary
+state dictionary
+get module remote reference
+remote module
+Remote Module
+get number of interop threads
+get number of threads
+get observer state dictionary
+get operation functions
+Open Neural Network Exchange Registry
+get optimized Einstein sum
+optimized Einstein sum
+get optimizer state dictionary
+get overridable functions
+get parameter
+get process group ranks
+get rank
+get recursive dependencies
+get random number generator state
+get random number generator state all
+get run id
+Rendezvous Handler
+get scale
+get sharing strategy
+get state
+get state dictionary
+get state dictionary type
+get sub module
+get synchronization debug mode
+get testing overrides
+get unique identifier
+get worker group
+get worker information
+get world size
+global unstructured
+Gated Linear Unit
+graphics library utility
+gradient
+gradient and value
+gradient check
+gradient gradient check
+rate of inclination
+Gradient Edge
+changes in slopes
+graph copy
+graph pool handle
+greater than
+greater than or equal
+grid sample
+group normalization
+group normalization
+gated recurrent unit
+GRU cell
+greater than
+Gumbel
+Gumbel
+Gumbel Softmax
+H
+half
+half open interval
+Half Cauchy
+half cauchy
+Half Normal
+half normal
+Half Storage
+Hamming
+Hamming Window
+Handle Torch Function
+Hann
+Hann Window
+Hard Shrink
+hard shrink
+hard sigmoid
+Hard Sigmoid
+Hard Swish
+hard swish
+hard tanh
+Hard tanh
+has enumerate support
+has file
+has mismatch
+has rsample
+has torch function
+has uninitialized parameters
+modules
+Lazy
+Lazy Module Mixin
+Hash Store
+heart beat
+Heaviside
+Hessian
+hfft
+hfft2
+hfftn
+hinge embedding loss
+Hinge Embedding Loss
+histogram counting
+histogram
+histogram n-dimensional
+Histogram Observer
+householder product
+hpu
+hsplit
+hspmm
+hstack
+Huber Loss
+Huber Loss
+Hessian vector product
+modified Bessel function of the first kind
+exponentially scaled modified Bessel function of the first kind
+modified Bessel function of the second kind
+exponentially scaled modified Bessel function of the second kind
+inverse cumulative distribution function
+Worker Information
+Identity
+inverse fast Fourier transform
+inverse fast Fourier transform 2D
+inverse fast Fourier transform nD
+inverse fast Fourier transform shift
+incomplete gamma function
+incomplete gamma function complement
+ignore
+inverse Hermitian fast Fourier transform
+inverse Hermitian fast Fourier transform 2D
+inverse Hermitian fast Fourier transform nD
+imaginary
+implement
+implement abstract
+import module
+include paths
+Independent
+independent
+Independent Transform
+index add
+index copy
+index fill
+index put
+index reduce
+index select
+indices
+inference mode
+initialize device mesh
+initialize method
+Remote Procedure Call Backend Options
+initialize process group
+initialize remote procedure call
+initial seed
+initialize parameters
+inlined graph
+inner
+input output not observed
+observation type
+input kind
+graph signature
+input specification
+insert argument
+inserting after
+inserting before
+instance normalization
+Instance Normalization 1d
+Instance Normalization 2d
+Instance Normalization 3d
+integer representation
+integer interval
+interface
+intern
+interned modules
+interpolate
+interval
+Int Storage
+inv
+inv ex
+Invalid Export Options Error
+inverse
+inverse shape
+inter-process communication collect
+inter-process communication handle
+image processing unit
+immediate receive
+inverse real fast Fourier transform
+inverse real fast Fourier transform 2
+inverse real fast Fourier transform n
+is available
+is built
+is closed
+is coalesced
+is complex
+is conjugate
+is contiguous
+is Compute Unified Device Architecture
+is current stream capturing
+is deterministic algorithms warn only enabled
+is enabled
+is floating point
+is Gloo available
+is gradient enabled
+is heterogeneous processing unit
+is not pure
+is in Open Neural Network Exchange export
+is inference
+is inference mode enabled
+is initialized
+is last
+is leaf
+is leaf module
+NS Tracer
+is meta
+is mpi available
+is nccl available
+is ninja available
+is nonzero
+is onnxrt backend supported
+is owner
+is parametrized
+is pinned
+is pruned
+is quantized
+is registered operation
+is running
+Worker State
+is scripting
+is set to
+is shared
+is signed
+is sparse
+is Sparse Compressed Sparse Row
+is Storage
+is Tensor
+is Tensor Like
+is Tensor Method or Property
+is Torch Elastic Launched
+is Tracing
+is Warn Always Enabled
+is Close
+is End
+is in
+inverse short-time Fourier transform
+Module Dictionary
+size of each item
+Iterable Dataset
+forward-mode Jacobian
+Jacobian
+reverse-mode Jacobian
+combine
+Spawn Context
+join device
+join able
+join hook
+join process group
+join hook
+jvp
+K
+kaiming normal
+kaiming uniform
+kaiser
+Kaiser window
+Key averages
+Kullback-Leibler divergence
+Kullback-Leibler divergence
+Kullback-Leibler
+KL Divergence Loss
+Kronecker product
+K-th value
+Kumaraswamy (no expansion)
+Kumaraswamy (
+keyword arguments
+length
+l1 loss
+l1 unstructured
+l1 loss
+l1 unstructured
+lambda learning rate
+Laplace
+laplace
+last call
+layer normalization
+layer normalization
+layout
+lazy batch normalization 2d
+lazy batch normalization 3d
+lazy 1d convolution
+lazy 2d convolution
+lazy 3d convolution
+lazy 1d convolution transpose
+lazy 2d convolution transpose
+Lazy Convolution Transpose 3d
+Lazy Instance Normalization 1d
+Lazy Instance Normalization 2d
+Lazy Instance Normalization 3d
+Lazy Linear
+Limited-memory Broyden-Fletcher-Goldfarb-Shanno
+Least Common Multiple
+Load Exponent
+LDL
+-
+low-rank factorization of a positive definite matrix
+less than or equal to
+Leaky Rectified Linear Unit
+Leaky Rectified Linear Unit
+linear interpolation
+less than
+logarithm of the gamma function
+collection of modules and functions
+in a straight line
+to make linear
+Linear Learning Rate
+Linear Rectified Linear Unit
+linear space
+lint
+list backends
+list GPU processes
+LKJ Cholesky
+lkj cholesky
+natural logarithm structured
+Line Structured
+load
+load binary
+load bytes
+load inline
+load nvprof
+load observer state dict
+load pickle
+load state dict
+load state dict from url
+load text
+load uniform resource locator
+model zoo
+Load Plan
+Locally Optimal Block Preconditioned Conjugate Gradient
+location
+logarithmic normal
+Logarithmic Normal
+local response normalization
+local value
+Local Elastic Agent
+local elastic agent
+Local Optim State Dict Config
+Local Response Norm
+Local State Dict Config
+Local Timer Client
+Local Timer Server
+logarithm of 1 plus
+logarithm of absolute determinant of the Jacobian
+logarithm event
+logarithm of the normal distribution
+logarithm of probability
+logarithm of softmax
+logarithm of addition of exponentials
+logarithm of addition of exponentials (base 2)
+logarithm of cumulative sum of exponentials
+logarithm of determinant
+logging system
+logging systems set enabled
+logging systems set save activations
+logistic function
+Logit Relaxed Bernoulli
+relaxed bernoulli
+logistic units
+Logarithm of the Sigmoid function
+logarithm of the sigmoid
+Logarithm of the Softmax function
+logarithmically spaced array
+log of the sum of exponentials
+integer data type for longer integers
+long storage
+lookup object
+lookup tensor
+Lower Cholesky Transform
+lp pool 1d
+lp pool 2d
+LP Pool 1d
+LP Pool 2d
+Long Short-Term Memory
+Long Short-Term Memory Cell
+least squares
+less than
+lower upper
+lower upper factorization
+lower upper factorization extended
+lower upper solve
+lower upper unpack
+main hook
+make dual
+make graphed callables
+make tensor
+manual seed
+manual seed all
+map nodes to values
+margin ranking loss
+margin ranking loss
+mark
+nvtx
+mark dirty
+function
+function context
+mark non differentiable
+masked fill
+masked scatter
+masked select
+math Signal Detection and Parameter Estimation enabled
+matrix exponential
+matrix norm
+matrix power
+matrix rank
+maximum memory allocated
+maximum memory that can be cached
+maximum memory that is reserved
+maximum one-dimensional pooling
+maximum two-dimensional pooling
+maximum three-dimensional pooling
+maximum size
+maximum one-dimensional unpooling
+maximum two-dimensional unpooling
+maximum three-dimensional unpooling
+the greatest
+Maximum Pooling 1 Dimensional
+Maximum Pooling 2 Dimensional
+Maximum Pooling 3 Dimensional
+Maximum Unpooling 1 Dimensional
+Maximum Unpooling 2 Dimensional
+Maximum Unpooling 3 Dimensional
+Measurement
+Median
+Memory
+-
+memory allocated
+memory cached
+memory format
+memory reserved
+memory snapshot
+memory statistics
+memory summary
+memory usage
+merge
+merge masks
+mesh grid
+meta data
+Metric Handler
+m H
+minimum
+Mish
+mish
+Mixed Precision
+mixture distribution
+m m
+mocking
+mocked modules
+mode
+model protocol
+model signature
+configuration
+logging
+automatic casting mode
+fused
+convolution fused
+linear fused
+linear relu
+batch normalization relu
+convolution add
+convolution relu
+convolution
+embedding operations
+activation
+batch normalization
+functional modules
+normalization
+reference
+graph matcher
+graph passes
+mappings
+n shadows utils
+ns types
+pattern utils
+qconfig multi mapping
+weight utils
+prune
+schedule
+base schedule
+cubic schedule
+lambda schedule
+sparse
+base sparse
+nearly diagonal sparse
+weight normalization sparse
+executorch
+Facebook GEMM
+native
+observation type
+oneDNN
+quantized neural network pack
+tensor real-time
+Extended 86
+fuser method mappings
+fuse
+fuse handler
+graph module
+lower to fbgemm
+lower to qnnpack
+lstm utilities
+match utilities
+prepare
+qconfig mapping utilities
+quantize handler
+tracer
+pt 2 e
+duplicate data quality pass
+evaluation utilities
+generate numeric debug handle
+graph utilities
+port metadata pass
+Quaternary Analysis Technique utilities
+representation
+re-write
+quantization type
+quantization mappings
+quantization
+quantization just-in-time
+quantization part 2 enhanced
+quantization function
+composable quantization function
+embedding quantization function
+x86 inductor quantization function
+xnnpack quantization function
+xnnpack quantization function utilities
+-
+anomaly mode
+gradient mode
+profiler legacy
+profiler utility
+variable
+math kernel library
+Math Kernel Library for Deep Neural Networks
+Open Multi-Processing
+Intel Xeon
+run on CPU
+accelerated neural network primitives
+contribution
+usual or traditional
+gradient scaling
+mistake or fault
+visual representation of data
+Nvidia Collective Communication Library
+flows of data
+deep learning zero hook
+tools for identifying and correcting mistakes in code
+mixed precision hooks
+optimizer overlap hooks
+post local SGD hook
+quantization hooks
+model averaging
+averagers
+hierarchical model averager
+argparse util
+c10d logger
+default planner
+file system
+optimization
+plan ner
+plan ner helping
+re sharding
+state dict loader
+state dict saver
+state ful
+store age
+collective utilities
+constants
+distributed c10d
+handlers
+error handler
+redirects
+tail log
+registry
+static tcp rendezvous
+file based local timer
+local timer
+cycling iterator
+elastic distributed sampler
+log level
+store
+fully sharded data parallel
+sharded grad scaler
+wrap
+launch
+launcher
+logging handlers
+instantiator
+templates
+remote module template
+apply optimizer in backward
+functional adadelta
+functional adagrad
+functional adam
+functional adamax
+functional adamw
+functional rmsprop
+functional resilient backpropagation
+functional stochastic gradient descent
+named optimizer
+post-local stochastic gradient descent optimizer
+zero redundancy optimizer
+pipeline
+synchronization
+dependency
+micro batch
+phony
+pipeline
+skip
+name space
+portal
+skippable
+tracker
+stream
+worker
+remote device
+backend registry
+internal
+options
+rref proxy
+server process global profiler
+run
+ddp
+input reshared
+style
+logistic normal
+multinomial
+multivariate normal
+negative binomial
+normal
+one hot categorical
+pareto
+poisson
+relaxed categorical
+student's T
+transformed distribution
+von Mises
+weibull
+wishart
+exported program
+experimental
+accelerator partitioner
+constant fold
+debug
+graph gradual type checker
+merge matrix multiplication
+meta tracer
+migrate gradual types
+constraint
+constraint generator
+constraint transformation
+operation
+transform to Z3
+utility
+Z3 types
+normalize
+optimization
+partitioner utilities
+proxy tensor
+recording
+refinement types
+rewriter
+schema type annotation
+symbolic node
+symbolic shapes
+unification
+core
+dispatch
+match
+more
+multiple dispatch
+conflict
+dispatcher
+variadic
+unification tools
+unify refinements
+validator
+immutable collections
+interpreter
+node
+operator schemas
+passes
+annotate get item nodes
+cudagraphs
+dialect
+cse pass
+fake tensor properties
+graph drawer
+graph manipulation
+infra
+partitioner
+pass base
+pass manager
+net min base
+operator support
+param fetch
+rein place
+shape property
+split module
+split utilities
+splitter base
+tests
+test pass manager
+tools common
+fuser utilities
+matcher utilities
+matcher with name node map utilities
+source matcher utilities
+proxy
+subgraph rewriter
+tensor type
+traceback
+annotations
+frontend
+generate bytecode
+mobile
+supported operations
+unsupported tensor operations
+masked
+masked tensor
+binary
+creation
+pass through
+reductions
+unary
+event
+pool
+queue
+spawn
+tnn
+common types
+c plus plus
+adaptive
+channel shuffle
+container
+distance
+instance normalization
+loss
+padding
+pixel shuffle
+pooling
+transformer
+upsampling
+parallel apply
+replicate
+scatter gather
+parameter
+clip gradient
+convert parameters
+fusion
+parametrizations
+spectral normalization
+stateless
+weight normalization
+operators
+symbolic Caffe2
+symbolic helper
+symbolic opset 10
+symbolic opset 11
+symbolic opset 12
+symbolic opset 13
+symbolic opset 14
+symbolic opset 15
+symbolic opset 16
+symbolic opset 17
+symbolic opset 18
+symbolic operation set 7
+symbolic operation set 8
+symbolic operation set 9
+adaptive delta
+adaptive gradient
+adaptive moment estimation
+adaptive moment estimation with max
+adaptive moment estimation with weight decay
+average stochastic gradient descent
+limited-memory Broyden-Fletcher-Goldfarb-Shanno
+Nesterov adaptive moment estimation
+rectified adam
+root mean square prop
+resilient backpropagation
+stochastic gradient descent
+sparse adaptive moment estimation
+stochastic weight averaging utilities
+analysis
+find the first use of broken modules
+is from package
+trace dependencies
+file structure representation
+find file dependencies
+glob group
+importer
+package exporter
+package importer
+itt
+python tracer
+fusion patterns
+quantization patterns
+quantization types
+return types
+semi structured
+torch version
+types
+back compat
+backend registration
+examples
+blas compare setup
+compare
+fuzz tester
+operator benchmark
+simple timing
+spectral operator fuzz test
+operator fuzzers
+not need to expand
+not need to expand
+not need to expand
+C++ just-in-time compiler
+not need to expand
+Valgrind Wrapper
+Timer Interface
+Bottleneck
+Bundled Inputs
+Collect Environment
+C++ Backtrace
+Backward Compatibility
+Data Loader
+Data Pipes
+Data Frame
+data frame wrapper
+data frames
+structures
+data pipe
+?
+combinatorics
+combining
+file lister
+file opener
+grouping
+routed decoder
+selecting
+sharding
+stream reader
+decoder
+data set
+graph settings
+sampler
+dlpack
+file baton
+floating point operations counter
+hipify
+cuda to hip mappings
+hipify python
+version
+hooks
+log extract
+mobile optimizer
+model dump
+show pickle
+summary
+throughput benchmark
+visualization
+weak
+NAdam
+name
+named buffers
+named children
+named modules
+named parameters
+names
+NaN to number
+NaN mean
+NaN median
+NaN quantile
+NaN sum
+narrow
+narrow copy
+number of bytes
+number of dimensions
+n dimension
+normal distribution truncated
+inverse of normal distribution
+not equal
+negative
+negative
+negative binomial
+number of elements
+nested tensor
+create a new instance
+new empty
+new full
+new group
+new ones
+new tensor
+new zeros
+next functions
+next rendezvous
+next after
+negative log likelihood loss
+Negative Log Likelihood Loss
+no gradient
+not synchronized
+node copy
+nodes
+no operation hook
+No Operation Observer
+normalization
+normal distribution
+normalized arguments
+notify join context
+Null Metric Handler
+number of keys
+number of nodes waiting
+number of worker threads
+number of elements
+numerical python
+nuttall window
+observer base
+on generate code
+one hot
+One Cycle LR
+oneDNN fusion enabled
+One Hot Categorical
+ONNX compatible
+ONNX type
+ONNX Exporter Error
+ONNX Program Serializer
+ONNX Runtime Options
+opset version
+optimization state dictionary
+optimization state dictionary to load
+optimization for inference
+optimization for mobile
+Optimization processor
+Optimization state dictionary configuration
+orthogonal matrix reflector
+orthogonal matrix reflector and multiply
+perpendicular and intersecting at a right angle
+external or outermost
+Out Of Memory Error
+output
+Output Share Observer With Input
+Output Use Different Observer As Input
+Output Comparison Logger
+Output Kind
+Output Logger
+Output Specification
+owner
+owner name
+Point-to-Point Operation
+pack padded sequence
+pack sequence
+Packaging Error
+padding
+pad packed sequence
+pad sequence
+pairwise distance
+Pairwise Distance
+parallel information
+parallelize module
+param shape
+parameter
+parameter list
+parameters
+parameters to vector
+parametrization list
+Pareto
+path of module
+pca low rank
+printing context
+pair-wise distance
+per channel dynamic quantization configuration
+per channel min max observer
+permuted
+perplexity
+pickle storage type
+pinned memory
+pseudoinverse
+pseudoinverse
+Pipeline
+pixel shuffle
+pixel unshuffle
+Pixel Shuffle
+Pixel Unshuffle
+place holder
+Placeholder Observer
+Probability distribution named after Simeon Denis Poisson
+Poisson negative log likelihood loss
+Poisson Negative Log Likelihood Loss
+polar
+polygamma
+Polynomial Linear Regression
+positive
+Positive Definite Transform
+post hook
+Post Local Stochastic Gradient Descent Optimizer
+power draw
+Power Transform
+precision matrix
+prediction
+preferred linear algebra library
+Prefix Store
+Parametric Rectified Linear Unit
+Parametric Rectified Linear Unit
+prepare effects
+prepare global plan
+Storage Reader
+prepare local plan
+prepare model outputs
+prepare model with stubs
+prepare n shadows model
+prepare quantized and trained
+prepare quantized and trained function
+Prepare Custom Configuration
+Prepare Module Input
+Prepare Module Output
+add in front
+pretty print mismatch
+pretty print tree
+previous
+print comparisons and shadows model
+print linear regression
+print readable
+print tabular
+probabilities
+process inputs
+process outputs
+Process Failure
+profile
+Profiler Action
+Profiler Activity
+promote types
+propagate qconfig
+Proxy
+psi
+put metric
+python code
+python version
+q per channel axis
+quantize per channel scales
+quantize per channel zero points
+quantize scale
+quantize zero point
+Quantization Configuration
+Quantization Configuration Mapping
+Quantization Functional
+Quantized Int32 Storage
+Quantized Int8 Storage
+QR decomposition
+quantized scheme
+quantile
+quantize dynamic
+quantize per channel
+quantize per tensor
+quantize quantized at
+quantized batch normalization
+quantized maximum pooling 1-dimensional
+quantized maximum pooling 2-dimensional
+Quantization Stub
+Quantitative Wrapper
+query
+Quantized Unsigned Integer 2x4 Storage
+Quantized Unsigned Integer 4x2 Storage
+Quantized Unsigned Integer 8 Storage
+radians to degrees
+Rectified Adam
+random number
+random number like
+random integer like
+random normal
+random normal like
+random split
+random structured
+random unstructured
+Random Sampler
+Random Structured
+Random Unstructured
+random permutation
+range pop
+range push
+rate
+read data
+read metadata
+Read Item
+real
+reciprocal
+recompile
+record
+record event
+record stream
+Recording Observer
+receive
+reduce
+reduce add
+reduce operation
+reduce scatter
+reduce scatter tensor
+Reduce Learning Rate On Plateau
+Reduce Operation
+refine names
+Reflection Pad 1d
+Reflection Pad 2d
+Reflection Pad 3d
+register
+Rendezvous Handler Registry
+register backend
+register backward hook
+register buffer
+register comm hook
+register custom operation symbolic
+register data class
+register event handler
+register external hook
+register forward hook
+register forward pre hook
+register full backward hook
+register full backward pre hook
+register hook
+register internal hook
+register Kullback-Leibler
+register load state dictionary post hook
+register load state dictionary pre hook
+register mock hook
+register module
+register module backward hook
+register module buffer registration hook
+register module forward hook
+register module forward pre hook
+register module full backward hook
+register module full backward pre hook
+register module module registration hook
+register module parameter registration hook
+register multi grad hook
+register op
+register package
+register parameter
+register parametrization
+register post accumulate grad hook
+register prehook
+register state dict post hook
+register state dict pre hook
+register step post hook
+register step pre hook
+register timers
+rekey optim state dict
+Relaxed Bernoulli
+Relaxed One Hot Categorical
+release
+Rectified Linear Unit
+rectified linear unit
+rectified linear unit 6
+rectified linear unit 6
+remaining amount
+distant location
+parameters from a distant location
+eliminate parameterizations
+eliminate spectral normalization
+eliminate weight normalization
+change the name
+rename private use 1 backend
+Rendezvous Backend
+Rendezvous Closed Error
+Rendezvous Connection Error
+Rendezvous Error
+Rendezvous State Error
+Rendezvous Timeout Error
+renormalization
+repeat interleave
+replace all batch norm modules
+replace all uses
+replace all uses with
+replace input with
+replace pattern
+replay
+Replication Pad 1d
+Replication Pad 2d
+Replication Pad 3d
+requires gradient
+reset
+reset maximum memory allocated
+reset maximum memory cached
+reset minimum maximum values
+reset peak memory statistics
+reshape as
+Reshape Transform
+resize as
+resolve conjugate
+resolve data
+Save Planner
+resolve name
+resolve negative
+resolve tensor
+result type
+retain gradient
+retains gradient
+real fast fourier transform
+real fast fourier transform 2
+real fast fourier transform frequency
+real fast fourier transform n
+right inverse
+Root Mean Square Propagation
+Recurrent Neural Network
+Recurrent Neural Network Cell
+row indices
+row stack
+Rowwise Parallel
+remote procedure call asynchronous
+remote procedure call synchronous
+remote procedure call timeout
+Resilient Backpropagation
+Randomized Rectified Linear Unit
+Randomized Rectified Linear Unit
+Reparameterized Stochastic Approximation to the Marginal
+Reciprocal Square Root
+Run Node
+Run Processes Result
+Run Result
+Sample Number
+Sampled Adaline/Madeline Minimization
+Sampling method
+Save
+Save as Binary
+Save Diagnostics
+Save for Backward
+Save Module
+Save on CPU
+Save as Pickle
+Save Source File
+Save Source String
+save state dictionary
+save text
+save to buffer
+saved tensors hooks
+Save Plan
+scalar name
+scale
+scale tril
+scaled dot product attention
+scaled modified bessel k0
+scaled modified Bessel K1
+scatter
+scatter add
+scatter full optim state dictionary
+scatter object list
+scatter reduce
+schedule
+script
+script if tracing
+sdp kernel
+SemiDefinite Programming Algorithm Parameters
+SemiDefinite Programming Backend
+seed all
+select
+select model mode for export
+select scatter
+self CPU time total
+Scaled Exponential Linear Unit
+scaled exponential linear unit
+send
+Sequence
+Sequential Left-to-Right
+Sequential Sampler
+Serialization
+Set Backend Pattern Configuration
+Set Backend Pattern Configurations
+Set Backoff Factor
+Set Buffer
+Set Checkpoint Debug Enabled
+Set Closed
+set code generation
+set default device
+set default data type
+set default load endianness
+set default tensor type
+set default validate arguments
+set detect anomaly
+set deterministic debug mode
+set device
+set device map
+set devices
+set directory
+set data type configurations
+set exception
+set extra state
+set float 32 matrix multiplication precision
+set float to observed mapping
+set flush denormal
+set fused module
+set fuser method
+set fusion strategy
+set global
+set grad enabled
+set growth factor
+set growth interval
+set input quantized indexes
+set logs
+set materialize grads
+set model state dict
+set module
+set module name
+set module name object type order
+set module name regex
+set name
+set non traceable module classes
+set non traceable module names
+set num interop threads
+set num threads
+set object type
+set
+set observed to quantized mapping
+set optimizer state dictionary
+set output quantized indexes
+set pattern
+set per process memory fraction
+set preserved attributes
+set print options
+set quantization aware training module
+set reference quantized module
+set
+set random number generator state
+set random number generator state for all
+set root module
+set sharing strategy
+set standalone module class
+set standalone module name
+set state
+set state dictionary
+set state dictionary type
+set stream
+set synchronous debug mode
+set timeout
+set up planner
+set up storage reader
+set up storage writer
+set warn always
+Stochastic Gradient Descent
+sign
+Shadow Logger
+shape
+shard full optim state dictionary
+sharded optim state dictionary
+sharded optim state dictionary configuration
+sharded state dictionary configuration
+sharding strategy
+share memory
+short
+short storage
+show
+sigmoid
+sigmoid function
+Sigmoid Transformation
+sign
+sign bit
+significant figures
+Sine Linear Unit
+Sine Linear Unit
+Sine Cardinal
+size
+skip initialization
+slice scatter
+sign log determinant
+sum multiply matrix
+smooth L1 loss
+Smooth L1 Loss
+soft margin loss
+Soft Margin Loss
+Soft maximum
+Soft maximum
+Soft maximum 2d
+Softmax Transform
+Soft min
+soft min
+Soft plus
+soft plus
+Softplus Transform
+Soft shrink
+soft shrink
+Soft sign
+soft sign
+solve
+solve_ex
+solve triangular
+sorted indices
+sparse block compressed tensor
+sparse block structured tensor
+sparse compressed tensor
+sparse coordinate tensor
+sparse column compressed tensor
+sparse compressed sparse row tensor
+sparse dimension
+sparse mask
+sparse resize
+sparse resize and clear
+sparse Adaptive Moment Estimation
+sparse diagonals
+spherical Bessel function of the first kind of order 0
+square root
+sparse-sparse-dense matrix multiplication
+stack
+stack module state
+stack trace
+Stack Dataset
+Stack Transform
+Standalone Module Config Entry
+start
+start processes
+stash
+state dict type
+State Dict Config
+State Dictionary Options
+State Dictionary Settings
+State Full
+statistics
+standard mean
+standard deviation
+stepping
+Step Learning Rate
+Short-Time Fourier Transform
+Stick Breaking Transform
+stop
+storage offset
+storage type
+strategy
+Stream
+Stream Context
+strict fusion
+stride
+Student T
+sub
+Subprocess Context
+Sub set
+Subset Random Sampler
+sub tract
+sum to size
+summon full params
+support
+singular value decomposition
+svd low rank
+svd values
+swap module
+swap dimensions
+symbolic float
+symbolic integer
+symbolic if-then-else
+symbolic maximum
+symbolic minimum
+symbolic not
+symbolic trace
+symbolic boolean
+Symbolic Float
+Symbolic Integer
+sync
+Time
+variable representing time
+label
+perform operation along dimensions
+hyperbolic tangent
+hyperbolic tangent shrink
+shrink hyperbolic tangent
+Tangens Hyperbolicus Transformation
+Transmission Control Protocol Store
+temperature
+tensor split
+Tensorboard Trace Handler
+Tensorboard Event Handler
+Tensor Dataset
+tensor dot product
+tensor inverse
+tensor solve
+then
+threshold
+Threshold
+time it
+Timer Request
+time stamp
+to
+to bool
+to dense
+to dictionary
+to DLPack
+to empty
+to folder
+to here
+to MKLDNN
+to padded tensor
+to sparse
+to sparse BSC
+to sparse BSR
+to sparse COO
+to sparse compressed sparse column
+to sparse compressed sparse row
+top k
+floating info
+integer info
+torch name
+total average
+total count
+Multinomial
+trace module
+training
+transformation
+transform object
+transform tensor
+Transformed Distribution
+Transformer Decoder
+Transformer Decoder Layer
+Transformer Encoder
+Transformer Encoder Layer
+trapezoid
+trapezoidal rule
+triangular solve
+lower triangular indices
+triplet margin loss
+triplet margin with distance loss
+Triplet Margin Loss
+Triplet Margin With Distance Loss
+upper triangular indices
+truncated normal
+type as
+Unbind
+Unflatten
+Unflatten
+Unfold
+Unfold
+Uniform
+Uninitialized Buffer
+Uninitialized Parameter
+Unique
+Unique Consecutive
+unpack dual
+unpack sequence
+unpad sequence
+unravel index
+unregister custom op symbolic
+unregister event handler
+un scale
+unsorted indices
+un squeeze
+un typed
+untyped storage
+unused
+update argument
+update batch normalization stats
+update keyword argument
+upsample
+Upsample
+upsample bilinear
+upsample nearest
+Upsampling Bilinear 2d
+Upsampling Nearest 2D
+use deterministic algorithms
+utilization
+value
+Vander
+variable mean
+variance
+vector dot
+vector norm
+vector to parameters
+Verbose
+Verification Options
+Verify Export
+Verify Ninja Availability
+Verify Skippables
+VHP
+View As
+View As Complex
+View As Real
+VJP
+vectorized map
+Von Mises
+vertical split
+vertical stack
+wait
+wait all
+wait event
+wait stream
+Weibull
+Weighted Random Sampler
+where
+Wishart
+with arguments
+with callable arguments
+Worker
+Worker Group
+wrap torch function
+write data
+Write Item
+Xavier normal
+Xavier Uniform
+Compute log(1 + exp(x))
+Compute x * log(y)
+Handle device memory
+Zero
+Zero Gradients
+1 Dimensional Zero Padding
+2 Dimensional Zero Padding
+3 Dimensional Zero Padding
+Riemann zeta function

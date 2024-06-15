@@ -1,0 +1,222 @@
+valeur absolue
+tout
+n'importe quel
+ascii
+binaire
+booléen
+tableau d'octets
+octets
+appelable
+caractère
+méthode de classe
+compiler
+complexe
+supprimer l'attribut
+dictionnaire
+répertoire
+diviser modulo
+énumérer
+évaluer
+exécuter
+filtre
+virgule flottante
+format
+ensemble gelé
+obtenir l'attribut
+globales
+a l'attribut
+hachage
+aide
+hexadécimal
+identité
+entrée
+entier
+est une instance
+est une sous-classe
+itérateur
+longueur
+liste
+locaux
+carte
+maximum
+vue de la mémoire
+minimum
+suivant
+objet
+octal
+ouvert
+ordinal
+puissance
+imprimer
+propriété
+plage
+représenter
+inversé
+arrondi
+ensemble
+définir un attribut
+tranche
+trié
+méthode statique
+chaîne
+sommation
+sur-ensemble
+tuple
+type
+variables
+zipper
+mettre en majuscule
+pliage de cas
+centrer
+compter
+encoder
+se termine par
+étendre les tabulations
+trouver
+carte de format
+index
+est alphanumérique
+est alphabétique
+est ascii
+est décimal
+est un chiffre
+est un identifiant
+est en minuscule
+est numérique
+est imprimable
+est un espace
+est en capitales
+est en majuscule
+joindre
+justifier à gauche
+inférieur
+supprimer les espaces à gauche
+créer une traduction
+partitionner
+remplacer
+recherche inversée
+index inversé
+justifier à droite
+partition droite
+scission à droite
+supprimer les espaces à droite
+diviser
+diviser les lignes
+commence par
+supprimer les espaces
+inverser la casse
+titre
+traduire
+majuscule
+remplissage de zéros
+ajouter
+effacer
+copier
+étendre
+insérer
+retirer
+supprimer
+inverser
+trier
+à partir des clés
+obtenir
+éléments
+clés
+retirer un élément
+définir par défaut
+mettre à jour
+valeurs
+ajouter
+différence
+mise à jour de la différence
+retirer
+intersection
+mise à jour de l'intersection
+est disjoint
+est un sous-ensemble
+est un sur-ensemble
+différence symétrique
+mise à jour de la différence symétrique
+union
+fermer
+détacher
+numéro de fichier
+vider
+est interactif
+lire
+lisible
+lire ligne
+lire lignes
+chercher
+consultable
+indiquer
+tronquer
+inscriptible
+écrire
+écrire des lignes
+et
+comme
+affirmer
+interrompre
+classe
+continuer
+définir
+supprimer
+sinon si
+sinon
+sauf
+Faux
+finalement
+pour
+de
+global
+si
+importer
+dans
+est
+lambda
+Aucun
+non-local
+pas
+ou
+passer
+lever une exception
+retourner
+Vrai
+essayer
+tant que
+avec
+produire
+Erreur Arithmétique
+Erreur d'assertion
+Erreur d'attribut
+Exception
+Erreur de fin de fichier
+Erreur de point flottant
+Sortie du générateur
+Erreur d'importation
+Erreur d'indentation
+Erreur d'indice
+Erreur de clé
+Interruption Clavier
+Erreur de Recherche
+Erreur de Mémoire
+Erreur de Nom
+Erreur Non Implémentée
+Erreur de Système d'Exploitation
+Erreur de Dépassement
+Erreur de Référence
+Erreur d'Exécution
+Arrêt d'Itération
+Erreur de Syntaxe
+Erreur de Tabulation
+Erreur Système
+Sortie Système
+Erreur de Type
+Erreur Locale Non Liée
+Erreur Unicode
+Erreur d’Encodage Unicode
+Erreur de Décodage Unicode
+Erreur de Traduction Unicode
+Erreur de Valeur
+Erreur de Division par Zéro
