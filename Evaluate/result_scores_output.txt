@@ -2,37 +2,37 @@ EXPANSION with GPT-Turbo
 
 Baseline (scores for standard compared with expanded)
 	Raw: 46.85%
-	CHRF: 61.21%
+	CHRF: 84.93%
 PROMPT: 0-shot
 	Raw: 70.72%
-	CHRF: 70.97%
+	CHRF: 82.75%
 PROMPT: 0+Motive
 	Raw: 63.51%
-	CHRF: 65.59%
+	CHRF: 75.72%
 PROMPT: 1-shot
 	Raw: 53.15%
-	CHRF: 63.29%
+	CHRF: 72.98%
 PROMPT: 5-shot
 	Raw: 75.68%
-	CHRF: 74.60%
+	CHRF: 86.45%
 
 EXPANSION with GPT-4
 
 Baseline (scores for standard compared with expanded)
 	Raw: 46.85%
-	CHRF: 61.21%
-PROMPT: 0-shot
+	CHRF: 84.93%
+PROMPT: -shot
 	Raw: 89.64%
-	CHRF: 81.27%
-PROMPT: 0+Motive
+	CHRF: 96.06%
+PROMPT: +Motive
 	Raw: 92.34%
-	CHRF: 80.87%
-PROMPT: 1-shot
+	CHRF: 95.39%
+PROMPT: -shot
 	Raw: 90.99%
-	CHRF: 80.68%
-PROMPT: 5-shot
+	CHRF: 95.25%
+PROMPT: -shot
 	Raw: 93.24%
-	CHRF: 81.32%
+	CHRF: 95.72%
 
 TRANSLATION SCORES for ChatGPT and Llama2
 
@@ -40,566 +40,566 @@ PROMPT: 0-shot
 "Spanish"
 ChatGPT text-davinci
 	Raw: 66.22%
-	CHRF: 70.04%
+	CHRF: 81.51%
 GPT-turbo
 	Raw: 70.27%
-	CHRF: 72.43%
+	CHRF: 83.86%
 GPT-4
 	Raw: 71.62%
-	CHRF: 72.20%
+	CHRF: 83.40%
 Llama2
 	Raw: 58.56%
-	CHRF: 64.65%
+	CHRF: 75.71%
 
 "French"
 ChatGPT text-davinci
 	Raw: 53.60%
-	CHRF: 64.20%
+	CHRF: 75.26%
 GPT-turbo
 	Raw: 63.96%
-	CHRF: 68.46%
+	CHRF: 78.34%
 GPT-4
 	Raw: 62.61%
-	CHRF: 67.83%
+	CHRF: 78.04%
 Llama2
 	Raw: 49.55%
-	CHRF: 59.35%
+	CHRF: 68.93%
 
 "Greek"
 ChatGPT text-davinci
 	Raw: 36.04%
-	CHRF: 48.09%
+	CHRF: 57.19%
 GPT-turbo
 	Raw: 41.44%
-	CHRF: 53.58%
+	CHRF: 64.06%
 GPT-4
 	Raw: 43.24%
-	CHRF: 54.00%
+	CHRF: 64.32%
 Llama2
 	Raw: 12.61%
-	CHRF: 27.94%
+	CHRF: 34.82%
 
 "Mandarin"
 ChatGPT text-davinci
 	Raw: 38.74%
-	CHRF: 23.40%
+	CHRF: 53.32%
 GPT-turbo
 	Raw: 52.70%
-	CHRF: 30.18%
+	CHRF: 68.08%
 GPT-4
 	Raw: 54.05%
-	CHRF: 30.96%
+	CHRF: 69.85%
 Llama2
 	Raw: 27.03%
-	CHRF: 16.36%
+	CHRF: 42.22%
 
 "Hindi"
 ChatGPT text-davinci
 	Raw: 26.13%
-	CHRF: 36.51%
+	CHRF: 48.52%
 GPT-turbo
 	Raw: 27.48%
-	CHRF: 35.37%
+	CHRF: 46.70%
 GPT-4
 	Raw: 13.51%
-	CHRF: 16.86%
+	CHRF: 23.83%
 Llama2
 	Raw: 5.86%
-	CHRF: 12.84%
+	CHRF: 19.13%
 
 "Bengali"
 ChatGPT text-davinci
 	Raw: 7.66%
-	CHRF: 14.60%
+	CHRF: 18.12%
 GPT-turbo
 	Raw: 27.48%
-	CHRF: 37.44%
+	CHRF: 47.66%
 GPT-4
 	Raw: 34.23%
-	CHRF: 45.57%
+	CHRF: 56.60%
 Llama2
 	Raw: 4.95%
-	CHRF: 10.28%
+	CHRF: 17.29%
 
 "Arabic"
 ChatGPT text-davinci
 	Raw: 22.52%
-	CHRF: 36.76%
+	CHRF: 49.89%
 GPT-turbo
 	Raw: 25.68%
-	CHRF: 39.06%
+	CHRF: 51.76%
 GPT-4
 	Raw: 26.58%
-	CHRF: 38.88%
+	CHRF: 52.09%
 Llama2
 	Raw: 12.61%
-	CHRF: 20.58%
+	CHRF: 30.77%
 
 "SoraniKurdish"
 ChatGPT text-davinci
 	Raw: 3.60%
-	CHRF: 12.37%
+	CHRF: 17.18%
 GPT-turbo
 	Raw: 10.36%
-	CHRF: 21.49%
+	CHRF: 29.13%
 GPT-4
 	Raw: 31.08%
-	CHRF: 41.22%
+	CHRF: 50.61%
 Llama2
 	Raw: 1.80%
-	CHRF: 5.93%
+	CHRF: 9.23%
 
 PROMPT: 0+Motive
 "Spanish"
 ChatGPT text-davinci
 	Raw: 64.86%
-	CHRF: 70.39%
+	CHRF: 82.17%
 GPT-turbo
 	Raw: 71.17%
-	CHRF: 73.47%
+	CHRF: 85.21%
 GPT-4
 	Raw: 68.92%
-	CHRF: 71.70%
+	CHRF: 83.23%
 Llama2
 	Raw: 59.01%
-	CHRF: 65.36%
+	CHRF: 76.48%
 
 "French"
 ChatGPT text-davinci
 	Raw: 55.41%
-	CHRF: 64.43%
+	CHRF: 75.09%
 GPT-turbo
 	Raw: 63.51%
-	CHRF: 68.06%
+	CHRF: 78.07%
 GPT-4
 	Raw: 60.81%
-	CHRF: 67.42%
+	CHRF: 77.47%
 Llama2
 	Raw: 49.55%
-	CHRF: 59.83%
+	CHRF: 69.68%
 
 "Greek"
 ChatGPT text-davinci
 	Raw: 36.49%
-	CHRF: 49.33%
+	CHRF: 59.25%
 GPT-turbo
 	Raw: 40.99%
-	CHRF: 54.15%
+	CHRF: 64.67%
 GPT-4
 	Raw: 41.89%
-	CHRF: 53.62%
+	CHRF: 63.87%
 Llama2
 	Raw: 13.51%
-	CHRF: 28.54%
+	CHRF: 35.77%
 
 "Mandarin"
 ChatGPT text-davinci
 	Raw: 45.95%
-	CHRF: 26.52%
+	CHRF: 61.06%
 GPT-turbo
 	Raw: 50.45%
-	CHRF: 29.42%
+	CHRF: 67.47%
 GPT-4
 	Raw: 56.31%
-	CHRF: 31.38%
+	CHRF: 70.97%
 Llama2
 	Raw: 25.23%
-	CHRF: 15.08%
+	CHRF: 41.06%
 
 "Hindi"
 ChatGPT text-davinci
 	Raw: 22.07%
-	CHRF: 31.67%
+	CHRF: 42.97%
 GPT-turbo
 	Raw: 27.03%
-	CHRF: 34.72%
+	CHRF: 46.64%
 GPT-4
 	Raw: 28.83%
-	CHRF: 37.84%
+	CHRF: 49.77%
 Llama2
 	Raw: 6.31%
-	CHRF: 14.16%
+	CHRF: 20.91%
 
 "Bengali"
 ChatGPT text-davinci
 	Raw: 28.38%
-	CHRF: 37.29%
+	CHRF: 46.62%
 GPT-turbo
 	Raw: 26.58%
-	CHRF: 35.41%
+	CHRF: 45.05%
 GPT-4
 	Raw: 31.08%
-	CHRF: 44.97%
+	CHRF: 55.09%
 Llama2
 	Raw: 4.50%
-	CHRF: 9.64%
+	CHRF: 16.29%
 
 "Arabic"
 ChatGPT text-davinci
 	Raw: 22.07%
-	CHRF: 37.23%
+	CHRF: 50.12%
 GPT-turbo
 	Raw: 25.68%
-	CHRF: 38.40%
+	CHRF: 51.30%
 GPT-4
 	Raw: 27.48%
-	CHRF: 41.45%
+	CHRF: 54.20%
 Llama2
 	Raw: 9.46%
-	CHRF: 19.33%
+	CHRF: 28.10%
 
 "SoraniKurdish"
 ChatGPT text-davinci
 	Raw: 8.11%
-	CHRF: 15.46%
+	CHRF: 20.36%
 GPT-turbo
 	Raw: 11.71%
-	CHRF: 19.45%
+	CHRF: 27.11%
 GPT-4
 	Raw: 35.59%
-	CHRF: 44.03%
+	CHRF: 54.44%
 Llama2
 	Raw: 1.80%
-	CHRF: 6.33%
+	CHRF: 9.81%
 
 PROMPT: 1-shot
 "Spanish"
 ChatGPT text-davinci
 	Raw: 63.96%
-	CHRF: 67.69%
+	CHRF: 79.02%
 GPT-turbo
 	Raw: 72.97%
-	CHRF: 73.22%
+	CHRF: 84.65%
 GPT-4
 	Raw: 71.17%
-	CHRF: 72.46%
+	CHRF: 83.81%
 Llama2
 	Raw: 59.01%
-	CHRF: 65.25%
+	CHRF: 76.15%
 
 "French"
 ChatGPT text-davinci
 	Raw: 58.56%
-	CHRF: 66.33%
+	CHRF: 76.60%
 GPT-turbo
 	Raw: 57.66%
-	CHRF: 66.28%
+	CHRF: 76.53%
 GPT-4
 	Raw: 61.71%
-	CHRF: 68.07%
+	CHRF: 78.34%
 Llama2
 	Raw: 46.40%
-	CHRF: 56.68%
+	CHRF: 66.87%
 
 "Greek"
 ChatGPT text-davinci
 	Raw: 39.64%
-	CHRF: 52.08%
+	CHRF: 62.51%
 GPT-turbo
 	Raw: 44.14%
-	CHRF: 55.52%
+	CHRF: 66.34%
 GPT-4
 	Raw: 45.05%
-	CHRF: 57.86%
+	CHRF: 69.05%
 Llama2
 	Raw: 13.06%
-	CHRF: 27.26%
+	CHRF: 34.23%
 
 "Mandarin"
 ChatGPT text-davinci
 	Raw: 53.60%
-	CHRF: 28.99%
+	CHRF: 66.33%
 GPT-turbo
 	Raw: 54.50%
-	CHRF: 30.71%
+	CHRF: 69.08%
 GPT-4
 	Raw: 50.45%
-	CHRF: 29.53%
+	CHRF: 67.53%
 Llama2
 	Raw: 26.58%
-	CHRF: 16.74%
+	CHRF: 44.37%
 
 "Hindi"
 ChatGPT text-davinci
 	Raw: 27.48%
-	CHRF: 37.56%
+	CHRF: 49.57%
 GPT-turbo
 	Raw: 25.23%
-	CHRF: 36.78%
+	CHRF: 48.26%
 GPT-4
 	Raw: 29.73%
-	CHRF: 38.91%
+	CHRF: 51.00%
 Llama2
 	Raw: 7.21%
-	CHRF: 14.91%
+	CHRF: 21.39%
 
 "Bengali"
 ChatGPT text-davinci
 	Raw: 22.97%
-	CHRF: 33.45%
+	CHRF: 41.83%
 GPT-turbo
 	Raw: 31.98%
-	CHRF: 39.56%
+	CHRF: 50.40%
 GPT-4
 	Raw: 31.98%
-	CHRF: 45.03%
+	CHRF: 55.02%
 Llama2
 	Raw: 4.95%
-	CHRF: 9.65%
+	CHRF: 15.91%
 
 "Arabic"
 ChatGPT text-davinci
 	Raw: 25.23%
-	CHRF: 37.02%
+	CHRF: 48.84%
 GPT-turbo
 	Raw: 27.93%
-	CHRF: 40.42%
+	CHRF: 52.68%
 GPT-4
 	Raw: 29.73%
-	CHRF: 41.42%
+	CHRF: 54.11%
 Llama2
 	Raw: 13.96%
-	CHRF: 20.10%
+	CHRF: 29.92%
 
 "SoraniKurdish"
 ChatGPT text-davinci
 	Raw: 9.91%
-	CHRF: 19.70%
+	CHRF: 26.21%
 GPT-turbo
 	Raw: 14.41%
-	CHRF: 24.19%
+	CHRF: 32.14%
 GPT-4
 	Raw: 30.63%
-	CHRF: 42.27%
+	CHRF: 51.99%
 Llama2
 	Raw: 2.25%
-	CHRF: 6.78%
+	CHRF: 10.33%
 
 PROMPT: 5-shot
 "Spanish"
 ChatGPT text-davinci
 	Raw: 68.02%
-	CHRF: 70.72%
+	CHRF: 81.98%
 GPT-turbo
 	Raw: 72.52%
-	CHRF: 73.80%
+	CHRF: 85.39%
 GPT-4
 	Raw: 67.57%
-	CHRF: 70.32%
+	CHRF: 81.72%
 Llama2
 	Raw: 57.21%
-	CHRF: 65.00%
+	CHRF: 76.67%
 
 "French"
 ChatGPT text-davinci
 	Raw: 56.31%
-	CHRF: 64.42%
+	CHRF: 74.87%
 GPT-turbo
 	Raw: 64.41%
-	CHRF: 69.23%
+	CHRF: 79.61%
 GPT-4
 	Raw: 61.26%
-	CHRF: 68.17%
+	CHRF: 78.70%
 Llama2
 	Raw: 48.20%
-	CHRF: 58.82%
+	CHRF: 68.36%
 
 "Greek"
 ChatGPT text-davinci
 	Raw: 35.59%
-	CHRF: 49.76%
+	CHRF: 60.03%
 GPT-turbo
 	Raw: 43.69%
-	CHRF: 55.28%
+	CHRF: 66.28%
 GPT-4
 	Raw: 44.14%
-	CHRF: 55.87%
+	CHRF: 66.58%
 Llama2
 	Raw: 16.22%
-	CHRF: 28.84%
+	CHRF: 35.34%
 
 "Mandarin"
 ChatGPT text-davinci
 	Raw: 47.30%
-	CHRF: 26.52%
+	CHRF: 61.81%
 GPT-turbo
 	Raw: 50.45%
-	CHRF: 29.54%
+	CHRF: 67.80%
 GPT-4
 	Raw: 27.48%
-	CHRF: 15.67%
+	CHRF: 37.87%
 Llama2
 	Raw: 27.93%
-	CHRF: 17.44%
+	CHRF: 45.66%
 
 "Hindi"
 ChatGPT text-davinci
 	Raw: 27.48%
-	CHRF: 36.70%
+	CHRF: 48.35%
 GPT-turbo
 	Raw: 28.83%
-	CHRF: 37.85%
+	CHRF: 50.50%
 GPT-4
 	Raw: 35.59%
-	CHRF: 42.63%
+	CHRF: 55.05%
 Llama2
 	Raw: 10.81%
-	CHRF: 19.65%
+	CHRF: 27.11%
 
 "Bengali"
 ChatGPT text-davinci
 	Raw: 25.68%
-	CHRF: 37.29%
+	CHRF: 46.22%
 GPT-turbo
 	Raw: 31.53%
-	CHRF: 40.15%
+	CHRF: 50.26%
 GPT-4
 	Raw: 36.94%
-	CHRF: 47.87%
+	CHRF: 57.61%
 Llama2
 	Raw: 2.25%
-	CHRF: 8.09%
+	CHRF: 13.40%
 
 "Arabic"
 ChatGPT text-davinci
 	Raw: 24.32%
-	CHRF: 37.37%
+	CHRF: 49.96%
 GPT-turbo
 	Raw: 26.58%
-	CHRF: 39.31%
+	CHRF: 52.38%
 GPT-4
 	Raw: 13.51%
-	CHRF: 20.02%
+	CHRF: 27.89%
 Llama2
 	Raw: 12.16%
-	CHRF: 21.39%
+	CHRF: 30.98%
 
 "SoraniKurdish"
 ChatGPT text-davinci
 	Raw: 14.41%
-	CHRF: 23.03%
+	CHRF: 29.52%
 GPT-turbo
 	Raw: 13.51%
-	CHRF: 23.29%
+	CHRF: 31.63%
 GPT-4
 	Raw: 34.23%
-	CHRF: 44.76%
+	CHRF: 54.29%
 Llama2
 	Raw: 2.70%
-	CHRF: 7.75%
+	CHRF: 11.40%
 
 PROMPT: all-other
 "Spanish"
 ChatGPT text-davinci
 	Raw: 65.77%
-	CHRF: 69.72%
+	CHRF: 81.41%
 GPT-turbo
 	Raw: 55.41%
-	CHRF: 66.92%
+	CHRF: 80.69%
 GPT-4
 	Raw: 70.27%
-	CHRF: 72.01%
+	CHRF: 83.57%
 Llama2
 	Raw: 59.01%
-	CHRF: 65.99%
+	CHRF: 77.28%
 
 "French"
 ChatGPT text-davinci
 	Raw: 62.16%
-	CHRF: 68.43%
+	CHRF: 78.81%
 GPT-turbo
 	Raw: 60.36%
-	CHRF: 67.35%
+	CHRF: 77.37%
 GPT-4
 	Raw: 61.26%
-	CHRF: 67.91%
+	CHRF: 78.30%
 Llama2
 	Raw: 50.00%
-	CHRF: 60.96%
+	CHRF: 71.17%
 
 "Greek"
 ChatGPT text-davinci
 	Raw: 35.14%
-	CHRF: 48.91%
+	CHRF: 58.42%
 GPT-turbo
 	Raw: 44.14%
-	CHRF: 56.40%
+	CHRF: 67.40%
 GPT-4
 	Raw: 44.14%
-	CHRF: 56.05%
+	CHRF: 66.33%
 Llama2
 	Raw: 15.32%
-	CHRF: 28.24%
+	CHRF: 34.38%
 
 "Mandarin"
 ChatGPT text-davinci
 	Raw: 50.90%
-	CHRF: 29.21%
+	CHRF: 65.99%
 GPT-turbo
 	Raw: 47.30%
-	CHRF: 29.96%
+	CHRF: 68.84%
 GPT-4
 	Raw: 51.80%
-	CHRF: 30.85%
+	CHRF: 69.22%
 Llama2
 	Raw: 24.32%
-	CHRF: 15.77%
+	CHRF: 41.37%
 
 "Hindi"
 ChatGPT text-davinci
 	Raw: 27.03%
-	CHRF: 36.19%
+	CHRF: 48.53%
 GPT-turbo
 	Raw: 26.58%
-	CHRF: 35.92%
+	CHRF: 47.94%
 GPT-4
 	Raw: 29.28%
-	CHRF: 38.26%
+	CHRF: 50.56%
 Llama2
 	Raw: 6.76%
-	CHRF: 14.00%
+	CHRF: 21.59%
 
 "Bengali"
 ChatGPT text-davinci
 	Raw: 23.87%
-	CHRF: 34.86%
+	CHRF: 43.08%
 GPT-turbo
 	Raw: 25.68%
-	CHRF: 38.37%
+	CHRF: 48.90%
 GPT-4
 	Raw: 28.38%
-	CHRF: 45.72%
+	CHRF: 56.15%
 Llama2
 	Raw: 3.15%
-	CHRF: 7.08%
+	CHRF: 13.14%
 
 "Arabic"
 ChatGPT text-davinci
 	Raw: 22.07%
-	CHRF: 36.01%
+	CHRF: 48.47%
 GPT-turbo
 	Raw: 23.42%
-	CHRF: 36.89%
+	CHRF: 49.04%
 GPT-4
 	Raw: 25.68%
-	CHRF: 39.38%
+	CHRF: 51.61%
 Llama2
 	Raw: 11.26%
-	CHRF: 20.61%
+	CHRF: 30.28%
 
 "SoraniKurdish"
 ChatGPT text-davinci
 	Raw: 5.86%
-	CHRF: 12.65%
+	CHRF: 17.52%
 GPT-turbo
 	Raw: 8.11%
-	CHRF: 21.67%
+	CHRF: 28.84%
 GPT-4
 	Raw: 28.38%
-	CHRF: 41.67%
+	CHRF: 50.71%
 Llama2
 	Raw: 1.80%
-	CHRF: 6.45%
+	CHRF: 9.95%
 
 
 GOOGLE TRANSLATE SCORES
@@ -607,103 +607,103 @@ GOOGLE TRANSLATE SCORES
 GOOGLE: no-cntxt
 "Spanish"
 	Raw: 73.42%
-	CHRF: 72.05%
+	CHRF: 82.35%
 
 "French"
 	Raw: 84.23%
-	CHRF: 79.49%
+	CHRF: 88.80%
 
 "Greek"
 	Raw: 45.50%
-	CHRF: 54.74%
+	CHRF: 64.31%
 
 "Mandarin"
 	Raw: 80.63%
-	CHRF: 41.14%
+	CHRF: 86.44%
 
 "Hindi"
 	Raw: 39.19%
-	CHRF: 43.72%
+	CHRF: 56.63%
 
 "Bengali"
 	Raw: 67.57%
-	CHRF: 68.23%
+	CHRF: 80.50%
 
 "Arabic"
 	Raw: 61.26%
-	CHRF: 58.58%
+	CHRF: 73.54%
 
 "SoraniKurdish"
 	Raw: 98.20%
-	CHRF: 86.73%
+	CHRF: 98.63%
 
 
 GOOGLE: def
 "Spanish"
 	Raw: 55.86%
-	CHRF: 62.55%
+	CHRF: 73.08%
 
 "French"
 	Raw: 43.24%
-	CHRF: 52.83%
+	CHRF: 61.07%
 
 "Greek"
 	Raw: 32.88%
-	CHRF: 39.82%
+	CHRF: 46.12%
 
 "Mandarin"
 	Raw: 25.23%
-	CHRF: 16.04%
+	CHRF: 29.31%
 
 "Hindi"
 	Raw: 19.37%
-	CHRF: 25.19%
+	CHRF: 32.10%
 
 "Bengali"
 	Raw: 18.47%
-	CHRF: 23.93%
+	CHRF: 27.53%
 
 "Arabic"
 	Raw: 22.97%
-	CHRF: 38.62%
+	CHRF: 51.42%
 
 "SoraniKurdish"
 	Raw: 23.87%
-	CHRF: 23.96%
+	CHRF: 27.37%
 
 
 GOOGLE: expl
 "Spanish"
 	Raw: 0.45%
-	CHRF: 55.99%
+	CHRF: 66.68%
 
 "French"
 	Raw: 16.22%
-	CHRF: 31.60%
+	CHRF: 39.12%
 
 "Greek"
 	Raw: 27.03%
-	CHRF: 32.36%
+	CHRF: 37.14%
 
 "Mandarin"
 	Raw: 1.35%
-	CHRF: 1.99%
+	CHRF: 3.18%
 
 "Hindi"
 	Raw: 30.18%
-	CHRF: 36.43%
+	CHRF: 45.90%
 
 "Bengali"
 	Raw: 32.43%
-	CHRF: 39.71%
+	CHRF: 47.26%
 
 "Arabic"
 	Raw: 23.42%
-	CHRF: 35.37%
+	CHRF: 46.98%
 
 "SoraniKurdish"
 	Raw: 23.42%
-	CHRF: 27.99%
+	CHRF: 32.25%
 
 
 
@@ -711,46 +711,73 @@ Pipeline Testing French
 
 Random module:
 	Raw: 31.82%
-	CHRF: 52.11%
+	CHRF: 65.75%
 Numpy module:
 	Raw: 52.41%
-	CHRF: 59.12%
-Total (both modules):
-	Raw: 49.70%
-	CHRF: 59.12%
+	CHRF: 71.59%
+TensorFlow module:
+	Raw: 41.25%
+	CHRF: 71.23%
+Pandas module:
+	Raw: 61.25%
+	CHRF: 75.51%
+pytorch module:
+	Raw: 50.00%
+	CHRF: 75.18%
+Total (all modules):
+	Raw: 50.12%
+	CHRF: 72.68%
 
 Pipeline Testing Greek
 
 Random module:
 	Raw: 27.27%
-	CHRF: 41.72%
+	CHRF: 51.24%
 Numpy module:
 	Raw: 46.21%
-	CHRF: 1.22%
-Total (both modules):
-	Raw: 43.71%
-	CHRF: 54.32%
+	CHRF: 66.09%
+TensorFlow module:
+	Raw: 38.75%
+	CHRF: 64.26%
+Pandas module:
+	Raw: 33.75%
+	CHRF: 59.86%
+pytorch module:
+	Raw: 32.50%
+	CHRF: 63.66%
+Total (all modules):
+	Raw: 38.57%
+	CHRF: 63.23%
 
 Pipeline Testing Hindi
 
 Random module:
 	Raw: 18.18%
-	CHRF: 39.01%
+	CHRF: 51.80%
 Numpy module:
-	Raw: 13.79%
-	CHRF: 32.95%
+	Raw: 48.28%
+	CHRF: 61.84%
 Total (both modules):
-	Raw: 14.37%
-	CHRF: 32.95%
+	Raw: 47.90%
+	CHRF: 62.28%
 
 Pipeline Testing Bengali
 
 Random module:
-	Raw: 72.73%
-	CHRF: 73.45%
+	Raw: 31.82%
+	CHRF: 66.44%
 Numpy module:
 	Raw: 53.79%
-	CHRF: 67.84%
-Total (both modules):
-	Raw: 56.29%
-	CHRF: 67.84%
+	CHRF: 76.65%
+TensorFlow module:
+	Raw: 82.50%
+	CHRF: 90.87%
+Pandas module:
+	Raw: 96.25%
+	CHRF: 97.66%
+pytorch module:
+	Raw: 98.75%
+	CHRF: 99.74%
+Total (all modules):
+	Raw: 82.06%
+	CHRF: 90.76%

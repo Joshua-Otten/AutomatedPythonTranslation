@@ -120,7 +120,7 @@ CHRF_score('../Gold/SpanishKey.txt','../Llama2/0-shot/Spanish.txt')
 print('\n')
 
 
-'''
+
 print('\nEXPANSION with GPT-Turbo\n')
 print('Baseline (scores for standard compared with expanded)')
 raw_accuracy('../Gold/EnglishKey.txt','../Gold/EnglishOriginalTerms.txt')
@@ -168,7 +168,7 @@ for version in versions:
         print_google_scores(language, version)
         print()
     print()
-'''
+
 
 
 print('\nPipeline Testing French\n')

@@ -2,11 +2,12 @@
 Pipeline and evaluations for automatic Python library/term translation
 
 Requirements:
-	- googletrans Python libraray
+	- googletrans Python library
 	- stanza Python library
 	- openai_cost_tracker Python library
 	- API key for ChatGPT
 	- spacy Python library
+	- sacrebleu Python library (for evaluation)
 
 The csv 'pipeline_translations_corrections' includes all translations and corrections from the pipeline in French, Greek, Hindi, and Bengali.  Note that these are also automatically processed (replace spaces with underscores and eliminate determiners) in order to be compatible with UniPy.    
 
