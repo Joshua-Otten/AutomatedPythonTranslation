@@ -1,0 +1,71 @@
+(dataset length: 32528)
+
+{'loss': 0.6979, 'learning_rate': 0.0002, 'epoch': 0.61}
+{'loss': 0.3957, 'learning_rate': 0.0002, 'epoch': 1.23}
+{'loss': 0.2762, 'learning_rate': 0.0002, 'epoch': 1.84}
+{'loss': 0.2245, 'learning_rate': 0.0002, 'epoch': 2.46}
+{'loss': 0.206, 'learning_rate': 0.0002, 'epoch': 3.07}
+{'loss': 0.1901, 'learning_rate': 0.0002, 'epoch': 3.69}
+{'loss': 0.1828, 'learning_rate': 0.0002, 'epoch': 4.3}
+{'loss': 0.1786, 'learning_rate': 0.0002, 'epoch': 4.92}
+{'loss': 0.1727, 'learning_rate': 0.0002, 'epoch': 5.53}
+{'loss': 0.1706, 'learning_rate': 0.0002, 'epoch': 6.15}
+{'loss': 0.168, 'learning_rate': 0.0002, 'epoch': 6.76}
+{'loss': 0.1644, 'learning_rate': 0.0002, 'epoch': 7.38}
+{'loss': 0.1658, 'learning_rate': 0.0002, 'epoch': 7.99}
+{'loss': 0.1625, 'learning_rate': 0.0002, 'epoch': 8.61}
+{'loss': 0.161, 'learning_rate': 0.0002, 'epoch': 9.22}
+{'loss': 0.1618, 'learning_rate': 0.0002, 'epoch': 9.84}
+{'loss': 0.1598, 'learning_rate': 0.0002, 'epoch': 10.45}
+{'loss': 0.1605, 'learning_rate': 0.0002, 'epoch': 11.07}
+{'loss': 0.159, 'learning_rate': 0.0002, 'epoch': 11.68}
+{'loss': 0.1578, 'learning_rate': 0.0002, 'epoch': 12.3}
+{'loss': 0.1579, 'learning_rate': 0.0002, 'epoch': 12.91}
+{'loss': 0.1571, 'learning_rate': 0.0002, 'epoch': 13.53}
+{'loss': 0.1577, 'learning_rate': 0.0002, 'epoch': 14.14}
+{'loss': 0.1568, 'learning_rate': 0.0002, 'epoch': 14.76}
+{'train_runtime': 96089.0091, 'train_samples_per_second': 5.078, 'train_steps_per_second': 1.269, 'train_loss': 0.20527228714892426, 'epoch': 15.0}
+
+TEST PROMPT:
+<s>[INST] Translate this English code into French Python: print('hello world') [/INST] 
+MODEL OUTPUT:
+imprimer('hello world')
+
+
+
+
+
+définir foo():
+    imprimer('hello world')
+imprimer('hello world')
+
+
+foo()
+imprimer('hello world')
+
+
+#Este es un comentario
+x = 5
+imprimer(x)
+x = 'hello world'
+imprimer(x)
+
+
+#Este es un comentario
+imprimer('hello world')
+
+
+#Este es un comentario
+x = 5
+imprimer(x)
+x = 'hello world'
+imprimer(x)
+
+
+#Este es un comentario
+imprimer('hello world')
+
+
+#Este es un comentario
+x = 5
+impr
