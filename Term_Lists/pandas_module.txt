@@ -1,0 +1,698 @@
+book
+sheet names
+parse
+Data Frame
+columns
+data types
+information
+select data types
+axes
+set flags
+convert data types
+infer objects
+first rows
+locate a single value
+locate a single value
+integer location
+iterate over rows
+iterate over namedtuples
+last rows
+cross-section
+mask
+multiply
+true division
+floor division
+modulo
+right-side add
+right-side subtract
+right-side multiply
+right-side divide
+right-side true division
+right floor division
+right modulo
+right power
+combine
+combine first
+apply map
+aggregate
+aggregate
+group by
+rolling
+expand ing
+exponentially weighted moving
+correlation
+correlation with
+describe
+kurtosis
+kurtosis
+percent change
+product
+rank
+standard error of the mean
+measure of asymmetry of the probability distribution
+number of unique values
+count of unique values
+add a prefix to all column names
+add a suffix to all column names
+align two objects on their axes
+select values at particular time of day
+select values between particular times of day
+remove from data frame
+drop duplicates
+duplicated
+equals
+first
+index maximum
+index minimum
+last
+reindex
+reindex like
+rename axis
+reset index
+set axis
+set index
+back fill
+back fill
+drop na
+fill forward
+fill na
+is na
+is null
+not null
+not null
+drop level
+pivot
+pivot table
+reorder levels
+sort values
+sort index
+n largest
+n smallest
+swap level
+unstack
+melt
+explode
+to xarray
+assign
+as frequency
+as of
+shift
+first valid index
+last valid index
+resample
+to period
+to timestamp
+time zone convert
+time zone localize
+flags
+attributes
+plot
+area
+bar chart
+horizontal bar chart
+box plot
+density plot
+hexbin plot
+histogram
+kernel density estimation
+line plot
+pie chart
+box plot
+from sparse matrix
+to coordinate
+from records
+to optimized row columnar
+to parquet
+to pickle
+to comma separated values
+to hierarchical data format
+to structured query language
+to excel
+to JSON
+to HTML
+to feather
+to LaTeX
+to Stata
+to Google BigQuery
+to records
+to string
+to clipboard
+to markdown
+Python Arrow
+integer 8-bit
+integer 16-bit
+integer 32-bit
+integer 64-bit
+unsigned integer 8-bit
+unsigned integer 16-bit
+unsigned integer 32-bit
+unsigned integer 64-bit
+floating point 32-bit
+Floating point 64
+Time 32
+Time 64
+Date 32
+Date 64
+Duration
+String
+Decimal 128
+Dictionary
+Arrays
+Arrow Extension Array
+Arrow Data Type
+Time Stamp
+8-bit Assembler
+Day
+Day Of Week
+Day Of Week
+Day Of Year
+Day Of Year
+Days In Month
+days in month
+hour
+is leap year
+is month end
+is month start
+is quarter end
+is quarter start
+is year end
+is year start
+microsecond
+minute
+month
+nano second
+quarter
+resolution
+second
+time zone
+time zone info
+unit
+week
+week of year
+year
+as unit
+as timezone
+change time
+date
+day name
+daylight saving time
+from ordinal
+from timestamp
+ISO calendar
+ISO format
+ISO weekday
+month name
+current time
+string format time
+string parse time
+point in time
+time tuple
+time zone object
+to datetime 64
+to numpy
+to julian date
+to pydatetime
+today
+to ordinal
+time zone name
+UTC from timestamp
+UTC now
+UTC offset
+UTC time tuple
+week day
+Time delta
+com ponents
+days
+micro seconds
+nano seconds
+seconds
+to Py Time Delta
+to Time Delta 64
+total seconds
+period
+end time
+frequency
+frequency string
+ordinal
+quarter year
+start time
+Period Array
+Period Data Type
+Interval
+closed
+closed left
+closed right
+is empty
+left
+length
+mid
+open left
+open right
+overlaps
+right
+Interval Array
+Interval Data Type
+n-dimensional array
+Integer Array
+Integer 8 Data Type
+Integer 16 Data Type
+Integer 32 Data Type
+Integer 64 Data Type
+Unsigned Integer 8 Data Type
+Unsigned Integer 16 Data Type
+Unsigned Integer 32 Data Type
+Unsigned Integer 64 Data Type
+Floating Point Array
+32-bit floating point data type
+64-bit floating point data type
+Categorical data type
+different groups or classifications
+sorted in a specific order
+open source data analysis and manipulation library
+create from codes
+symbols representing data
+collection of data items
+sparsely populated array
+sparse data type
+String Array
+Arrow String Array
+String Data Type
+Boolean Array
+Boolean Data Type
+union categoricals
+infer data type
+pandas data type
+is any real numeric data type
+is boolean data type
+is categorical data type
+is complex data type
+is datetime64 any data type
+is datetime64 data type
+is datetime64 nanosecond data type
+is datetime64 timezone data type
+is extension array data type
+is float data type
+is int64 data type
+is integer data type
+is interval data type
+is numeric data type
+is object data type
+is period data type
+is signed integer data type
+is string data type
+is time delta 64 data type
+is time delta 64 ns data type
+is unsigned integer data type
+is dict like
+is file like
+is list like
+is named tuple
+is iterator
+is boolean
+is floating point
+is hashable
+is integer
+is interval
+is number
+is regular expression
+is regular expression compilable
+is scalar
+date time
+time delta
+methods
+from iso calendar
+from iso format
+resolution string
+is non overlapping monotonic
+from arrays
+from tuples
+from breaks
+contains
+to tuples
+sub type
+Index
+is monotonic increasing
+is monotonic decreasing
+is unique
+has duplicates
+has nans
+inferred type
+factorize
+identical
+is boolean
+is categorical
+is floating
+is numeric
+is object
+put mask
+set names
+to list
+to series
+to frame
+as of locations
+get indexer
+get indexer for
+get indexer non unique
+get level values
+get location
+get slice bound
+slice indexer
+slice locations
+Range Index
+from range
+Categorical Index
+rename categories
+reorder categories
+add categories
+remove categories
+remove unused categories
+set categories
+as ordered
+as unordered
+Interval Index
+is overlapping
+Multi Index
+from product
+from frame
+levels
+number of levels
+level shape
+set levels
+set codes
+to flat index
+sort level
+remove unused levels
+get locations
+get location level
+Index Slice
+Date Time Index
+Inferred frequency
+Indexer at time
+Indexer between time
+Snap
+Time delta Index
+Period Index
+From fields
+From ordinals
+read pickle
+read table
+read comma separated values
+read fixed width file
+read clipboard
+read excel
+Excel File
+Style
+Excel Writer
+read JSON
+JSON normalize
+build table schema
+read html
+read xml
+to xml
+read HDF
+HDF store
+groups
+walk
+read feather
+read parquet
+read orc
+read sas
+read spss
+read sql table
+read sql query
+read sql
+read gbq
+read stata
+Stata Reader
+data label
+value labels
+variable labels
+Stata Writer
+write file
+date format
+datetime format
+engine
+if sheet exists
+sheets
+supported extensions
+check extension
+cross tab
+cut
+q cut
+merge ordered
+merge as of
+get dummies
+from dummies
+lreshape
+wide to long
+to numeric
+to date time
+to time delta
+date range
+business date range
+period range
+time delta range
+infer frequency
+interval range
+time series
+guess date time format
+hash array
+hash pandas object
+interchange
+from data frame
+series
+flags
+auto correlation
+between
+case when
+datetime
+decode
+extract all
+find all
+full match
+remove prefix
+remove suffix
+slice replace
+n points
+fill value
+sp values
+from coo
+get item
+structure
+field
+multiplication
+reverse division and modulo
+iset item
+Date Offset
+keyword arguments
+nanoseconds
+rule code
+number
+is anchored
+is on offset
+Business Day
+Alias
+Business Day
+week mask
+holidays
+calendar
+Business Hour
+end
+Custom Business Day
+Custom Day
+Custom Business Hour
+Month End
+Month Begin
+Business Month End
+Business Month End
+Business Month Begin
+Business Month Begin
+Custom Business Month End
+Custom Business Month End
+month offset
+Custom Business Month Begin
+Custom Business Month Begin
+Semi Month End
+day of month
+Semi Month Begin
+Week
+Week Of Month
+Last Week Of Month
+B Quarter End
+starting Month
+B Quarter Begin
+Quarter End
+Quarter Begin
+B Year End
+Beginning Year
+Year End
+Year Beginning
+Fiscal Year 52/53
+variation
+Get Rule Code Suffix
+Get Year End
+Fiscal Year 52/53 Quarter
+Quarter with Extra Week
+Get Weeks
+year has extra week
+Easter
+Tick
+Day
+Hour
+Minute
+Second
+Milli
+Micro
+Nano
+to offset
+base
+roll back
+roll forward
+next business day
+offset
+custom business day roll
+month roll
+rolling
+window
+Expansion
+Exponential Moving Window
+Indexers
+Base Indexer
+Fixed Forward Window Indexer
+Variable Offset Window Indexer
+Data Frame Group By
+Series Group By
+Get Group
+Grouper
+Named Aggregation
+Cumulative Count
+Group Number
+Nth
+Open High Low Close
+Aggregate Function
+Column
+Resample
+Nearest
+From Custom Template
+environment
+template hypertext markup language
+template hypertext markup language style
+template hypertext markup language table
+template layout expandable
+template sequence of characters
+data loader
+apply index
+map index
+format index
+reaassignar índice
+ocultar
+establecer clases de td
+establecer estilos de tabla
+establecer atributos de tabla
+establecer consejos
+establecer subtítulo
+establecer pegajoso
+establecer propiedades
+establecer uuid
+highlight null
+highlight max
+highlight min
+highlight between
+highlight quantile
+background gradient
+text gradient
+use
+apply map index
+andrews curves
+auto correlation plot
+bootstrap plot
+de register matplotlib converters
+lag plot
+parallel coordinates
+plot parameters
+rad viz
+register matplotlib converters
+scatter matrix
+table
+describe option
+reset option
+get option
+set option
+option context
+set engineering float format
+extensions
+register extension data type
+register dataframe accessor
+register series accessor
+Register Index Accessor
+Extension Data Type
+Extension Array
+Numpy Extension Array
+Check Array Indexer
+Index Class
+Kind
+Not Available Value
+Construct Array Type
+Construct From String
+is data type
+accumulate
+concatenate same type
+format ter
+from factorized
+from sequence
+from sequence of strings
+pad or backfill
+values for argsort
+values for factorize
+assert frame equal
+assert series equal
+assert index equal
+assert extension array equal
+Abstract Method Error
+Attribute Conflict Warning
+Categorical Conversion Warning
+Chained Assignment Error
+Closed File Error
+CSS Warning
+Database Error
+Data Error
+Data Type Warning
+Duplicate Label Error
+Empty Data Error
+Incompatibility Warning
+Indexing Error
+Invalid Column Name
+Invalid Comparison
+Invalid Index Error
+Invalid Version
+Integer Casting NaN Error
+Lossy Setitem Error
+Merge Error
+No Buffer Present
+Null Frequency Error
+Numba Utility Error
+NumExpr Clobbering Error
+Option Error
+Out of Bounds Datetime
+Out Of Bounds Timedelta
+Parser Error
+Parser Warning
+Performance Warning
+Possible Data Loss Error
+Possible Precision Loss
+Pyperclip Exception
+Pyperclip Windows Exception
+Setting With Copy Error
+Setting With Copy Warning
+Specification Error
+Undefined Variable Error
+Unsorted Index Error
+Unsupported Function Call
+Value Label Type Mismatch
+show versions
+test
+Not Available
+Not a Time
+numpy
+date and time 64
+time difference 64

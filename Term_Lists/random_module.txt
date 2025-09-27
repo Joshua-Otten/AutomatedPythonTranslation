@@ -1,0 +1,22 @@
+choices
+Von Mises variate
+Gaussian
+choice
+normal variate
+get state
+uniform
+get random bits
+set state
+random
+shuffling
+random range
+lognormal variate
+random integer
+seeding
+sampling
+beta variate
+pareto variate
+weibull variate
+gamma variate
+triangle function
+exponential variate

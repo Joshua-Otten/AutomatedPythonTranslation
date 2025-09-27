@@ -2,7 +2,7 @@
 Pipeline and evaluations for automatic Python library/term translation
 
 Requirements:
-	- googletrans Python library
+	- googletrans Python library (note: for Sorani Kurdish translations, may need to update the file 'constants.py' to include 'ckb': 'kurdish (sorani)' in LANGUAGES.)
 	- stanza Python library
 	- openai_cost_tracker Python library
 	- API key for ChatGPT

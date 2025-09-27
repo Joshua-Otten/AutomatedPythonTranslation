@@ -12,10 +12,10 @@
 #	Arabic: ar_core_news_sm
 #	Chinese: zh_core_web_sm
 
-
+print('importing')
 import spacy
 import sys
-
+print('starting')
 model = 'en_core_web_sm'
 nlp = spacy.load(model)
 
@@ -34,6 +34,9 @@ lang_code = 'en'
 
 # checks if a given word is an article, conjunction, or preposition (omitted); if so then it may be excluded from a term phrase
 def is_irrelevant(word):
+	if word == '' or word == ' ':
+		return True
+	#print('word =',word)
 	pos = nlp(word)[0].pos_
 	tag = nlp(word)[0].tag_
 	print(word,':',pos,',',tag)
@@ -48,8 +51,8 @@ def is_irrelevant(word):
 
 # for the purposes of this program, a syllable is either a vowel or consonant+vowel
 def get_syllables(word):
-	# vowels from Roman, Arabic, Bengali, Greek, and Hindi scripts (respectively)
-	vowels = ['a','e','I','o','u','A','E','I','O','U','ا','ي'و','অ','আ','ই','ঈ','উ','ঊ','ঋ','এ', 'ঐ', 'ও', 'ঔ', অ্যা', 'া', 'ী', 'ূ', 'ৄ', 'ৣ', 'ি', 'ু', 'ৃ', 'ৢ', 'ে', 'ৈ', 'ো', 'ৌ', 'ε', 'έ', 'ὲ', 'ι', 'ί', 'ῖ', 'ῑ', 'ῗ', 'ῒ', 'ΐ', 'ῐ', 'ϊ', 'ὶ', 'ο', 'υ', 'ύ', 'ὺ', 'ῦ', 'α', 'ᾳ', 'ά', 'ὰ', 'ᾱ', 'ᾶ', 'ᾰ', 'ᾴ', 'ᾲ', 'ᾷ', 'ό', 'ὸ', 'ω', 'ῳ', 'ώ', 'ὼ', 'ῶ', 'ῴ', 'ῲ', 'ῷ', 'η', 'ῆ', 'ή', 'ὴ', 'ῃ', 'ῄ', 'ῂ', 'ῇ', 'अ', 'आ', 'इ','ई','उ', 'ऊ', 'ए', 'ऐ', 'ओ', 'औ', 'अं','अः', 'ऋ', 'ॠ',' ा','ि', 'ी', 'ु', 'ू', 'ृ', 'ॄ', 'ॅ', 'ॆ', 'े', 'ै', 'ॉ', 'ॊ', 'ो', 'ौ']
+	# vowels from Roman, Arabic, Greek, Hindi, and Bengali scripts (respectively)
+	vowels = ['a','e','I','o','u','A','E','I','O','U','ا','ي','و','অ','আ','ই','ঈ','উ','ঊ','ঋ','এ', 'ঐ', 'ও', 'ঔ', 'অ্যা', 'ε', 'έ', 'ὲ', 'ι', 'ί', 'ῖ', 'ῑ', 'ῗ', 'ῒ', 'ΐ', 'ῐ', 'ϊ', 'ὶ', 'ο', 'υ', 'ύ', 'ὺ', 'ῦ', 'α', 'ᾳ', 'ά', 'ὰ', 'ᾱ', 'ᾶ', 'ᾰ', 'ᾴ', 'ᾲ', 'ᾷ', 'ό', 'ὸ', 'ω', 'ῳ', 'ώ', 'ὼ', 'ῶ', 'ῴ', 'ῲ', 'ῷ', 'η', 'ῆ', 'ή', 'ὴ', 'ῃ', 'ῄ', 'ῂ', 'ῇ', 'अ', 'आ', 'इ','ई','उ', 'ऊ', 'ए', 'ऐ', 'ओ', 'औ', 'अं','अः', 'ऋ', 'ॠ',' ा','ि', 'ी','ु','ू','ृ','ॄ','ॅ','ॆ','े','ै','ॉ','ॊ','ो','ौ', 'ী', 'া', 'ূ', 'ৄ', 'ৣ', 'ি', 'ু', 'ৃ', 'ৢ', 'ে', 'ৈ', 'ো', 'ৌ']
 	syllables = list()
 	cur = ''
 	for i in word:
@@ -73,11 +76,17 @@ def abbreviate(word, complete):
 		# check for duplicate abbreviations/terms
 		if complete:
 			all_terms.remove(word) # to prevent the word from being compared to itself
-			print(all_terms)
-			print(all_abbrevs)
+			#print(all_terms)
+			#print(all_abbrevs)
 			# ensures that terms do not abbreviate to other terms/abbreviations
+			m = 0
 			while term in all_terms or term in all_abbrevs:
-				term += word[len(term)]
+				if len(term)>=len(word): # we have a problem--there's a duplicate term
+					# easy solution: add a number, m, after it
+					term += str(m)
+					m += 1
+				else: # otherwise we can just add back in a character
+					term += word[len(term)]
 			all_terms.add(word)
 		#else:
 		#	# ensures that terms do not abbreviate to other terms/abbreviations
@@ -91,7 +100,10 @@ def abbreviate(word, complete):
 # main
 for term in lines:
 	print(term.strip())
-	if '_' in term:
+	if term.strip() == '_':
+		new_term = '_'
+		final_list.append(new_term)
+	elif '_' in term:
 		parts = term.strip().split('_')
 		new_term = ''
 		for part in parts:
@@ -103,10 +115,30 @@ for term in lines:
 		all_terms.remove(term.strip())
 		k = 0
 		while (new_term in all_abbrevs or new_term in all_terms) and k<len(parts): # we have a collision
+			print('COLLISION')
+			print(parts)
 			print(k)
 			print(new_term)
 			new_parts = new_term.split('_')
-			new_parts[k] = parts[k]
+			#try:
+			if len(parts) > len(new_parts): # what if we got rid of an irrelevant term that needs to come back?
+				# start over, but this time add at most k irrelevant words
+				q = 0
+				for part in parts:
+					if not is_irrelevant(part):
+						new_term += abbreviate(part, False) + '_'
+					elif q < k:
+						new_term += abbreviate(part, False) + '_'
+						q += 1
+				new_term = new_term[:-1]
+			else:
+				new_parts[k] = parts[k]
+			#except:
+				# if we get here then probably this is too difficult to abbreviate, just use the original term if length is acceptable
+			#	if len('_'.join(parts)) < 20:
+			#		new_term = '_'.join(parts)
+			#	else:
+			#		raise IndexError
 			k += 1
 			new_term = '_'.join(new_parts)
 		all_terms.add(term.strip())

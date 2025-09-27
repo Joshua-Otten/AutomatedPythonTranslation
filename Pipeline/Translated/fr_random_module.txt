@@ -1,0 +1,22 @@
+choix
+Von mises varier
+Gaussien
+choix
+variation normale
+faire état
+uniforme
+Obtenez des bits aléatoires
+établir l'état
+aléatoire
+mépris
+gamme aléatoire
+variateur lognormal
+entier aléatoire
+nage
+échantillonnage
+Beta varier
+Pareto varier
+weibull varier
+gamma varier
+fonction triangulaire
+variation exponentielle
