@@ -752,14 +752,23 @@ Total (all modules):
 Pipeline Testing Hindi
 
 Random module:
-	Raw: 18.18%
-	CHRF: 51.80%
+	Raw: 45.45%
+	CHRF: 65.23%
 Numpy module:
 	Raw: 48.28%
 	CHRF: 61.84%
-Total (both modules):
-	Raw: 47.90%
-	CHRF: 62.28%
+TensorFlow module:
+	Raw: 51.25%
+	CHRF: 70.55%
+Pandas module:
+	Raw: 58.75%
+	CHRF: 72.73%
+pytorch module:
+	Raw: 70.00%
+	CHRF: 85.52%
+Total (all modules):
+	Raw: 55.04%
+	CHRF: 70.53%
 
 Pipeline Testing Bengali
 
